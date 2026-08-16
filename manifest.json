@@ -1,7 +1,7 @@
 {
   "name": "Spider-Man Reading Checklist",
   "short_name": "Spider-Man",
-  "description": "Spider-Man reading checklist with goals and category filters.",
+  "description": "Spider-Man reading checklist with goals, filters and issue links.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

@@ -1,22 +1,13 @@
-# Spider-Man Reading Checklist — v2
+# Spider-Man Reading Checklist v4
 
-Replace `index.html`, `manifest.json`, and `sw.js` in the existing GitHub Pages project with these files. **Keep your existing `data.json`**.
+Replace `index.html`, `manifest.json`, and `sw.js` in the existing GitHub Pages repository. Keep your existing `data.json`, `background.jpg`, and icon files.
 
-New features:
-- Decade filter
-- Title filter
-- Writer filter
-- Artist filter
-- Storyline filter
-- Read / Reading / Unread / Skipped status
-- Essential / Optional filter
-- Main / Alternate universe filter
-- Combined filters
-- Filtered completion percentage
-- Search and sorting
-- Persistent progress
-- Automatic cache replacement
+New in v4:
+- Click an issue to open an Issue Details panel.
+- Search Marvel and Marvel Unlimited for the issue.
+- Search for legitimate editions elsewhere.
+- Open a Marvel Database Wiki search (or a verified `wikiUrl` if present in data).
+- Optional verified `readLinks` and `wikiUrl` fields are supported in data.json.
+- Improved service-worker update behavior so new app files replace old cached files without deleting reading progress.
 
-Writer, artist, and storyline fields are supported by the UI but remain blank/Unknown until verified metadata is added. This avoids inventing credits.
-
-Source reading order: https://comicbookreadingorders.com/marvel/characters/spider-man-reading-order/
+All functionality is static HTML/CSS/JavaScript and works on GitHub Pages.
