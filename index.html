@@ -12,8 +12,23 @@
 .controls{display:grid;grid-template-columns:1fr 130px 150px;gap:8px;margin-bottom:12px}.list{display:flex;flex-direction:column;gap:6px}.issue{display:flex;gap:10px;padding:10px 11px;background:#0d1527;border:1px solid transparent;border-radius:11px;cursor:pointer}.issue:hover{border-color:var(--line)}.issue.done{opacity:.52}.issue.done .name{text-decoration:line-through}.issue input{width:19px;height:19px;accent-color:var(--red);margin-top:2px}.name{font-weight:700}.meta{font-size:11px;color:var(--muted);margin-top:2px}.empty{text-align:center;padding:30px;color:var(--muted)}
 @media(max-width:760px){.cards{grid-template-columns:1fr}.controls{grid-template-columns:1fr 1fr}.controls .input{grid-column:1/-1}}@media(max-width:430px){.stats,.controls{grid-template-columns:1fr}.controls .input{grid-column:auto}}
 </style></head><body><main class="wrap">
-<div class="eyebrow">Friendly neighbourhood tracker</div><div class="title">Spider-Man<br>Reading Checklist</div>
-<p class="muted">Follow the reading order, tick off what you've read, and set your own goal. Your progress is saved on this device.</p>
+<section class="cover">
+    <img src="cover.webp" alt="Spider-Man comic artwork">
+
+    <div class="cover-overlay">
+        <div class="eyebrow">Friendly neighbourhood tracker</div>
+
+        <h1>
+            Spider-Man<br>
+            Reading Checklist
+        </h1>
+
+        <p>
+            Follow the reading order, tick off what you've read,
+            and see how far you've come.
+        </p>
+    </div>
+</section>
 <section class="cards">
 <div class="card"><div class="stats"><div class="stat"><div class="big" id="read">0</div><div class="small">READ</div></div><div class="stat"><div class="big" id="pct">0%</div><div class="small">OF GOAL</div></div><div class="stat"><div class="big" id="left">0</div><div class="small">TO GOAL</div></div></div><div class="bar"><div class="fill" id="fill"></div></div><div class="small" id="summary">Loading…</div></div>
 <div class="card"><div class="goal"><b>Goal</b><input id="goal" class="input" type="number" min="1" value="100"></div><div class="toolbar"><button class="btn primary" id="next">Next unread</button><button class="btn" id="clear">Clear progress</button></div><p class="small">Your goal can be any number — 50, 100, 500, or the whole list.</p></div>
