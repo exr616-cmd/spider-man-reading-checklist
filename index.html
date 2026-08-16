@@ -162,4 +162,24 @@ fetch('data.json').then(r=>r.json()).then(d=>{items=d;setupFilters();render()}).
 if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js');
 </script>
 </body>
-</html>
+</html>if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("./sw.js").then(registration => {
+
+    registration.update();
+
+    registration.addEventListener("updatefound", () => {
+      const newWorker = registration.installing;
+
+      if (!newWorker) return;
+
+      newWorker.addEventListener("statechange", () => {
+        if (
+          newWorker.state === "installed" &&
+          navigator.serviceWorker.controller
+        ) {
+          window.location.reload();
+        }
+      });
+    });
+  });
+}
