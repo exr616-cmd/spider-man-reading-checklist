@@ -1,0 +1,9 @@
+{
+  "name": "Spider-Man Reading Checklist",
+  "short_name": "Spider-Man Checklist",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#080d19",
+  "theme_color": "#e21b2d",
+  "icons": []
+}
