@@ -4,6 +4,80 @@
 <meta name="theme-color" content="#e21b2d"><link rel="manifest" href="manifest.json">
 <title>Spider-Man Reading Checklist</title>
 <style>
+    .cover {
+    position: relative;
+    width: 100%;
+    min-height: 520px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 22px;
+    border: 1px solid var(--line);
+    background: #080d19;
+    box-shadow: 0 20px 60px rgba(0,0,0,.45);
+}
+
+.cover img {
+    width: 100%;
+    height: 100%;
+    min-height: 520px;
+    display: block;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.cover::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(
+            to top,
+            rgba(8,13,25,.98) 0%,
+            rgba(8,13,25,.65) 25%,
+            rgba(8,13,25,.08) 60%,
+            rgba(8,13,25,0) 100%
+        );
+}
+
+.cover-overlay {
+    position: absolute;
+    z-index: 2;
+    left: 25px;
+    right: 25px;
+    bottom: 25px;
+}
+
+.cover-overlay h1 {
+    font-size: clamp(36px, 7vw, 64px);
+    line-height: .92;
+    margin: 8px 0;
+    font-weight: 950;
+    text-shadow: 0 3px 15px rgba(0,0,0,.7);
+}
+
+.cover-overlay p {
+    max-width: 600px;
+    margin: 12px 0 0;
+    color: #e5e9f2;
+    font-size: 16px;
+}
+
+@media (max-width: 600px) {
+    .cover,
+    .cover img {
+        min-height: 440px;
+    }
+
+    .cover-overlay {
+        left: 18px;
+        right: 18px;
+        bottom: 18px;
+    }
+
+    .cover-overlay h1 {
+        font-size: 40px;
+    }
+}
 :root{--bg:#080d19;--p:#111a2d;--p2:#17223a;--line:#293754;--text:#f7f8fc;--muted:#9aa8c2;--red:#e21b2d}
 *{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 20% 0,#1b2744,transparent 45%),var(--bg);color:var(--text);font:15px system-ui,-apple-system,Segoe UI,sans-serif}
 .wrap{max-width:1080px;margin:auto;padding:24px 15px 55px}.eyebrow{font-size:12px;font-weight:900;letter-spacing:.12em;color:#ff6875;text-transform:uppercase}.title{font-size:clamp(34px,7vw,60px);font-weight:950;line-height:.94;margin:8px 0}.muted,.small{color:var(--muted)}.small{font-size:12px}
