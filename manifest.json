@@ -1,9 +1,24 @@
 {
   "name": "Spider-Man Reading Checklist",
-  "short_name": "Spider-Man Checklist",
-  "start_url": ".",
+  "short_name": "Spider-Man",
+  "description": "A Spider-Man comic reading checklist and progress tracker.",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#080d19",
   "theme_color": "#e21b2d",
-  "icons": []
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
 }
