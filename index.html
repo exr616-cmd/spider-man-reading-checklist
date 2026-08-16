@@ -28,6 +28,14 @@ body::after{content:"";position:fixed;inset:0;z-index:-1;background:rgba(8,13,25
 .modal-box h2{font-size:30px;margin:8px 40px 8px 0}.modal-box h3{margin-top:24px}.modal-meta{color:var(--muted);font-size:13px}
 .modal-close{position:absolute;top:12px;right:12px;width:36px;height:36px;border:0;border-radius:50%;background:#17223a;color:white;font-size:25px;cursor:pointer}
 .source-buttons{display:flex;flex-wrap:wrap;gap:8px}.source-button{display:inline-block;padding:10px 13px;border-radius:10px;background:var(--red);color:white;text-decoration:none;font-weight:800}.source-button.alt{background:#17223a;border:1px solid var(--line)}
+
+.issue-checkbox{position:absolute;opacity:0;width:1px;height:1px;pointer-events:none}
+.spider-check{flex:0 0 32px;width:32px;height:32px;border:2px solid #71809c;border-radius:50%;background:transparent;cursor:pointer;transition:transform .15s ease,border-color .15s ease,background-color .15s ease;position:relative}
+.issue:hover .spider-check{border-color:#e21b2d}
+.issue-checkbox:checked + .spider-check{border:none;background-image:url("spider-check.png");background-size:contain;background-position:center;background-repeat:no-repeat;transform:scale(1.05);animation:spiderCheck .18s ease-out}
+@keyframes spiderCheck{0%{transform:scale(.7)}70%{transform:scale(1.12)}100%{transform:scale(1.05)}}
+.issue-checkbox:focus-visible + .spider-check{outline:3px solid rgba(226,27,45,.45);outline-offset:3px}
+
 @media(max-width:760px){.stats{grid-template-columns:repeat(2,1fr)}.controls{grid-template-columns:1fr 1fr}.controls .input{grid-column:1/-1}.filter-grid{grid-template-columns:1fr}}
 @media(max-width:500px){.controls{grid-template-columns:1fr}.controls .input{grid-column:auto}.issue{align-items:flex-start}}
 </style>
@@ -153,22 +161,33 @@ function render(){
  const a=filteredItems();if($('sort').value==='alpha')a.sort((x,y)=>(x.name||'').localeCompare(y.name||''));
  $('count').textContent=`Showing ${a.length.toLocaleString()} of ${items.length.toLocaleString()}`;
  $('list').innerHTML=a.map(x=>{const st=currentStatus(x),done=!!state.done[x.id];return `<div class="issue ${done?'done':''}" data-issue="${esc(x.id)}">
- <input type="checkbox" data-id="${esc(x.id)}" ${done?'checked':''}>
+ <input class="issue-checkbox" type="checkbox" data-id="${esc(x.id)}" ${done?'checked':''} aria-label="Mark ${esc(x.name)} as read">
+ <span class="spider-check" aria-hidden="true"></span>
  <div class="issue-info"><div class="name">${esc(x.name)}</div><div class="meta">${esc(x.title||'Unknown title')} • ${esc(x.decade||'Unknown decade')} • ${esc(st)} • ${esc(x.statusType)}</div>
  ${x.storyline?`<div class="meta">Storyline: ${esc(x.storyline)}</div>`:''}
  ${x.writer?`<div class="meta">Writer: ${esc(x.writer)}</div>`:''}
  ${x.artist?`<div class="meta">Artist: ${esc(x.artist)}</div>`:''}</div>
  </div>`}).join('')||'<div class="empty">Nothing matches these filters.</div>';
- document.querySelectorAll('[data-id]').forEach(c=>c.addEventListener('click',e=>e.stopPropagation()));
- document.querySelectorAll('[data-id]').forEach(c=>c.addEventListener('change',()=>{
-   state.done[c.dataset.id]=c.checked;
-   state.status[c.dataset.id]=c.checked?'read':'unread';
-   save();
-   render();
- }));
  document.querySelectorAll('[data-issue]').forEach(row=>{
+   const checkbox=row.querySelector('.issue-checkbox');
+   const icon=row.querySelector('.spider-check');
+   icon.addEventListener('click',e=>{
+     e.stopPropagation();
+     checkbox.checked=!checkbox.checked;
+     state.done[checkbox.dataset.id]=checkbox.checked;
+     state.status[checkbox.dataset.id]=checkbox.checked?'read':'unread';
+     save();
+     render();
+   });
+   checkbox.addEventListener('click',e=>e.stopPropagation());
+   checkbox.addEventListener('change',()=>{
+     state.done[checkbox.dataset.id]=checkbox.checked;
+     state.status[checkbox.dataset.id]=checkbox.checked?'read':'unread';
+     save();
+     render();
+   });
    row.addEventListener('click',e=>{
-     if(e.target.closest('input[type="checkbox"]')) return;
+     if(e.target.closest('.issue-checkbox')||e.target.closest('.spider-check')) return;
      const x=items.find(i=>i.id===row.dataset.issue);
      if(x)showIssueDetails(x);
    });

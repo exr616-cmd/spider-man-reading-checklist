@@ -16,3 +16,13 @@ All functionality is static HTML/CSS/JavaScript and works on GitHub Pages.
 ## v5 interaction update
 - Tapping anywhere on an issue opens its details panel.
 - Tapping the checkbox only checks/unchecks the issue and does not open the panel.
+
+## v6 checkbox update
+
+The checkbox is now a custom Spider-Man symbol using `spider-check.png`.
+
+- Unchecked: empty outlined circle.
+- Checked: uploaded red Spider-Man symbol.
+- Tapping the symbol checks/unchecks the issue.
+- Tapping the rest of the issue opens the Issue Details panel.
+- Existing reading progress is preserved.
