@@ -1,17 +1,22 @@
-# Spider-Man Reading Checklist
+# Spider-Man Reading Checklist — v2
 
-A GitHub Pages-ready, installable reading tracker based on the Spider-Man reading order at ComicBookReadingOrders.com.
+Replace `index.html`, `manifest.json`, and `sw.js` in the existing GitHub Pages project with these files. **Keep your existing `data.json`**.
 
-## Features
-- Individual checklist entries in reading order
-- Custom goal and percentage completion
-- Read/unread filters
-- Search and A–Z sorting
-- Local progress persistence
-- Offline-capable PWA shell
-- Responsive phone/tablet/desktop UI
+New features:
+- Decade filter
+- Title filter
+- Writer filter
+- Artist filter
+- Storyline filter
+- Read / Reading / Unread / Skipped status
+- Essential / Optional filter
+- Main / Alternate universe filter
+- Combined filters
+- Filtered completion percentage
+- Search and sorting
+- Persistent progress
+- Automatic cache replacement
 
-## GitHub Pages
-Repository Settings → Pages → Deploy from a branch → `main` → `/ (root)` → Save.
+Writer, artist, and storyline fields are supported by the UI but remain blank/Unknown until verified metadata is added. This avoids inventing credits.
 
-Source: https://comicbookreadingorders.com/marvel/characters/spider-man-reading-order/
+Source reading order: https://comicbookreadingorders.com/marvel/characters/spider-man-reading-order/

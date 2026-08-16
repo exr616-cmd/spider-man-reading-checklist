@@ -1,7 +1,7 @@
 {
   "name": "Spider-Man Reading Checklist",
   "short_name": "Spider-Man",
-  "description": "A Spider-Man comic reading checklist and progress tracker.",
+  "description": "Spider-Man reading checklist with goals and category filters.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
