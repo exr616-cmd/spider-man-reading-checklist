@@ -21,7 +21,7 @@ body::after{content:"";position:fixed;inset:0;z-index:-1;background:rgba(8,13,25
 .controls{display:grid;grid-template-columns:1fr 150px 150px;gap:8px}.input,.select,.btn{border:1px solid var(--line);background:#0c1425;color:var(--text);border-radius:11px;padding:10px;font:inherit}.input{width:100%}.btn{cursor:pointer;font-weight:800}.primary{background:var(--red);border-color:var(--red)}
 .filter-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:10px}.filter label{display:block;font-size:11px;color:var(--muted);font-weight:800;margin-bottom:5px;text-transform:uppercase;letter-spacing:.06em}
 .toolbar{display:flex;gap:7px;flex-wrap:wrap;margin-top:10px}.chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}.chip{border:1px solid var(--line);background:#0c1425;color:#dfe5f1;border-radius:99px;padding:6px 9px;font-size:12px}
-.list{display:flex;flex-direction:column;gap:6px;margin-top:10px}.issue{display:flex;align-items:center;gap:10px;padding:10px 11px;background:#0d1527;border:1px solid transparent;border-radius:11px}.issue:hover{border-color:var(--line)}.issue.done{opacity:.52}.issue.done .name{text-decoration:line-through}.issue input{width:19px;height:19px;accent-color:var(--red);margin-top:2px}.issue-info{flex:1;min-width:0;cursor:pointer}.name{font-weight:700}.meta{font-size:11px;color:var(--muted);margin-top:3px}.details-btn{border:1px solid var(--line);background:#17223a;color:var(--text);border-radius:9px;padding:7px 10px;cursor:pointer;font-weight:700;white-space:nowrap}
+.list{display:flex;flex-direction:column;gap:6px;margin-top:10px}.issue{display:flex;align-items:center;gap:10px;padding:10px 11px;background:#0d1527;border:1px solid transparent;border-radius:11px}.issue:hover{border-color:var(--line)}.issue.done{opacity:.52}.issue.done .name{text-decoration:line-through}.issue input{width:19px;height:19px;accent-color:var(--red);margin-top:2px}.issue-info{flex:1;min-width:0;cursor:pointer}.name{font-weight:700}.meta{font-size:11px;color:var(--muted);margin-top:3px}
 .empty{text-align:center;padding:30px;color:var(--muted)}
 .modal{display:none;position:fixed;inset:0;z-index:1000;background:rgba(0,0,0,.78);padding:20px;overflow-y:auto}.modal.open{display:flex;align-items:center;justify-content:center}
 .modal-box{position:relative;width:min(620px,100%);max-height:90vh;overflow-y:auto;background:#111a2d;border:1px solid var(--line);border-radius:20px;padding:24px;box-shadow:0 25px 80px rgba(0,0,0,.6)}
@@ -29,7 +29,7 @@ body::after{content:"";position:fixed;inset:0;z-index:-1;background:rgba(8,13,25
 .modal-close{position:absolute;top:12px;right:12px;width:36px;height:36px;border:0;border-radius:50%;background:#17223a;color:white;font-size:25px;cursor:pointer}
 .source-buttons{display:flex;flex-wrap:wrap;gap:8px}.source-button{display:inline-block;padding:10px 13px;border-radius:10px;background:var(--red);color:white;text-decoration:none;font-weight:800}.source-button.alt{background:#17223a;border:1px solid var(--line)}
 @media(max-width:760px){.stats{grid-template-columns:repeat(2,1fr)}.controls{grid-template-columns:1fr 1fr}.controls .input{grid-column:1/-1}.filter-grid{grid-template-columns:1fr}}
-@media(max-width:500px){.controls{grid-template-columns:1fr}.controls .input{grid-column:auto}.issue{align-items:flex-start}.details-btn{padding:6px 8px}}
+@media(max-width:500px){.controls{grid-template-columns:1fr}.controls .input{grid-column:auto}.issue{align-items:flex-start}}
 </style>
 </head>
 <body>
@@ -158,9 +158,21 @@ function render(){
  ${x.storyline?`<div class="meta">Storyline: ${esc(x.storyline)}</div>`:''}
  ${x.writer?`<div class="meta">Writer: ${esc(x.writer)}</div>`:''}
  ${x.artist?`<div class="meta">Artist: ${esc(x.artist)}</div>`:''}</div>
- <button class="details-btn" type="button">Details</button></div>`}).join('')||'<div class="empty">Nothing matches these filters.</div>';
- document.querySelectorAll('[data-id]').forEach(c=>c.onchange=()=>{state.done[c.dataset.id]=c.checked;state.status[c.dataset.id]=c.checked?'read':'unread';save();render()});
- document.querySelectorAll('[data-issue]').forEach(row=>{row.querySelector('.issue-info').onclick=()=>{const x=items.find(i=>i.id===row.dataset.issue);if(x)showIssueDetails(x)};row.querySelector('.details-btn').onclick=e=>{e.stopPropagation();const x=items.find(i=>i.id===row.dataset.issue);if(x)showIssueDetails(x)}})
+ </div>`}).join('')||'<div class="empty">Nothing matches these filters.</div>';
+ document.querySelectorAll('[data-id]').forEach(c=>c.addEventListener('click',e=>e.stopPropagation()));
+ document.querySelectorAll('[data-id]').forEach(c=>c.addEventListener('change',()=>{
+   state.done[c.dataset.id]=c.checked;
+   state.status[c.dataset.id]=c.checked?'read':'unread';
+   save();
+   render();
+ }));
+ document.querySelectorAll('[data-issue]').forEach(row=>{
+   row.addEventListener('click',e=>{
+     if(e.target.closest('input[type="checkbox"]')) return;
+     const x=items.find(i=>i.id===row.dataset.issue);
+     if(x)showIssueDetails(x);
+   });
+ });
  update();renderChips();
 }
 filterIds.forEach(id=>$(id).onchange=render);$('search').oninput=render;$('sort').onchange=render;
