@@ -54,12 +54,13 @@ body::after{content:"";position:fixed;inset:0;z-index:-1;background:rgba(8,13,25
 .hero-card-content{padding:13px 14px 15px}
 .hero-card.active .hero-status{color:#55e69a}
 
+body::before{content:"";position:fixed;inset:-24px;z-index:-3;background-image:var(--library-bg);background-size:cover;background-position:center top;background-repeat:no-repeat;filter:blur(2px);transform:scale(1.035);opacity:.88;transition:opacity .25s ease}body::after{content:"";position:fixed;inset:0;z-index:-2;background:linear-gradient(rgba(5,9,18,.68),rgba(5,9,18,.82));pointer-events:none}.hero-card:not(.active){filter:saturate(.75);opacity:.86}.hero-card:not(.active):hover{filter:saturate(1);opacity:1}.hero-card.active .hero-image{box-shadow:inset 0 -4px 0 #e21b2d}
 @media(max-width:760px){.stats{grid-template-columns:repeat(2,1fr)}.controls{grid-template-columns:1fr 1fr}.controls .input{grid-column:1/-1}.filter-grid{grid-template-columns:1fr}}
 @media(max-width:500px){.library-grid{grid-template-columns:1fr}.hero-image{height:135px}}
 @media(max-width:500px){.controls{grid-template-columns:1fr}.controls .input{grid-column:auto}.issue{align-items:flex-start}}
 </style>
 </head>
-<body>
+<body id="appBody">
 <main class="wrap">
 <section class="library-card">
   <div class="eyebrow">Marvel Reading Tracker</div>
@@ -227,11 +228,16 @@ $('clearFilters').onclick=()=>{filterIds.forEach(id=>$(id).value='all');$('searc
 $('clear').onclick=()=>{if(confirm('Clear all checked issues and statuses?')){state.done={};state.status={};save();render()}};
 $('next').onclick=()=>{const x=items.find(i=>!state.done[i.id]);if(!x)return;state.status[x.id]='reading';save();$('search').value=x.name;filterIds.forEach(id=>$(id).value='all');render();setTimeout(()=>document.querySelector(`[data-issue="${x.id}"]`)?.scrollIntoView({behavior:'smooth',block:'center'}),60)};
 
+function applyLibraryVisuals(entry){
+  const body=document.getElementById('appBody');
+  if(body) body.style.setProperty('--library-bg', entry.background ? `url("${entry.background}")` : 'none');
+}
 function renderLibrary(){
   fetch('library.json').then(r=>{
     if(!r.ok) throw new Error('Could not load library.json ('+r.status+')');
     return r.json();
   }).then(lib=>{
+    const active=lib.find(x=>x.id===activeLibrary); if(active) applyLibraryVisuals(active);
     $('libraryGrid').innerHTML=lib.map(x=>`
       <button class="hero-card ${x.id===activeLibrary?'active':''}" type="button" data-library="${esc(x.id)}">
         <div class="hero-image">
@@ -256,6 +262,7 @@ function renderLibrary(){
       const id=btn.dataset.library;
       if(id===activeLibrary)return;
       activeLibrary=id;
+      const selected=lib.find(x=>x.id===id); if(selected) applyLibraryVisuals(selected);
       localStorage.setItem('activeMarvelLibrary',activeLibrary);
       state=JSON.parse(localStorage.getItem('marvelProgress:'+activeLibrary)||'{}');
       state.done=state.done||{};
