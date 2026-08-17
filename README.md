@@ -1,39 +1,13 @@
-# Spider-Man Reading Checklist v4
+# Marvel Reading Tracker v8
 
-Replace `index.html`, `manifest.json`, and `sw.js` in the existing GitHub Pages repository. Keep your existing `data.json`, `background.jpg`, and icon files.
+This build adds a library switcher and independent progress storage for Spider-Man, X-Men, Avengers, Fantastic Four, and Daredevil.
 
-New in v4:
-- Click an issue to open an Issue Details panel.
-- Search Marvel and Marvel Unlimited for the issue.
-- Search for legitimate editions elsewhere.
-- Open a Marvel Database Wiki search (or a verified `wikiUrl` if present in data).
-- Optional verified `readLinks` and `wikiUrl` fields are supported in data.json.
-- Improved service-worker update behavior so new app files replace old cached files without deleting reading progress.
+Spider-Man keeps the existing full checklist.
 
-All functionality is static HTML/CSS/JavaScript and works on GitHub Pages.
+The other four libraries include a small verified starter set from the supplied ComicBookReadingOrders pages. They are deliberately marked as starter imports rather than pretending the full source lists have been imported. The source pages are:
+- https://comicbookreadingorders.com/marvel/characters/x-men-reading-order/
+- https://comicbookreadingorders.com/marvel/characters/avengers-reading-order/
+- https://comicbookreadingorders.com/marvel/characters/fantastic-four-reading-order/
+- https://comicbookreadingorders.com/marvel/characters/daredevil-reading-order/
 
-
-## v5 interaction update
-- Tapping anywhere on an issue opens its details panel.
-- Tapping the checkbox only checks/unchecks the issue and does not open the panel.
-
-## v6 checkbox update
-
-The checkbox is now a custom Spider-Man symbol using `spider-check.png`.
-
-- Unchecked: empty outlined circle.
-- Checked: uploaded red Spider-Man symbol.
-- Tapping the symbol checks/unchecks the issue.
-- Tapping the rest of the issue opens the Issue Details panel.
-- Existing reading progress is preserved.
-
-## v7 Marvel library
-
-The app now has a Marvel Reading Tracker library with:
-- Spider-Man (existing checklist)
-- X-Men
-- Avengers
-- Fantastic Four
-- Daredevil
-
-The new character/team source cards link directly to their ComicBookReadingOrders.com reading-order pages. Their full checklist datasets should be imported and verified separately rather than inventing issue metadata.
+Progress is stored independently per library in localStorage.

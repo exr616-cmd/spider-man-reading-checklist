@@ -47,7 +47,7 @@ body::after{content:"";position:fixed;inset:0;z-index:-1;background:rgba(8,13,25
 .hero-card .hero-kind{font-size:11px;color:#ff6875;font-weight:900;text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px}
 .hero-card .hero-desc{font-size:12px;color:var(--muted);margin-top:5px}
 .hero-card .hero-status{font-size:11px;margin-top:10px;font-weight:800}
-.hero-card .hero-status.ready{color:#55e69a}.hero-card .hero-status.soon{color:#9aa8c2}
+.hero-card .hero-status.ready{color:#55e69a}.hero-card .hero-status.soon{color:#9aa8c2}.hero-card{font:inherit}
 
 @media(max-width:760px){.stats{grid-template-columns:repeat(2,1fr)}.controls{grid-template-columns:1fr 1fr}.controls .input{grid-column:1/-1}.filter-grid{grid-template-columns:1fr}}
 @media(max-width:500px){.library-grid{grid-template-columns:1fr}}
@@ -64,7 +64,7 @@ body::after{content:"";position:fixed;inset:0;z-index:-1;background:rgba(8,13,25
 </section>
 
 <div class="eyebrow">Marvel Reading Tracker</div>
-<div class="title">Spider-Man<br>Reading Checklist</div>
+<div class="title">Marvel<br>Reading Tracker</div>
 <p class="muted">Track your reading order, set goals, browse categories, and open an issue for reading and research links.</p>
 
 <section class="card">
@@ -106,17 +106,18 @@ body::after{content:"";position:fixed;inset:0;z-index:-1;background:rgba(8,13,25
 <div id="list" class="list"></div>
 </section>
 
-<p class="small">Reading order source: <a href="https://comicbookreadingorders.com/marvel/characters/spider-man-reading-order/" target="_blank" rel="noopener">ComicBookReadingOrders.com</a></p>
+<p class="small">Current reading-order source: <a href="https://comicbookreadingorders.com/marvel/characters/spider-man-reading-order/" target="_blank" rel="noopener">ComicBookReadingOrders.com</a></p>
 </main>
 <div id="issueModal" class="modal" aria-hidden="true"></div>
 
 <script>
-let items=[],state=JSON.parse(localStorage.getItem('spideyChecklist')||'{}');
+let items=[],activeLibrary=localStorage.getItem('activeMarvelLibrary')||'spider-man';
+let state=JSON.parse(localStorage.getItem('marvelProgress:'+activeLibrary)||'{}');
 state.done=state.done||{};state.status=state.status||{};state.goal=state.goal||100;
 const $=id=>document.getElementById(id);
 $('goal').value=state.goal;$('goalLabel').textContent=state.goal;
 const filterIds=['decade','title','writer','artist','storyline','status','importance','universe'];
-function save(){localStorage.setItem('spideyChecklist',JSON.stringify(state))}
+function save(){localStorage.setItem('marvelProgress:'+activeLibrary,JSON.stringify(state))}
 function esc(s){return String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]))}
 function valueOrUnknown(v){return v||'Unknown'}
 function slug(s){return String(s||'').trim().toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')}
@@ -224,20 +225,32 @@ $('next').onclick=()=>{const x=items.find(i=>!state.done[i.id]);if(!x)return;sta
 function renderLibrary(){
   fetch('library.json').then(r=>r.json()).then(lib=>{
     $('libraryGrid').innerHTML=lib.map(x=>`
-      <a class="hero-card ${x.ready?'ready':''}" href="${esc(x.url)}" target="_blank" rel="noopener">
+      <button class="hero-card ${x.ready?'ready':''}" type="button" data-library="${esc(x.id)}">
         <div class="hero-kind">${esc(x.kind)}</div>
         <div class="hero-name">${esc(x.name)}</div>
-        <div class="hero-desc">${esc(x.description)}</div>
-        <div class="hero-status ${x.ready?'ready':'soon'}">
-          ${x.ready?'Checklist available':'Reading order source — checklist coming next'}
-        </div>
-      </a>
+        <div class="hero-desc">${esc(x.description||'')}</div>
+        <div class="hero-status ${x.ready?'ready':'soon'}">${x.id===activeLibrary?'Currently selected':x.ready?'Open checklist':'Starter import — full checklist coming next'}</div>
+      </button>
     `).join('');
+    document.querySelectorAll('[data-library]').forEach(btn=>btn.onclick=()=>{
+      const id=btn.dataset.library;
+      if(id===activeLibrary)return;
+      activeLibrary=id;
+      localStorage.setItem('activeMarvelLibrary',activeLibrary);
+      state=JSON.parse(localStorage.getItem('marvelProgress:'+activeLibrary)||'{}');
+      state.done=state.done||{};state.status=state.status||{};state.goal=state.goal||100;
+      loadLibrary(id);
+    });
+  });
+}
+function loadLibrary(id){
+  fetch(id==='spider-man'?'data.json':id+'.json').then(r=>r.json()).then(d=>{
+    items=d;setupFilters();$('goal').value=state.goal;$('goalLabel').textContent=state.goal;render();renderLibrary();
   });
 }
 renderLibrary();
 
-fetch('data.json').then(r=>r.json()).then(d=>{items=d;setupFilters();render()}).catch(()=>{$('list').innerHTML='<div class="empty">Could not load the reading order.</div>'});
+loadLibrary(activeLibrary);
 if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js').then(r=>r.update());
 </script>
 </body>

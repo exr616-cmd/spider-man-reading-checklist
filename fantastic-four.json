@@ -1,0 +1,122 @@
+[
+  {
+    "id": "fantastic-four-0001",
+    "name": "Fantastic Four: Season One #1 (2012)",
+    "decade": "2010s",
+    "title": "Fantastic Four: Season One",
+    "writer": "",
+    "artist": "",
+    "storyline": "",
+    "note": "",
+    "statusType": "essential",
+    "universe": "main"
+  },
+  {
+    "id": "fantastic-four-0002",
+    "name": "Fantastic Four #1 (1961)",
+    "decade": "1960s",
+    "title": "Fantastic Four",
+    "writer": "",
+    "artist": "",
+    "storyline": "",
+    "note": "First appearance of the Fantastic Four",
+    "statusType": "essential",
+    "universe": "main"
+  },
+  {
+    "id": "fantastic-four-0003",
+    "name": "Fantastic Four #2",
+    "decade": "1960s",
+    "title": "Fantastic Four",
+    "writer": "",
+    "artist": "",
+    "storyline": "",
+    "note": "First appearance of the Skrulls",
+    "statusType": "essential",
+    "universe": "main"
+  },
+  {
+    "id": "fantastic-four-0004",
+    "name": "Fantastic Four #5",
+    "decade": "1960s",
+    "title": "Fantastic Four",
+    "writer": "",
+    "artist": "",
+    "storyline": "",
+    "note": "First appearance of Doctor Doom",
+    "statusType": "essential",
+    "universe": "main"
+  },
+  {
+    "id": "fantastic-four-0005",
+    "name": "Fantastic Four #13",
+    "decade": "1960s",
+    "title": "Fantastic Four",
+    "writer": "",
+    "artist": "",
+    "storyline": "",
+    "note": "First appearance of Uatu the Watcher",
+    "statusType": "essential",
+    "universe": "main"
+  },
+  {
+    "id": "fantastic-four-0006",
+    "name": "Fantastic Four #18",
+    "decade": "1960s",
+    "title": "Fantastic Four",
+    "writer": "",
+    "artist": "",
+    "storyline": "",
+    "note": "First appearance of Super-Skrull",
+    "statusType": "essential",
+    "universe": "main"
+  },
+  {
+    "id": "fantastic-four-0007",
+    "name": "Fantastic Four #45",
+    "decade": "1960s",
+    "title": "Fantastic Four",
+    "writer": "",
+    "artist": "",
+    "storyline": "",
+    "note": "First appearance of the Inhumans",
+    "statusType": "essential",
+    "universe": "main"
+  },
+  {
+    "id": "fantastic-four-0008",
+    "name": "Fantastic Four #48",
+    "decade": "1960s",
+    "title": "Fantastic Four",
+    "writer": "",
+    "artist": "",
+    "storyline": "",
+    "note": "First appearance of Galactus and the Silver Surfer",
+    "statusType": "essential",
+    "universe": "main"
+  },
+  {
+    "id": "fantastic-four-0009",
+    "name": "Fantastic Four #52",
+    "decade": "1960s",
+    "title": "Fantastic Four",
+    "writer": "",
+    "artist": "",
+    "storyline": "",
+    "note": "First appearance of Black Panther",
+    "statusType": "essential",
+    "universe": "main"
+  },
+  {
+    "id": "fantastic-four-0010",
+    "name": "Fantastic Four #65",
+    "decade": "1960s",
+    "title": "Fantastic Four",
+    "writer": "",
+    "artist": "",
+    "storyline": "",
+    "note": "First appearance of the Kree",
+    "statusType": "essential",
+    "universe": "main"
+  }
+]
