@@ -74,7 +74,7 @@ body::before{content:"";position:fixed;inset:-24px;z-index:-3;background-image:v
 <main class="wrap">
 <section class="library-card">
   <div class="eyebrow">Marvel Reading Tracker</div>
-  <h1 class="library-title">Choose your hero or team</h1>
+  <h1 class="library-title">Choose your hero, team or universe</h1>
   <p class="muted">Spider-Man is ready now. The next reading orders are being added as full checklists so every character can keep its own progress.</p>
   <div id="libraryGrid" class="library-grid"></div>
 </section>
@@ -135,7 +135,7 @@ let state=JSON.parse(localStorage.getItem('marvelProgress:'+activeLibrary)||'{}'
 state.done=state.done||{};state.status=state.status||{};state.goal=state.goal||100;
 const $=id=>document.getElementById(id);
 $('goal').value=state.goal;$('goalLabel').textContent=state.goal;
-const filterIds=['decade','title','writer','artist','storyline','status','importance','universe'];
+const filterIds=['category','decade','title','writer','artist','storyline','status','importance','universe'];
 function save(){localStorage.setItem('marvelProgress:'+activeLibrary,JSON.stringify(state))}
 function esc(s){return String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]))}
 function valueOrUnknown(v){return v||'Unknown'}
@@ -188,19 +188,30 @@ function fillSelect(id,values,label){
  el.innerHTML='<option value="all">'+label+'</option>'+unique.map(v=>`<option value="${esc(v)}">${esc(v)}</option>`).join('');
 }
 function derive(x){
+ if(!x.category){
+   const t=(x.title||'').toLowerCase();
+   const n=(x.name||'').toLowerCase();
+   if(t.includes('ultimate spider-man')||n.includes('ultimate spider-man')) x.category='Ultimate Spider-Man (2000–2009)';
+   else if(t.includes('marvel adventures spider-man')) x.category='Marvel Adventures Spider-Man';
+   else if(t.includes('renew your vows')) x.category='Renew Your Vows';
+   else if(t==='spidey') x.category='Spidey';
+   else if(t.includes('predator vs. spider-man')) x.category='Predator vs. Spider-Man';
+   else if(x.universe==='alternate') x.category='Alternate Universe';
+   else x.category='Main Universe';
+ }
  if(!x.decade){const m=(x.name||'').match(/\((19|20)(\d{2})\)/);if(m){const y=+(m[1]+m[2]);x.decade=Math.floor(y/10)*10+'s'}}
  if(!x.title)x.title=(x.name||'').split('#')[0].trim();
  if(!x.statusType)x.statusType=(x.note||'').includes('Optional')?'optional':'essential';
  if(!x.universe)x.universe=(x.note||'').includes('Alternate Universe')?'alternate':'main';
  x.writer=x.writer||'';x.artist=x.artist||'';x.storyline=x.storyline||'';
 }
-function setupFilters(){items.forEach(derive);fillSelect('decade',items.map(x=>x.decade),'All decades');fillSelect('title',items.map(x=>x.title),'All titles');fillSelect('writer',items.map(x=>x.writer),'All writers');fillSelect('artist',items.map(x=>x.artist),'All artists');fillSelect('storyline',items.map(x=>x.storyline),'All storylines')}
+function setupFilters(){items.forEach(derive);fillSelect('category',items.map(x=>x.category),'All categories');fillSelect('decade',items.map(x=>x.decade),'All decades');fillSelect('title',items.map(x=>x.title),'All titles');fillSelect('writer',items.map(x=>x.writer),'All writers');fillSelect('artist',items.map(x=>x.artist),'All artists');fillSelect('storyline',items.map(x=>x.storyline),'All storylines')}
 function currentStatus(x){return state.status[x.id]||'unread'}
 function filteredItems(){
  const q=$('search').value.trim().toLowerCase();
- return items.filter(x=>{const s=currentStatus(x);return(!q||(x.name||'').toLowerCase().includes(q)||(x.note||'').toLowerCase().includes(q))&&($('decade').value==='all'||valueOrUnknown(x.decade)===$('decade').value)&&($('title').value==='all'||valueOrUnknown(x.title)===$('title').value)&&($('writer').value==='all'||valueOrUnknown(x.writer)===$('writer').value)&&($('artist').value==='all'||valueOrUnknown(x.artist)===$('artist').value)&&($('storyline').value==='all'||valueOrUnknown(x.storyline)===$('storyline').value)&&($('status').value==='all'||s===$('status').value)&&($('importance').value==='all'||x.statusType===$('importance').value)&&($('universe').value==='all'||x.universe===$('universe').value)})
+ return items.filter(x=>{const s=currentStatus(x);return(!q||(x.name||'').toLowerCase().includes(q)||(x.note||'').toLowerCase().includes(q))&&($('category').value==='all'||valueOrUnknown(x.category)===$('category').value)&&($('decade').value==='all'||valueOrUnknown(x.decade)===$('decade').value)&&($('title').value==='all'||valueOrUnknown(x.title)===$('title').value)&&($('writer').value==='all'||valueOrUnknown(x.writer)===$('writer').value)&&($('artist').value==='all'||valueOrUnknown(x.artist)===$('artist').value)&&($('storyline').value==='all'||valueOrUnknown(x.storyline)===$('storyline').value)&&($('status').value==='all'||s===$('status').value)&&($('importance').value==='all'||x.statusType===$('importance').value)&&($('universe').value==='all'||x.universe===$('universe').value)})
 }
-function renderChips(){const labels={decade:'Decade',title:'Title',writer:'Writer',artist:'Artist',storyline:'Storyline',status:'Status',importance:'Importance',universe:'Universe'};$('chips').innerHTML=filterIds.filter(id=>$(id).value!=='all').map(id=>`<span class="chip">${labels[id]}: ${esc($(id).selectedOptions[0].textContent)}</span>`).join('')}
+function renderChips(){const labels={category:'Category',decade:'Decade',title:'Title',writer:'Writer',artist:'Artist',storyline:'Storyline',status:'Status',importance:'Importance',universe:'Universe'};$('chips').innerHTML=filterIds.filter(id=>$(id).value!=='all').map(id=>`<span class="chip">${labels[id]}: ${esc($(id).selectedOptions[0].textContent)}</span>`).join('')}
 function update(){
  const n=items.filter(x=>state.done[x.id]).length,g=Math.max(1,+state.goal||1),p=Math.min(100,n/g*100),a=filteredItems(),fn=a.filter(x=>state.done[x.id]).length,fp=a.length?fn/a.length*100:0;
  $('read').textContent=n.toLocaleString();$('pct').textContent=p.toFixed(p%1?1:0)+'%';$('left').textContent=Math.max(0,g-n).toLocaleString();$('filteredPct').textContent=fp.toFixed(fp%1?1:0)+'%';$('fill').style.width=p+'%';
@@ -251,6 +262,7 @@ $('next').onclick=()=>{const x=items.find(i=>!state.done[i.id]);if(!x)return;sta
 
 const DEFAULT_LIBRARY=[
   {id:'spider-man',name:'Spider-Man',kind:'Hero',ready:true,data:'data.json',image:'spider-man.jpg',background:'spider-man.jpg',description:'Spider-Man reading checklist.'},
+  {id:'ultimate-spider-man',name:'Ultimate Spider-Man',kind:'Alternate Universe',ready:true,data:'ultimate-spider-man-2000s.json',image:'ultimate-spider-man.jpg',background:'ultimate-spider-man.jpg',description:'The 2000s Ultimate Universe Spider-Man reading order.'},
   {id:'x-men',name:'X-Men',kind:'Team',ready:true,data:'x-men.json',image:'x-men.jpeg',background:'x-men.jpeg',description:'X-Men reading checklist.'},
   {id:'avengers',name:'Avengers',kind:'Team',ready:true,data:'avengers.json',image:'avengers.jpg',background:'avengers.jpg',description:'Avengers reading checklist.'},
   {id:'fantastic-four',name:'Fantastic Four',kind:'Team',ready:true,data:'fantastic-four.json',image:'fantastic-four.jpg',background:'fantastic-four.jpg',description:'Fantastic Four reading checklist.'},
