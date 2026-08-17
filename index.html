@@ -37,6 +37,7 @@ body::after{content:"";position:fixed;inset:0;z-index:-1;background:rgba(8,13,25
 .issue-checkbox:focus-visible + .spider-check{outline:3px solid rgba(226,27,45,.45);outline-offset:3px}
 
 
+.continue-card{background:#0d1527eF;border:1px solid var(--line);border-radius:20px;padding:18px;margin-bottom:16px}.continue-title{font-size:22px;font-weight:950;margin-bottom:5px}.continue-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:14px}.continue-item{background:#111a2d;border:1px solid rgba(41,55,84,.7);border-radius:16px;padding:15px}.continue-item.current{border-color:rgba(226,27,45,.7);box-shadow:0 0 0 1px rgba(226,27,45,.15)}.continue-kind{font-size:11px;color:#ff6875;text-transform:uppercase;font-weight:900;letter-spacing:.08em}.continue-name{font-size:20px;font-weight:900;margin:4px 0}.continue-issue{font-weight:800;margin-bottom:4px}.continue-meta{font-size:12px;color:var(--muted);line-height:1.45}.continue-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.continue-button{border:1px solid var(--line);background:#17223a;color:var(--text);border-radius:10px;padding:9px 12px;font:inherit;font-weight:800;cursor:pointer}.continue-button.primary{background:var(--red);border-color:var(--red)}
 .library-card{background:#0d1527eF;border:1px solid var(--line);border-radius:20px;padding:18px;margin-bottom:16px}
 .library-title{font-size:clamp(28px,6vw,44px);line-height:1;margin:6px 0 8px}
 .hero-card .hero-status.ready{color:#55e69a}.hero-card .hero-status.soon{color:#9aa8c2}.hero-card{font:inherit}
@@ -60,7 +61,7 @@ body::after{content:"";position:fixed;inset:0;z-index:-1;background:rgba(8,13,25
 
 body::before{content:"";position:fixed;inset:-24px;z-index:-3;background-image:var(--library-bg);background-size:cover;background-position:center top;background-repeat:no-repeat;filter:blur(2px);transform:scale(1.035);opacity:.88;transition:opacity .25s ease}body::after{content:"";position:fixed;inset:0;z-index:-2;background:linear-gradient(rgba(5,9,18,.68),rgba(5,9,18,.82));pointer-events:none}.hero-card:not(.active){filter:saturate(.75);opacity:.86}.hero-card:not(.active):hover{filter:saturate(1);opacity:1}.hero-card.active .hero-image{box-shadow:inset 0 -4px 0 #e21b2d}
 @media(max-width:760px){.stats{grid-template-columns:repeat(2,1fr)}.controls{grid-template-columns:1fr 1fr}.controls .input{grid-column:1/-1}.filter-grid{grid-template-columns:1fr}}
-@media(max-width:500px){.library-grid{grid-template-columns:1fr}.hero-image{height:135px}}
+@media(max-width:500px){.library-grid{grid-template-columns:1fr}.continue-grid{grid-template-columns:1fr}.hero-image{height:135px}}
 @media(max-width:500px){.controls{grid-template-columns:1fr}.controls .input{grid-column:auto}.issue{align-items:flex-start}}
 
 .amazon-affiliate{margin-top:18px;padding:14px;border:1px solid rgba(41,55,84,.8);border-radius:14px;background:#0d1527}
@@ -77,6 +78,13 @@ body::before{content:"";position:fixed;inset:-24px;z-index:-3;background-image:v
   <h1 class="library-title">Choose your hero, team or universe</h1>
   <p class="muted">Spider-Man is ready now. The next reading orders are being added as full checklists so every character can keep its own progress.</p>
   <div id="libraryGrid" class="library-grid"></div>
+</section>
+
+<section class="continue-card">
+  <div class="eyebrow">Your journey</div>
+  <div class="continue-title">Continue Reading</div>
+  <div class="small">Pick up where you left off in any reading order. Comic Orders will take you to your next unread entry — it does not host the comic itself.</div>
+  <div id="continueGrid" class="continue-grid"></div>
 </section>
 
 <div class="eyebrow">Marvel Reading Tracker</div>
@@ -271,8 +279,15 @@ const DEFAULT_LIBRARY=[
 ];
 
 let libraryCache=DEFAULT_LIBRARY;
+let pendingContinue=null;
+
+function getNextUnread(data,saved){
+  const done=(saved&&saved.done)||{};
+  return Array.isArray(data) ? data.find(item=>!done[item.id]) || null : null;
+}
 
 async function updateLibraryProgress(){
+  const continueData=[];
   await Promise.all(libraryCache.map(async entry=>{
     try{
       const response=await fetch(entry.data,{cache:'no-store'});
@@ -289,12 +304,66 @@ async function updateLibraryProgress(){
       const goalEl=document.querySelector(`[data-progress-goal="${entry.id}"]`);
       if(readEl) readEl.textContent=`${readPct}% read`;
       if(goalEl) goalEl.textContent=`${goalPct}% of goal`;
+      if(Array.isArray(data)) continueData.push({entry,data,saved,read,total,next:getNextUnread(data,saved),goal,readPct,goalPct});
     }catch(err){
       console.warn('Could not calculate progress for '+entry.id,err);
     }
   }));
+  renderContinue(continueData);
 }
 
+function renderContinue(rows){
+  const grid=$('continueGrid');
+  if(!grid)return;
+  rows.sort((a,b)=>libraryCache.findIndex(x=>x.id===a.entry.id)-libraryCache.findIndex(x=>x.id===b.entry.id));
+  grid.innerHTML=rows.map(r=>{
+    const e=r.entry, current=e.id===activeLibrary, next=r.next;
+    const completed=!next;
+    return `<div class="continue-item ${current?'current':''}">
+      <div class="continue-kind">${esc(e.kind||'Reading order')}</div>
+      <div class="continue-name">${esc(e.name)}</div>
+      ${completed
+        ? `<div class="continue-issue">Complete</div><div class="continue-meta">${r.read.toLocaleString()} / ${r.total.toLocaleString()} entries read • 100% complete</div>`
+        : `<div class="continue-issue">Next: ${esc(next.name)}</div><div class="continue-meta">${r.read.toLocaleString()} / ${r.total.toLocaleString()} entries read • ${r.readPct}% complete • ${r.goalPct}% of goal</div>`}
+      <div class="continue-actions">
+        ${completed ? '' : `<button class="continue-button primary" type="button" data-continue="${esc(e.id)}" data-next="${esc(next.id)}">Continue</button>`}
+        ${current ? '' : `<button class="continue-button" type="button" data-open-library="${esc(e.id)}">Open ${esc(e.name)}</button>`}
+      </div>
+    </div>`;
+  }).join('') || '<div class="empty">Your reading orders will appear here once they are loaded.</div>';
+
+  document.querySelectorAll('[data-open-library]').forEach(btn=>btn.onclick=()=>{
+    const id=btn.dataset.openLibrary;
+    switchLibrary(id);
+  });
+  document.querySelectorAll('[data-continue]').forEach(btn=>btn.onclick=()=>{
+    pendingContinue={libraryId:btn.dataset.continue,issueId:btn.dataset.next};
+    switchLibrary(btn.dataset.continue);
+  });
+}
+
+function switchLibrary(id){
+  if(id===activeLibrary){
+    if(pendingContinue&&pendingContinue.issueId){
+      const target=pendingContinue.issueId;
+      pendingContinue=null;
+      $('search').value='';
+      filterIds.forEach(fid=>$(fid).value='all');
+      render();
+      setTimeout(()=>document.querySelector(`[data-issue="${CSS.escape(target)}"]`)?.scrollIntoView({behavior:'smooth',block:'center'}),60);
+    }
+    return;
+  }
+  activeLibrary=id;
+  localStorage.setItem('activeMarvelLibrary',activeLibrary);
+  state=JSON.parse(localStorage.getItem('marvelProgress:'+activeLibrary)||'{}');
+  state.done=state.done||{};
+  state.status=state.status||{};
+  state.goal=state.goal||100;
+  renderLibrary();
+  loadLibrary(id);
+  window.scrollTo({top:0,behavior:'smooth'});
+}
 function applyLibraryVisuals(entry){
   const body=$('appBody');
   if(body) body.style.setProperty('--library-bg',entry.background ? `url("${entry.background}")` : 'none');
@@ -329,18 +398,8 @@ function renderLibrary(){
   `).join('');
 
   document.querySelectorAll('[data-library]').forEach(btn=>btn.onclick=()=>{
-    const id=btn.dataset.library;
-    if(id===activeLibrary)return;
-    activeLibrary=id;
-    localStorage.setItem('activeMarvelLibrary',activeLibrary);
-    state=JSON.parse(localStorage.getItem('marvelProgress:'+activeLibrary)||'{}');
-    state.done=state.done||{};
-    state.status=state.status||{};
-    state.goal=state.goal||100;
-    renderLibrary();
-    updateLibraryProgress();
-    loadLibrary(id);
-    window.scrollTo({top:0,behavior:'smooth'});
+    pendingContinue=null;
+    switchLibrary(btn.dataset.library);
   });
 }
 
@@ -357,6 +416,12 @@ function loadLibrary(id){
     $('goalLabel').textContent=state.goal;
     render();
     renderLibrary();
+    updateLibraryProgress();
+    if(pendingContinue && pendingContinue.libraryId===id && pendingContinue.issueId){
+      const target=pendingContinue.issueId;
+      pendingContinue=null;
+      setTimeout(()=>document.querySelector(`[data-issue="${CSS.escape(target)}"]`)?.scrollIntoView({behavior:'smooth',block:'center'}),80);
+    }
   }).catch(err=>{
     $('list').innerHTML='<div class="empty">Could not load this reading order. Please refresh the page.</div>';
     $('summary').textContent='Reading order failed to load.';
