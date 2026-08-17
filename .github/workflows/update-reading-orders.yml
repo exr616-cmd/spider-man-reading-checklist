@@ -1,0 +1,36 @@
+name: Update Marvel Reading Orders
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 4 * * 1"
+
+permissions:
+  contents: write
+
+jobs:
+  update-reading-orders:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install parser dependencies
+        run: python -m pip install requests beautifulsoup4
+
+      - name: Import reading orders
+        run: python tools/import_reading_orders.py
+
+      - name: Commit updated reading orders
+        run: |
+          git config user.name "Marvel Reading Tracker Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add x-men.json avengers.json fantastic-four.json daredevil.json library.json
+          git diff --cached --quiet || git commit -m "Update Marvel reading orders"
+          git push
