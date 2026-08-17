@@ -1,0 +1,42 @@
+[
+  {
+    "id": "spider-man",
+    "name": "Spider-Man",
+    "kind": "Hero",
+    "description": "The existing Spider-Man reading checklist.",
+    "url": "https://comicbookreadingorders.com/marvel/characters/spider-man-reading-order/",
+    "ready": true
+  },
+  {
+    "id": "x-men",
+    "name": "X-Men",
+    "kind": "Team",
+    "description": "Mutant team reading order, including major crossover material.",
+    "url": "https://comicbookreadingorders.com/marvel/characters/x-men-reading-order/",
+    "ready": false
+  },
+  {
+    "id": "avengers",
+    "name": "Avengers",
+    "kind": "Team",
+    "description": "Earth's Mightiest Heroes and their major connected reading order.",
+    "url": "https://comicbookreadingorders.com/marvel/characters/avengers-reading-order/",
+    "ready": false
+  },
+  {
+    "id": "fantastic-four",
+    "name": "Fantastic Four",
+    "kind": "Team",
+    "description": "Marvel's First Family and their recommended reading order.",
+    "url": "https://comicbookreadingorders.com/marvel/characters/fantastic-four-reading-order/",
+    "ready": false
+  },
+  {
+    "id": "daredevil",
+    "name": "Daredevil",
+    "kind": "Hero",
+    "description": "Matt Murdock's recommended reading order and major runs.",
+    "url": "https://comicbookreadingorders.com/marvel/characters/daredevil-reading-order/",
+    "ready": false
+  }
+]

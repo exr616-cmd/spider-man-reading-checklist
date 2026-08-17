@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#e21b2d">
 <link rel="manifest" href="manifest.json">
-<title>Spider-Man Reading Checklist</title>
+<title>Marvel Reading Tracker</title>
 <style>
 :root{--bg:#080d19;--p:#111a2d;--p2:#17223a;--line:#293754;--text:#f7f8fc;--muted:#9aa8c2;--red:#e21b2d}
 *{box-sizing:border-box}body{margin:0;min-height:100vh;background:var(--bg);color:var(--text);font:15px system-ui,-apple-system,Segoe UI,sans-serif;position:relative}
@@ -36,13 +36,34 @@ body::after{content:"";position:fixed;inset:0;z-index:-1;background:rgba(8,13,25
 @keyframes spiderCheck{0%{transform:scale(.7)}70%{transform:scale(1.12)}100%{transform:scale(1.05)}}
 .issue-checkbox:focus-visible + .spider-check{outline:3px solid rgba(226,27,45,.45);outline-offset:3px}
 
+
+.library-card{background:#0d1527eF;border:1px solid var(--line);border-radius:20px;padding:18px;margin-bottom:16px}
+.library-title{font-size:clamp(28px,6vw,44px);line-height:1;margin:6px 0 8px}
+.library-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:14px}
+.hero-card{display:block;text-align:left;text-decoration:none;color:var(--text);background:#111a2d;border:1px solid var(--line);border-radius:15px;padding:15px;cursor:pointer;transition:transform .15s,border-color .15s}
+.hero-card:hover{transform:translateY(-2px);border-color:#e21b2d}
+.hero-card.ready{border-color:#e21b2d}
+.hero-card .hero-name{font-size:21px;font-weight:950}
+.hero-card .hero-kind{font-size:11px;color:#ff6875;font-weight:900;text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px}
+.hero-card .hero-desc{font-size:12px;color:var(--muted);margin-top:5px}
+.hero-card .hero-status{font-size:11px;margin-top:10px;font-weight:800}
+.hero-card .hero-status.ready{color:#55e69a}.hero-card .hero-status.soon{color:#9aa8c2}
+
 @media(max-width:760px){.stats{grid-template-columns:repeat(2,1fr)}.controls{grid-template-columns:1fr 1fr}.controls .input{grid-column:1/-1}.filter-grid{grid-template-columns:1fr}}
+@media(max-width:500px){.library-grid{grid-template-columns:1fr}}
 @media(max-width:500px){.controls{grid-template-columns:1fr}.controls .input{grid-column:auto}.issue{align-items:flex-start}}
 </style>
 </head>
 <body>
 <main class="wrap">
-<div class="eyebrow">Friendly neighbourhood tracker</div>
+<section class="library-card">
+  <div class="eyebrow">Marvel Reading Tracker</div>
+  <h1 class="library-title">Choose your hero or team</h1>
+  <p class="muted">Spider-Man is ready now. The next reading orders are being added as full checklists so every character can keep its own progress.</p>
+  <div id="libraryGrid" class="library-grid"></div>
+</section>
+
+<div class="eyebrow">Marvel Reading Tracker</div>
 <div class="title">Spider-Man<br>Reading Checklist</div>
 <p class="muted">Track your reading order, set goals, browse categories, and open an issue for reading and research links.</p>
 
@@ -199,6 +220,23 @@ $('goal').oninput=()=>{state.goal=Math.max(1,+$('goal').value||1);$('goalLabel')
 $('clearFilters').onclick=()=>{filterIds.forEach(id=>$(id).value='all');$('search').value='';render()};
 $('clear').onclick=()=>{if(confirm('Clear all checked issues and statuses?')){state.done={};state.status={};save();render()}};
 $('next').onclick=()=>{const x=items.find(i=>!state.done[i.id]);if(!x)return;state.status[x.id]='reading';save();$('search').value=x.name;filterIds.forEach(id=>$(id).value='all');render();setTimeout(()=>document.querySelector(`[data-issue="${x.id}"]`)?.scrollIntoView({behavior:'smooth',block:'center'}),60)};
+
+function renderLibrary(){
+  fetch('library.json').then(r=>r.json()).then(lib=>{
+    $('libraryGrid').innerHTML=lib.map(x=>`
+      <a class="hero-card ${x.ready?'ready':''}" href="${esc(x.url)}" target="_blank" rel="noopener">
+        <div class="hero-kind">${esc(x.kind)}</div>
+        <div class="hero-name">${esc(x.name)}</div>
+        <div class="hero-desc">${esc(x.description)}</div>
+        <div class="hero-status ${x.ready?'ready':'soon'}">
+          ${x.ready?'Checklist available':'Reading order source — checklist coming next'}
+        </div>
+      </a>
+    `).join('');
+  });
+}
+renderLibrary();
+
 fetch('data.json').then(r=>r.json()).then(d=>{items=d;setupFilters();render()}).catch(()=>{$('list').innerHTML='<div class="empty">Could not load the reading order.</div>'});
 if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js').then(r=>r.update());
 </script>

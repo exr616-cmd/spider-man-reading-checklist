@@ -26,3 +26,14 @@ The checkbox is now a custom Spider-Man symbol using `spider-check.png`.
 - Tapping the symbol checks/unchecks the issue.
 - Tapping the rest of the issue opens the Issue Details panel.
 - Existing reading progress is preserved.
+
+## v7 Marvel library
+
+The app now has a Marvel Reading Tracker library with:
+- Spider-Man (existing checklist)
+- X-Men
+- Avengers
+- Fantastic Four
+- Daredevil
+
+The new character/team source cards link directly to their ComicBookReadingOrders.com reading-order pages. Their full checklist datasets should be imported and verified separately rather than inventing issue metadata.
