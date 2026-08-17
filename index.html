@@ -63,103 +63,24 @@ body::before{content:"";position:fixed;inset:-24px;z-index:-3;background-image:v
 @media(max-width:500px){.library-grid{grid-template-columns:1fr}.hero-image{height:135px}}
 @media(max-width:500px){.controls{grid-template-columns:1fr}.controls .input{grid-column:auto}.issue{align-items:flex-start}}
 
-/* =========================
-   PC + TABLET RESPONSIVE UI
-   ========================= */
-@media (min-width:761px){
-  .wrap{max-width:1400px;padding:32px 28px 70px}
-  .library-card{padding:24px}
-  .library-grid{grid-template-columns:repeat(5,minmax(0,1fr));gap:14px}
-  .hero-image{height:185px}
-  .hero-card-content{padding:15px 16px 17px}
-  .hero-name{font-size:20px;font-weight:900;margin-top:3px}
-  .hero-kind{font-size:11px;color:var(--muted);font-weight:900;text-transform:uppercase;letter-spacing:.07em}
-  .hero-desc{font-size:13px;color:var(--muted);line-height:1.45;margin-top:5px}
-  .hero-status{font-size:12px;font-weight:800;margin-top:10px}
-  .hero-progress span{font-size:11px;padding:5px 7px}
-
-  .eyebrow{font-size:13px}
-  .title{font-size:clamp(46px,5vw,72px)}
-  .card{padding:20px;margin-top:18px}
-  .stats{gap:12px}
-  .stat{padding:16px}
-  .big{font-size:30px}
-
-  .controls{grid-template-columns:minmax(300px,1fr) 180px 150px;gap:10px}
-  .filter-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
-  .toolbar{gap:9px}
-
-  .list{gap:7px}
-  .issue{padding:13px 15px;gap:13px}
-  .issue:hover{transform:translateX(2px)}
-  .name{font-size:15px}
-  .meta{font-size:12px}
-
-  .modal-box{width:min(760px,92vw);padding:30px}
-  .modal-box h2{font-size:36px}
-}
-
-@media (min-width:1100px){
-  .wrap{display:grid;grid-template-columns:minmax(0,1fr) 320px;column-gap:20px;align-items:start}
-  .library-card{grid-column:1/-1}
-  .wrap>.eyebrow,
-  .wrap>.title,
-  .wrap>p.muted{grid-column:1}
-  .wrap>section.card:nth-of-type(1){grid-column:1}
-  .wrap>section.card:nth-of-type(2){grid-column:1/-1}
-  .wrap>section.card:nth-of-type(3){grid-column:1/-1}
-  .wrap>p.small{grid-column:1/-1}
-
-  /* Keep the category selector prominent across the full desktop width. */
-  .library-grid{grid-template-columns:repeat(5,minmax(0,1fr))}
-}
-
-@media (min-width:761px) and (max-width:1099px){
-  .library-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
-  .hero-card:last-child{grid-column:auto}
-}
-
-@media (min-width:761px){
-  /* Desktop/tablet issue rows become compact information cards. */
-  .issue{min-height:58px}
-  .issue-info{padding-right:8px}
-  .spider-check{flex-basis:34px;width:34px;height:34px}
-
-  /* Larger touch/mouse targets without changing the underlying controls. */
-  .btn,.select,.input{min-height:44px}
-  .filter .select{width:100%}
-
-  /* More comfortable filter toolbar on wider screens. */
-  .chips{min-height:28px}
-}
-
-/* Tablet portrait: keep everything comfortable for touch. */
-@media (min-width:761px) and (max-width:900px){
-  .wrap{padding-left:20px;padding-right:20px}
-  .filter-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
-  .controls{grid-template-columns:1fr 1fr}
-  .controls .input{grid-column:1/-1}
-}
-
-/* Large desktop reading list: use two columns so long orders are easier to scan. */
-@media (min-width:1250px){
-  #list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-items:start}
-  #list .empty{grid-column:1/-1}
-}
+.amazon-affiliate{margin-top:18px;padding:14px;border:1px solid rgba(41,55,84,.8);border-radius:14px;background:#0d1527}
+.amazon-affiliate-title{font-weight:900;margin-bottom:7px}
+.amazon-affiliate-note{font-size:11px;color:var(--muted);margin-top:8px;line-height:1.45}
+.amazon-button{background:#ffb000;color:#111}
 
 </style>
 </head>
 <body id="appBody">
 <main class="wrap">
 <section class="library-card">
-  <div class="eyebrow">Comic Orders</div>
-  <h1 class="library-title">Comic Orders</h1>
-  <p class="muted">Dive into the full stories of your favourite Marvel characters with dedicated reading orders, keep track of your journey by checking off issues as you go, and set goals you can watch yourself complete.</p>
+  <div class="eyebrow">Marvel Reading Tracker</div>
+  <h1 class="library-title">Choose your hero or team</h1>
+  <p class="muted">Spider-Man is ready now. The next reading orders are being added as full checklists so every character can keep its own progress.</p>
   <div id="libraryGrid" class="library-grid"></div>
 </section>
 
-<div class="eyebrow">Your Reading Journey</div>
-<div class="title">Read.<br>Track.<br>Complete.</div>
+<div class="eyebrow">Marvel Reading Tracker</div>
+<div class="title">Marvel<br>Reading Tracker</div>
 <p class="muted">Track your reading order, set goals, browse categories, and open an issue for reading and research links.</p>
 
 <section class="card">
@@ -202,10 +123,13 @@ body::before{content:"";position:fixed;inset:-24px;z-index:-3;background-image:v
 </section>
 
 <p class="small">Current reading-order source: <a href="https://comicbookreadingorders.com/marvel/characters/spider-man-reading-order/" target="_blank" rel="noopener">ComicBookReadingOrders.com</a></p>
+<p class="small">As an Amazon Associate I earn from qualifying purchases.</p>
 </main>
 <div id="issueModal" class="modal" aria-hidden="true"></div>
 
 <script>
+// Amazon Associates tracking ID supplied for Comic Orders: exr616-21.
+// Verified product URLs should be stored per issue as issue.amazonUrl.
 let items=[],activeLibrary=localStorage.getItem('activeMarvelLibrary')||'spider-man';
 let state=JSON.parse(localStorage.getItem('marvelProgress:'+activeLibrary)||'{}');
 state.done=state.done||{};state.status=state.status||{};state.goal=state.goal||100;
@@ -244,6 +168,14 @@ function showIssueDetails(issue){
  </div>
  <h3>Research</h3>
  <div class="source-buttons"><a class="source-button alt" href="${esc(wiki)}" target="_blank" rel="noopener">Marvel Database Wiki</a></div>
+ ${issue.amazonUrl ? `
+ <div class="amazon-affiliate">
+   <div class="amazon-affiliate-title">Buy / collect this issue</div>
+   <div class="source-buttons">
+     <a class="source-button amazon-button" href="${esc(issue.amazonUrl)}" target="_blank" rel="noopener sponsored">Amazon UK <span>(paid link)</span></a>
+   </div>
+   <div class="amazon-affiliate-note">As an Amazon Associate I earn from qualifying purchases.</div>
+ </div>` : ''}
  </div>`;
  modal.classList.add('open');modal.setAttribute('aria-hidden','false');
  modal.querySelector('.modal-close').onclick=closeIssueDetails;
