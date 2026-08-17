@@ -64,7 +64,7 @@ body::after{content:"";position:fixed;inset:0;z-index:-1;background:rgba(8,13,25
 <section class="library-card">
   <div class="eyebrow">Marvel Reading Tracker</div>
   <h1 class="library-title">Choose your hero or team</h1>
-  <p class="muted">Spider-Man is ready now. The next reading orders are being added as full checklists so every character can keep its own progress.</p>
+  <p class="muted">Choose a hero or team. Each library keeps its own checklist, goals, filters, and reading progress.</p>
   <div id="libraryGrid" class="library-grid"></div>
 </section>
 
@@ -228,7 +228,10 @@ $('clear').onclick=()=>{if(confirm('Clear all checked issues and statuses?')){st
 $('next').onclick=()=>{const x=items.find(i=>!state.done[i.id]);if(!x)return;state.status[x.id]='reading';save();$('search').value=x.name;filterIds.forEach(id=>$(id).value='all');render();setTimeout(()=>document.querySelector(`[data-issue="${x.id}"]`)?.scrollIntoView({behavior:'smooth',block:'center'}),60)};
 
 function renderLibrary(){
-  fetch('library.json').then(r=>r.json()).then(lib=>{
+  fetch('library.json').then(r=>{
+    if(!r.ok) throw new Error('Could not load library.json ('+r.status+')');
+    return r.json();
+  }).then(lib=>{
     $('libraryGrid').innerHTML=lib.map(x=>`
       <button class="hero-card ${x.id===activeLibrary?'active':''}" type="button" data-library="${esc(x.id)}">
         <div class="hero-image">
@@ -255,19 +258,36 @@ function renderLibrary(){
       activeLibrary=id;
       localStorage.setItem('activeMarvelLibrary',activeLibrary);
       state=JSON.parse(localStorage.getItem('marvelProgress:'+activeLibrary)||'{}');
-      state.done=state.done||{};state.status=state.status||{};state.goal=state.goal||100;
+      state.done=state.done||{};
+      state.status=state.status||{};
+      state.goal=state.goal||100;
       loadLibrary(id);
     });
+  }).catch(err=>{
+    $('libraryGrid').innerHTML='<div class="empty">Could not load the Marvel library. Please refresh the page.</div>';
+    console.error(err);
   });
 }
+
 function loadLibrary(id){
-  fetch(id==='spider-man'?'data.json':id+'.json').then(r=>r.json()).then(d=>{
-    items=d;setupFilters();$('goal').value=state.goal;$('goalLabel').textContent=state.goal;render();renderLibrary();
+  const file=id==='spider-man'?'data.json':id+'.json';
+  fetch(file).then(r=>{
+    if(!r.ok) throw new Error('Could not load '+file+' ('+r.status+')');
+    return r.json();
+  }).then(d=>{
+    items=d;
+    setupFilters();
+    $('goal').value=state.goal;
+    $('goalLabel').textContent=state.goal;
+    render();
+    renderLibrary();
+  }).catch(err=>{
+    $('list').innerHTML='<div class="empty">Could not load this reading order. Please refresh the page.</div>';
+    $('summary').textContent='Reading order failed to load.';
+    console.error(err);
   });
 }
-renderLibrary();
-  });
-}
+
 renderLibrary();
 
 loadLibrary(activeLibrary);

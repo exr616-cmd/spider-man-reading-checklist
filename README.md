@@ -40,3 +40,7 @@ The home page now supports a separate local image for every hero/team:
 Only the currently selected library card is highlighted red. All other cards are visually unhighlighted.
 
 Images are local files, so this remains fully compatible with GitHub Pages.
+
+
+## v11
+Fixed the library JavaScript loading error that caused the category cards and checklist to remain blank/loading. Added clearer load errors and bumped the cache version.
