@@ -1,4 +1,4 @@
-const VERSION='marvel-tracker-v9';
+const VERSION='marvel-tracker-v10-correct-images';
 const ASSETS=['./','./index.html','./data.json','./manifest.json','./library.json','./x-men.json','./avengers.json','./fantastic-four.json','./daredevil.json','./x-men.json','./avengers.json','./fantastic-four.json'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(VERSION).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==VERSION).map(k=>caches.delete(k)))).then(()=>self.clients.claim()))});

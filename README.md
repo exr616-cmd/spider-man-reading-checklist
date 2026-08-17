@@ -27,3 +27,16 @@ It also runs automatically once a week.
 The importer intentionally leaves writer/artist fields blank unless the source reading-order page itself supplies those credits. It does not invent metadata.
 
 The parser preserves reading-order sequence, issue names, issue numbers, publication years when shown, source notes, and alternate-universe/optional flags.
+
+## v10 library cards
+
+The home page now supports a separate local image for every hero/team:
+- `images/spider-man.jpg`
+- `images/x-men.jpeg`
+- `images/avengers.jpg`
+- `images/fantastic-four.jpg`
+- `images/daredevil.webp`
+
+Only the currently selected library card is highlighted red. All other cards are visually unhighlighted.
+
+Images are local files, so this remains fully compatible with GitHub Pages.

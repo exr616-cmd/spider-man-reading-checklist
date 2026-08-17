@@ -39,18 +39,23 @@ body::after{content:"";position:fixed;inset:0;z-index:-1;background:rgba(8,13,25
 
 .library-card{background:#0d1527eF;border:1px solid var(--line);border-radius:20px;padding:18px;margin-bottom:16px}
 .library-title{font-size:clamp(28px,6vw,44px);line-height:1;margin:6px 0 8px}
-.library-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:14px}
-.hero-card{display:block;text-align:left;text-decoration:none;color:var(--text);background:#111a2d;border:1px solid var(--line);border-radius:15px;padding:15px;cursor:pointer;transition:transform .15s,border-color .15s}
-.hero-card:hover{transform:translateY(-2px);border-color:#e21b2d}
-.hero-card.ready{border-color:#e21b2d}
-.hero-card .hero-name{font-size:21px;font-weight:950}
-.hero-card .hero-kind{font-size:11px;color:#ff6875;font-weight:900;text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px}
-.hero-card .hero-desc{font-size:12px;color:var(--muted);margin-top:5px}
-.hero-card .hero-status{font-size:11px;margin-top:10px;font-weight:800}
 .hero-card .hero-status.ready{color:#55e69a}.hero-card .hero-status.soon{color:#9aa8c2}.hero-card{font:inherit}
 
+
+.library-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:14px}
+.hero-card{display:block;overflow:hidden;text-align:left;text-decoration:none;color:var(--text);background:#0d1527;border:1px solid rgba(41,55,84,.45);border-radius:16px;padding:0;cursor:pointer;transition:transform .15s,border-color .15s,box-shadow .15s;opacity:.92;font:inherit}
+.hero-card:hover{transform:translateY(-2px);border-color:rgba(113,128,156,.7);opacity:1}
+.hero-card.active{border-color:#e21b2d;box-shadow:0 0 0 2px rgba(226,27,45,.18),0 10px 30px rgba(0,0,0,.25);opacity:1}
+.hero-image{height:150px;position:relative;overflow:hidden;background:#17223a}
+.hero-image img{width:100%;height:100%;display:block;object-fit:cover}
+.hero-image-fallback{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:30px;font-weight:950;text-align:center;padding:15px;background:linear-gradient(135deg,#17223a,#0d1527)}
+.hero-image img~.hero-image-fallback{display:none}
+.hero-image-shade{position:absolute;inset:0;background:linear-gradient(to top,rgba(8,13,25,.78),rgba(8,13,25,.05) 70%)}
+.hero-card-content{padding:13px 14px 15px}
+.hero-card.active .hero-status{color:#55e69a}
+
 @media(max-width:760px){.stats{grid-template-columns:repeat(2,1fr)}.controls{grid-template-columns:1fr 1fr}.controls .input{grid-column:1/-1}.filter-grid{grid-template-columns:1fr}}
-@media(max-width:500px){.library-grid{grid-template-columns:1fr}}
+@media(max-width:500px){.library-grid{grid-template-columns:1fr}.hero-image{height:135px}}
 @media(max-width:500px){.controls{grid-template-columns:1fr}.controls .input{grid-column:auto}.issue{align-items:flex-start}}
 </style>
 </head>
@@ -225,13 +230,25 @@ $('next').onclick=()=>{const x=items.find(i=>!state.done[i.id]);if(!x)return;sta
 function renderLibrary(){
   fetch('library.json').then(r=>r.json()).then(lib=>{
     $('libraryGrid').innerHTML=lib.map(x=>`
-      <button class="hero-card ${x.ready?'ready':''}" type="button" data-library="${esc(x.id)}">
-        <div class="hero-kind">${esc(x.kind)}</div>
-        <div class="hero-name">${esc(x.name)}</div>
-        <div class="hero-desc">${esc(x.description||'')}</div>
-        <div class="hero-status ${x.ready?'ready':'soon'}">${x.id===activeLibrary?'Currently selected':x.ready?'Open checklist':'Starter import — full checklist coming next'}</div>
+      <button class="hero-card ${x.id===activeLibrary?'active':''}" type="button" data-library="${esc(x.id)}">
+        <div class="hero-image">
+          ${x.image
+            ? `<img src="${esc(x.image)}" alt="${esc(x.name)}" loading="lazy" onerror="this.parentElement.classList.add('image-missing');this.remove()">`
+            : ''}
+          <div class="hero-image-fallback">${esc(x.name)}</div>
+          <div class="hero-image-shade"></div>
+        </div>
+        <div class="hero-card-content">
+          <div class="hero-kind">${esc(x.kind)}</div>
+          <div class="hero-name">${esc(x.name)}</div>
+          <div class="hero-desc">${esc(x.description||'')}</div>
+          <div class="hero-status ${x.id===activeLibrary?'ready':'soon'}">
+            ${x.id===activeLibrary?'Currently selected':x.ready?'Open checklist':'Starter import'}
+          </div>
+        </div>
       </button>
     `).join('');
+
     document.querySelectorAll('[data-library]').forEach(btn=>btn.onclick=()=>{
       const id=btn.dataset.library;
       if(id===activeLibrary)return;
@@ -246,6 +263,9 @@ function renderLibrary(){
 function loadLibrary(id){
   fetch(id==='spider-man'?'data.json':id+'.json').then(r=>r.json()).then(d=>{
     items=d;setupFilters();$('goal').value=state.goal;$('goalLabel').textContent=state.goal;render();renderLibrary();
+  });
+}
+renderLibrary();
   });
 }
 renderLibrary();
