@@ -41,6 +41,17 @@ Only the currently selected library card is highlighted red. All other cards are
 
 Images are local files, so this remains fully compatible with GitHub Pages.
 
+## v12 full-import fix
 
-## v11
-Fixed the library JavaScript loading error that caused the category cards and checklist to remain blank/loading. Added clearer load errors and bumped the cache version.
+The previous importer could capture only a small/random subset because some issue titles are assembled from multiple HTML elements.
+
+v12 parses the complete visible text of issue elements and refuses to overwrite the database if a scrape is suspiciously small.
+
+After uploading v12:
+**Actions → Update Marvel Reading Orders → Run workflow**
+
+The workflow prints the number of issues imported and requires at least:
+- X-Men: 100
+- Avengers: 100
+- Fantastic Four: 50
+- Daredevil: 50

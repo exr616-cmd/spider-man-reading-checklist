@@ -64,7 +64,7 @@ body::after{content:"";position:fixed;inset:0;z-index:-1;background:rgba(8,13,25
 <section class="library-card">
   <div class="eyebrow">Marvel Reading Tracker</div>
   <h1 class="library-title">Choose your hero or team</h1>
-  <p class="muted">Choose a hero or team. Each library keeps its own checklist, goals, filters, and reading progress.</p>
+  <p class="muted">Spider-Man is ready now. The next reading orders are being added as full checklists so every character can keep its own progress.</p>
   <div id="libraryGrid" class="library-grid"></div>
 </section>
 
@@ -290,7 +290,6 @@ function loadLibrary(id){
 
 renderLibrary();
 
-loadLibrary(activeLibrary);
 if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js').then(r=>r.update());
 </script>
 </body>
