@@ -11,32 +11,40 @@
     "id": "x-men",
     "name": "X-Men",
     "kind": "Team",
-    "ready": false,
+    "ready": true,
     "source": "https://comicbookreadingorders.com/marvel/characters/x-men-reading-order/",
-    "data": "x-men.json"
+    "data": "x-men.json",
+    "count": 1130,
+    "lastImportedSource": "https://comicbookreadingorders.com/marvel/characters/x-men-reading-order/"
   },
   {
     "id": "avengers",
     "name": "Avengers",
     "kind": "Team",
-    "ready": false,
+    "ready": true,
     "source": "https://comicbookreadingorders.com/marvel/characters/avengers-reading-order/",
-    "data": "avengers.json"
+    "data": "avengers.json",
+    "count": 931,
+    "lastImportedSource": "https://comicbookreadingorders.com/marvel/characters/avengers-reading-order/"
   },
   {
     "id": "fantastic-four",
     "name": "Fantastic Four",
     "kind": "Team",
-    "ready": false,
+    "ready": true,
     "source": "https://comicbookreadingorders.com/marvel/characters/fantastic-four-reading-order/",
-    "data": "fantastic-four.json"
+    "data": "fantastic-four.json",
+    "count": 519,
+    "lastImportedSource": "https://comicbookreadingorders.com/marvel/characters/fantastic-four-reading-order/"
   },
   {
     "id": "daredevil",
     "name": "Daredevil",
     "kind": "Hero",
-    "ready": false,
+    "ready": true,
     "source": "https://comicbookreadingorders.com/marvel/characters/daredevil-reading-order/",
-    "data": "daredevil.json"
+    "data": "daredevil.json",
+    "count": 443,
+    "lastImportedSource": "https://comicbookreadingorders.com/marvel/characters/daredevil-reading-order/"
   }
 ]
