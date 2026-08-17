@@ -74,32 +74,28 @@ body::before{content:"";position:fixed;inset:-24px;z-index:-3;background-image:v
 .masterworks-title{font-weight:900;margin-bottom:6px}
 .masterworks-note{font-size:11px;color:var(--muted);margin-top:7px;line-height:1.45}
 
+/* Comic Orders milestones */
 
-/* Comic Orders thumbnail focal points */
-.hero-card[data-library="spider-man"] .hero-image img {
-  object-position: center 38%;
-}
-.hero-card[data-library="daredevil"] .hero-image img {
-  object-position: center 28%;
-}
-.hero-card[data-library="ultimate-spider-man"] .hero-image img {
-  object-position: center 35%;
-}
-.hero-card[data-library="x-men"] .hero-image img {
-  object-position: center 35%;
-}
-.hero-card[data-library="avengers"] .hero-image img {
-  object-position: center 35%;
-}
-.hero-card[data-library="fantastic-four"] .hero-image img {
-  object-position: center 35%;
-}
-
-
-/* Final Spider-Man thumbnail focal-point adjustment */
-.hero-card[data-library="spider-man"] .hero-image img {
-  object-position: center 22%;
-}
+.milestones-card{background:#0d1527eF;border:1px solid var(--line);border-radius:20px;padding:18px;margin-bottom:16px}
+.milestones-head{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.milestones-title{font-size:22px;font-weight:950;margin-bottom:4px}
+.milestones-summary{font-size:12px;color:var(--muted)}
+.milestones-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:14px}
+.milestone{position:relative;background:#111a2d;border:1px solid rgba(41,55,84,.7);border-radius:16px;padding:14px;overflow:hidden}
+.milestone.unlocked{border-color:rgba(226,27,45,.65);box-shadow:0 0 0 1px rgba(226,27,45,.12)}
+.milestone-icon{font-size:26px;line-height:1}
+.milestone-name{font-size:16px;font-weight:900;margin-top:7px}
+.milestone-desc{font-size:12px;color:var(--muted);margin-top:3px;line-height:1.4}
+.milestone-progress{height:7px;background:#090f1c;border:1px solid var(--line);border-radius:99px;overflow:hidden;margin-top:10px}
+.milestone-progress-fill{height:100%;width:0;background:linear-gradient(90deg,var(--red),#ff6571)}
+.milestone-status{font-size:11px;font-weight:900;margin-top:7px;color:#9aa8c2}
+.milestone.unlocked .milestone-status{color:#55e69a}
+.milestone-toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,20px);z-index:2000;opacity:0;pointer-events:none;background:#111a2d;border:1px solid #e21b2d;border-radius:18px;padding:16px 18px;box-shadow:0 18px 60px rgba(0,0,0,.55);width:min(420px,calc(100vw - 30px));transition:.28s ease}
+.milestone-toast.show{opacity:1;transform:translate(-50%,0)}
+.milestone-toast-eyebrow{font-size:11px;color:#ff6875;font-weight:900;letter-spacing:.1em;text-transform:uppercase}
+.milestone-toast-name{font-size:20px;font-weight:950;margin-top:4px}
+.milestone-toast-text{font-size:12px;color:var(--muted);margin-top:3px}
+@media(max-width:500px){.milestones-grid{grid-template-columns:1fr}}
 
 </style>
 </head>
@@ -118,6 +114,18 @@ body::before{content:"";position:fixed;inset:-24px;z-index:-3;background-image:v
   <div class="small">Pick up where you left off in any reading order. Comic Orders will take you to your next unread entry — it does not host the comic itself.</div>
   <div id="continueGrid" class="continue-grid"></div>
 </section>
+
+<section class="milestones-card">
+  <div class="milestones-head">
+    <div>
+      <div class="eyebrow">Achievements</div>
+      <div class="milestones-title">Milestones</div>
+      <div class="milestones-summary" id="milestonesSummary">0 unlocked</div>
+    </div>
+  </div>
+  <div id="milestonesGrid" class="milestones-grid"></div>
+</section>
+
 
 <div class="eyebrow">Marvel Reading Tracker</div>
 <div class="title">Marvel<br>Reading Tracker</div>
@@ -168,12 +176,20 @@ body::before{content:"";position:fixed;inset:-24px;z-index:-3;background-image:v
 </main>
 <div id="issueModal" class="modal" aria-hidden="true"></div>
 
+<div id="milestoneToast" class="milestone-toast" aria-live="polite">
+  <div class="milestone-toast-eyebrow">Milestone unlocked</div>
+  <div class="milestone-toast-name" id="milestoneToastName"></div>
+  <div class="milestone-toast-text" id="milestoneToastText"></div>
+</div>
+
+
 <script>
 // Amazon Associates tracking ID supplied for Comic Orders: exr616-21.
 // Verified product URLs should be stored per issue as issue.amazonUrl.
 let items=[],activeLibrary=localStorage.getItem('activeMarvelLibrary')||'spider-man';
 let state=JSON.parse(localStorage.getItem('marvelProgress:'+activeLibrary)||'{}');
 state.done=state.done||{};state.status=state.status||{};state.goal=state.goal||100;
+state.milestones=state.milestones||[];
 const $=id=>document.getElementById(id);
 $('goal').value=state.goal;$('goalLabel').textContent=state.goal;
 const filterIds=['category','decade','title','writer','artist','storyline','status','importance','universe'];
@@ -262,6 +278,64 @@ function filteredItems(){
  return items.filter(x=>{const s=currentStatus(x);return(!q||(x.name||'').toLowerCase().includes(q)||(x.note||'').toLowerCase().includes(q))&&($('category').value==='all'||valueOrUnknown(x.category)===$('category').value)&&($('decade').value==='all'||valueOrUnknown(x.decade)===$('decade').value)&&($('title').value==='all'||valueOrUnknown(x.title)===$('title').value)&&($('writer').value==='all'||valueOrUnknown(x.writer)===$('writer').value)&&($('artist').value==='all'||valueOrUnknown(x.artist)===$('artist').value)&&($('storyline').value==='all'||valueOrUnknown(x.storyline)===$('storyline').value)&&($('status').value==='all'||s===$('status').value)&&($('importance').value==='all'||x.statusType===$('importance').value)&&($('universe').value==='all'||x.universe===$('universe').value)})
 }
 function renderChips(){const labels={category:'Category',decade:'Decade',title:'Title',writer:'Writer',artist:'Artist',storyline:'Storyline',status:'Status',importance:'Importance',universe:'Universe'};$('chips').innerHTML=filterIds.filter(id=>$(id).value!=='all').map(id=>`<span class="chip">${labels[id]}: ${esc($(id).selectedOptions[0].textContent)}</span>`).join('')}
+
+const MILESTONES=[
+ {id:'first',icon:'🕷️',name:'Origin Story',desc:'Read your first comic.',target:1},
+ {id:'ten',icon:'📚',name:'If This Be My Destiny...',desc:'Read 10 comics.',target:10},
+ {id:'fifty',icon:'🔥',name:'Prospect',desc:'Read 50 comics.',target:50},
+ {id:'hundred',icon:'💯',name:'Full-Blown Hero',desc:'Read 100 comics.',target:100},
+ {id:'twofifty',icon:'🏆',name:'Defender',desc:'Read 250 comics.',target:250},
+ {id:'fivehundred',icon:'💎',name:'Legend',desc:'Read 500 comics.',target:500},
+ {id:'thousand',icon:'👑',name:'Avenger',desc:'Read 1,000 comics.',target:1000},
+ {id:'completionist',icon:'🏁',name:'The Watcher',desc:'Finish an entire reading order.',type:'library'}
+];
+
+function milestoneReadCount(){
+  return Object.keys(state.done||{}).filter(id=>state.done[id]).length;
+}
+function milestoneLibraryComplete(){
+  return items.length>0 && milestoneReadCount()>=items.length;
+}
+function milestoneUnlocked(m){
+  return m.type==='library' ? milestoneLibraryComplete() : milestoneReadCount()>=m.target;
+}
+function getUnlockedMilestones(){
+  return MILESTONES.filter(m=>milestoneUnlocked(m)).map(m=>m.id);
+}
+function renderMilestones(){
+  const grid=$('milestonesGrid');
+  if(!grid)return;
+  const read=milestoneReadCount();
+  const unlocked=getUnlockedMilestones();
+  $('milestonesSummary').textContent=`${unlocked.length} of ${MILESTONES.length} unlocked`;
+  grid.innerHTML=MILESTONES.map(m=>{
+    const done=unlocked.includes(m.id);
+    const current=m.type==='library' ? (items.length?Math.min(100,read/items.length*100):0) : Math.min(100,read/m.target*100);
+    const status=done ? '✓ Unlocked' : (m.type==='library' ? `${read.toLocaleString()} / ${items.length.toLocaleString()} read` : `${Math.min(read,m.target).toLocaleString()} / ${m.target.toLocaleString()}`);
+    return `<div class="milestone ${done?'unlocked':''}">
+      <div class="milestone-icon">${m.icon}</div>
+      <div class="milestone-name">${esc(m.name)}</div>
+      <div class="milestone-desc">${esc(m.desc)}</div>
+      <div class="milestone-progress"><div class="milestone-progress-fill" style="width:${current}%"></div></div>
+      <div class="milestone-status">${status}</div>
+    </div>`;
+  }).join('');
+}
+function showMilestoneToast(m){
+  $('milestoneToastName').textContent=`${m.icon} ${m.name}`;
+  $('milestoneToastText').textContent=m.desc;
+  const toast=$('milestoneToast');
+  toast.classList.add('show');
+  clearTimeout(window.milestoneToastTimer);
+  window.milestoneToastTimer=setTimeout(()=>toast.classList.remove('show'),3200);
+}
+function checkMilestones(beforeIds){
+  const now=getUnlockedMilestones();
+  const newly=MILESTONES.filter(m=>now.includes(m.id)&&!beforeIds.includes(m.id));
+  newly.forEach((m,i)=>setTimeout(()=>showMilestoneToast(m),i*3400));
+  state.milestones=now;
+}
+
 function update(){
  const n=items.filter(x=>state.done[x.id]).length,g=Math.max(1,+state.goal||1),p=Math.min(100,n/g*100),a=filteredItems(),fn=a.filter(x=>state.done[x.id]).length,fp=a.length?fn/a.length*100:0;
  $('read').textContent=n.toLocaleString();$('pct').textContent=p.toFixed(p%1?1:0)+'%';$('left').textContent=Math.max(0,g-n).toLocaleString();$('filteredPct').textContent=fp.toFixed(fp%1?1:0)+'%';$('fill').style.width=p+'%';
@@ -284,17 +358,21 @@ function render(){
    icon.addEventListener('click',e=>{
      e.stopPropagation();
      checkbox.checked=!checkbox.checked;
+     const beforeMilestones=getUnlockedMilestones();
      state.done[checkbox.dataset.id]=checkbox.checked;
      state.status[checkbox.dataset.id]=checkbox.checked?'read':'unread';
      save();
      render();
+     checkMilestones(beforeMilestones);
    });
    checkbox.addEventListener('click',e=>e.stopPropagation());
    checkbox.addEventListener('change',()=>{
+     const beforeMilestones=getUnlockedMilestones();
      state.done[checkbox.dataset.id]=checkbox.checked;
      state.status[checkbox.dataset.id]=checkbox.checked?'read':'unread';
      save();
      render();
+     checkMilestones(beforeMilestones);
    });
    row.addEventListener('click',e=>{
      if(e.target.closest('.issue-checkbox')||e.target.closest('.spider-check')) return;
@@ -302,12 +380,12 @@ function render(){
      if(x)showIssueDetails(x);
    });
  });
- update();renderChips();
+ update();renderChips();renderMilestones();
 }
 filterIds.forEach(id=>$(id).onchange=render);$('search').oninput=render;$('sort').onchange=render;
 $('goal').oninput=()=>{state.goal=Math.max(1,+$('goal').value||1);$('goalLabel').textContent=state.goal;save();update();updateLibraryProgress()};
 $('clearFilters').onclick=()=>{filterIds.forEach(id=>$(id).value='all');$('search').value='';render()};
-$('clear').onclick=()=>{if(confirm('Clear all checked issues and statuses?')){state.done={};state.status={};save();render()}};
+$('clear').onclick=()=>{if(confirm('Clear all checked issues and statuses?')){state.done={};state.status={};state.milestones=[];save();render()}};
 $('next').onclick=()=>{const x=items.find(i=>!state.done[i.id]);if(!x)return;state.status[x.id]='reading';save();$('search').value=x.name;filterIds.forEach(id=>$(id).value='all');render();setTimeout(()=>document.querySelector(`[data-issue="${x.id}"]`)?.scrollIntoView({behavior:'smooth',block:'center'}),60)};
 
 const DEFAULT_LIBRARY=[
@@ -401,6 +479,7 @@ function switchLibrary(id){
   state.done=state.done||{};
   state.status=state.status||{};
   state.goal=state.goal||100;
+  state.milestones=state.milestones||[];
   renderLibrary();
   loadLibrary(id);
   window.scrollTo({top:0,behavior:'smooth'});
