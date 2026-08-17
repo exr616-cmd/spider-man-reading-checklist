@@ -1,0 +1,230 @@
+[
+  {
+    "id": "x-men-0001",
+    "name": "Uncanny X-Men #1 (1963)",
+    "decade": "1960s",
+    "title": "Uncanny X-Men",
+    "writer": "Stan Lee",
+    "artist": "Jack Kirby",
+    "storyline": "X-Men origin / First appearance of the original X-Men",
+    "note": "First appearance of Angel, Beast, Cyclops, Iceman, Jean Grey, Professor X, Magneto",
+    "statusType": "essential",
+    "universe": "main",
+    "categories": {
+      "decade": "1960s",
+      "title": "Uncanny X-Men",
+      "writer": "Stan Lee",
+      "artist": "Jack Kirby",
+      "storyline": "X-Men origin / First appearance of the original X-Men"
+    }
+  },
+  {
+    "id": "x-men-0002",
+    "name": "Uncanny X-Men #3",
+    "decade": "1960s",
+    "title": "Uncanny X-Men",
+    "writer": "Stan Lee",
+    "artist": "Werner Roth",
+    "storyline": "The Blob",
+    "note": "First appearance of The Blob",
+    "statusType": "essential",
+    "universe": "main",
+    "categories": {
+      "decade": "1960s",
+      "title": "Uncanny X-Men",
+      "writer": "Stan Lee",
+      "artist": "Werner Roth",
+      "storyline": "The Blob"
+    }
+  },
+  {
+    "id": "x-men-0003",
+    "name": "Uncanny X-Men #4",
+    "decade": "1960s",
+    "title": "Uncanny X-Men",
+    "writer": "Stan Lee",
+    "artist": "Werner Roth",
+    "storyline": "Brotherhood of Evil Mutants",
+    "note": "First appearance of Quicksilver, Scarlet Witch, Brotherhood of Evil Mutants",
+    "statusType": "essential",
+    "universe": "main",
+    "categories": {
+      "decade": "1960s",
+      "title": "Uncanny X-Men",
+      "writer": "Stan Lee",
+      "artist": "Werner Roth",
+      "storyline": "Brotherhood of Evil Mutants"
+    }
+  },
+  {
+    "id": "x-men-0004",
+    "name": "X-Men: Season One #1 (2011)",
+    "decade": "2010s",
+    "title": "X-Men: Season One",
+    "writer": "Dennis \"Hopeless\" Hallum",
+    "artist": "Jamie McKelvie; Mike Norton",
+    "storyline": "X-Men: Season One — modern retelling of the original team's first year",
+    "note": "",
+    "statusType": "essential",
+    "universe": "main",
+    "categories": {
+      "decade": "2010s",
+      "title": "X-Men: Season One",
+      "writer": "Dennis \"Hopeless\" Hallum",
+      "artist": "Jamie McKelvie; Mike Norton",
+      "storyline": "X-Men: Season One — modern retelling of the original team's first year"
+    }
+  },
+  {
+    "id": "x-men-0005",
+    "name": "Uncanny X-Men #12",
+    "decade": "1960s",
+    "title": "Uncanny X-Men",
+    "writer": "Stan Lee",
+    "artist": "Werner Roth",
+    "storyline": "Ka-Zar",
+    "note": "First appearance of Juggernaut",
+    "statusType": "essential",
+    "universe": "main",
+    "categories": {
+      "decade": "1960s",
+      "title": "Uncanny X-Men",
+      "writer": "Stan Lee",
+      "artist": "Werner Roth",
+      "storyline": "Ka-Zar"
+    }
+  },
+  {
+    "id": "x-men-0006",
+    "name": "Giant-Size X-Men #1 (1974)",
+    "decade": "1970s",
+    "title": "Giant-Size X-Men",
+    "writer": "Stan Lee",
+    "artist": "Alex Toth",
+    "storyline": "Juggernaut",
+    "note": "First appearance of Colossus, Storm, Nightcrawler, Illyana Rasputin",
+    "statusType": "essential",
+    "universe": "main",
+    "categories": {
+      "decade": "1970s",
+      "title": "Giant-Size X-Men",
+      "writer": "Stan Lee",
+      "artist": "Alex Toth",
+      "storyline": "Juggernaut"
+    }
+  },
+  {
+    "id": "x-men-0007",
+    "name": "Uncanny X-Men #101",
+    "decade": "1970s",
+    "title": "Uncanny X-Men",
+    "writer": "Stan Lee",
+    "artist": "Jack Kirby; Werner Roth",
+    "storyline": "Juggernaut",
+    "note": "Phoenix Saga",
+    "statusType": "essential",
+    "universe": "main",
+    "categories": {
+      "decade": "1970s",
+      "title": "Uncanny X-Men",
+      "writer": "Stan Lee",
+      "artist": "Jack Kirby; Werner Roth",
+      "storyline": "Juggernaut"
+    }
+  },
+  {
+    "id": "x-men-0008",
+    "name": "Uncanny X-Men #129",
+    "decade": "1980s",
+    "title": "Uncanny X-Men",
+    "writer": "Stan Lee",
+    "artist": "Jack Kirby; Werner Roth",
+    "storyline": "Sentinels",
+    "note": "Dark Phoenix Saga. First appearance of Kitty Pryde, Emma Frost",
+    "statusType": "essential",
+    "universe": "main",
+    "categories": {
+      "decade": "1980s",
+      "title": "Uncanny X-Men",
+      "writer": "Stan Lee",
+      "artist": "Jack Kirby; Werner Roth",
+      "storyline": "Sentinels"
+    }
+  },
+  {
+    "id": "x-men-0009",
+    "name": "Uncanny X-Men #141",
+    "decade": "1980s",
+    "title": "Uncanny X-Men",
+    "writer": "Stan Lee",
+    "artist": "Werner Roth",
+    "storyline": "Sentinels",
+    "note": "Days of Future Past. First appearance of Pyro, Rachel Summers",
+    "statusType": "essential",
+    "universe": "main",
+    "categories": {
+      "decade": "1980s",
+      "title": "Uncanny X-Men",
+      "writer": "Stan Lee",
+      "artist": "Werner Roth",
+      "storyline": "Sentinels"
+    }
+  },
+  {
+    "id": "x-men-0010",
+    "name": "Mutant X #1 (1998)",
+    "decade": "1990s",
+    "title": "Mutant X",
+    "writer": "Stan Lee",
+    "artist": "Jack Kirby; Werner Roth",
+    "storyline": "Sentinels",
+    "note": "Alternate Universe",
+    "statusType": "essential",
+    "universe": "alternate",
+    "categories": {
+      "decade": "1990s",
+      "title": "Mutant X",
+      "writer": "Stan Lee",
+      "artist": "Jack Kirby; Werner Roth",
+      "storyline": "Sentinels"
+    }
+  },
+  {
+    "id": "x-men-0011",
+    "name": "New X-Men #114",
+    "decade": "2000s",
+    "title": "New X-Men",
+    "writer": "Stan Lee",
+    "artist": "Jack Kirby; Jay Gavin; Dick Ayers",
+    "storyline": "Sentinels — The Supreme Sacrifice",
+    "note": "First appearance of Cassandra Nova",
+    "statusType": "essential",
+    "universe": "main",
+    "categories": {
+      "decade": "2000s",
+      "title": "New X-Men",
+      "writer": "Stan Lee",
+      "artist": "Jack Kirby; Jay Gavin; Dick Ayers",
+      "storyline": "Sentinels — The Supreme Sacrifice"
+    }
+  },
+  {
+    "id": "x-men-0012",
+    "name": "Astonishing X-Men Vol. 3 #1 (2003)",
+    "decade": "2000s",
+    "title": "Astonishing X-Men Vol. 3",
+    "writer": "Stan Lee",
+    "artist": "Jack Kirby; Jay Gavin; Dick Ayers",
+    "storyline": "Sentinels — The Supreme Sacrifice",
+    "note": "",
+    "statusType": "essential",
+    "universe": "main",
+    "categories": {
+      "decade": "2000s",
+      "title": "Astonishing X-Men Vol. 3",
+      "writer": "Stan Lee",
+      "artist": "Jack Kirby; Jay Gavin; Dick Ayers",
+      "storyline": "Sentinels — The Supreme Sacrifice"
+    }
+  }
+]
