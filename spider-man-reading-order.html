@@ -1,0 +1,177 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#e21b2d">
+<title>Spider-Man Reading Order | Comic Orders</title>
+<meta name="description" content="A comprehensive Spider-Man reading order covering the main Marvel run, with progress tracking, filters, issue details and collected-edition links.">
+<link rel="canonical" href="https://comicorders.com/spider-man-reading-order.html">
+<style>
+:root{--bg:#080d19;--p:#111a2d;--p2:#17223a;--line:#293754;--text:#f7f8fc;--muted:#9aa8c2;--red:#e21b2d}
+*{box-sizing:border-box}body{margin:0;min-height:100vh;background:var(--bg);color:var(--text);font:15px system-ui,-apple-system,Segoe UI,sans-serif;position:relative}
+body::before{content:"";position:fixed;inset:-20px;z-index:-2;background-image:url("background.jpg");background-size:cover;background-position:center top;background-repeat:no-repeat;filter:blur(1px);transform:scale(1.03)}
+body::after{content:"";position:fixed;inset:0;z-index:-1;background:rgba(8,13,25,.58);pointer-events:none}
+.wrap{max-width:1100px;margin:auto;padding:22px 15px 55px;position:relative;z-index:1}
+.eyebrow{font-size:12px;font-weight:900;letter-spacing:.12em;color:#ff6875;text-transform:uppercase}
+.title{font-size:clamp(34px,7vw,60px);font-weight:950;line-height:.94;margin:8px 0}
+.muted,.small{color:var(--muted)}.small{font-size:12px}
+.card{background:#111a2df2;border:1px solid var(--line);border-radius:18px;padding:16px;margin-top:14px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:9px}.stat{background:var(--p2);padding:12px;border-radius:13px}.big{font-size:25px;font-weight:900}
+.bar{height:13px;background:#090f1c;border:1px solid var(--line);border-radius:99px;overflow:hidden;margin:13px 0 7px}.fill{height:100%;width:0;background:linear-gradient(90deg,var(--red),#ff6571);transition:.2s}
+.controls{display:grid;grid-template-columns:1fr 150px 150px;gap:8px}.input,.select,.btn{border:1px solid var(--line);background:#0c1425;color:var(--text);border-radius:11px;padding:10px;font:inherit}.input{width:100%}.btn{cursor:pointer;font-weight:800}.primary{background:var(--red);border-color:var(--red)}
+.filter-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:10px}.filter label{display:block;font-size:11px;color:var(--muted);font-weight:800;margin-bottom:5px;text-transform:uppercase;letter-spacing:.06em}
+.toolbar{display:flex;gap:7px;flex-wrap:wrap;margin-top:10px}.chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}.chip{border:1px solid var(--line);background:#0c1425;color:#dfe5f1;border-radius:99px;padding:6px 9px;font-size:12px}
+.list{display:flex;flex-direction:column;gap:6px;margin-top:10px}.issue{display:flex;align-items:center;gap:10px;padding:10px 11px;background:#0d1527;border:1px solid transparent;border-radius:11px}.issue:hover{border-color:var(--line)}.issue.done{opacity:.52}.issue.done .name{text-decoration:line-through}.issue input{width:19px;height:19px;accent-color:var(--red);margin-top:2px}.issue-info{flex:1;min-width:0;cursor:pointer}.name{font-weight:700}.meta{font-size:11px;color:var(--muted);margin-top:3px}
+.empty{text-align:center;padding:30px;color:var(--muted)}
+.modal{display:none;position:fixed;inset:0;z-index:1000;background:rgba(0,0,0,.78);padding:20px;overflow-y:auto}.modal.open{display:flex;align-items:center;justify-content:center}
+.modal-box{position:relative;width:min(620px,100%);max-height:90vh;overflow-y:auto;background:#111a2d;border:1px solid var(--line);border-radius:20px;padding:24px;box-shadow:0 25px 80px rgba(0,0,0,.6)}
+.modal-box h2{font-size:30px;margin:8px 40px 8px 0}.modal-box h3{margin-top:24px}.modal-meta{color:var(--muted);font-size:13px}
+.modal-close{position:absolute;top:12px;right:12px;width:36px;height:36px;border:0;border-radius:50%;background:#17223a;color:white;font-size:25px;cursor:pointer}
+.source-buttons{display:flex;flex-wrap:wrap;gap:8px}.source-button{display:inline-block;padding:10px 13px;border-radius:10px;background:var(--red);color:white;text-decoration:none;font-weight:800}.source-button.alt{background:#17223a;border:1px solid var(--line)}
+
+.issue-checkbox{position:absolute;opacity:0;width:1px;height:1px;pointer-events:none}
+.spider-check{flex:0 0 32px;width:32px;height:32px;border:2px solid #71809c;border-radius:50%;background:transparent;cursor:pointer;transition:transform .15s ease,border-color .15s ease,background-color .15s ease;position:relative}
+.issue:hover .spider-check{border-color:#e21b2d}
+.issue-checkbox:checked + .spider-check{border:none;background-image:url("spider-check.png");background-size:contain;background-position:center;background-repeat:no-repeat;transform:scale(1.05);animation:spiderCheck .18s ease-out}
+@keyframes spiderCheck{0%{transform:scale(.7)}70%{transform:scale(1.12)}100%{transform:scale(1.05)}}
+.issue-checkbox:focus-visible + .spider-check{outline:3px solid rgba(226,27,45,.45);outline-offset:3px}
+
+
+.continue-card{background:#0d1527eF;border:1px solid var(--line);border-radius:20px;padding:18px;margin-bottom:16px}.continue-title{font-size:22px;font-weight:950;margin-bottom:5px}.continue-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:14px}.continue-item{background:#111a2d;border:1px solid rgba(41,55,84,.7);border-radius:16px;padding:15px}.continue-item.current{border-color:rgba(226,27,45,.7);box-shadow:0 0 0 1px rgba(226,27,45,.15)}.continue-kind{font-size:11px;color:#ff6875;text-transform:uppercase;font-weight:900;letter-spacing:.08em}.continue-name{font-size:20px;font-weight:900;margin:4px 0}.continue-issue{font-weight:800;margin-bottom:4px}.continue-meta{font-size:12px;color:var(--muted);line-height:1.45}.continue-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.continue-button{border:1px solid var(--line);background:#17223a;color:var(--text);border-radius:10px;padding:9px 12px;font:inherit;font-weight:800;cursor:pointer}.continue-button.primary{background:var(--red);border-color:var(--red)}
+.library-card{background:#0d1527eF;border:1px solid var(--line);border-radius:20px;padding:18px;margin-bottom:16px}
+.library-title{font-size:clamp(28px,6vw,44px);line-height:1;margin:6px 0 8px}
+.hero-card .hero-status.ready{color:#55e69a}.hero-card .hero-status.soon{color:#9aa8c2}.hero-card{font:inherit}
+
+
+.library-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:14px}
+.hero-card{display:block;overflow:hidden;text-align:left;text-decoration:none;color:var(--text);background:#0d1527;border:1px solid rgba(41,55,84,.45);border-radius:16px;padding:0;cursor:pointer;transition:transform .15s,border-color .15s,box-shadow .15s;opacity:.92;font:inherit}
+.hero-card:hover{transform:translateY(-2px);border-color:rgba(113,128,156,.7);opacity:1}
+.hero-card.active{border-color:#e21b2d;box-shadow:0 0 0 2px rgba(226,27,45,.18),0 10px 30px rgba(0,0,0,.25);opacity:1}
+.hero-image{height:150px;position:relative;overflow:hidden;background:#17223a}
+.hero-image img{width:100%;height:100%;display:block;object-fit:cover}
+.hero-image-fallback{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:30px;font-weight:950;text-align:center;padding:15px;background:linear-gradient(135deg,#17223a,#0d1527)}
+.hero-image img~.hero-image-fallback{display:none}
+.hero-image-shade{position:absolute;inset:0;background:linear-gradient(to top,rgba(8,13,25,.78),rgba(8,13,25,.05) 70%)}
+.hero-card-content{padding:13px 14px 15px}
+.hero-card.active .hero-status{color:#55e69a}
+.hero-progress{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.hero-progress span{display:inline-flex;align-items:center;padding:5px 8px;border-radius:999px;background:#17223b;border:1px solid rgba(113,128,156,.22);color:#b9c5dc;font-size:.72rem;font-weight:700;letter-spacing:.02em}
+.hero-card.active .hero-progress span{border-color:rgba(226,27,45,.35);color:#eef2fb}
+
+
+body::before{content:"";position:fixed;inset:-24px;z-index:-3;background-image:var(--library-bg);background-size:cover;background-position:center top;background-repeat:no-repeat;filter:blur(2px);transform:scale(1.035);opacity:.88;transition:opacity .25s ease}body::after{content:"";position:fixed;inset:0;z-index:-2;background:linear-gradient(rgba(5,9,18,.68),rgba(5,9,18,.82));pointer-events:none}.hero-card:not(.active){filter:saturate(.75);opacity:.86}.hero-card:not(.active):hover{filter:saturate(1);opacity:1}.hero-card.active .hero-image{box-shadow:inset 0 -4px 0 #e21b2d}
+@media(max-width:760px){.stats{grid-template-columns:repeat(2,1fr)}.controls{grid-template-columns:1fr 1fr}.controls .input{grid-column:1/-1}.filter-grid{grid-template-columns:1fr}}
+@media(max-width:500px){.library-grid{grid-template-columns:1fr}.continue-grid{grid-template-columns:1fr}.hero-image{height:135px}}
+@media(max-width:500px){.controls{grid-template-columns:1fr}.controls .input{grid-column:auto}.issue{align-items:flex-start}}
+
+.amazon-affiliate{margin-top:18px;padding:14px;border:1px solid rgba(41,55,84,.8);border-radius:14px;background:#0d1527}
+.amazon-affiliate-title{font-weight:900;margin-bottom:7px}
+.amazon-affiliate-note{font-size:11px;color:var(--muted);margin-top:8px;line-height:1.45}
+.amazon-button{background:#ffb000;color:#111}
+
+
+.masterworks-box{margin-top:18px;padding:14px;border:1px solid rgba(113,128,156,.25);border-radius:14px;background:#111a2d}
+.masterworks-title{font-weight:900;margin-bottom:6px}
+.masterworks-note{font-size:11px;color:var(--muted);margin-top:7px;line-height:1.45}
+
+/* Comic Orders milestones */
+
+.milestones-card{background:#0d1527eF;border:1px solid var(--line);border-radius:20px;padding:18px;margin-bottom:16px}
+.milestones-head{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.milestones-title{font-size:22px;font-weight:950;margin-bottom:4px}
+.milestones-summary{font-size:12px;color:var(--muted)}
+.milestones-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:14px}
+.milestone{position:relative;background:#111a2d;border:1px solid rgba(41,55,84,.7);border-radius:16px;padding:14px;overflow:hidden}
+.milestone.unlocked{border-color:rgba(226,27,45,.65);box-shadow:0 0 0 1px rgba(226,27,45,.12)}
+.milestone-icon{font-size:26px;line-height:1}
+.milestone-name{font-size:16px;font-weight:900;margin-top:7px}
+.milestone-desc{font-size:12px;color:var(--muted);margin-top:3px;line-height:1.4}
+.milestone-progress{height:7px;background:#090f1c;border:1px solid var(--line);border-radius:99px;overflow:hidden;margin-top:10px}
+.milestone-progress-fill{height:100%;width:0;background:linear-gradient(90deg,var(--red),#ff6571)}
+.milestone-status{font-size:11px;font-weight:900;margin-top:7px;color:#9aa8c2}
+.milestone.unlocked .milestone-status{color:#55e69a}
+.milestone-toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,20px);z-index:2000;opacity:0;pointer-events:none;background:#111a2d;border:1px solid #e21b2d;border-radius:18px;padding:16px 18px;box-shadow:0 18px 60px rgba(0,0,0,.55);width:min(420px,calc(100vw - 30px));transition:.28s ease}
+.milestone-toast.show{opacity:1;transform:translate(-50%,0)}
+.milestone-toast-eyebrow{font-size:11px;color:#ff6875;font-weight:900;letter-spacing:.1em;text-transform:uppercase}
+.milestone-toast-name{font-size:20px;font-weight:950;margin-top:4px}
+.milestone-toast-text{font-size:12px;color:var(--muted);margin-top:3px}
+@media(max-width:500px){.milestones-grid{grid-template-columns:1fr}}
+
+
+.nav{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:0 0 16px}
+.nav a{display:inline-block;text-decoration:none;color:var(--text);background:#111a2d;border:1px solid var(--line);border-radius:11px;padding:9px 12px;font-weight:800}
+.nav a.active{background:var(--red);border-color:var(--red)}
+.page-head{margin:8px 0 18px}
+.page-title{font-size:clamp(34px,7vw,56px);font-weight:950;line-height:.95;margin:5px 0}
+.page-subtitle{max-width:780px;color:var(--muted);line-height:1.55}
+.home-grid,.progress-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.order-card{display:block;text-decoration:none;color:var(--text);background:#0d1527;border:1px solid var(--line);border-radius:18px;overflow:hidden}
+.order-image{height:150px;overflow:hidden;background:#17223a}
+.order-image img{width:100%;height:100%;object-fit:cover}
+.order-body{padding:14px}
+.order-name{font-size:20px;font-weight:950}
+.order-kind{font-size:11px;color:#ff6875;font-weight:900;text-transform:uppercase;letter-spacing:.08em}
+.order-desc{font-size:12px;color:var(--muted);margin-top:5px;line-height:1.4}
+.pills{display:flex;gap:7px;flex-wrap:wrap;margin-top:10px}
+.pill{background:#17223b;border:1px solid rgba(113,128,156,.22);border-radius:999px;padding:5px 8px;color:#b9c5dc;font-size:11px;font-weight:800}
+.quick{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.quick a,.quick button{display:inline-block;text-decoration:none;border:1px solid var(--line);background:#17223a;color:var(--text);border-radius:10px;padding:9px 12px;font:inherit;font-weight:800;cursor:pointer}
+.quick .primary{background:var(--red);border-color:var(--red)}
+.kpi{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.kpi .stat{background:var(--p2);padding:13px;border-radius:13px}
+.milestones-page-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,20px);opacity:0;pointer-events:none;z-index:2000;background:#111a2d;border:1px solid var(--red);border-radius:16px;padding:14px 17px;width:min(420px,calc(100vw - 30px));box-shadow:0 18px 60px rgba(0,0,0,.55);transition:.25s}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+.toast b{display:block;font-size:18px}.toast span{display:block;color:var(--muted);font-size:12px;margin-top:3px}
+@media(max-width:650px){.home-grid,.progress-grid,.milestones-page-grid{grid-template-columns:1fr}.kpi{grid-template-columns:repeat(2,1fr)}}
+
+.seo-page{max-width:900px;margin:0 auto}
+.seo-hero{display:grid;grid-template-columns:1.2fr .8fr;gap:18px;align-items:stretch}
+.seo-copy{padding:24px;background:#0d1527;border:1px solid var(--line);border-radius:20px}
+.seo-copy h1{font-size:clamp(38px,7vw,64px);line-height:.95;margin:6px 0 12px}
+.seo-copy p{color:var(--muted);line-height:1.65}
+.seo-art{min-height:280px;border-radius:20px;overflow:hidden;border:1px solid var(--line);background:#17223a}
+.seo-art img{width:100%;height:100%;object-fit:cover;object-position:center 35%}
+.seo-section{margin-top:16px;padding:20px;background:#0d1527;border:1px solid var(--line);border-radius:20px}
+.seo-section h2{margin:0 0 8px;font-size:25px}
+.seo-links{display:flex;gap:9px;flex-wrap:wrap;margin-top:14px}
+.seo-links a{display:inline-block;text-decoration:none;color:#fff;background:var(--red);border:1px solid var(--red);border-radius:11px;padding:10px 14px;font-weight:900}
+.seo-links a.secondary{background:#17223a;border-color:var(--line)}
+@media(max-width:700px){.seo-hero{grid-template-columns:1fr}.seo-art{height:220px;min-height:0}}
+</style>
+</head>
+<body>
+<main class="wrap seo-page">
+<nav class="nav">
+<a href="index.html">Home</a>
+<a href="reading-orders.html">📚 Reading Orders</a>
+<a href="progress.html">📊 My Progress</a>
+<a href="milestones.html">🏆 Milestones</a>
+</nav>
+<section class="seo-hero">
+<div class="seo-copy">
+<div class="eyebrow">Comic Orders</div>
+<h1>Spider-Man Reading Order</h1>
+<p>A comprehensive Spider-Man reading order covering the main Marvel run, with progress tracking, filters, issue details and collected-edition links.</p>
+<div class="seo-links">
+<a href="reading-orders.html?library=spider-man">Open the full reading order →</a>
+<a class="secondary" href="progress.html">View my progress</a>
+</div>
+</div>
+<div class="seo-art"><img src="spider-man.jpg" alt="Spider-Man" onerror="this.style.display='none'"></div>
+</section>
+<section class="seo-section">
+<h2>How to start</h2>
+<p>Amazing Fantasy #15 and the classic Amazing Spider-Man era onward.</p>
+<p>Comic Orders lets you check off entries as you go, set a reading goal, filter the order, view issue information and return to your next unread entry later.</p>
+</section>
+<section class="seo-section">
+<h2>Track your journey</h2>
+<p>Your reading progress is stored locally in your browser, so you can move between the reading order, your progress dashboard and milestones without losing your place.</p>
+<div class="seo-links"><a href="reading-orders.html?library=spider-man">Start tracking Spider-Man →</a></div>
+</section>
+</main>
+</body>
+</html>
