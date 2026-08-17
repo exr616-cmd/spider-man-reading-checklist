@@ -3,451 +3,120 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#e21b2d">
-<link rel="manifest" href="manifest.json">
-<title>Marvel Reading Tracker</title>
+<title>Spider-Man Reading Checklist</title>
 <style>
-:root{--bg:#080d19;--p:#111a2d;--p2:#17223a;--line:#293754;--text:#f7f8fc;--muted:#9aa8c2;--red:#e21b2d}
-*{box-sizing:border-box}body{margin:0;min-height:100vh;background:var(--bg);color:var(--text);font:15px system-ui,-apple-system,Segoe UI,sans-serif;position:relative}
-body::before{content:"";position:fixed;inset:-20px;z-index:-2;background-image:url("background.jpg");background-size:cover;background-position:center top;background-repeat:no-repeat;filter:blur(1px);transform:scale(1.03)}
-body::after{content:"";position:fixed;inset:0;z-index:-1;background:rgba(8,13,25,.58);pointer-events:none}
-.wrap{max-width:1100px;margin:auto;padding:22px 15px 55px;position:relative;z-index:1}
-.eyebrow{font-size:12px;font-weight:900;letter-spacing:.12em;color:#ff6875;text-transform:uppercase}
-.title{font-size:clamp(34px,7vw,60px);font-weight:950;line-height:.94;margin:8px 0}
-.muted,.small{color:var(--muted)}.small{font-size:12px}
-.card{background:#111a2df2;border:1px solid var(--line);border-radius:18px;padding:16px;margin-top:14px}
-.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:9px}.stat{background:var(--p2);padding:12px;border-radius:13px}.big{font-size:25px;font-weight:900}
-.bar{height:13px;background:#090f1c;border:1px solid var(--line);border-radius:99px;overflow:hidden;margin:13px 0 7px}.fill{height:100%;width:0;background:linear-gradient(90deg,var(--red),#ff6571);transition:.2s}
-.controls{display:grid;grid-template-columns:1fr 150px 150px;gap:8px}.input,.select,.btn{border:1px solid var(--line);background:#0c1425;color:var(--text);border-radius:11px;padding:10px;font:inherit}.input{width:100%}.btn{cursor:pointer;font-weight:800}.primary{background:var(--red);border-color:var(--red)}
-.filter-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:10px}.filter label{display:block;font-size:11px;color:var(--muted);font-weight:800;margin-bottom:5px;text-transform:uppercase;letter-spacing:.06em}
-.toolbar{display:flex;gap:7px;flex-wrap:wrap;margin-top:10px}.chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}.chip{border:1px solid var(--line);background:#0c1425;color:#dfe5f1;border-radius:99px;padding:6px 9px;font-size:12px}
-.list{display:flex;flex-direction:column;gap:6px;margin-top:10px}.issue{display:flex;align-items:center;gap:10px;padding:10px 11px;background:#0d1527;border:1px solid transparent;border-radius:11px}.issue:hover{border-color:var(--line)}.issue.done{opacity:.52}.issue.done .name{text-decoration:line-through}.issue input{width:19px;height:19px;accent-color:var(--red);margin-top:2px}.issue-info{flex:1;min-width:0;cursor:pointer}.name{font-weight:700}.meta{font-size:11px;color:var(--muted);margin-top:3px}
-.empty{text-align:center;padding:30px;color:var(--muted)}
-.modal{display:none;position:fixed;inset:0;z-index:1000;background:rgba(0,0,0,.78);padding:20px;overflow-y:auto}.modal.open{display:flex;align-items:center;justify-content:center}
-.modal-box{position:relative;width:min(620px,100%);max-height:90vh;overflow-y:auto;background:#111a2d;border:1px solid var(--line);border-radius:20px;padding:24px;box-shadow:0 25px 80px rgba(0,0,0,.6)}
-.modal-box h2{font-size:30px;margin:8px 40px 8px 0}.modal-box h3{margin-top:24px}.modal-meta{color:var(--muted);font-size:13px}
-.modal-close{position:absolute;top:12px;right:12px;width:36px;height:36px;border:0;border-radius:50%;background:#17223a;color:white;font-size:25px;cursor:pointer}
-.source-buttons{display:flex;flex-wrap:wrap;gap:8px}.source-button{display:inline-block;padding:10px 13px;border-radius:10px;background:var(--red);color:white;text-decoration:none;font-weight:800}.source-button.alt{background:#17223a;border:1px solid var(--line)}
+:root{--bg:#0b1020;--panel:#121a2d;--panel2:#18223a;--text:#f7f8fc;--muted:#9ba8c2;--accent:#e21b2d;--accent2:#ff5160;--line:#283450;--ok:#35d07f}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 20% 0,#1c2745 0,#0b1020 42%);color:var(--text);font:15px/1.45 system-ui,-apple-system,Segoe UI,sans-serif}
+.app{max-width:1100px;margin:auto;padding:28px 18px 60px}.hero{display:flex;gap:18px;align-items:flex-end;justify-content:space-between;margin-bottom:22px}.eyebrow{color:#ff6976;text-transform:uppercase;font-weight:800;letter-spacing:.12em;font-size:12px}.title{font-size:clamp(30px,6vw,58px);line-height:.98;margin:7px 0}.sub{color:var(--muted);max-width:720px}.source{color:#c8d0df;text-decoration:none;border-bottom:1px solid #52617d}.grid{display:grid;grid-template-columns:1.4fr .8fr;gap:16px}.card{background:rgba(18,26,45,.9);border:1px solid var(--line);border-radius:18px;padding:18px;box-shadow:0 15px 45px #0004}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.stat{background:var(--panel2);border-radius:14px;padding:14px}.num{font-size:27px;font-weight:850}.label{font-size:12px;color:var(--muted);margin-top:2px}.bar{height:14px;background:#0b1222;border-radius:99px;overflow:hidden;border:1px solid var(--line);margin:13px 0 8px}.fill{height:100%;background:linear-gradient(90deg,var(--accent),var(--accent2));width:0;transition:width .25s}.controls{display:grid;grid-template-columns:1fr 150px 150px;gap:10px;margin:16px 0}.input,.select,.btn{width:100%;border:1px solid var(--line);background:#0d1528;color:var(--text);border-radius:12px;padding:11px 12px;font:inherit}.btn{cursor:pointer;font-weight:750}.btn:hover{border-color:#536482}.btn.primary{background:var(--accent);border-color:var(--accent)}.goal{display:flex;gap:8px;align-items:center}.goal input{width:100px}.list{display:flex;flex-direction:column;gap:7px;margin-top:14px}.issue{display:flex;gap:12px;align-items:flex-start;padding:11px 12px;background:#0e1629;border:1px solid transparent;border-radius:12px}.issue:hover{border-color:var(--line)}.issue.done{opacity:.56}.issue.done .name{text-decoration:line-through}.issue input{width:19px;height:19px;accent-color:var(--accent);margin-top:2px;flex:0 0 auto}.name{font-weight:700}.meta{font-size:12px;color:var(--muted);margin-top:2px}.tag{font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:#ff8791;margin-left:auto;white-space:nowrap}.toolbar{display:flex;gap:8px;flex-wrap:wrap}.empty{padding:30px;text-align:center;color:var(--muted)}.foot{margin-top:18px;color:var(--muted);font-size:12px}.danger{color:#ff8791}.small{font-size:12px;color:var(--muted)}
+@media(max-width:800px){.grid{grid-template-columns:1fr}.controls{grid-template-columns:1fr 1fr}.controls .input{grid-column:1/-1}.hero{display:block}.stats{grid-template-columns:1fr 1fr 1fr}}
+@media(max-width:500px){.app{padding:18px 12px}.stats{grid-template-columns:1fr}.controls{grid-template-columns:1fr}.controls .input{grid-column:auto}}
 
-.issue-checkbox{position:absolute;opacity:0;width:1px;height:1px;pointer-events:none}
-.spider-check{flex:0 0 32px;width:32px;height:32px;border:2px solid #71809c;border-radius:50%;background:transparent;cursor:pointer;transition:transform .15s ease,border-color .15s ease,background-color .15s ease;position:relative}
-.issue:hover .spider-check{border-color:#e21b2d}
-.issue-checkbox:checked + .spider-check{border:none;background-image:url("spider-check.png");background-size:contain;background-position:center;background-repeat:no-repeat;transform:scale(1.05);animation:spiderCheck .18s ease-out}
-@keyframes spiderCheck{0%{transform:scale(.7)}70%{transform:scale(1.12)}100%{transform:scale(1.05)}}
-.issue-checkbox:focus-visible + .spider-check{outline:3px solid rgba(226,27,45,.45);outline-offset:3px}
-
-
-.continue-card{background:#0d1527eF;border:1px solid var(--line);border-radius:20px;padding:18px;margin-bottom:16px}.continue-title{font-size:22px;font-weight:950;margin-bottom:5px}.continue-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:14px}.continue-item{background:#111a2d;border:1px solid rgba(41,55,84,.7);border-radius:16px;padding:15px}.continue-item.current{border-color:rgba(226,27,45,.7);box-shadow:0 0 0 1px rgba(226,27,45,.15)}.continue-kind{font-size:11px;color:#ff6875;text-transform:uppercase;font-weight:900;letter-spacing:.08em}.continue-name{font-size:20px;font-weight:900;margin:4px 0}.continue-issue{font-weight:800;margin-bottom:4px}.continue-meta{font-size:12px;color:var(--muted);line-height:1.45}.continue-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.continue-button{border:1px solid var(--line);background:#17223a;color:var(--text);border-radius:10px;padding:9px 12px;font:inherit;font-weight:800;cursor:pointer}.continue-button.primary{background:var(--red);border-color:var(--red)}
-.library-card{background:#0d1527eF;border:1px solid var(--line);border-radius:20px;padding:18px;margin-bottom:16px}
-.library-title{font-size:clamp(28px,6vw,44px);line-height:1;margin:6px 0 8px}
-.hero-card .hero-status.ready{color:#55e69a}.hero-card .hero-status.soon{color:#9aa8c2}.hero-card{font:inherit}
-
-
-.library-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:14px}
-.hero-card{display:block;overflow:hidden;text-align:left;text-decoration:none;color:var(--text);background:#0d1527;border:1px solid rgba(41,55,84,.45);border-radius:16px;padding:0;cursor:pointer;transition:transform .15s,border-color .15s,box-shadow .15s;opacity:.92;font:inherit}
-.hero-card:hover{transform:translateY(-2px);border-color:rgba(113,128,156,.7);opacity:1}
-.hero-card.active{border-color:#e21b2d;box-shadow:0 0 0 2px rgba(226,27,45,.18),0 10px 30px rgba(0,0,0,.25);opacity:1}
-.hero-image{height:150px;position:relative;overflow:hidden;background:#17223a}
-.hero-image img{width:100%;height:100%;display:block;object-fit:cover}
-.hero-image-fallback{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:30px;font-weight:950;text-align:center;padding:15px;background:linear-gradient(135deg,#17223a,#0d1527)}
-.hero-image img~.hero-image-fallback{display:none}
-.hero-image-shade{position:absolute;inset:0;background:linear-gradient(to top,rgba(8,13,25,.78),rgba(8,13,25,.05) 70%)}
-.hero-card-content{padding:13px 14px 15px}
-.hero-card.active .hero-status{color:#55e69a}
-.hero-progress{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
-.hero-progress span{display:inline-flex;align-items:center;padding:5px 8px;border-radius:999px;background:#17223b;border:1px solid rgba(113,128,156,.22);color:#b9c5dc;font-size:.72rem;font-weight:700;letter-spacing:.02em}
-.hero-card.active .hero-progress span{border-color:rgba(226,27,45,.35);color:#eef2fb}
-
-
-body::before{content:"";position:fixed;inset:-24px;z-index:-3;background-image:var(--library-bg);background-size:cover;background-position:center top;background-repeat:no-repeat;filter:blur(2px);transform:scale(1.035);opacity:.88;transition:opacity .25s ease}body::after{content:"";position:fixed;inset:0;z-index:-2;background:linear-gradient(rgba(5,9,18,.68),rgba(5,9,18,.82));pointer-events:none}.hero-card:not(.active){filter:saturate(.75);opacity:.86}.hero-card:not(.active):hover{filter:saturate(1);opacity:1}.hero-card.active .hero-image{box-shadow:inset 0 -4px 0 #e21b2d}
-@media(max-width:760px){.stats{grid-template-columns:repeat(2,1fr)}.controls{grid-template-columns:1fr 1fr}.controls .input{grid-column:1/-1}.filter-grid{grid-template-columns:1fr}}
-@media(max-width:500px){.library-grid{grid-template-columns:1fr}.continue-grid{grid-template-columns:1fr}.hero-image{height:135px}}
-@media(max-width:500px){.controls{grid-template-columns:1fr}.controls .input{grid-column:auto}.issue{align-items:flex-start}}
-
-.amazon-affiliate{margin-top:18px;padding:14px;border:1px solid rgba(41,55,84,.8);border-radius:14px;background:#0d1527}
-.amazon-affiliate-title{font-weight:900;margin-bottom:7px}
-.amazon-affiliate-note{font-size:11px;color:var(--muted);margin-top:8px;line-height:1.45}
-.amazon-button{background:#ffb000;color:#111}
-
-
-.masterworks-box{margin-top:18px;padding:14px;border:1px solid rgba(113,128,156,.25);border-radius:14px;background:#111a2d}
-.masterworks-title{font-weight:900;margin-bottom:6px}
-.masterworks-note{font-size:11px;color:var(--muted);margin-top:7px;line-height:1.45}
+/* Comic Orders image focal points */
+.library-card[data-id="spider-man"] img { object-position: center 38%; }
+.library-card[data-id="daredevil"] img { object-position: center 28%; }
+.library-card[data-id="ultimate-spider-man"] img { object-position: center 35%; }
+.hero-card[data-id="spider-man"] img { object-position: center 38%; }
+.hero-card[data-id="daredevil"] img { object-position: center 28%; }
+.hero-card[data-id="ultimate-spider-man"] img { object-position: center 35%; }
 
 </style>
 </head>
-<body id="appBody">
-<main class="wrap">
-<section class="library-card">
-  <div class="eyebrow">Marvel Reading Tracker</div>
-  <h1 class="library-title">Choose your hero, team or universe</h1>
-  <p class="muted">Spider-Man is ready now. The next reading orders are being added as full checklists so every character can keep its own progress.</p>
-  <div id="libraryGrid" class="library-grid"></div>
-</section>
+<body>
+<div class="app">
+  <section class="hero">
+    <div>
+      <div class="eyebrow">Friendly neighbourhood tracker</div>
+      <div class="title">Spider-Man Reading Checklist</div>
+      <div class="sub">Tick off issues as you read them. Set a target and the app shows exactly how far you've got. Progress is saved in your browser.</div>
+    </div>
+  </section>
 
-<section class="continue-card">
-  <div class="eyebrow">Your journey</div>
-  <div class="continue-title">Continue Reading</div>
-  <div class="small">Pick up where you left off in any reading order. Comic Orders will take you to your next unread entry — it does not host the comic itself.</div>
-  <div id="continueGrid" class="continue-grid"></div>
-</section>
+  <section class="grid">
+    <div class="card">
+      <div class="stats">
+        <div class="stat"><div class="num" id="read">0</div><div class="label">read</div></div>
+        <div class="stat"><div class="num" id="goalRead">0%</div><div class="label">of goal</div></div>
+        <div class="stat"><div class="num" id="remaining">0</div><div class="label">to goal</div></div>
+      </div>
+      <div class="bar"><div class="fill" id="fill"></div></div>
+      <div class="small" id="summary"></div>
+    </div>
+    <div class="card">
+      <div class="goal"><strong>Goal</strong><input class="input" id="goal" type="number" min="1" value="100"></div>
+      <div style="height:10px"></div>
+      <div class="toolbar">
+        <button class="btn primary" id="next">Jump to next unread</button>
+        <button class="btn" id="clear">Clear progress</button>
+      </div>
+      <div style="height:10px"></div>
+      <div class="small">Tip: make your goal 50, 100, 250, 500, or any number you like.</div>
+    </div>
+  </section>
 
-<div class="eyebrow">Marvel Reading Tracker</div>
-<div class="title">Marvel<br>Reading Tracker</div>
-<p class="muted">Track your reading order, set goals, browse categories, and open an issue for reading and research links.</p>
+  <section class="card" style="margin-top:16px">
+    <div class="controls">
+      <input class="input" id="search" placeholder="Search series, issue number, character, etc.">
+      <select class="select" id="status"><option value="all">All</option><option value="unread">Unread</option><option value="read">Read</option></select>
+      <select class="select" id="sort"><option value="order">Reading order</option><option value="alpha">A–Z</option></select>
+    </div>
+    <div class="small" id="count"></div>
+    <div class="list" id="list"></div>
+  </section>
 
-<section class="card">
-<div class="stats">
-<div class="stat"><div class="big" id="read">0</div><div class="small">READ</div></div>
-<div class="stat"><div class="big" id="pct">0%</div><div class="small">OF GOAL</div></div>
-<div class="stat"><div class="big" id="left">0</div><div class="small">TO GOAL</div></div>
-<div class="stat"><div class="big" id="filteredPct">0%</div><div class="small">FILTERED READ</div></div>
+  <div class="foot">
+    Reading order source: <a class="source" href="https://comicbookreadingorders.com/marvel/characters/spider-man-reading-order/" target="_blank" rel="noopener">ComicBookReadingOrders.com — Spider-Man Reading Order</a>.
+    The source includes alternate-universe, optional and crossover material; this checklist keeps those entries rather than silently dropping them.
+  </div>
 </div>
-<div class="bar"><div class="fill" id="fill"></div></div>
-<div class="small" id="summary">Loading…</div>
-</section>
-
-<section class="card">
-<div style="font-size:18px;font-weight:900">Browse & filter</div>
-<p class="small">Filters combine together. Click an issue or its Details button to open issue links.</p>
-<div class="filter-grid">
-<div class="filter"><label>Category</label><select id="category" class="select"></select></div>
-<div class="filter"><label>Decade</label><select id="decade" class="select"></select></div>
-<div class="filter"><label>Title</label><select id="title" class="select"></select></div>
-<div class="filter"><label>Writer</label><select id="writer" class="select"></select></div>
-<div class="filter"><label>Artist</label><select id="artist" class="select"></select></div>
-<div class="filter"><label>Storyline</label><select id="storyline" class="select"></select></div>
-<div class="filter"><label>Read status</label><select id="status" class="select"><option value="all">All statuses</option><option value="unread">Unread</option><option value="reading">Reading</option><option value="read">Read</option><option value="skipped">Skipped</option></select></div>
-<div class="filter"><label>Importance</label><select id="importance" class="select"><option value="all">Essential + Optional</option><option value="essential">Essential</option><option value="optional">Optional</option></select></div>
-<div class="filter"><label>Universe</label><select id="universe" class="select"><option value="all">Main + Alternate</option><option value="main">Main universe</option><option value="alternate">Alternate universe</option></select></div>
-</div>
-<div id="chips" class="chips"></div>
-<div class="toolbar"><button class="btn" id="clearFilters">Clear filters</button><button class="btn primary" id="next">Next unread</button><button class="btn" id="clear">Clear all progress</button></div>
-</section>
-
-<section class="card">
-<div class="controls">
-<input id="search" class="input" placeholder="Search series, issue, notes…">
-<select id="sort" class="select"><option value="order">Reading order</option><option value="alpha">A–Z</option></select>
-<input id="goal" class="input" type="number" min="1" value="100" aria-label="Goal">
-</div>
-<div class="small" style="margin-top:7px">Goal number of issues: <b id="goalLabel">100</b></div>
-<div class="small" id="count" style="margin-top:7px"></div>
-<div id="list" class="list"></div>
-</section>
-
-<p class="small">Current reading-order source: <a href="https://comicbookreadingorders.com/marvel/characters/spider-man-reading-order/" target="_blank" rel="noopener">ComicBookReadingOrders.com</a></p>
-<p class="small">As an Amazon Associate I earn from qualifying purchases.</p>
-</main>
-<div id="issueModal" class="modal" aria-hidden="true"></div>
 
 <script>
-// Amazon Associates tracking ID supplied for Comic Orders: exr616-21.
-// Verified product URLs should be stored per issue as issue.amazonUrl.
-let items=[],activeLibrary=localStorage.getItem('activeMarvelLibrary')||'spider-man';
-let state=JSON.parse(localStorage.getItem('marvelProgress:'+activeLibrary)||'{}');
-state.done=state.done||{};state.status=state.status||{};state.goal=state.goal||100;
+const items=[]; let seq=0;
+function add(name, tag=""){items.push({id:"sp-"+(++seq),name,tag});}
+function range(prefix,start,end,year="",tag=""){for(let n=start;n<=end;n++) add(`${prefix} #${n}${year&&n===start?" ("+year+")":""}`,tag);}
+function rangeD(prefix,nums,year="",tag=""){nums.forEach((n,i)=>add(`${prefix} #${n}${year&&i===0?" ("+year+")":""}`,tag));}
+
+/* The order below follows the linked ComicBookReadingOrders page.
+   Consecutive runs are compacted into ranges so the standalone app stays small. */
+add("Amazing Fantasy #15 (1962)");
+add("Spider-Man: Season One #1 (2012)");
+rangeD("Amazing Spider-Man",[1,2,3,4,5,6],"1963");
+range("Untold Tales of Spider-Man",1,2,"1995");
+add("Amazing Spider-Man #7"); add("Untold Tales of Spider-Man #3"); add("Amazing Spider-Man #8"); add("Untold Tales of Spider-Man #4"); add("Amazing Spider-Man #9"); range("Untold Tales of Spider-Man",5,7); add("Amazing Spider-Man #10"); range("Untold Tales of Spider-Man",8,9); add("Amazing Spider-Man #11"); add("Untold Tales of Spider-Man #10"); add("Amazing Spider-Man #12"); range("Untold Tales of Spider-Man",11,13); add("Amazing Spider-Man #13"); add("Untold Tales of Spider-Man #14"); add("Amazing Spider-Man #14"); range("Untold Tales of Spider-Man",15,16); add("Amazing Spider-Man #15"); add("Amazing Spider-Man Annual #1 (1964)"); add("Untold Tales of Spider-Man #17"); add("Amazing Spider-Man #16"); range("Untold Tales of Spider-Man",18,19); add("Amazing Spider-Man #17"); range("Untold Tales of Spider-Man",20,21); add("Amazing Spider-Man #18"); add("Untold Tales of Spider-Man #22"); add("Amazing Spider-Man #19"); add("Amazing Spider-Man #20"); add("Untold Tales of Spider-Man #23"); add("Amazing Spider-Man #21"); add("Amazing Spider-Man #22"); add("Untold Tales of Spider-Man #24"); add("Amazing Spider-Man #23"); add("Untold Tales of Spider-Man #25"); range("Amazing Spider-Man",24,102); 
+range("Amazing Spider-Man",121,150); range("Amazing Spider-Man",224,261); add("Amazing Spider-Man #267"); range("Amazing Spider-Man",275,277); add("Amazing Spider-Man #279");
+range("Peter Parker, The Spectacular Spider-Man",107,110); add("Marvel Graphic Novel #22 - Hooky"); add("Spider-Man vs. Wolverine #1 (1987)"); add("Amazing Spider-Man Annual #21 (1987)"); add("Marvel Graphic Novel #46 - Parallel Lives"); add("Marvel Graphic Novel #63 - Spirits of the Earth"); add("Marvel Graphic Novel #72 - Fear Itself"); add("Amazing Spider-Man #298"); add("Amazing Spider-Man #299"); add("Amazing Spider-Man #300"); range("Amazing Spider-Man",334,339); add("Amazing Spider-Man #344"); range("Amazing Spider-Man",360,363);
+range("Spider-Man 2099",1,46,"1992","alternate universe"); range("Spectacular Spider-Man",178,184); rangeD("Spectacular Spider-Man",[189,190,200]); add("Spider-Man Unlimited #3");
+range("Spider-Man’s Tangled Web",1,9,"2001"); range("Amazing Spider-Man Vol. 2",30,45); range("Spider-Man’s Tangled Web",10,15); range("Amazing Spider-Man Vol. 2",46,58); range("Spider-Man’s Tangled Web",16,22); add("Amazing Spider-Man #500"); range("Marvel Knights Spider-Man",1,12,"2004"); range("Amazing Spider-Man",501,508); add("Spectacular Spider-Man Vol. 2 #14"); range("Spider-Man: Blue",1,6,"2002"); range("Amazing Spider-Man",509,518);
+range("Marvel Adventures Spider-Man",1,61,"2005","optional / alternate universe"); range("Amazing Spider-Man",519,524); range("Spider-Man/Human Torch",1,5,"2005"); range("Spider-Man Loves Mary Jane",1,20,"2006","optional / alternate universe"); range("Amazing Spider-Man",540,543); add("Amazing Spider-Man FCBD 2007 #1 (2007)"); range("Amazing Spider-Man",546,567); add("Amazing Spider-Man Extra! #1 (2009)"); range("Amazing Spider-Man",568,580); range("Spider-Man: Fairy Tales",1,4,"2007","alternate universe"); range("Spider-Man: Reign",1,4,"2007","alternate universe"); range("Spider-Man Noir",1,4,"2009","alternate universe"); range("Spider-Man 1602",1,5,"2009","alternate universe"); range("Amazing Spider-Man",581,629); range("Astonishing Spider-Man/Wolverine",1,6,"2010"); range("Amazing Spider-Man",630,665);
+range("Amazing Spider-Man",674,677); range("Avenging Spider-Man",1,7,"2012"); range("Amazing Spider-Man",678,687); add("Avenging Spider-Man #8"); range("Amazing Spider-Man",688,691); range("Avenging Spider-Man",9,15); range("Amazing Spider-Man",692,700); add("Avenging Spider-Man #15.1"); range("Superior Spider-Man",1,2,"2013"); add("Avenging Spider-Man #16"); range("Superior Spider-Man",3,5); add("Avenging Spider-Man #17"); add("Avenging Spider-Man #18"); add("Superior Spider-Man #6"); add("Superior Spider-Man #6AU"); add("Avenging Spider-Man #19"); range("Superior Spider-Man",7,10); add("Avenging Spider-Man #20"); add("Avenging Spider-Man #21"); range("Superior Spider-Man",11,13); add("Avenging Spider-Man #22"); range("Superior Spider-Man",14,16); range("Superior Spider-Man Team-Up",1,2,"2013"); add("Superior Spider-Man Team-Up Special #1 (2013)"); range("Superior Spider-Man Team-Up",3,4); range("Superior Spider-Man",17,21); add("Superior Spider-Man Annual #1 (2014)"); rangeD("Amazing Spider-Man",[700.1,700.2,700.3,700.4,700.5]); range("Superior Spider-Man",22,25); range("Superior Spider-Man Team-Up",5,8); range("The Superior Foes of Spider-Man",1,17,"2013");
+range("Amazing Spider-Man Vol. 3",1,3,"2014"); rangeD("Amazing Spider-Man Vol. 3",[1.1,1.2,1.3,1.4,1.5]); add("Giant-Size Spider-Man Vol. 2 #1 (2014)"); add("Spider-Man Spectacular #1 (2014)"); range("Amazing Spider-Man Vol. 3",4,8); range("Amazing Spider-Man Vol. 3",16,18); range("Amazing Spider-Man Vol. 4",1,5,"2015"); range("Spidey",1,12,"2016","alternate universe"); rangeD("Amazing Spider-Man Vol. 4",[1.1,1.2,1.3,1.4,1.5,1.6]); range("Amazing Spider-Man Vol. 4",6,8); range("Spider-Man/Deadpool",1,8,"2016"); range("Amazing Spider-Man Vol. 4",9,15); range("Spider-Man/Deadpool",9,10); range("Spider-Man/Deadpool",13,14); range("Spider-Man/Deadpool",17,18); range("Spider-Man/Deadpool",11,12); add("Amazing Spider-Man Vol. 4 Annual #1 (2017)"); range("Amazing Spider-Man: Renew Your Vows Vol. 2",1,5,"2017"); range("Amazing Spider-Man Vol. 4",25,31); add("Generations: Miles Morales Spider-Man & Peter Parker Spider-Man #1 (2017)"); range("Spider-Men II",1,5,"2017"); range("Peter Parker: The Spectacular Spider-Man",1,6,"2017"); range("Amazing Spider-Man",789,791); range("Spider-Man/Deadpool",23,26); range("Amazing Spider-Man: Renew Your Vows Vol. 2",6,12); range("Peter Parker: The Spectacular Spider-Man",297,303); range("Spider-Man/Deadpool",27,34); range("Amazing Spider-Man: Renew Your Vows Vol. 2",19,23); range("Amazing Spider-Man",797,801); add("Peter Parker: The Spectacular Spider-Man Annual #1 (2018)"); range("Peter Parker: The Spectacular Spider-Man",304,307); range("Amazing Spider-Man Vol. 5",1,10,"2018"); range("Spider-Man/Deadpool",35,40); range("Peter Parker: The Spectacular Spider-Man",308,310); add("Amazing Spider-Man Vol. 5 Annual #1 (2018)"); add("Spider-Man: Enter the Spider-Verse #1 (2019)"); range("Spider-Man/Deadpool",41,50); range("Amazing Spider-Man Vol. 5",11,15); range("Friendly Neighborhood Spider-Man Vol. 2",1,6,"2019"); add("Spider-Man: Reptilian Rage #1 (2019)"); range("Spider-Man: Life Story",1,6,"2019"); range("Symbiote Spider-Man",1,5,"2019"); range("Amazing Spider-Man Vol. 5",16,23); add("Amazing Spider-Man Vol. 5 #16.HU"); add("Amazing Spider-Man Vol. 5 #18.HU"); add("Amazing Spider-Man Vol. 5 #19.HU"); add("Amazing Spider-Man Vol. 5 #20.HU"); add("Sensational Spider-Man: Self-Improvement #1 (2019)"); range("Friendly Neighborhood Spider-Man Vol. 2",7,14); range("Amazing Spider-Man Vol. 5",24,29); add("Amazing Spider-Man: Going Big #1 (2019)"); add("Amazing Spider-Man: Full Circle #1 (2019)"); add("Amazing Spider-Man: Daily Bugle #1 (2020)"); add("Amazing Spider-Man: Daily Bugle #2"); range("Amazing Spider-Man Vol. 5",32,43); range("Symbiote Spider-Man: Alien Reality",1,5,"2020"); add("Amazing Spider-Man Vol. 5 #44"); add("Amazing Spider-Man: Sins Rising Prelude #1 (2020)"); range("Amazing Spider-Man Vol. 5",45,59); rangeD("Amazing Spider-Man Vol. 5",[50.1,51.1,52.1,53.1,54.1]); range("Symbiote Spider-Man: King in Black",1,5,"2020"); range("King In Black",1,5,"2020"); add("King In Black: Spider-Man #1 (2020)"); add("Venom #200"); range("Amazing Spider-Man Vol. 5",60,65); add("Giant-Size Amazing Spider-Man: King’s Ransom #1 (2021)"); range("Non-Stop Spider-Man",1,5,"2021"); range("Amazing Spider-Man Vol. 5",66,70); range("Sinister War",1,4,"2021"); range("Amazing Spider-Man Vol. 5",71,74); range("Symbiote Spider-Man: Crossroads",1,5,"2021"); add("FCBD 2021: Spider-Man/Venom #1 (2021)"); range("Amazing Spider-Man Vol. 5",75,87); add("Amazing Spider-Man Vol. 5 #78.BEY"); add("Amazing Spider-Man Vol. 5 #80.BEY");
+add("Mary Jane and Black Cat: Beyond #1 (2022)"); range("Amazing Spider-Man Vol. 5",88,93); add("Amazing Spider-Man Vol. 5 #88.BEY"); add("Amazing Spider-Man Vol. 5 #92.BEY"); range("Savage Spider-Man",1,5,"2022"); range("Amazing Spider-Man Vol. 6",1,13,"2022"); range("New Fantastic Four",1,5,"2022"); range("Spider-Man: The Lost Hunt",1,5,"2023"); range("Deadly Neighborhood Spider-Man",1,5,"2022"); range("Spider-Man Vol. 4",1,7,"2022"); add("Amazing Spider-Man Vol. 6 #14"); add("Dark Web #1 (2023)"); range("Amazing Spider-Man Vol. 6",15,20); add("Dark Web: Finale #1 (2023)"); range("Spider-Man Vol. 4",8,11); range("Amazing Spider-Man Vol. 6",21,36); range("Spine-Tingling Spider-Man",0,4,"2023"); add("Amazing Spider-Man Vol. 6 Annual #1 (2023)"); range("Amazing Spider-Man Vol. 6",45,46); range("Uncanny Spider-Man",1,5,"2023"); add("Web of Spider-Man Vol. 3 #1 (2024)"); range("Amazing Spider-Man Vol. 6",47,50); range("Spider-Man: Shadow of the Green Goblin",1,4,"2024"); add("Giant-Size Spider-Man Vol. 3 #1 (2024)"); range("Spectacular Spider-Men",1,15,"2024"); range("Amazing Spider-Man: Blood Hunt",1,3,"2024"); range("Amazing Spider-Man Vol. 6",51,67); add("Amazing Spider-Man Vol. 6 #65.DEATHS"); add("Amazing Spider-Man Vol. 6 #68.DEATHS"); add("Spider-Man: Black Suit & Blood #1 (2024)"); add("Spider-Man: Black Suit & Blood #2"); add("Spider-Man: Black Suit & Blood #3"); add("Spider-Man: Black Suit & Blood #4"); range("Predator vs. Spider-Man",1,4,"2025","alternate universe"); add("Venom War: Spider-Man #1 (2024)"); add("Venom War: Spider-Man #2"); add("Venom War #1 (2024)"); add("Venom Vol. 5 #36"); add("Venom War #2"); add("Venom Vol. 5 #37"); add("Venom War #3"); add("Venom War: Spider-Man #3"); add("Venom War #4"); add("Venom War: Spider-Man #4"); add("Venom War #5"); range("Amazing Spider-Man Vol. 6",55,70); add("Spider-Man vs. The Sinister Sixteen #1 (2025)"); range("Amazing Spider-Man Vol. 7",1,8,"2025"); range("Spider-Man & Wolverine",1,6,"2025"); add("Giant-Size Amazing Spider-Man Vol. 2 #1 (2025)"); add("Godzilla vs. Spider-Man #1 (2025)"); range("Amazing Spider-Man: Torn",1,5,"2025");
+
+const saved=JSON.parse(localStorage.getItem("spideyChecklist")||"{}");
+let state={done:saved.done||{},goal:saved.goal||100};
 const $=id=>document.getElementById(id);
-$('goal').value=state.goal;$('goalLabel').textContent=state.goal;
-const filterIds=['category','decade','title','writer','artist','storyline','status','importance','universe'];
-function save(){localStorage.setItem('marvelProgress:'+activeLibrary,JSON.stringify(state))}
-function esc(s){return String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]))}
-function valueOrUnknown(v){return v||'Unknown'}
-function slug(s){return String(s||'').trim().toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')}
-function issueSearchUrl(issue){return 'https://www.google.com/search?q='+encodeURIComponent(issue.name+' comic')}
-function marvelSearchUrl(issue){return 'https://www.marvel.com/search?q='+encodeURIComponent(issue.name)}
-function marvelUnlimitedUrl(issue){return 'https://www.marvel.com/unlimited/search?query='+encodeURIComponent(issue.name)}
-function wikiSearchUrl(issue){return 'https://marvel.fandom.com/wiki/Special:Search?query='+encodeURIComponent(issue.name)}
-function verifiedLinkHTML(issue){
- const links=Array.isArray(issue.readLinks)?issue.readLinks:[];
- return links.map(l=>`<a class="source-button" href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label)}</a>`).join('')
-}
-function showIssueDetails(issue){
- const modal=$('issueModal');
- const verified=verifiedLinkHTML(issue);
- const wiki=issue.wikiUrl||wikiSearchUrl(issue);
- modal.innerHTML=`<div class="modal-box" role="dialog" aria-modal="true">
- <button class="modal-close" type="button" aria-label="Close">×</button>
- <div class="eyebrow">Issue details</div>
- <h2>${esc(issue.name)}</h2>
- <div class="modal-meta">${esc(issue.title||'Unknown title')}${issue.decade?' • '+esc(issue.decade):''}</div>
- ${issue.writer?`<p><strong>Writer:</strong> ${esc(issue.writer)}</p>`:''}
- ${issue.artist?`<p><strong>Artist:</strong> ${esc(issue.artist)}</p>`:''}
- ${issue.storyline?`<p><strong>Storyline:</strong> ${esc(issue.storyline)}</p>`:''}
- <h3>Read / find this issue</h3>
- <div class="source-buttons">${verified}
- <a class="source-button" href="${marvelSearchUrl(issue)}" target="_blank" rel="noopener">Search Marvel</a>
- <a class="source-button" href="${marvelUnlimitedUrl(issue)}" target="_blank" rel="noopener">Search Marvel Unlimited</a>
- <a class="source-button alt" href="${issueSearchUrl(issue)}" target="_blank" rel="noopener">Find other legitimate editions</a>
- </div>
- <h3>Research</h3>
- <div class="source-buttons"><a class="source-button alt" href="${esc(wiki)}" target="_blank" rel="noopener">Marvel Database Wiki</a></div>
- ${issue.amazonUrl ? `
- <div class="amazon-affiliate">
-   <div class="amazon-affiliate-title">Buy / collect this issue</div>
-   <div class="source-buttons">
-     <a class="source-button amazon-button" href="${esc(issue.amazonUrl)}" target="_blank" rel="noopener sponsored">Amazon UK <span>(paid link)</span></a>
-   </div>
-   <div class="amazon-affiliate-note">As an Amazon Associate I earn from qualifying purchases.</div>
- </div>` : ''}
- ${issue.masterworks ? `
- <div class="masterworks-box">
-   <div class="masterworks-title">Collected in</div>
-   <div>${esc(issue.masterworks.name)}</div>
-   <div class="source-buttons" style="margin-top:9px">
-     <a class="source-button amazon-button" href="${esc(issue.masterworks.amazonUrl)}" target="_blank" rel="noopener sponsored">Amazon UK <span>(paid link)</span></a>
-   </div>
-   <div class="masterworks-note">This collection includes this issue as part of the early Amazing Spider-Man run.</div>
- </div>` : ''}
- </div>`;
- modal.classList.add('open');modal.setAttribute('aria-hidden','false');
- modal.querySelector('.modal-close').onclick=closeIssueDetails;
- modal.onclick=e=>{if(e.target===modal)closeIssueDetails()};
-}
-function closeIssueDetails(){const m=$('issueModal');m.classList.remove('open');m.setAttribute('aria-hidden','true')}
-document.addEventListener('keydown',e=>{if(e.key==='Escape')closeIssueDetails()});
-function fillSelect(id,values,label){
- const el=$(id),unique=[...new Set(values.map(valueOrUnknown))].sort((a,b)=>a.localeCompare(b));
- el.innerHTML='<option value="all">'+label+'</option>'+unique.map(v=>`<option value="${esc(v)}">${esc(v)}</option>`).join('');
-}
-function derive(x){
- if(!x.category){
-   const t=(x.title||'').toLowerCase();
-   const n=(x.name||'').toLowerCase();
-   if(t.includes('ultimate spider-man')||n.includes('ultimate spider-man')) x.category='Ultimate Spider-Man (2000–2009)';
-   else if(t.includes('marvel adventures spider-man')) x.category='Marvel Adventures Spider-Man';
-   else if(t.includes('renew your vows')) x.category='Renew Your Vows';
-   else if(t==='spidey') x.category='Spidey';
-   else if(t.includes('predator vs. spider-man')) x.category='Predator vs. Spider-Man';
-   else if(x.universe==='alternate') x.category='Alternate Universe';
-   else x.category='Main Universe';
- }
- if(!x.decade){const m=(x.name||'').match(/\((19|20)(\d{2})\)/);if(m){const y=+(m[1]+m[2]);x.decade=Math.floor(y/10)*10+'s'}}
- if(!x.title)x.title=(x.name||'').split('#')[0].trim();
- if(!x.statusType)x.statusType=(x.note||'').includes('Optional')?'optional':'essential';
- if(!x.universe)x.universe=(x.note||'').includes('Alternate Universe')?'alternate':'main';
- x.writer=x.writer||'';x.artist=x.artist||'';x.storyline=x.storyline||'';
-}
-function setupFilters(){items.forEach(derive);fillSelect('category',items.map(x=>x.category),'All categories');fillSelect('decade',items.map(x=>x.decade),'All decades');fillSelect('title',items.map(x=>x.title),'All titles');fillSelect('writer',items.map(x=>x.writer),'All writers');fillSelect('artist',items.map(x=>x.artist),'All artists');fillSelect('storyline',items.map(x=>x.storyline),'All storylines')}
-function currentStatus(x){return state.status[x.id]||'unread'}
-function filteredItems(){
- const q=$('search').value.trim().toLowerCase();
- return items.filter(x=>{const s=currentStatus(x);return(!q||(x.name||'').toLowerCase().includes(q)||(x.note||'').toLowerCase().includes(q))&&($('category').value==='all'||valueOrUnknown(x.category)===$('category').value)&&($('decade').value==='all'||valueOrUnknown(x.decade)===$('decade').value)&&($('title').value==='all'||valueOrUnknown(x.title)===$('title').value)&&($('writer').value==='all'||valueOrUnknown(x.writer)===$('writer').value)&&($('artist').value==='all'||valueOrUnknown(x.artist)===$('artist').value)&&($('storyline').value==='all'||valueOrUnknown(x.storyline)===$('storyline').value)&&($('status').value==='all'||s===$('status').value)&&($('importance').value==='all'||x.statusType===$('importance').value)&&($('universe').value==='all'||x.universe===$('universe').value)})
-}
-function renderChips(){const labels={category:'Category',decade:'Decade',title:'Title',writer:'Writer',artist:'Artist',storyline:'Storyline',status:'Status',importance:'Importance',universe:'Universe'};$('chips').innerHTML=filterIds.filter(id=>$(id).value!=='all').map(id=>`<span class="chip">${labels[id]}: ${esc($(id).selectedOptions[0].textContent)}</span>`).join('')}
-function update(){
- const n=items.filter(x=>state.done[x.id]).length,g=Math.max(1,+state.goal||1),p=Math.min(100,n/g*100),a=filteredItems(),fn=a.filter(x=>state.done[x.id]).length,fp=a.length?fn/a.length*100:0;
- $('read').textContent=n.toLocaleString();$('pct').textContent=p.toFixed(p%1?1:0)+'%';$('left').textContent=Math.max(0,g-n).toLocaleString();$('filteredPct').textContent=fp.toFixed(fp%1?1:0)+'%';$('fill').style.width=p+'%';
- $('summary').textContent=`${n.toLocaleString()} read • ${items.length.toLocaleString()} total entries • filtered: ${fn.toLocaleString()} / ${a.length.toLocaleString()} read`;
-}
+$("goal").value=state.goal;
+
+function save(){localStorage.setItem("spideyChecklist",JSON.stringify(state))}
 function render(){
- const a=filteredItems();if($('sort').value==='alpha')a.sort((x,y)=>(x.name||'').localeCompare(y.name||''));
- $('count').textContent=`Showing ${a.length.toLocaleString()} of ${items.length.toLocaleString()}`;
- $('list').innerHTML=a.map(x=>{const st=currentStatus(x),done=!!state.done[x.id];return `<div class="issue ${done?'done':''}" data-issue="${esc(x.id)}">
- <input class="issue-checkbox" type="checkbox" data-id="${esc(x.id)}" ${done?'checked':''} aria-label="Mark ${esc(x.name)} as read">
- <span class="spider-check" aria-hidden="true"></span>
- <div class="issue-info"><div class="name">${esc(x.name)}</div><div class="meta">${esc(x.title||'Unknown title')} • ${esc(x.decade||'Unknown decade')} • ${esc(st)} • ${esc(x.statusType)}</div>
- ${x.storyline?`<div class="meta">Storyline: ${esc(x.storyline)}</div>`:''}
- ${x.writer?`<div class="meta">Writer: ${esc(x.writer)}</div>`:''}
- ${x.artist?`<div class="meta">Artist: ${esc(x.artist)}</div>`:''}</div>
- </div>`}).join('')||'<div class="empty">Nothing matches these filters.</div>';
- document.querySelectorAll('[data-issue]').forEach(row=>{
-   const checkbox=row.querySelector('.issue-checkbox');
-   const icon=row.querySelector('.spider-check');
-   icon.addEventListener('click',e=>{
-     e.stopPropagation();
-     checkbox.checked=!checkbox.checked;
-     state.done[checkbox.dataset.id]=checkbox.checked;
-     state.status[checkbox.dataset.id]=checkbox.checked?'read':'unread';
-     save();
-     render();
-   });
-   checkbox.addEventListener('click',e=>e.stopPropagation());
-   checkbox.addEventListener('change',()=>{
-     state.done[checkbox.dataset.id]=checkbox.checked;
-     state.status[checkbox.dataset.id]=checkbox.checked?'read':'unread';
-     save();
-     render();
-   });
-   row.addEventListener('click',e=>{
-     if(e.target.closest('.issue-checkbox')||e.target.closest('.spider-check')) return;
-     const x=items.find(i=>i.id===row.dataset.issue);
-     if(x)showIssueDetails(x);
-   });
- });
- update();renderChips();
+ const q=$("search").value.trim().toLowerCase(), st=$("status").value, sort=$("sort").value;
+ let arr=items.filter(x=>(!q||x.name.toLowerCase().includes(q)||(x.tag||"").includes(q))&&(st==="all"||(st==="read"&&state.done[x.id])||(st==="unread"&&!state.done[x.id])));
+ if(sort==="alpha")arr=[...arr].sort((a,b)=>a.name.localeCompare(b.name));
+ $("list").innerHTML=arr.length?arr.map(x=>`<label class="issue ${state.done[x.id]?"done":""}" data-id="${x.id}"><input type="checkbox" ${state.done[x.id]?"checked":""}><span><span class="name">${esc(x.name)}</span><div class="meta">${x.tag||"Reading order entry"}</div></span></label>`).join(""):`<div class="empty">Nothing matches your search.</div>`;
+ $("count").textContent=`Showing ${arr.length.toLocaleString()} of ${items.length.toLocaleString()} entries`;
+ document.querySelectorAll(".issue input").forEach(c=>c.addEventListener("change",e=>{let id=e.target.closest(".issue").dataset.id;state.done[id]=e.target.checked;save();update()}));
+ update();
 }
-filterIds.forEach(id=>$(id).onchange=render);$('search').oninput=render;$('sort').onchange=render;
-$('goal').oninput=()=>{state.goal=Math.max(1,+$('goal').value||1);$('goalLabel').textContent=state.goal;save();update();updateLibraryProgress()};
-$('clearFilters').onclick=()=>{filterIds.forEach(id=>$(id).value='all');$('search').value='';render()};
-$('clear').onclick=()=>{if(confirm('Clear all checked issues and statuses?')){state.done={};state.status={};save();render()}};
-$('next').onclick=()=>{const x=items.find(i=>!state.done[i.id]);if(!x)return;state.status[x.id]='reading';save();$('search').value=x.name;filterIds.forEach(id=>$(id).value='all');render();setTimeout(()=>document.querySelector(`[data-issue="${x.id}"]`)?.scrollIntoView({behavior:'smooth',block:'center'}),60)};
-
-const DEFAULT_LIBRARY=[
-  {id:'spider-man',name:'Spider-Man',kind:'Hero',ready:true,data:'data.json',image:'spider-man.jpg',background:'spider-man.jpg',description:'Spider-Man reading checklist.'},
-  {id:'ultimate-spider-man',name:'Ultimate Spider-Man',kind:'Alternate Universe',ready:true,data:'ultimate-spider-man-2000s.json',image:'ultimate-spider-man.jpg',background:'ultimate-spider-man.jpg',description:'The 2000s Ultimate Universe Spider-Man reading order.'},
-  {id:'x-men',name:'X-Men',kind:'Team',ready:true,data:'x-men.json',image:'x-men.jpeg',background:'x-men.jpeg',description:'X-Men reading checklist.'},
-  {id:'avengers',name:'Avengers',kind:'Team',ready:true,data:'avengers.json',image:'avengers.jpg',background:'avengers.jpg',description:'Avengers reading checklist.'},
-  {id:'fantastic-four',name:'Fantastic Four',kind:'Team',ready:true,data:'fantastic-four.json',image:'fantastic-four.jpg',background:'fantastic-four.jpg',description:'Fantastic Four reading checklist.'},
-  {id:'daredevil',name:'Daredevil',kind:'Hero',ready:true,data:'daredevil.json',image:'daredevil.webp',background:'daredevil.webp',description:'Daredevil reading checklist.'}
-];
-
-let libraryCache=DEFAULT_LIBRARY;
-let pendingContinue=null;
-
-function getNextUnread(data,saved){
-  const done=(saved&&saved.done)||{};
-  return Array.isArray(data) ? data.find(item=>!done[item.id]) || null : null;
+function update(){
+ const read=items.filter(x=>state.done[x.id]).length, goal=Math.max(1,Number(state.goal)||1), pct=Math.min(100,read/goal*100), rem=Math.max(0,goal-read);
+ $("read").textContent=read.toLocaleString(); $("goalRead").textContent=pct.toFixed(pct%1?1:0)+"%"; $("remaining").textContent=rem.toLocaleString();
+ $("fill").style.width=pct+"%"; $("summary").textContent=`${read.toLocaleString()} read out of a ${goal.toLocaleString()}-issue goal • ${items.length.toLocaleString()} checklist entries loaded`;
 }
-
-async function updateLibraryProgress(){
-  const continueData=[];
-  await Promise.all(libraryCache.map(async entry=>{
-    try{
-      const response=await fetch(entry.data,{cache:'no-store'});
-      if(!response.ok) throw new Error('HTTP '+response.status);
-      const data=await response.json();
-      const total=Array.isArray(data)?data.length:0;
-      const saved=JSON.parse(localStorage.getItem('marvelProgress:'+entry.id)||'{}');
-      const done=(saved&&saved.done)||{};
-      const read=Array.isArray(data)?data.reduce((n,item)=>n+(done[item.id]?1:0),0):0;
-      const goal=Math.max(1,Number(saved&&saved.goal)||100);
-      const readPct=total?Math.round(read/total*100):0;
-      const goalPct=Math.min(100,Math.round(read/goal*100));
-      const readEl=document.querySelector(`[data-progress-read="${entry.id}"]`);
-      const goalEl=document.querySelector(`[data-progress-goal="${entry.id}"]`);
-      if(readEl) readEl.textContent=`${readPct}% read`;
-      if(goalEl) goalEl.textContent=`${goalPct}% of goal`;
-      if(Array.isArray(data)) continueData.push({entry,data,saved,read,total,next:getNextUnread(data,saved),goal,readPct,goalPct});
-    }catch(err){
-      console.warn('Could not calculate progress for '+entry.id,err);
-    }
-  }));
-  renderContinue(continueData);
-}
-
-function renderContinue(rows){
-  const grid=$('continueGrid');
-  if(!grid)return;
-  rows.sort((a,b)=>libraryCache.findIndex(x=>x.id===a.entry.id)-libraryCache.findIndex(x=>x.id===b.entry.id));
-  grid.innerHTML=rows.map(r=>{
-    const e=r.entry, current=e.id===activeLibrary, next=r.next;
-    const completed=!next;
-    return `<div class="continue-item ${current?'current':''}">
-      <div class="continue-kind">${esc(e.kind||'Reading order')}</div>
-      <div class="continue-name">${esc(e.name)}</div>
-      ${completed
-        ? `<div class="continue-issue">Complete</div><div class="continue-meta">${r.read.toLocaleString()} / ${r.total.toLocaleString()} entries read • 100% complete</div>`
-        : `<div class="continue-issue">Next: ${esc(next.name)}</div><div class="continue-meta">${r.read.toLocaleString()} / ${r.total.toLocaleString()} entries read • ${r.readPct}% complete • ${r.goalPct}% of goal</div>`}
-      <div class="continue-actions">
-        ${completed ? '' : `<button class="continue-button primary" type="button" data-continue="${esc(e.id)}" data-next="${esc(next.id)}">Continue</button>`}
-        ${current ? '' : `<button class="continue-button" type="button" data-open-library="${esc(e.id)}">Open ${esc(e.name)}</button>`}
-      </div>
-    </div>`;
-  }).join('') || '<div class="empty">Your reading orders will appear here once they are loaded.</div>';
-
-  document.querySelectorAll('[data-open-library]').forEach(btn=>btn.onclick=()=>{
-    const id=btn.dataset.openLibrary;
-    switchLibrary(id);
-  });
-  document.querySelectorAll('[data-continue]').forEach(btn=>btn.onclick=()=>{
-    pendingContinue={libraryId:btn.dataset.continue,issueId:btn.dataset.next};
-    switchLibrary(btn.dataset.continue);
-  });
-}
-
-function switchLibrary(id){
-  if(id===activeLibrary){
-    if(pendingContinue&&pendingContinue.issueId){
-      const target=pendingContinue.issueId;
-      pendingContinue=null;
-      $('search').value='';
-      filterIds.forEach(fid=>$(fid).value='all');
-      render();
-      setTimeout(()=>document.querySelector(`[data-issue="${CSS.escape(target)}"]`)?.scrollIntoView({behavior:'smooth',block:'center'}),60);
-    }
-    return;
-  }
-  activeLibrary=id;
-  localStorage.setItem('activeMarvelLibrary',activeLibrary);
-  state=JSON.parse(localStorage.getItem('marvelProgress:'+activeLibrary)||'{}');
-  state.done=state.done||{};
-  state.status=state.status||{};
-  state.goal=state.goal||100;
-  renderLibrary();
-  loadLibrary(id);
-  window.scrollTo({top:0,behavior:'smooth'});
-}
-function applyLibraryVisuals(entry){
-  const body=$('appBody');
-  if(body) body.style.setProperty('--library-bg',entry.background ? `url("${entry.background}")` : 'none');
-}
-
-function renderLibrary(){
-  const lib=libraryCache;
-  const active=lib.find(x=>x.id===activeLibrary)||lib[0];
-  applyLibraryVisuals(active);
-
-  $('libraryGrid').innerHTML=lib.map(x=>`
-    <button class="hero-card ${x.id===activeLibrary?'active':''}" type="button" data-library="${esc(x.id)}">
-      <div class="hero-image">
-        <img src="${esc(x.image)}" alt="${esc(x.name)}" loading="lazy"
-             onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-        <div class="hero-image-fallback" style="display:none">${esc(x.name)}</div>
-        <div class="hero-image-shade"></div>
-      </div>
-      <div class="hero-card-content">
-        <div class="hero-kind">${esc(x.kind)}</div>
-        <div class="hero-name">${esc(x.name)}</div>
-        <div class="hero-desc">${esc(x.description||'')}</div>
-        <div class="hero-progress">
-          <span data-progress-read="${esc(x.id)}">0% read</span>
-          <span data-progress-goal="${esc(x.id)}">0% of goal</span>
-        </div>
-        <div class="hero-status ${x.id===activeLibrary?'ready':'soon'}">
-          ${x.id===activeLibrary?'Currently selected':'Open checklist'}
-        </div>
-      </div>
-    </button>
-  `).join('');
-
-  document.querySelectorAll('[data-library]').forEach(btn=>btn.onclick=()=>{
-    pendingContinue=null;
-    switchLibrary(btn.dataset.library);
-  });
-}
-
-function loadLibrary(id){
-  const entry=libraryCache.find(x=>x.id===id)||DEFAULT_LIBRARY[0];
-  const file=entry.data;
-  fetch(file,{cache:'no-store'}).then(r=>{
-    if(!r.ok) throw new Error('Could not load '+file+' ('+r.status+')');
-    return r.json();
-  }).then(d=>{
-    items=d;
-    setupFilters();
-    $('goal').value=state.goal;
-    $('goalLabel').textContent=state.goal;
-    render();
-    renderLibrary();
-    updateLibraryProgress();
-    if(pendingContinue && pendingContinue.libraryId===id && pendingContinue.issueId){
-      const target=pendingContinue.issueId;
-      pendingContinue=null;
-      setTimeout(()=>document.querySelector(`[data-issue="${CSS.escape(target)}"]`)?.scrollIntoView({behavior:'smooth',block:'center'}),80);
-    }
-  }).catch(err=>{
-    $('list').innerHTML='<div class="empty">Could not load this reading order. Please refresh the page.</div>';
-    $('summary').textContent='Reading order failed to load.';
-    console.error(err);
-  });
-}
-
-renderLibrary();
-updateLibraryProgress();
-loadLibrary(activeLibrary);
-
-if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js').then(r=>r.update());
+function esc(s){return s.replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]))}
+$("goal").addEventListener("input",()=>{state.goal=Math.max(1,Number($("goal").value)||1);save();update()});
+$("search").addEventListener("input",render);$("status").addEventListener("change",render);$("sort").addEventListener("change",render);
+$("clear").addEventListener("click",()=>{if(confirm("Clear every checked issue?")){state.done={};save();render()}});
+$("next").addEventListener("click",()=>{const x=items.find(i=>!state.done[i.id]);if(!x)return; $("search").value=x.name.split(" #")[0]; $("status").value="all"; render(); setTimeout(()=>{const el=document.querySelector(`[data-id="${x.id}"]`); if(el){el.scrollIntoView({behavior:"smooth",block:"center"});el.style.outline="2px solid var(--accent2)";setTimeout(()=>el.style.outline="",1400)}},40)});
+render();
 </script>
 </body>
 </html>
