@@ -1,5 +1,53 @@
-const VERSION='marvel-tracker-v14';
-const ASSETS=['./','./index.html','./data.json','./manifest.json','./library.json','./images/spider-man.jpg','./images/x-men.jpeg','./images/avengers.jpg','./images/fantastic-four.jpg','./images/daredevil.webp','./backgrounds/spider-man.jpg','./backgrounds/x-men.jpeg','./backgrounds/avengers.jpg','./backgrounds/fantastic-four.jpg','./backgrounds/daredevil.webp','./x-men.json','./avengers.json','./fantastic-four.json','./daredevil.json','./x-men.json','./avengers.json','./fantastic-four.json'];
-self.addEventListener('install',e=>{e.waitUntil(caches.open(VERSION).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting()))});
-self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==VERSION).map(k=>caches.delete(k)))).then(()=>self.clients.claim()))});
-self.addEventListener('fetch',e=>{if(e.request.method!=='GET')return;e.respondWith(fetch(e.request).then(r=>{const c=r.clone();caches.open(VERSION).then(cache=>cache.put(e.request,c));return r}).catch(()=>caches.match(e.request)))});
+const VERSION = 'marvel-tracker-v14-bug-report-2';
+
+const CORE_ASSETS = [
+  './',
+  './index.html',
+  './manifest.json',
+  './library.json',
+  './data.json'
+];
+
+self.addEventListener('install', event => {
+  event.waitUntil(
+    caches.open(VERSION)
+      .then(cache => cache.addAll(CORE_ASSETS))
+      .then(() => self.skipWaiting())
+  );
+});
+
+self.addEventListener('activate', event => {
+  event.waitUntil(
+    caches.keys()
+      .then(keys =>
+        Promise.all(
+          keys
+            .filter(key => key !== VERSION)
+            .map(key => caches.delete(key))
+        )
+      )
+      .then(() => self.clients.claim())
+  );
+});
+
+self.addEventListener('fetch', event => {
+  if (event.request.method !== 'GET') return;
+
+  event.respondWith(
+    fetch(event.request)
+      .then(response => {
+        if (
+          response.ok &&
+          new URL(event.request.url).origin === location.origin
+        ) {
+          const copy = response.clone();
+          caches.open(VERSION).then(cache => {
+            cache.put(event.request, copy);
+          });
+        }
+
+        return response;
+      })
+      .catch(() => caches.match(event.request))
+  );
+});
