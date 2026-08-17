@@ -1,13 +1,29 @@
-# Marvel Reading Tracker v8
+# Marvel Reading Tracker v9
 
-This build adds a library switcher and independent progress storage for Spider-Man, X-Men, Avengers, Fantastic Four, and Daredevil.
+This version adds a GitHub Actions importer for the four supplied ComicBookReadingOrders pages.
 
-Spider-Man keeps the existing full checklist.
+Sources:
+- X-Men: https://comicbookreadingorders.com/marvel/characters/x-men-reading-order/
+- Avengers: https://comicbookreadingorders.com/marvel/characters/avengers-reading-order/
+- Fantastic Four: https://comicbookreadingorders.com/marvel/characters/fantastic-four-reading-order/
+- Daredevil: https://comicbookreadingorders.com/marvel/characters/daredevil-reading-order/
 
-The other four libraries include a small verified starter set from the supplied ComicBookReadingOrders pages. They are deliberately marked as starter imports rather than pretending the full source lists have been imported. The source pages are:
-- https://comicbookreadingorders.com/marvel/characters/x-men-reading-order/
-- https://comicbookreadingorders.com/marvel/characters/avengers-reading-order/
-- https://comicbookreadingorders.com/marvel/characters/fantastic-four-reading-order/
-- https://comicbookreadingorders.com/marvel/characters/daredevil-reading-order/
+## How to run the full import
 
-Progress is stored independently per library in localStorage.
+1. Upload the v9 files to the repository.
+2. Open the repository's **Actions** tab.
+3. Select **Update Marvel Reading Orders**.
+4. Press **Run workflow**.
+5. GitHub will fetch the four source pages, parse their issue lists, write:
+   - `x-men.json`
+   - `avengers.json`
+   - `fantastic-four.json`
+   - `daredevil.json`
+6. The workflow commits the generated JSON back to the repository.
+7. GitHub Pages then serves the updated static data.
+
+It also runs automatically once a week.
+
+The importer intentionally leaves writer/artist fields blank unless the source reading-order page itself supplies those credits. It does not invent metadata.
+
+The parser preserves reading-order sequence, issue names, issue numbers, publication years when shown, source notes, and alternate-universe/optional flags.
