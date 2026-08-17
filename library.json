@@ -13,40 +13,48 @@
     "id": "x-men",
     "name": "X-Men",
     "kind": "Team",
-    "ready": false,
+    "ready": true,
     "source": "https://comicbookreadingorders.com/marvel/characters/x-men-reading-order/",
     "data": "x-men.json",
     "image": "images/x-men.jpeg",
-    "background": "backgrounds/x-men.jpeg"
+    "background": "backgrounds/x-men.jpeg",
+    "count": 1130,
+    "lastImportedSource": "https://comicbookreadingorders.com/marvel/characters/x-men-reading-order/"
   },
   {
     "id": "avengers",
     "name": "Avengers",
     "kind": "Team",
-    "ready": false,
+    "ready": true,
     "source": "https://comicbookreadingorders.com/marvel/characters/avengers-reading-order/",
     "data": "avengers.json",
     "image": "images/avengers.jpg",
-    "background": "backgrounds/avengers.jpg"
+    "background": "backgrounds/avengers.jpg",
+    "count": 931,
+    "lastImportedSource": "https://comicbookreadingorders.com/marvel/characters/avengers-reading-order/"
   },
   {
     "id": "fantastic-four",
     "name": "Fantastic Four",
     "kind": "Team",
-    "ready": false,
+    "ready": true,
     "source": "https://comicbookreadingorders.com/marvel/characters/fantastic-four-reading-order/",
     "data": "fantastic-four.json",
     "image": "images/fantastic-four.jpg",
-    "background": "backgrounds/fantastic-four.jpg"
+    "background": "backgrounds/fantastic-four.jpg",
+    "count": 519,
+    "lastImportedSource": "https://comicbookreadingorders.com/marvel/characters/fantastic-four-reading-order/"
   },
   {
     "id": "daredevil",
     "name": "Daredevil",
     "kind": "Hero",
-    "ready": false,
+    "ready": true,
     "source": "https://comicbookreadingorders.com/marvel/characters/daredevil-reading-order/",
     "data": "daredevil.json",
     "image": "images/daredevil.webp",
-    "background": "backgrounds/daredevil.webp"
+    "background": "backgrounds/daredevil.webp",
+    "count": 443,
+    "lastImportedSource": "https://comicbookreadingorders.com/marvel/characters/daredevil-reading-order/"
   }
 ]
