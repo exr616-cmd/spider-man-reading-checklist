@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#e21b2d">
 <link rel="manifest" href="manifest.json">
-<title>Comic Orders</title>
+<title>Marvel Reading Tracker</title>
 <style>
 :root{--bg:#080d19;--p:#111a2d;--p2:#17223a;--line:#293754;--text:#f7f8fc;--muted:#9aa8c2;--red:#e21b2d}
 *{box-sizing:border-box}body{margin:0;min-height:100vh;background:var(--bg);color:var(--text);font:15px system-ui,-apple-system,Segoe UI,sans-serif;position:relative}
@@ -53,6 +53,10 @@ body::after{content:"";position:fixed;inset:0;z-index:-1;background:rgba(8,13,25
 .hero-image-shade{position:absolute;inset:0;background:linear-gradient(to top,rgba(8,13,25,.78),rgba(8,13,25,.05) 70%)}
 .hero-card-content{padding:13px 14px 15px}
 .hero-card.active .hero-status{color:#55e69a}
+.hero-progress{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.hero-progress span{display:inline-flex;align-items:center;padding:5px 8px;border-radius:999px;background:#17223b;border:1px solid rgba(113,128,156,.22);color:#b9c5dc;font-size:.72rem;font-weight:700;letter-spacing:.02em}
+.hero-card.active .hero-progress span{border-color:rgba(226,27,45,.35);color:#eef2fb}
+
 
 body::before{content:"";position:fixed;inset:-24px;z-index:-3;background-image:var(--library-bg);background-size:cover;background-position:center top;background-repeat:no-repeat;filter:blur(2px);transform:scale(1.035);opacity:.88;transition:opacity .25s ease}body::after{content:"";position:fixed;inset:0;z-index:-2;background:linear-gradient(rgba(5,9,18,.68),rgba(5,9,18,.82));pointer-events:none}.hero-card:not(.active){filter:saturate(.75);opacity:.86}.hero-card:not(.active):hover{filter:saturate(1);opacity:1}.hero-card.active .hero-image{box-shadow:inset 0 -4px 0 #e21b2d}
 @media(max-width:760px){.stats{grid-template-columns:repeat(2,1fr)}.controls{grid-template-columns:1fr 1fr}.controls .input{grid-column:1/-1}.filter-grid{grid-template-columns:1fr}}
@@ -63,9 +67,9 @@ body::before{content:"";position:fixed;inset:-24px;z-index:-3;background-image:v
 <body id="appBody">
 <main class="wrap">
 <section class="library-card">
-  <div class="eyebrow">Comic Orders</div>
+  <div class="eyebrow">Marvel Reading Tracker</div>
   <h1 class="library-title">Choose your hero or team</h1>
-  <p class="muted">Dive into the full stories of your favourite Marvel characters with dedicated reading orders, keep track of your journey by checking off issues as you go, and set goals you can watch yourself complete.</p>
+  <p class="muted">Spider-Man is ready now. The next reading orders are being added as full checklists so every character can keep its own progress.</p>
   <div id="libraryGrid" class="library-grid"></div>
 </section>
 
@@ -223,7 +227,7 @@ function render(){
  update();renderChips();
 }
 filterIds.forEach(id=>$(id).onchange=render);$('search').oninput=render;$('sort').onchange=render;
-$('goal').oninput=()=>{state.goal=Math.max(1,+$('goal').value||1);$('goalLabel').textContent=state.goal;save();update()};
+$('goal').oninput=()=>{state.goal=Math.max(1,+$('goal').value||1);$('goalLabel').textContent=state.goal;save();update();updateLibraryProgress()};
 $('clearFilters').onclick=()=>{filterIds.forEach(id=>$(id).value='all');$('search').value='';render()};
 $('clear').onclick=()=>{if(confirm('Clear all checked issues and statuses?')){state.done={};state.status={};save();render()}};
 $('next').onclick=()=>{const x=items.find(i=>!state.done[i.id]);if(!x)return;state.status[x.id]='reading';save();$('search').value=x.name;filterIds.forEach(id=>$(id).value='all');render();setTimeout(()=>document.querySelector(`[data-issue="${x.id}"]`)?.scrollIntoView({behavior:'smooth',block:'center'}),60)};
@@ -237,6 +241,29 @@ const DEFAULT_LIBRARY=[
 ];
 
 let libraryCache=DEFAULT_LIBRARY;
+
+async function updateLibraryProgress(){
+  await Promise.all(libraryCache.map(async entry=>{
+    try{
+      const response=await fetch(entry.data,{cache:'no-store'});
+      if(!response.ok) throw new Error('HTTP '+response.status);
+      const data=await response.json();
+      const total=Array.isArray(data)?data.length:0;
+      const saved=JSON.parse(localStorage.getItem('marvelProgress:'+entry.id)||'{}');
+      const done=(saved&&saved.done)||{};
+      const read=Array.isArray(data)?data.reduce((n,item)=>n+(done[item.id]?1:0),0):0;
+      const goal=Math.max(1,Number(saved&&saved.goal)||100);
+      const readPct=total?Math.round(read/total*100):0;
+      const goalPct=Math.min(100,Math.round(read/goal*100));
+      const readEl=document.querySelector(`[data-progress-read="${entry.id}"]`);
+      const goalEl=document.querySelector(`[data-progress-goal="${entry.id}"]`);
+      if(readEl) readEl.textContent=`${readPct}% read`;
+      if(goalEl) goalEl.textContent=`${goalPct}% of goal`;
+    }catch(err){
+      console.warn('Could not calculate progress for '+entry.id,err);
+    }
+  }));
+}
 
 function applyLibraryVisuals(entry){
   const body=$('appBody');
@@ -260,6 +287,10 @@ function renderLibrary(){
         <div class="hero-kind">${esc(x.kind)}</div>
         <div class="hero-name">${esc(x.name)}</div>
         <div class="hero-desc">${esc(x.description||'')}</div>
+        <div class="hero-progress">
+          <span data-progress-read="${esc(x.id)}">0% read</span>
+          <span data-progress-goal="${esc(x.id)}">0% of goal</span>
+        </div>
         <div class="hero-status ${x.id===activeLibrary?'ready':'soon'}">
           ${x.id===activeLibrary?'Currently selected':'Open checklist'}
         </div>
@@ -277,6 +308,7 @@ function renderLibrary(){
     state.status=state.status||{};
     state.goal=state.goal||100;
     renderLibrary();
+    updateLibraryProgress();
     loadLibrary(id);
     window.scrollTo({top:0,behavior:'smooth'});
   });
@@ -303,6 +335,7 @@ function loadLibrary(id){
 }
 
 renderLibrary();
+updateLibraryProgress();
 loadLibrary(activeLibrary);
 
 if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js').then(r=>r.update());
