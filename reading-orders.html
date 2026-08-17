@@ -1,7 +1,7 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#e21b2d"><title>Reading Orders | Comic Orders</title><style>
 :root{--bg:#080d19;--p:#111a2d;--p2:#17223a;--line:#293754;--text:#f7f8fc;--muted:#9aa8c2;--red:#e21b2d}
 *{box-sizing:border-box}body{margin:0;min-height:100vh;background:var(--bg);color:var(--text);font:15px system-ui,-apple-system,Segoe UI,sans-serif;position:relative}
-body::before{content:"";position:fixed;inset:-20px;z-index:-2;background-image:url("background.jpg");background-size:cover;background-position:center top;background-repeat:no-repeat;filter:blur(1px);transform:scale(1.03)}
+body::before{content:"";position:fixed;inset:-20px;z-index:-2;background-image:var(--library-bg);background-size:cover;background-position:center top;background-repeat:no-repeat;filter:blur(1px);transform:scale(1.03)}
 body::after{content:"";position:fixed;inset:0;z-index:-1;background:rgba(8,13,25,.58);pointer-events:none}
 .wrap{max-width:1100px;margin:auto;padding:22px 15px 55px;position:relative;z-index:1}
 .eyebrow{font-size:12px;font-weight:900;letter-spacing:.12em;color:#ff6875;text-transform:uppercase}
@@ -116,6 +116,15 @@ body::before{content:"";position:fixed;inset:-24px;z-index:-3;background-image:v
 .toast.show{opacity:1;transform:translate(-50%,0)}
 .toast b{display:block;font-size:18px}.toast span{display:block;color:var(--muted);font-size:12px;margin-top:3px}
 @media(max-width:650px){.home-grid,.progress-grid,.milestones-page-grid{grid-template-columns:1fr}.kpi{grid-template-columns:repeat(2,1fr)}}
+
+.order-hero{position:relative;overflow:hidden;border:1px solid var(--line);border-radius:20px;margin-bottom:16px;min-height:190px;background:#111a2d}
+.order-hero-bg{position:absolute;inset:0;background-size:cover;background-position:center 30%;filter:blur(2px);transform:scale(1.04);opacity:.62}
+.order-hero-shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(5,9,18,.92),rgba(5,9,18,.45))}
+.order-hero-content{position:relative;z-index:1;padding:24px;display:flex;align-items:center;gap:18px}
+.order-hero-thumb{width:150px;height:130px;border-radius:15px;overflow:hidden;flex:0 0 auto;border:1px solid rgba(255,255,255,.18)}
+.order-hero-thumb img{width:100%;height:100%;object-fit:cover;object-position:center 30%}
+@media(max-width:600px){.order-hero-content{align-items:flex-start}.order-hero-thumb{width:95px;height:95px}}
+
 </style></head><body id="appBody"><main class="wrap">
 <nav class="nav">
 <a href="index.html" class="">Home</a>
@@ -123,6 +132,14 @@ body::before{content:"";position:fixed;inset:-24px;z-index:-3;background-image:v
 <a href="progress.html" class="">📊 My Progress</a>
 <a href="milestones.html" class="">🏆 Milestones</a>
 </nav><header class="page-head"><div class="eyebrow">Comic Orders</div><h1 class="page-title">Reading Orders</h1><p class="page-subtitle">Choose a Marvel reading order, track every entry, filter the list, and open issue details.</p></header>
+<section class="order-hero" id="orderHero">
+<div class="order-hero-bg" id="orderHeroBg"></div>
+<div class="order-hero-shade"></div>
+<div class="order-hero-content">
+<div class="order-hero-thumb"><img id="orderHeroImg" alt=""></div>
+<div><div class="eyebrow" id="orderHeroKind">Reading Order</div><h2 id="orderHeroName" style="font-size:clamp(30px,6vw,48px);margin:5px 0"></h2><div class="small" id="orderHeroDesc"></div></div>
+</div>
+</section>
 <section class="card">
 <div class="kpi"><div class="stat"><div class="big" id="read">0</div><div class="small">READ</div></div><div class="stat"><div class="big" id="pct">0%</div><div class="small">COMPLETE</div></div><div class="stat"><div class="big" id="goalPct">0%</div><div class="small">OF GOAL</div></div><div class="stat"><div class="big" id="left">0</div><div class="small">TO GOAL</div></div></div>
 <div class="bar"><div class="fill" id="fill"></div></div><div class="small" id="summary"></div>
@@ -171,7 +188,15 @@ function status(x){return s.status[x.id]||'unread'}
 function filtered(){const q=$('search').value.toLowerCase();return data.filter(x=>{const st=status(x);return(!q||(x.name||'').toLowerCase().includes(q)||(x.note||'').toLowerCase().includes(q))&&(['category','decade','title','writer','artist','storyline'].every(k=>$(k).value==='all'||String(x[k]||'Unknown')===$(k).value))&&($('status').value==='all'||st===$('status').value)&&($('importance').value==='all'||x.statusType===$('importance').value)&&($('universe').value==='all'||x.universe===$('universe').value)})}
 function showIssue(x){const m=$('issueModal');const links=Array.isArray(x.readLinks)?x.readLinks.map(l=>`<a class="source-button" href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label)}</a>`).join(''):'';m.innerHTML=`<div class="modal-box"><button class="modal-close" onclick="closeIssue()">×</button><div class="eyebrow">Issue details</div><h2>${esc(x.name)}</h2><div class="modal-meta">${esc(x.title||'Unknown')}${x.decade?' • '+esc(x.decade):''}</div>${x.writer?`<p><b>Writer:</b> ${esc(x.writer)}</p>`:''}${x.artist?`<p><b>Artist:</b> ${esc(x.artist)}</p>`:''}${x.storyline?`<p><b>Storyline:</b> ${esc(x.storyline)}</p>`:''}<h3>Read / find this issue</h3><div class="source-buttons">${links}<a class="source-button" href="https://www.marvel.com/search?q=${encodeURIComponent(x.name)}" target="_blank" rel="noopener">Search Marvel</a><a class="source-button" href="https://www.marvel.com/unlimited/search?query=${encodeURIComponent(x.name)}" target="_blank" rel="noopener">Search Marvel Unlimited</a><a class="source-button alt" href="https://www.google.com/search?q=${encodeURIComponent(x.name+' comic')}" target="_blank" rel="noopener">Find other legitimate editions</a></div>${x.amazonUrl?`<div class="amazon-affiliate"><div class="amazon-affiliate-title">Buy / collect this issue</div><div class="source-buttons"><a class="source-button amazon-button" href="${esc(x.amazonUrl)}" target="_blank" rel="noopener sponsored">Amazon UK <span>(paid link)</span></a></div><div class="amazon-affiliate-note">As an Amazon Associate I earn from qualifying purchases.</div></div>`:''}${x.masterworks?`<div class="masterworks-box"><div class="masterworks-title">Collected in</div><div>${esc(x.masterworks.name)}</div><div class="source-buttons" style="margin-top:9px"><a class="source-button amazon-button" href="${esc(x.masterworks.amazonUrl)}" target="_blank" rel="noopener sponsored">Amazon UK <span>(paid link)</span></a></div></div>`:''}</div>`;m.classList.add('open')}
 function closeIssue(){$('issueModal').classList.remove('open')}
-async function load(){libId=libraryFromQuery();s=saved(libId);const lib=LIBRARIES.find(x=>x.id===libId)||LIBRARIES[0];$('library').innerHTML=LIBRARIES.map(x=>`<option value="${x.id}" ${x.id===lib.id?'selected':''}>${esc(x.name)}</option>`).join('');$('orderTitle').textContent=lib.name;data=await loadLibrary(lib);data.forEach(derive);['category','decade','title','writer','artist','storyline'].forEach(k=>fill(k,data.map(x=>x[k]),'All '+k.replace('storyline','storylines')));$('goal').value=s.goal;$('goalLabel').textContent=s.goal;render()}
+async function load(){libId=libraryFromQuery();s=saved(libId);const lib=LIBRARIES.find(x=>x.id===libId)||LIBRARIES[0];
+document.body.style.setProperty('--library-bg',`url("${lib.background}")`);
+$('orderHeroBg').style.backgroundImage=`url("${lib.background}")`;
+$('orderHeroImg').src=lib.image;
+$('orderHeroImg').alt=lib.name;
+$('orderHeroKind').textContent=lib.kind;
+$('orderHeroName').textContent=lib.name;
+$('orderHeroDesc').textContent=lib.description;
+$('library').innerHTML=LIBRARIES.map(x=>`<option value="${x.id}" ${x.id===lib.id?'selected':''}>${esc(x.name)}</option>`).join('');$('orderTitle').textContent=lib.name;data=await loadLibrary(lib);data.forEach(derive);['category','decade','title','writer','artist','storyline'].forEach(k=>fill(k,data.map(x=>x[k]),'All '+k.replace('storyline','storylines')));$('goal').value=s.goal;$('goalLabel').textContent=s.goal;render()}
 function render(){const a=filtered();if($('sort').value==='alpha')a.sort((x,y)=>x.name.localeCompare(y.name));const p=progressFor(data,s);$('read').textContent=p.read.toLocaleString();$('pct').textContent=p.pct+'%';$('goalPct').textContent=p.goalPct+'%';$('left').textContent=Math.max(0,s.goal-p.read).toLocaleString();$('fill').style.width=p.pct+'%';$('summary').textContent=`${p.read.toLocaleString()} read • ${p.total.toLocaleString()} total entries`;$('count').textContent=`Showing ${a.length.toLocaleString()} of ${data.length.toLocaleString()}`;$('list').innerHTML=a.map(x=>{const done=!!s.done[x.id];return `<div class="issue ${done?'done':''}" data-id="${esc(x.id)}"><input class="issue-checkbox" type="checkbox" ${done?'checked':''}><span class="spider-check"></span><div class="issue-info"><div class="name">${esc(x.name)}</div><div class="meta">${esc(x.title)} • ${esc(x.decade)} • ${esc(status(x))} • ${esc(x.statusType)}</div>${x.storyline?`<div class="meta">Storyline: ${esc(x.storyline)}</div>`:''}</div></div>`}).join('')||'<div class="empty">Nothing matches these filters.</div>';document.querySelectorAll('[data-id]').forEach(row=>{const cb=row.querySelector('input');row.onclick=e=>{if(e.target===cb||e.target.classList.contains('spider-check'))return;showIssue(data.find(x=>x.id===row.dataset.id))};row.querySelector('.spider-check').onclick=e=>{e.stopPropagation();cb.checked=!cb.checked;toggle(cb)};cb.onchange=()=>toggle(cb)});$('goal').value=s.goal;$('goalLabel').textContent=s.goal}
 function toggle(cb){const before=currentMilestones(readCount(data,s),data,s).map(x=>x.id);s.done[data.find(x=>x.id===cb.closest('[data-id]').dataset.id).id]=cb.checked;s.status[cb.closest('[data-id]').dataset.id]=cb.checked?'read':'unread';save(libId,s);render();const after=currentMilestones(readCount(data,s),data,s).map(x=>x.id);const fresh=MILESTONES.filter(m=>after.includes(m.id)&&!before.includes(m.id));fresh.forEach(m=>showToast(m.icon+' '+m.name,m.desc))}
 ['search','sort','category','decade','title','writer','artist','storyline','status','importance','universe'].forEach(id=>$(id).oninput=$(id).onchange=render);

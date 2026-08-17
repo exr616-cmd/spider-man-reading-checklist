@@ -1,7 +1,7 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#e21b2d"><title>Your Marvel Reading Journey | Comic Orders</title><style>
 :root{--bg:#080d19;--p:#111a2d;--p2:#17223a;--line:#293754;--text:#f7f8fc;--muted:#9aa8c2;--red:#e21b2d}
 *{box-sizing:border-box}body{margin:0;min-height:100vh;background:var(--bg);color:var(--text);font:15px system-ui,-apple-system,Segoe UI,sans-serif;position:relative}
-body::before{content:"";position:fixed;inset:-20px;z-index:-2;background-image:url("background.jpg");background-size:cover;background-position:center top;background-repeat:no-repeat;filter:blur(1px);transform:scale(1.03)}
+body::before{content:"";position:fixed;inset:-20px;z-index:-2;background-image:var(--library-bg);background-size:cover;background-position:center top;background-repeat:no-repeat;filter:blur(1px);transform:scale(1.03)}
 body::after{content:"";position:fixed;inset:0;z-index:-1;background:rgba(8,13,25,.58);pointer-events:none}
 .wrap{max-width:1100px;margin:auto;padding:22px 15px 55px;position:relative;z-index:1}
 .eyebrow{font-size:12px;font-weight:900;letter-spacing:.12em;color:#ff6875;text-transform:uppercase}
@@ -116,6 +116,10 @@ body::before{content:"";position:fixed;inset:-24px;z-index:-3;background-image:v
 .toast.show{opacity:1;transform:translate(-50%,0)}
 .toast b{display:block;font-size:18px}.toast span{display:block;color:var(--muted);font-size:12px;margin-top:3px}
 @media(max-width:650px){.home-grid,.progress-grid,.milestones-page-grid{grid-template-columns:1fr}.kpi{grid-template-columns:repeat(2,1fr)}}
+
+body::before{content:"";position:fixed;inset:-24px;z-index:-3;background-image:var(--library-bg,url("spider-man.jpg"));background-size:cover;background-position:center 30%;background-repeat:no-repeat;filter:blur(2px);transform:scale(1.04);opacity:.82}
+body::after{content:"";position:fixed;inset:0;z-index:-2;background:linear-gradient(rgba(5,9,18,.68),rgba(5,9,18,.84));pointer-events:none}
+.order-image img{object-position:center 32%}
 </style></head><body id="appBody"><main class="wrap">
 <nav class="nav">
 <a href="index.html" class="active">Home</a>
@@ -156,6 +160,8 @@ function showToast(name,text){const t=$('toast');if(!t)return;t.innerHTML='<b>'+
 </script>
 <script>
 async function renderHome(){
+ const initial=LIBRARIES.find(x=>x.id===activeId)||LIBRARIES[0];
+ document.body.style.setProperty('--library-bg', `url("${initial.background}")`);
  const rows=await allProgress();
  $('libraryGrid').innerHTML=rows.map(r=>`<a class="order-card" href="reading-orders.html?library=${encodeURIComponent(r.id)}"><div class="order-image"><img src="${esc(r.image)}" alt="${esc(r.name)}" onerror="this.style.display='none'"></div><div class="order-body"><div class="order-kind">${esc(r.kind)}</div><div class="order-name">${esc(r.name)}</div><div class="order-desc">${esc(r.description)}</div><div class="pills"><span class="pill">${r.p.read.toLocaleString()} read</span><span class="pill">${r.p.pct}% complete</span><span class="pill">${r.p.goalPct}% of goal</span></div></div></a>`).join('');
  $('continueGrid').innerHTML=rows.map(r=>r.p.next?`<div class="order-card"><div class="order-body"><div class="order-kind">${esc(r.name)}</div><div class="order-name">Next: ${esc(r.p.next.name)}</div><div class="order-desc">${r.p.read.toLocaleString()} / ${r.p.total.toLocaleString()} read • ${r.p.pct}% complete</div><div class="quick"><a class="primary" href="reading-orders.html?library=${encodeURIComponent(r.id)}&issue=${encodeURIComponent(r.p.next.id)}">Continue</a></div></div></div>`:`<div class="order-card"><div class="order-body"><div class="order-kind">${esc(r.name)}</div><div class="order-name">Complete ✓</div><div class="order-desc">${r.p.total.toLocaleString()} / ${r.p.total.toLocaleString()} read</div></div></div>`).join('');
@@ -166,6 +172,10 @@ async function renderHome(){
  }).slice(0,4);
  $('milestonePreview').innerHTML=previews.join('');
 }
+document.addEventListener('click',e=>{
+ const card=e.target.closest('.order-card[href*="library="]');
+ if(card){const id=new URL(card.href).searchParams.get('library');const lib=LIBRARIES.find(x=>x.id===id);if(lib)document.body.style.setProperty('--library-bg',`url("${lib.background}")`);}
+});
 renderHome();
 </script>
 </body></html>
