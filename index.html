@@ -69,6 +69,11 @@ body::before{content:"";position:fixed;inset:-24px;z-index:-3;background-image:v
 .amazon-affiliate-note{font-size:11px;color:var(--muted);margin-top:8px;line-height:1.45}
 .amazon-button{background:#ffb000;color:#111}
 
+
+.masterworks-box{margin-top:18px;padding:14px;border:1px solid rgba(113,128,156,.25);border-radius:14px;background:#111a2d}
+.masterworks-title{font-weight:900;margin-bottom:6px}
+.masterworks-note{font-size:11px;color:var(--muted);margin-top:7px;line-height:1.45}
+
 </style>
 </head>
 <body id="appBody">
@@ -184,6 +189,15 @@ function showIssueDetails(issue){
      <a class="source-button amazon-button" href="${esc(issue.amazonUrl)}" target="_blank" rel="noopener sponsored">Amazon UK <span>(paid link)</span></a>
    </div>
    <div class="amazon-affiliate-note">As an Amazon Associate I earn from qualifying purchases.</div>
+ </div>` : ''}
+ ${issue.masterworks ? `
+ <div class="masterworks-box">
+   <div class="masterworks-title">Collected in</div>
+   <div>${esc(issue.masterworks.name)}</div>
+   <div class="source-buttons" style="margin-top:9px">
+     <a class="source-button amazon-button" href="${esc(issue.masterworks.amazonUrl)}" target="_blank" rel="noopener sponsored">Amazon UK <span>(paid link)</span></a>
+   </div>
+   <div class="masterworks-note">This collection includes this issue as part of the early Amazing Spider-Man run.</div>
  </div>` : ''}
  </div>`;
  modal.classList.add('open');modal.setAttribute('aria-hidden','false');

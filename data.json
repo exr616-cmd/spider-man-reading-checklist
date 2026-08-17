@@ -10,7 +10,13 @@
     "storyline": "",
     "statusType": "essential",
     "universe": "main",
-    "amazonUrl": "https://amzn.eu/d/03Qax72z"
+    "amazonUrl": "https://amzn.eu/d/03Qax72z",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 1 — With Great Power…",
+      "amazonUrl": "https://amzn.eu/d/0civQ63S",
+      "volume": 1
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/0civQ63S"
   },
   {
     "id": "sp-0002",
@@ -34,7 +40,13 @@
     "artist": "Steve Ditko",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 1 — With Great Power…",
+      "amazonUrl": "https://amzn.eu/d/0civQ63S",
+      "volume": 1
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/0civQ63S"
   },
   {
     "id": "sp-0004",
@@ -46,7 +58,13 @@
     "artist": "Steve Ditko",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 1 — With Great Power…",
+      "amazonUrl": "https://amzn.eu/d/0civQ63S",
+      "volume": 1
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/0civQ63S"
   },
   {
     "id": "sp-0005",
@@ -58,7 +76,13 @@
     "artist": "Steve Ditko",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 1 — With Great Power…",
+      "amazonUrl": "https://amzn.eu/d/0civQ63S",
+      "volume": 1
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/0civQ63S"
   },
   {
     "id": "sp-0006",
@@ -70,7 +94,13 @@
     "artist": "Steve Ditko",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 1 — With Great Power…",
+      "amazonUrl": "https://amzn.eu/d/0civQ63S",
+      "volume": 1
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/0civQ63S"
   },
   {
     "id": "sp-0007",
@@ -82,7 +112,13 @@
     "artist": "Steve Ditko",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 1 — With Great Power…",
+      "amazonUrl": "https://amzn.eu/d/0civQ63S",
+      "volume": 1
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/0civQ63S"
   },
   {
     "id": "sp-0008",
@@ -94,7 +130,13 @@
     "artist": "Steve Ditko",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 1 — With Great Power…",
+      "amazonUrl": "https://amzn.eu/d/0civQ63S",
+      "volume": 1
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/0civQ63S"
   },
   {
     "id": "sp-0009",
@@ -130,7 +172,13 @@
     "artist": "Steve Ditko",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 1 — With Great Power…",
+      "amazonUrl": "https://amzn.eu/d/0civQ63S",
+      "volume": 1
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/0civQ63S"
   },
   {
     "id": "sp-0012",
@@ -166,7 +214,13 @@
     "artist": "Steve Ditko",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 1 — With Great Power…",
+      "amazonUrl": "https://amzn.eu/d/0civQ63S",
+      "volume": 1
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/0civQ63S"
   },
   {
     "id": "sp-0015",
@@ -190,7 +244,13 @@
     "artist": "Steve Ditko",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 1 — With Great Power…",
+      "amazonUrl": "https://amzn.eu/d/0civQ63S",
+      "volume": 1
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/0civQ63S"
   },
   {
     "id": "sp-0017",
@@ -226,7 +286,13 @@
     "artist": "Steve Ditko",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 1 — With Great Power…",
+      "amazonUrl": "https://amzn.eu/d/0civQ63S",
+      "volume": 1
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/0civQ63S"
   },
   {
     "id": "sp-0020",
@@ -262,7 +328,13 @@
     "artist": "Steve Ditko",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 2 — The Sinister Six",
+      "amazonUrl": "https://amzn.eu/d/01UAksUR",
+      "volume": 2
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/01UAksUR"
   },
   {
     "id": "sp-0023",
@@ -286,7 +358,13 @@
     "artist": "Steve Ditko",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 2 — The Sinister Six",
+      "amazonUrl": "https://amzn.eu/d/01UAksUR",
+      "volume": 2
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/01UAksUR"
   },
   {
     "id": "sp-0025",
@@ -334,7 +412,13 @@
     "artist": "Steve Ditko",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 2 — The Sinister Six",
+      "amazonUrl": "https://amzn.eu/d/01UAksUR",
+      "volume": 2
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/01UAksUR"
   },
   {
     "id": "sp-0029",
@@ -358,7 +442,13 @@
     "artist": "Steve Ditko",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 2 — The Sinister Six",
+      "amazonUrl": "https://amzn.eu/d/01UAksUR",
+      "volume": 2
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/01UAksUR"
   },
   {
     "id": "sp-0031",
@@ -394,7 +484,13 @@
     "artist": "Steve Ditko",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 2 — The Sinister Six",
+      "amazonUrl": "https://amzn.eu/d/01UAksUR",
+      "volume": 2
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/01UAksUR"
   },
   {
     "id": "sp-0034",
@@ -406,7 +502,13 @@
     "artist": "Steve Ditko",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 2 — The Sinister Six",
+      "amazonUrl": "https://amzn.eu/d/01UAksUR",
+      "volume": 2
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/01UAksUR"
   },
   {
     "id": "sp-0035",
@@ -430,7 +532,13 @@
     "artist": "Steve Ditko",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 2 — The Sinister Six",
+      "amazonUrl": "https://amzn.eu/d/01UAksUR",
+      "volume": 2
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/01UAksUR"
   },
   {
     "id": "sp-0037",
@@ -466,7 +574,13 @@
     "artist": "Steve Ditko",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 2 — The Sinister Six",
+      "amazonUrl": "https://amzn.eu/d/01UAksUR",
+      "volume": 2
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/01UAksUR"
   },
   {
     "id": "sp-0040",
@@ -502,7 +616,13 @@
     "artist": "Steve Ditko",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 2 — The Sinister Six",
+      "amazonUrl": "https://amzn.eu/d/01UAksUR",
+      "volume": 2
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/01UAksUR"
   },
   {
     "id": "sp-0043",
@@ -526,7 +646,13 @@
     "artist": "Steve Ditko",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 2 — The Sinister Six",
+      "amazonUrl": "https://amzn.eu/d/01UAksUR",
+      "volume": 2
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/01UAksUR"
   },
   {
     "id": "sp-0045",
@@ -538,7 +664,13 @@
     "artist": "Steve Ditko",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 3 — The Goblin and the Gangsters",
+      "amazonUrl": "https://amzn.eu/d/0bQUkSdm",
+      "volume": 3
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/0bQUkSdm"
   },
   {
     "id": "sp-0046",
@@ -562,7 +694,13 @@
     "artist": "Steve Ditko",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 3 — The Goblin and the Gangsters",
+      "amazonUrl": "https://amzn.eu/d/0bQUkSdm",
+      "volume": 3
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/0bQUkSdm"
   },
   {
     "id": "sp-0048",
@@ -574,7 +712,13 @@
     "artist": "Steve Ditko",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 3 — The Goblin and the Gangsters",
+      "amazonUrl": "https://amzn.eu/d/0bQUkSdm",
+      "volume": 3
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/0bQUkSdm"
   },
   {
     "id": "sp-0049",
@@ -598,7 +742,13 @@
     "artist": "Steve Ditko",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 3 — The Goblin and the Gangsters",
+      "amazonUrl": "https://amzn.eu/d/0bQUkSdm",
+      "volume": 3
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/0bQUkSdm"
   },
   {
     "id": "sp-0051",
@@ -622,7 +772,13 @@
     "artist": "Steve Ditko",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 3 — The Goblin and the Gangsters",
+      "amazonUrl": "https://amzn.eu/d/0bQUkSdm",
+      "volume": 3
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/0bQUkSdm"
   },
   {
     "id": "sp-0053",
@@ -634,7 +790,13 @@
     "artist": "Steve Ditko",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 3 — The Goblin and the Gangsters",
+      "amazonUrl": "https://amzn.eu/d/0bQUkSdm",
+      "volume": 3
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/0bQUkSdm"
   },
   {
     "id": "sp-0054",
@@ -646,7 +808,13 @@
     "artist": "Steve Ditko",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 3 — The Goblin and the Gangsters",
+      "amazonUrl": "https://amzn.eu/d/0bQUkSdm",
+      "volume": 3
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/0bQUkSdm"
   },
   {
     "id": "sp-0055",
@@ -658,7 +826,13 @@
     "artist": "Steve Ditko",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 3 — The Goblin and the Gangsters",
+      "amazonUrl": "https://amzn.eu/d/0bQUkSdm",
+      "volume": 3
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/0bQUkSdm"
   },
   {
     "id": "sp-0056",
@@ -670,7 +844,13 @@
     "artist": "Steve Ditko",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 3 — The Goblin and the Gangsters",
+      "amazonUrl": "https://amzn.eu/d/0bQUkSdm",
+      "volume": 3
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/0bQUkSdm"
   },
   {
     "id": "sp-0057",
@@ -682,7 +862,13 @@
     "artist": "Steve Ditko",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 4 — The Master Planner",
+      "amazonUrl": "https://amzn.eu/d/05XT18UU",
+      "volume": 4
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/05XT18UU"
   },
   {
     "id": "sp-0058",
@@ -694,7 +880,13 @@
     "artist": "Steve Ditko",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 4 — The Master Planner",
+      "amazonUrl": "https://amzn.eu/d/05XT18UU",
+      "volume": 4
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/05XT18UU"
   },
   {
     "id": "sp-0059",
@@ -706,7 +898,13 @@
     "artist": "Steve Ditko",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 4 — The Master Planner",
+      "amazonUrl": "https://amzn.eu/d/05XT18UU",
+      "volume": 4
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/05XT18UU"
   },
   {
     "id": "sp-0060",
@@ -718,7 +916,13 @@
     "artist": "Steve Ditko",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 4 — The Master Planner",
+      "amazonUrl": "https://amzn.eu/d/05XT18UU",
+      "volume": 4
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/05XT18UU"
   },
   {
     "id": "sp-0061",
@@ -730,7 +934,13 @@
     "artist": "Steve Ditko",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 4 — The Master Planner",
+      "amazonUrl": "https://amzn.eu/d/05XT18UU",
+      "volume": 4
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/05XT18UU"
   },
   {
     "id": "sp-0062",
@@ -742,7 +952,13 @@
     "artist": "Steve Ditko",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 4 — The Master Planner",
+      "amazonUrl": "https://amzn.eu/d/05XT18UU",
+      "volume": 4
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/05XT18UU"
   },
   {
     "id": "sp-0063",
@@ -754,7 +970,13 @@
     "artist": "Steve Ditko",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 4 — The Master Planner",
+      "amazonUrl": "https://amzn.eu/d/05XT18UU",
+      "volume": 4
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/05XT18UU"
   },
   {
     "id": "sp-0064",
@@ -766,7 +988,13 @@
     "artist": "Steve Ditko",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 4 — The Master Planner",
+      "amazonUrl": "https://amzn.eu/d/05XT18UU",
+      "volume": 4
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/05XT18UU"
   },
   {
     "id": "sp-0065",
@@ -778,7 +1006,13 @@
     "artist": "Steve Ditko",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 4 — The Master Planner",
+      "amazonUrl": "https://amzn.eu/d/05XT18UU",
+      "volume": 4
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/05XT18UU"
   },
   {
     "id": "sp-0066",
@@ -790,7 +1024,13 @@
     "artist": "Steve Ditko",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 4 — The Master Planner",
+      "amazonUrl": "https://amzn.eu/d/05XT18UU",
+      "volume": 4
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/05XT18UU"
   },
   {
     "id": "sp-0067",
@@ -802,7 +1042,13 @@
     "artist": "John Romita Sr.",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 5 — To Become an Avenger",
+      "amazonUrl": "https://amzn.eu/d/01b9v6M0",
+      "volume": 5
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/01b9v6M0"
   },
   {
     "id": "sp-0068",
@@ -814,7 +1060,13 @@
     "artist": "John Romita Sr.",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 5 — To Become an Avenger",
+      "amazonUrl": "https://amzn.eu/d/01b9v6M0",
+      "volume": 5
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/01b9v6M0"
   },
   {
     "id": "sp-0069",
@@ -826,7 +1078,13 @@
     "artist": "John Romita Sr.",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 5 — To Become an Avenger",
+      "amazonUrl": "https://amzn.eu/d/01b9v6M0",
+      "volume": 5
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/01b9v6M0"
   },
   {
     "id": "sp-0070",
@@ -838,7 +1096,13 @@
     "artist": "John Romita Sr.",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 5 — To Become an Avenger",
+      "amazonUrl": "https://amzn.eu/d/01b9v6M0",
+      "volume": 5
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/01b9v6M0"
   },
   {
     "id": "sp-0071",
@@ -850,7 +1114,13 @@
     "artist": "John Romita Sr.",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 5 — To Become an Avenger",
+      "amazonUrl": "https://amzn.eu/d/01b9v6M0",
+      "volume": 5
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/01b9v6M0"
   },
   {
     "id": "sp-0072",
@@ -862,7 +1132,13 @@
     "artist": "John Romita Sr.",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 5 — To Become an Avenger",
+      "amazonUrl": "https://amzn.eu/d/01b9v6M0",
+      "volume": 5
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/01b9v6M0"
   },
   {
     "id": "sp-0073",
@@ -874,7 +1150,13 @@
     "artist": "John Romita Sr.",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 5 — To Become an Avenger",
+      "amazonUrl": "https://amzn.eu/d/01b9v6M0",
+      "volume": 5
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/01b9v6M0"
   },
   {
     "id": "sp-0074",
@@ -886,7 +1168,13 @@
     "artist": "John Romita Sr.",
     "storyline": "",
     "statusType": "essential",
-    "universe": "main"
+    "universe": "main",
+    "masterworks": {
+      "name": "Mighty Marvel Masterworks: The Amazing Spider-Man Vol. 5 — To Become an Avenger",
+      "amazonUrl": "https://amzn.eu/d/01b9v6M0",
+      "volume": 5
+    },
+    "masterworksAmazonUrl": "https://amzn.eu/d/01b9v6M0"
   },
   {
     "id": "sp-0075",
