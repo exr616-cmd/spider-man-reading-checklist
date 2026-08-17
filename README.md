@@ -55,3 +55,18 @@ The workflow prints the number of issues imported and requires at least:
 - Avengers: 100
 - Fantastic Four: 50
 - Daredevil: 50
+
+
+## v13
+Separate library backgrounds and thumbnails. The selected library changes the page background; only the selected card is highlighted.
+
+## v14 image fix
+
+The library cards now use an embedded fallback configuration with the exact filenames already uploaded to the repository:
+- images/spider-man.jpg
+- images/x-men.jpeg
+- images/avengers.jpg
+- images/fantastic-four.jpg
+- images/daredevil.webp
+
+This means the cards render even if `library.json` is stale or temporarily unavailable. The service worker cache is also bumped and updated on page load.

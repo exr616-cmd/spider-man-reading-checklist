@@ -228,57 +228,64 @@ $('clearFilters').onclick=()=>{filterIds.forEach(id=>$(id).value='all');$('searc
 $('clear').onclick=()=>{if(confirm('Clear all checked issues and statuses?')){state.done={};state.status={};save();render()}};
 $('next').onclick=()=>{const x=items.find(i=>!state.done[i.id]);if(!x)return;state.status[x.id]='reading';save();$('search').value=x.name;filterIds.forEach(id=>$(id).value='all');render();setTimeout(()=>document.querySelector(`[data-issue="${x.id}"]`)?.scrollIntoView({behavior:'smooth',block:'center'}),60)};
 
-function applyLibraryVisuals(entry){
-  const body=document.getElementById('appBody');
-  if(body) body.style.setProperty('--library-bg', entry.background ? `url("${entry.background}")` : 'none');
-}
-function renderLibrary(){
-  fetch('library.json').then(r=>{
-    if(!r.ok) throw new Error('Could not load library.json ('+r.status+')');
-    return r.json();
-  }).then(lib=>{
-    const active=lib.find(x=>x.id===activeLibrary); if(active) applyLibraryVisuals(active);
-    $('libraryGrid').innerHTML=lib.map(x=>`
-      <button class="hero-card ${x.id===activeLibrary?'active':''}" type="button" data-library="${esc(x.id)}">
-        <div class="hero-image">
-          ${x.image
-            ? `<img src="${esc(x.image)}" alt="${esc(x.name)}" loading="lazy" onerror="this.parentElement.classList.add('image-missing');this.remove()">`
-            : ''}
-          <div class="hero-image-fallback">${esc(x.name)}</div>
-          <div class="hero-image-shade"></div>
-        </div>
-        <div class="hero-card-content">
-          <div class="hero-kind">${esc(x.kind)}</div>
-          <div class="hero-name">${esc(x.name)}</div>
-          <div class="hero-desc">${esc(x.description||'')}</div>
-          <div class="hero-status ${x.id===activeLibrary?'ready':'soon'}">
-            ${x.id===activeLibrary?'Currently selected':x.ready?'Open checklist':'Starter import'}
-          </div>
-        </div>
-      </button>
-    `).join('');
+const DEFAULT_LIBRARY=[
+  {id:'spider-man',name:'Spider-Man',kind:'Hero',ready:true,data:'data.json',image:'images/spider-man.jpg',background:'backgrounds/spider-man.jpg',description:'Spider-Man reading checklist.'},
+  {id:'x-men',name:'X-Men',kind:'Team',ready:true,data:'x-men.json',image:'images/x-men.jpeg',background:'backgrounds/x-men.jpeg',description:'X-Men reading checklist.'},
+  {id:'avengers',name:'Avengers',kind:'Team',ready:true,data:'avengers.json',image:'images/avengers.jpg',background:'backgrounds/avengers.jpg',description:'Avengers reading checklist.'},
+  {id:'fantastic-four',name:'Fantastic Four',kind:'Team',ready:true,data:'fantastic-four.json',image:'images/fantastic-four.jpg',background:'backgrounds/fantastic-four.jpg',description:'Fantastic Four reading checklist.'},
+  {id:'daredevil',name:'Daredevil',kind:'Hero',ready:true,data:'daredevil.json',image:'images/daredevil.webp',background:'backgrounds/daredevil.webp',description:'Daredevil reading checklist.'}
+];
 
-    document.querySelectorAll('[data-library]').forEach(btn=>btn.onclick=()=>{
-      const id=btn.dataset.library;
-      if(id===activeLibrary)return;
-      activeLibrary=id;
-      const selected=lib.find(x=>x.id===id); if(selected) applyLibraryVisuals(selected);
-      localStorage.setItem('activeMarvelLibrary',activeLibrary);
-      state=JSON.parse(localStorage.getItem('marvelProgress:'+activeLibrary)||'{}');
-      state.done=state.done||{};
-      state.status=state.status||{};
-      state.goal=state.goal||100;
-      loadLibrary(id);
-    });
-  }).catch(err=>{
-    $('libraryGrid').innerHTML='<div class="empty">Could not load the Marvel library. Please refresh the page.</div>';
-    console.error(err);
+let libraryCache=DEFAULT_LIBRARY;
+
+function applyLibraryVisuals(entry){
+  const body=$('appBody');
+  if(body) body.style.setProperty('--library-bg',entry.background ? `url("${entry.background}")` : 'none');
+}
+
+function renderLibrary(){
+  const lib=libraryCache;
+  const active=lib.find(x=>x.id===activeLibrary)||lib[0];
+  applyLibraryVisuals(active);
+
+  $('libraryGrid').innerHTML=lib.map(x=>`
+    <button class="hero-card ${x.id===activeLibrary?'active':''}" type="button" data-library="${esc(x.id)}">
+      <div class="hero-image">
+        <img src="${esc(x.image)}" alt="${esc(x.name)}" loading="lazy"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <div class="hero-image-fallback" style="display:none">${esc(x.name)}</div>
+        <div class="hero-image-shade"></div>
+      </div>
+      <div class="hero-card-content">
+        <div class="hero-kind">${esc(x.kind)}</div>
+        <div class="hero-name">${esc(x.name)}</div>
+        <div class="hero-desc">${esc(x.description||'')}</div>
+        <div class="hero-status ${x.id===activeLibrary?'ready':'soon'}">
+          ${x.id===activeLibrary?'Currently selected':'Open checklist'}
+        </div>
+      </div>
+    </button>
+  `).join('');
+
+  document.querySelectorAll('[data-library]').forEach(btn=>btn.onclick=()=>{
+    const id=btn.dataset.library;
+    if(id===activeLibrary)return;
+    activeLibrary=id;
+    localStorage.setItem('activeMarvelLibrary',activeLibrary);
+    state=JSON.parse(localStorage.getItem('marvelProgress:'+activeLibrary)||'{}');
+    state.done=state.done||{};
+    state.status=state.status||{};
+    state.goal=state.goal||100;
+    renderLibrary();
+    loadLibrary(id);
+    window.scrollTo({top:0,behavior:'smooth'});
   });
 }
 
 function loadLibrary(id){
-  const file=id==='spider-man'?'data.json':id+'.json';
-  fetch(file).then(r=>{
+  const entry=libraryCache.find(x=>x.id===id)||DEFAULT_LIBRARY[0];
+  const file=entry.data;
+  fetch(file,{cache:'no-store'}).then(r=>{
     if(!r.ok) throw new Error('Could not load '+file+' ('+r.status+')');
     return r.json();
   }).then(d=>{
@@ -296,6 +303,7 @@ function loadLibrary(id){
 }
 
 renderLibrary();
+loadLibrary(activeLibrary);
 
 if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js').then(r=>r.update());
 </script>
