@@ -229,11 +229,11 @@ $('clear').onclick=()=>{if(confirm('Clear all checked issues and statuses?')){st
 $('next').onclick=()=>{const x=items.find(i=>!state.done[i.id]);if(!x)return;state.status[x.id]='reading';save();$('search').value=x.name;filterIds.forEach(id=>$(id).value='all');render();setTimeout(()=>document.querySelector(`[data-issue="${x.id}"]`)?.scrollIntoView({behavior:'smooth',block:'center'}),60)};
 
 const DEFAULT_LIBRARY=[
-  {id:'spider-man',name:'Spider-Man',kind:'Hero',ready:true,data:'data.json',image:'images/spider-man.jpg',background:'spider-man.jpg',description:'Spider-Man reading checklist.'},
-  {id:'x-men',name:'X-Men',kind:'Team',ready:true,data:'x-men.json',image:'images/x-men.jpeg',background:'x-men.jpeg',description:'X-Men reading checklist.'},
-  {id:'avengers',name:'Avengers',kind:'Team',ready:true,data:'avengers.json',image:'images/avengers.jpg',background:'avengers.jpg',description:'Avengers reading checklist.'},
-  {id:'fantastic-four',name:'Fantastic Four',kind:'Team',ready:true,data:'fantastic-four.json',image:'images/fantastic-four.jpg',background:'fantastic-four.jpg',description:'Fantastic Four reading checklist.'},
-  {id:'daredevil',name:'Daredevil',kind:'Hero',ready:true,data:'daredevil.json',image:'images/daredevil.webp',background:'daredevil.webp',description:'Daredevil reading checklist.'}
+  {id:'spider-man',name:'Spider-Man',kind:'Hero',ready:true,data:'data.json',image:'spider-man.jpg',background:'spider-man.jpg',description:'Spider-Man reading checklist.'},
+  {id:'x-men',name:'X-Men',kind:'Team',ready:true,data:'x-men.json',image:'x-men.jpeg',background:'x-men.jpeg',description:'X-Men reading checklist.'},
+  {id:'avengers',name:'Avengers',kind:'Team',ready:true,data:'avengers.json',image:'avengers.jpg',background:'avengers.jpg',description:'Avengers reading checklist.'},
+  {id:'fantastic-four',name:'Fantastic Four',kind:'Team',ready:true,data:'fantastic-four.json',image:'fantastic-four.jpg',background:'fantastic-four.jpg',description:'Fantastic Four reading checklist.'},
+  {id:'daredevil',name:'Daredevil',kind:'Hero',ready:true,data:'daredevil.json',image:'daredevil.webp',background:'daredevil.webp',description:'Daredevil reading checklist.'}
 ];
 
 let libraryCache=DEFAULT_LIBRARY;
