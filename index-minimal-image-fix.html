@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#e21b2d">
+<link rel="manifest" href="manifest.json">
+<title>Marvel Reading Tracker</title>
+<style>
+:root{--bg:#080d19;--p:#111a2d;--p2:#17223a;--line:#293754;--text:#f7f8fc;--muted:#9aa8c2;--red:#e21b2d}
+*{box-sizing:border-box}body{margin:0;min-height:100vh;background:var(--bg);color:var(--text);font:15px system-ui,-apple-system,Segoe UI,sans-serif;position:relative}
+body::before{content:"";position:fixed;inset:-20px;z-index:-2;background-image:url("background.jpg");background-size:cover;background-position:center top;background-repeat:no-repeat;filter:blur(1px);transform:scale(1.03)}
+body::after{content:"";position:fixed;inset:0;z-index:-1;background:rgba(8,13,25,.58);pointer-events:none}
+.wrap{max-width:1100px;margin:auto;padding:22px 15px 55px;position:relative;z-index:1}
+.eyebrow{font-size:12px;font-weight:900;letter-spacing:.12em;color:#ff6875;text-transform:uppercase}
+.title{font-size:clamp(34px,7vw,60px);font-weight:950;line-height:.94;margin:8px 0}
+.muted,.small{color:var(--muted)}.small{font-size:12px}
+.card{background:#111a2df2;border:1px solid var(--line);border-radius:18px;padding:16px;margin-top:14px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:9px}.stat{background:var(--p2);padding:12px;border-radius:13px}.big{font-size:25px;font-weight:900}
+.bar{height:13px;background:#090f1c;border:1px solid var(--line);border-radius:99px;overflow:hidden;margin:13px 0 7px}.fill{height:100%;width:0;background:linear-gradient(90deg,var(--red),#ff6571);transition:.2s}
+.controls{display:grid;grid-template-columns:1fr 150px 150px;gap:8px}.input,.select,.btn{border:1px solid var(--line);background:#0c1425;color:var(--text);border-radius:11px;padding:10px;font:inherit}.input{width:100%}.btn{cursor:pointer;font-weight:800}.primary{background:var(--red);border-color:var(--red)}
+.filter-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:10px}.filter label{display:block;font-size:11px;color:var(--muted);font-weight:800;margin-bottom:5px;text-transform:uppercase;letter-spacing:.06em}
+.toolbar{display:flex;gap:7px;flex-wrap:wrap;margin-top:10px}.chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}.chip{border:1px solid var(--line);background:#0c1425;color:#dfe5f1;border-radius:99px;padding:6px 9px;font-size:12px}
+.list{display:flex;flex-direction:column;gap:6px;margin-top:10px}.issue{display:flex;align-items:center;gap:10px;padding:10px 11px;background:#0d1527;border:1px solid transparent;border-radius:11px}.issue:hover{border-color:var(--line)}.issue.done{opacity:.52}.issue.done .name{text-decoration:line-through}.issue input{width:19px;height:19px;accent-color:var(--red);margin-top:2px}.issue-info{flex:1;min-width:0;cursor:pointer}.name{font-weight:700}.meta{font-size:11px;color:var(--muted);margin-top:3px}
+.empty{text-align:center;padding:30px;color:var(--muted)}
+.modal{display:none;position:fixed;inset:0;z-index:1000;background:rgba(0,0,0,.78);padding:20px;overflow-y:auto}.modal.open{display:flex;align-items:center;justify-content:center}
+.modal-box{position:relative;width:min(620px,100%);max-height:90vh;overflow-y:auto;background:#111a2d;border:1px solid var(--line);border-radius:20px;padding:24px;box-shadow:0 25px 80px rgba(0,0,0,.6)}
+.modal-box h2{font-size:30px;margin:8px 40px 8px 0}.modal-box h3{margin-top:24px}.modal-meta{color:var(--muted);font-size:13px}
+.modal-close{position:absolute;top:12px;right:12px;width:36px;height:36px;border:0;border-radius:50%;background:#17223a;color:white;font-size:25px;cursor:pointer}
+.source-buttons{display:flex;flex-wrap:wrap;gap:8px}.source-button{display:inline-block;padding:10px 13px;border-radius:10px;background:var(--red);color:white;text-decoration:none;font-weight:800}.source-button.alt{background:#17223a;border:1px solid var(--line)}
+
+.issue-checkbox{position:absolute;opacity:0;width:1px;height:1px;pointer-events:none}
+.spider-check{flex:0 0 32px;width:32px;height:32px;border:2px solid #71809c;border-radius:50%;background:transparent;cursor:pointer;transition:transform .15s ease,border-color .15s ease,background-color .15s ease;position:relative}
+.issue:hover .spider-check{border-color:#e21b2d}
+.issue-checkbox:checked + .spider-check{border:none;background-image:url("spider-check.png");background-size:contain;background-position:center;background-repeat:no-repeat;transform:scale(1.05);animation:spiderCheck .18s ease-out}
+@keyframes spiderCheck{0%{transform:scale(.7)}70%{transform:scale(1.12)}100%{transform:scale(1.05)}}
+.issue-checkbox:focus-visible + .spider-check{outline:3px solid rgba(226,27,45,.45);outline-offset:3px}
+
+
+.library-card{background:#0d1527eF;border:1px solid var(--line);border-radius:20px;padding:18px;margin-bottom:16px}
+.library-title{font-size:clamp(28px,6vw,44px);line-height:1;margin:6px 0 8px}
+.hero-card .hero-status.ready{color:#55e69a}.hero-card .hero-status.soon{color:#9aa8c2}.hero-card{font:inherit}
+
+
+.library-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:14px}
+.hero-card{display:block;overflow:hidden;text-align:left;text-decoration:none;color:var(--text);background:#0d1527;border:1px solid rgba(41,55,84,.45);border-radius:16px;padding:0;cursor:pointer;transition:transform .15s,border-color .15s,box-shadow .15s;opacity:.92;font:inherit}
+.hero-card:hover{transform:translateY(-2px);border-color:rgba(113,128,156,.7);opacity:1}
+.hero-card.active{border-color:#e21b2d;box-shadow:0 0 0 2px rgba(226,27,45,.18),0 10px 30px rgba(0,0,0,.25);opacity:1}
+.hero-image{height:150px;position:relative;overflow:hidden;background:#17223a}
+.hero-image img{width:100%;height:100%;display:block;object-fit:cover}
+.hero-image-fallback{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:30px;font-weight:950;text-align:center;padding:15px;background:linear-gradient(135deg,#17223a,#0d1527)}
+.hero-image img~.hero-image-fallback{display:none}
+.hero-image-shade{position:absolute;inset:0;background:linear-gradient(to top,rgba(8,13,25,.78),rgba(8,13,25,.05) 70%)}
+.hero-card-content{padding:13px 14px 15px}
+.hero-card.active .hero-status{color:#55e69a}
+
+body::before{content:"";position:fixed;inset:-24px;z-index:-3;background-image:var(--library-bg);background-size:cover;background-position:center top;background-repeat:no-repeat;filter:blur(2px);transform:scale(1.035);opacity:.88;transition:opacity .25s ease}body::after{content:"";position:fixed;inset:0;z-index:-2;background:linear-gradient(rgba(5,9,18,.68),rgba(5,9,18,.82));pointer-events:none}.hero-card:not(.active){filter:saturate(.75);opacity:.86}.hero-card:not(.active):hover{filter:saturate(1);opacity:1}.hero-card.active .hero-image{box-shadow:inset 0 -4px 0 #e21b2d}
+@media(max-width:760px){.stats{grid-template-columns:repeat(2,1fr)}.controls{grid-template-columns:1fr 1fr}.controls .input{grid-column:1/-1}.filter-grid{grid-template-columns:1fr}}
+@media(max-width:500px){.library-grid{grid-template-columns:1fr}.hero-image{height:135px}}
+@media(max-width:500px){.controls{grid-template-columns:1fr}.controls .input{grid-column:auto}.issue{align-items:flex-start}}
+</style>
+</head>
+<body id="appBody">
+<main class="wrap">
+<section class="library-card">
+  <div class="eyebrow">Marvel Reading Tracker</div>
+  <h1 class="library-title">Choose your hero or team</h1>
+  <p class="muted">Spider-Man is ready now. The next reading orders are being added as full checklists so every character can keep its own progress.</p>
+  <div id="libraryGrid" class="library-grid"></div>
+</section>
+
+<div class="eyebrow">Marvel Reading Tracker</div>
+<div class="title">Marvel<br>Reading Tracker</div>
+<p class="muted">Track your reading order, set goals, browse categories, and open an issue for reading and research links.</p>
+
+<section class="card">
+<div class="stats">
+<div class="stat"><div class="big" id="read">0</div><div class="small">READ</div></div>
+<div class="stat"><div class="big" id="pct">0%</div><div class="small">OF GOAL</div></div>
+<div class="stat"><div class="big" id="left">0</div><div class="small">TO GOAL</div></div>
+<div class="stat"><div class="big" id="filteredPct">0%</div><div class="small">FILTERED READ</div></div>
+</div>
+<div class="bar"><div class="fill" id="fill"></div></div>
+<div class="small" id="summary">Loading…</div>
+</section>
+
+<section class="card">
+<div style="font-size:18px;font-weight:900">Browse & filter</div>
+<p class="small">Filters combine together. Click an issue or its Details button to open issue links.</p>
+<div class="filter-grid">
+<div class="filter"><label>Decade</label><select id="decade" class="select"></select></div>
+<div class="filter"><label>Title</label><select id="title" class="select"></select></div>
+<div class="filter"><label>Writer</label><select id="writer" class="select"></select></div>
+<div class="filter"><label>Artist</label><select id="artist" class="select"></select></div>
+<div class="filter"><label>Storyline</label><select id="storyline" class="select"></select></div>
+<div class="filter"><label>Read status</label><select id="status" class="select"><option value="all">All statuses</option><option value="unread">Unread</option><option value="reading">Reading</option><option value="read">Read</option><option value="skipped">Skipped</option></select></div>
+<div class="filter"><label>Importance</label><select id="importance" class="select"><option value="all">Essential + Optional</option><option value="essential">Essential</option><option value="optional">Optional</option></select></div>
+<div class="filter"><label>Universe</label><select id="universe" class="select"><option value="all">Main + Alternate</option><option value="main">Main universe</option><option value="alternate">Alternate universe</option></select></div>
+</div>
+<div id="chips" class="chips"></div>
+<div class="toolbar"><button class="btn" id="clearFilters">Clear filters</button><button class="btn primary" id="next">Next unread</button><button class="btn" id="clear">Clear all progress</button></div>
+</section>
+
+<section class="card">
+<div class="controls">
+<input id="search" class="input" placeholder="Search series, issue, notes…">
+<select id="sort" class="select"><option value="order">Reading order</option><option value="alpha">A–Z</option></select>
+<input id="goal" class="input" type="number" min="1" value="100" aria-label="Goal">
+</div>
+<div class="small" style="margin-top:7px">Goal number of issues: <b id="goalLabel">100</b></div>
+<div class="small" id="count" style="margin-top:7px"></div>
+<div id="list" class="list"></div>
+</section>
+
+<p class="small">Current reading-order source: <a href="https://comicbookreadingorders.com/marvel/characters/spider-man-reading-order/" target="_blank" rel="noopener">ComicBookReadingOrders.com</a></p>
+</main>
+<div id="issueModal" class="modal" aria-hidden="true"></div>
+
+<script>
+let items=[],activeLibrary=localStorage.getItem('activeMarvelLibrary')||'spider-man';
+let state=JSON.parse(localStorage.getItem('marvelProgress:'+activeLibrary)||'{}');
+state.done=state.done||{};state.status=state.status||{};state.goal=state.goal||100;
+const $=id=>document.getElementById(id);
+$('goal').value=state.goal;$('goalLabel').textContent=state.goal;
+const filterIds=['decade','title','writer','artist','storyline','status','importance','universe'];
+function save(){localStorage.setItem('marvelProgress:'+activeLibrary,JSON.stringify(state))}
+function esc(s){return String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]))}
+function valueOrUnknown(v){return v||'Unknown'}
+function slug(s){return String(s||'').trim().toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')}
+function issueSearchUrl(issue){return 'https://www.google.com/search?q='+encodeURIComponent(issue.name+' comic')}
+function marvelSearchUrl(issue){return 'https://www.marvel.com/search?q='+encodeURIComponent(issue.name)}
+function marvelUnlimitedUrl(issue){return 'https://www.marvel.com/unlimited/search?query='+encodeURIComponent(issue.name)}
+function wikiSearchUrl(issue){return 'https://marvel.fandom.com/wiki/Special:Search?query='+encodeURIComponent(issue.name)}
+function verifiedLinkHTML(issue){
+ const links=Array.isArray(issue.readLinks)?issue.readLinks:[];
+ return links.map(l=>`<a class="source-button" href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label)}</a>`).join('')
+}
+function showIssueDetails(issue){
+ const modal=$('issueModal');
+ const verified=verifiedLinkHTML(issue);
+ const wiki=issue.wikiUrl||wikiSearchUrl(issue);
+ modal.innerHTML=`<div class="modal-box" role="dialog" aria-modal="true">
+ <button class="modal-close" type="button" aria-label="Close">×</button>
+ <div class="eyebrow">Issue details</div>
+ <h2>${esc(issue.name)}</h2>
+ <div class="modal-meta">${esc(issue.title||'Unknown title')}${issue.decade?' • '+esc(issue.decade):''}</div>
+ ${issue.writer?`<p><strong>Writer:</strong> ${esc(issue.writer)}</p>`:''}
+ ${issue.artist?`<p><strong>Artist:</strong> ${esc(issue.artist)}</p>`:''}
+ ${issue.storyline?`<p><strong>Storyline:</strong> ${esc(issue.storyline)}</p>`:''}
+ <h3>Read / find this issue</h3>
+ <div class="source-buttons">${verified}
+ <a class="source-button" href="${marvelSearchUrl(issue)}" target="_blank" rel="noopener">Search Marvel</a>
+ <a class="source-button" href="${marvelUnlimitedUrl(issue)}" target="_blank" rel="noopener">Search Marvel Unlimited</a>
+ <a class="source-button alt" href="${issueSearchUrl(issue)}" target="_blank" rel="noopener">Find other legitimate editions</a>
+ </div>
+ <h3>Research</h3>
+ <div class="source-buttons"><a class="source-button alt" href="${esc(wiki)}" target="_blank" rel="noopener">Marvel Database Wiki</a></div>
+ </div>`;
+ modal.classList.add('open');modal.setAttribute('aria-hidden','false');
+ modal.querySelector('.modal-close').onclick=closeIssueDetails;
+ modal.onclick=e=>{if(e.target===modal)closeIssueDetails()};
+}
+function closeIssueDetails(){const m=$('issueModal');m.classList.remove('open');m.setAttribute('aria-hidden','true')}
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeIssueDetails()});
+function fillSelect(id,values,label){
+ const el=$(id),unique=[...new Set(values.map(valueOrUnknown))].sort((a,b)=>a.localeCompare(b));
+ el.innerHTML='<option value="all">'+label+'</option>'+unique.map(v=>`<option value="${esc(v)}">${esc(v)}</option>`).join('');
+}
+function derive(x){
+ if(!x.decade){const m=(x.name||'').match(/\((19|20)(\d{2})\)/);if(m){const y=+(m[1]+m[2]);x.decade=Math.floor(y/10)*10+'s'}}
+ if(!x.title)x.title=(x.name||'').split('#')[0].trim();
+ if(!x.statusType)x.statusType=(x.note||'').includes('Optional')?'optional':'essential';
+ if(!x.universe)x.universe=(x.note||'').includes('Alternate Universe')?'alternate':'main';
+ x.writer=x.writer||'';x.artist=x.artist||'';x.storyline=x.storyline||'';
+}
+function setupFilters(){items.forEach(derive);fillSelect('decade',items.map(x=>x.decade),'All decades');fillSelect('title',items.map(x=>x.title),'All titles');fillSelect('writer',items.map(x=>x.writer),'All writers');fillSelect('artist',items.map(x=>x.artist),'All artists');fillSelect('storyline',items.map(x=>x.storyline),'All storylines')}
+function currentStatus(x){return state.status[x.id]||'unread'}
+function filteredItems(){
+ const q=$('search').value.trim().toLowerCase();
+ return items.filter(x=>{const s=currentStatus(x);return(!q||(x.name||'').toLowerCase().includes(q)||(x.note||'').toLowerCase().includes(q))&&($('decade').value==='all'||valueOrUnknown(x.decade)===$('decade').value)&&($('title').value==='all'||valueOrUnknown(x.title)===$('title').value)&&($('writer').value==='all'||valueOrUnknown(x.writer)===$('writer').value)&&($('artist').value==='all'||valueOrUnknown(x.artist)===$('artist').value)&&($('storyline').value==='all'||valueOrUnknown(x.storyline)===$('storyline').value)&&($('status').value==='all'||s===$('status').value)&&($('importance').value==='all'||x.statusType===$('importance').value)&&($('universe').value==='all'||x.universe===$('universe').value)})
+}
+function renderChips(){const labels={decade:'Decade',title:'Title',writer:'Writer',artist:'Artist',storyline:'Storyline',status:'Status',importance:'Importance',universe:'Universe'};$('chips').innerHTML=filterIds.filter(id=>$(id).value!=='all').map(id=>`<span class="chip">${labels[id]}: ${esc($(id).selectedOptions[0].textContent)}</span>`).join('')}
+function update(){
+ const n=items.filter(x=>state.done[x.id]).length,g=Math.max(1,+state.goal||1),p=Math.min(100,n/g*100),a=filteredItems(),fn=a.filter(x=>state.done[x.id]).length,fp=a.length?fn/a.length*100:0;
+ $('read').textContent=n.toLocaleString();$('pct').textContent=p.toFixed(p%1?1:0)+'%';$('left').textContent=Math.max(0,g-n).toLocaleString();$('filteredPct').textContent=fp.toFixed(fp%1?1:0)+'%';$('fill').style.width=p+'%';
+ $('summary').textContent=`${n.toLocaleString()} read • ${items.length.toLocaleString()} total entries • filtered: ${fn.toLocaleString()} / ${a.length.toLocaleString()} read`;
+}
+function render(){
+ const a=filteredItems();if($('sort').value==='alpha')a.sort((x,y)=>(x.name||'').localeCompare(y.name||''));
+ $('count').textContent=`Showing ${a.length.toLocaleString()} of ${items.length.toLocaleString()}`;
+ $('list').innerHTML=a.map(x=>{const st=currentStatus(x),done=!!state.done[x.id];return `<div class="issue ${done?'done':''}" data-issue="${esc(x.id)}">
+ <input class="issue-checkbox" type="checkbox" data-id="${esc(x.id)}" ${done?'checked':''} aria-label="Mark ${esc(x.name)} as read">
+ <span class="spider-check" aria-hidden="true"></span>
+ <div class="issue-info"><div class="name">${esc(x.name)}</div><div class="meta">${esc(x.title||'Unknown title')} • ${esc(x.decade||'Unknown decade')} • ${esc(st)} • ${esc(x.statusType)}</div>
+ ${x.storyline?`<div class="meta">Storyline: ${esc(x.storyline)}</div>`:''}
+ ${x.writer?`<div class="meta">Writer: ${esc(x.writer)}</div>`:''}
+ ${x.artist?`<div class="meta">Artist: ${esc(x.artist)}</div>`:''}</div>
+ </div>`}).join('')||'<div class="empty">Nothing matches these filters.</div>';
+ document.querySelectorAll('[data-issue]').forEach(row=>{
+   const checkbox=row.querySelector('.issue-checkbox');
+   const icon=row.querySelector('.spider-check');
+   icon.addEventListener('click',e=>{
+     e.stopPropagation();
+     checkbox.checked=!checkbox.checked;
+     state.done[checkbox.dataset.id]=checkbox.checked;
+     state.status[checkbox.dataset.id]=checkbox.checked?'read':'unread';
+     save();
+     render();
+   });
+   checkbox.addEventListener('click',e=>e.stopPropagation());
+   checkbox.addEventListener('change',()=>{
+     state.done[checkbox.dataset.id]=checkbox.checked;
+     state.status[checkbox.dataset.id]=checkbox.checked?'read':'unread';
+     save();
+     render();
+   });
+   row.addEventListener('click',e=>{
+     if(e.target.closest('.issue-checkbox')||e.target.closest('.spider-check')) return;
+     const x=items.find(i=>i.id===row.dataset.issue);
+     if(x)showIssueDetails(x);
+   });
+ });
+ update();renderChips();
+}
+filterIds.forEach(id=>$(id).onchange=render);$('search').oninput=render;$('sort').onchange=render;
+$('goal').oninput=()=>{state.goal=Math.max(1,+$('goal').value||1);$('goalLabel').textContent=state.goal;save();update()};
+$('clearFilters').onclick=()=>{filterIds.forEach(id=>$(id).value='all');$('search').value='';render()};
+$('clear').onclick=()=>{if(confirm('Clear all checked issues and statuses?')){state.done={};state.status={};save();render()}};
+$('next').onclick=()=>{const x=items.find(i=>!state.done[i.id]);if(!x)return;state.status[x.id]='reading';save();$('search').value=x.name;filterIds.forEach(id=>$(id).value='all');render();setTimeout(()=>document.querySelector(`[data-issue="${x.id}"]`)?.scrollIntoView({behavior:'smooth',block:'center'}),60)};
+
+const DEFAULT_LIBRARY=[
+  {id:'spider-man',name:'Spider-Man',kind:'Hero',ready:true,data:'data.json',image:'images/spider-man.jpg',background:'spider-man.jpg',description:'Spider-Man reading checklist.'},
+  {id:'x-men',name:'X-Men',kind:'Team',ready:true,data:'x-men.json',image:'images/x-men.jpeg',background:'x-men.jpeg',description:'X-Men reading checklist.'},
+  {id:'avengers',name:'Avengers',kind:'Team',ready:true,data:'avengers.json',image:'images/avengers.jpg',background:'avengers.jpg',description:'Avengers reading checklist.'},
+  {id:'fantastic-four',name:'Fantastic Four',kind:'Team',ready:true,data:'fantastic-four.json',image:'images/fantastic-four.jpg',background:'fantastic-four.jpg',description:'Fantastic Four reading checklist.'},
+  {id:'daredevil',name:'Daredevil',kind:'Hero',ready:true,data:'daredevil.json',image:'images/daredevil.webp',background:'daredevil.webp',description:'Daredevil reading checklist.'}
+];
+
+let libraryCache=DEFAULT_LIBRARY;
+
+function applyLibraryVisuals(entry){
+  const body=$('appBody');
+  if(body) body.style.setProperty('--library-bg',entry.background ? `url("${entry.background}")` : 'none');
+}
+
+function renderLibrary(){
+  const lib=libraryCache;
+  const active=lib.find(x=>x.id===activeLibrary)||lib[0];
+  applyLibraryVisuals(active);
+
+  $('libraryGrid').innerHTML=lib.map(x=>`
+    <button class="hero-card ${x.id===activeLibrary?'active':''}" type="button" data-library="${esc(x.id)}">
+      <div class="hero-image">
+        <img src="${esc(x.image)}" alt="${esc(x.name)}" loading="lazy"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <div class="hero-image-fallback" style="display:none">${esc(x.name)}</div>
+        <div class="hero-image-shade"></div>
+      </div>
+      <div class="hero-card-content">
+        <div class="hero-kind">${esc(x.kind)}</div>
+        <div class="hero-name">${esc(x.name)}</div>
+        <div class="hero-desc">${esc(x.description||'')}</div>
+        <div class="hero-status ${x.id===activeLibrary?'ready':'soon'}">
+          ${x.id===activeLibrary?'Currently selected':'Open checklist'}
+        </div>
+      </div>
+    </button>
+  `).join('');
+
+  document.querySelectorAll('[data-library]').forEach(btn=>btn.onclick=()=>{
+    const id=btn.dataset.library;
+    if(id===activeLibrary)return;
+    activeLibrary=id;
+    localStorage.setItem('activeMarvelLibrary',activeLibrary);
+    state=JSON.parse(localStorage.getItem('marvelProgress:'+activeLibrary)||'{}');
+    state.done=state.done||{};
+    state.status=state.status||{};
+    state.goal=state.goal||100;
+    renderLibrary();
+    loadLibrary(id);
+    window.scrollTo({top:0,behavior:'smooth'});
+  });
+}
+
+function loadLibrary(id){
+  const entry=libraryCache.find(x=>x.id===id)||DEFAULT_LIBRARY[0];
+  const file=entry.data;
+  fetch(file,{cache:'no-store'}).then(r=>{
+    if(!r.ok) throw new Error('Could not load '+file+' ('+r.status+')');
+    return r.json();
+  }).then(d=>{
+    items=d;
+    setupFilters();
+    $('goal').value=state.goal;
+    $('goalLabel').textContent=state.goal;
+    render();
+    renderLibrary();
+  }).catch(err=>{
+    $('list').innerHTML='<div class="empty">Could not load this reading order. Please refresh the page.</div>';
+    $('summary').textContent='Reading order failed to load.';
+    console.error(err);
+  });
+}
+
+renderLibrary();
+loadLibrary(activeLibrary);
+
+if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js').then(r=>r.update());
+</script>
+</body>
+</html>
