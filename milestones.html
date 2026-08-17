@@ -1,4 +1,4 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#e21b2d"><title>Your Marvel Reading Journey | Comic Orders</title><style>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#e21b2d"><title>Milestones | Comic Orders</title><style>
 :root{--bg:#080d19;--p:#111a2d;--p2:#17223a;--line:#293754;--text:#f7f8fc;--muted:#9aa8c2;--red:#e21b2d}
 *{box-sizing:border-box}body{margin:0;min-height:100vh;background:var(--bg);color:var(--text);font:15px system-ui,-apple-system,Segoe UI,sans-serif;position:relative}
 body::before{content:"";position:fixed;inset:-20px;z-index:-2;background-image:url("background.jpg");background-size:cover;background-position:center top;background-repeat:no-repeat;filter:blur(1px);transform:scale(1.03)}
@@ -118,14 +118,13 @@ body::before{content:"";position:fixed;inset:-24px;z-index:-3;background-image:v
 @media(max-width:650px){.home-grid,.progress-grid,.milestones-page-grid{grid-template-columns:1fr}.kpi{grid-template-columns:repeat(2,1fr)}}
 </style></head><body id="appBody"><main class="wrap">
 <nav class="nav">
-<a href="index.html" class="active">Home</a>
+<a href="index.html" class="">Home</a>
 <a href="reading-orders.html" class="">📚 Reading Orders</a>
 <a href="progress.html" class="">📊 My Progress</a>
-<a href="milestones.html" class="">🏆 Milestones</a>
-</nav><header class="page-head"><div class="eyebrow">Comic Orders</div><h1 class="page-title">Your Marvel Reading Journey</h1><p class="page-subtitle">Track your progress, jump back into your reading orders, and see what you've unlocked.</p></header>
-<section class="card"><div class="eyebrow">Your journey</div><h2 style="font-size:28px;margin:6px 0">Continue Reading</h2><p class="small">Jump straight to the next unread entry in any reading order.</p><div id="continueGrid" class="home-grid"></div></section>
-<section class="card"><div class="eyebrow">Explore</div><h2 style="font-size:28px;margin:6px 0">Reading Orders</h2><div id="libraryGrid" class="home-grid"></div></section>
-<section class="card"><div class="eyebrow">Achievements</div><h2 style="font-size:28px;margin:6px 0">Recent Milestones</h2><div id="milestonePreview" class="milestones-page-grid"></div><div class="quick"><a class="primary" href="milestones.html">View all milestones</a></div></section>
+<a href="milestones.html" class="active">🏆 Milestones</a>
+</nav><header class="page-head"><div class="eyebrow">Comic Orders</div><h1 class="page-title">Milestones</h1><p class="page-subtitle">Every comic you check off gets you closer to the next achievement.</p></header>
+<section class="card"><div class="kpi"><div class="stat"><div class="big" id="unlockedCount">0</div><div class="small">UNLOCKED</div></div><div class="stat"><div class="big" id="milestoneCount">8</div><div class="small">MILESTONES</div></div><div class="stat"><div class="big" id="milestonePct">0%</div><div class="small">COMPLETE</div></div><div class="stat"><div class="big" id="bestRead">0</div><div class="small">MOST READ</div></div></div></section>
+<section class="milestones-page-grid" id="milestonesPageGrid"></section>
 </main><div id="toast" class="toast"></div><script>
 const LIBRARIES = %s;
 const MILESTONES = [
@@ -155,17 +154,19 @@ function currentMilestones(read,data,s){return MILESTONES.filter(m=>m.type==='li
 function showToast(name,text){const t=$('toast');if(!t)return;t.innerHTML='<b>'+esc(name)+'</b><span>'+esc(text)+'</span>';t.classList.add('show');clearTimeout(window.toastTimer);window.toastTimer=setTimeout(()=>t.classList.remove('show'),3200)}
 </script>
 <script>
-async function renderHome(){
- const rows=await allProgress();
- $('libraryGrid').innerHTML=rows.map(r=>`<a class="order-card" href="reading-orders.html?library=${encodeURIComponent(r.id)}"><div class="order-image"><img src="${esc(r.image)}" alt="${esc(r.name)}" onerror="this.style.display='none'"></div><div class="order-body"><div class="order-kind">${esc(r.kind)}</div><div class="order-name">${esc(r.name)}</div><div class="order-desc">${esc(r.description)}</div><div class="pills"><span class="pill">${r.p.read.toLocaleString()} read</span><span class="pill">${r.p.pct}% complete</span><span class="pill">${r.p.goalPct}% of goal</span></div></div></a>`).join('');
- $('continueGrid').innerHTML=rows.map(r=>r.p.next?`<div class="order-card"><div class="order-body"><div class="order-kind">${esc(r.name)}</div><div class="order-name">Next: ${esc(r.p.next.name)}</div><div class="order-desc">${r.p.read.toLocaleString()} / ${r.p.total.toLocaleString()} read • ${r.p.pct}% complete</div><div class="quick"><a class="primary" href="reading-orders.html?library=${encodeURIComponent(r.id)}&issue=${encodeURIComponent(r.p.next.id)}">Continue</a></div></div></div>`:`<div class="order-card"><div class="order-body"><div class="order-kind">${esc(r.name)}</div><div class="order-name">Complete ✓</div><div class="order-desc">${r.p.total.toLocaleString()} / ${r.p.total.toLocaleString()} read</div></div></div>`).join('');
- const previews=MILESTONES.map(m=>{
-   const unlocked=rows.some(r=>currentMilestones(r.p.read,r.data,r.s).some(x=>x.id===m.id));
-   const value=m.type==='library'?'Finish any run':m.target+' comics';
-   return `<div class="milestone ${unlocked?'unlocked':''}"><div class="milestone-icon">${m.icon}</div><div class="milestone-name">${esc(m.name)}</div><div class="milestone-desc">${esc(m.desc)}</div><div class="milestone-status">${unlocked?'✓ Unlocked':value}</div></div>`;
- }).slice(0,4);
- $('milestonePreview').innerHTML=previews.join('');
+async function renderMilestonesPage(){
+ const rows=await allProgress();const best=Math.max(0,...rows.map(r=>r.p.read));let unlocked=[];
+ rows.forEach(r=>unlocked.push(...currentMilestones(r.p.read,r.data,r.s).map(m=>m.id)));
+ unlocked=[...new Set(unlocked)];
+ $('unlockedCount').textContent=unlocked.length;$('milestonePct').textContent=Math.round(unlocked.length/MILESTONES.length*100)+'%';$('bestRead').textContent=best.toLocaleString();
+ $('milestonesPageGrid').innerHTML=MILESTONES.map(m=>{
+   const done=unlocked.includes(m.id);
+   let current=0,status='';
+   if(m.type==='library'){const max=Math.max(0,...rows.map(r=>r.p.pct));current=max;status=done?'✓ Unlocked':`${Math.round(max)}% on your best run`}
+   else {current=Math.min(100,best/m.target*100);status=done?'✓ Unlocked':`${Math.min(best,m.target).toLocaleString()} / ${m.target.toLocaleString()}`}
+   return `<div class="milestone ${done?'unlocked':''}"><div class="milestone-icon">${m.icon}</div><div class="milestone-name">${esc(m.name)}</div><div class="milestone-desc">${esc(m.desc)}</div><div class="milestone-progress"><div class="milestone-progress-fill" style="width:${current}%"></div></div><div class="milestone-status">${status}</div></div>`;
+ }).join('');
 }
-renderHome();
+renderMilestonesPage();
 </script>
 </body></html>
