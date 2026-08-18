@@ -1,193 +1,37 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#e21b2d">
-<title>My Profile | Comic Orders</title>
-<meta name="description" content="Your Comic Orders reading statistics, ratings, favourites and recommendations.">
-<style>
-:root{--bg:#080d19;--p:#111a2d;--p2:#17223a;--line:#293754;--text:#f7f8fc;--muted:#9aa8c2;--red:#e21b2d;--green:#57e89a;--gold:#ffd45a}
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Profile | Comic Orders</title><style>
+:root{--bg:#080d19;--p:#111a2d;--p2:#17223a;--line:#293754;--text:#f7f8fc;--muted:#9aa8c2;--red:#e21b2d;--gold:#ffd45a;--green:#55e69a}
 *{box-sizing:border-box}html,body{margin:0;min-height:100%;background:var(--bg);color:var(--text);font:15px system-ui,-apple-system,Segoe UI,sans-serif}
 body{position:relative;overflow-x:hidden}body:before{content:"";position:fixed;inset:-24px;z-index:-2;background:url("background.jpg") center/cover fixed no-repeat;filter:brightness(.28)}body:after{content:"";position:fixed;inset:0;z-index:-1;background:linear-gradient(rgba(5,9,18,.72),rgba(5,9,18,.96))}
-.wrap{width:min(1100px,calc(100% - 28px));margin:auto;padding:22px 0 70px}
-.nav{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:24px}.nav a{display:inline-block;text-decoration:none;color:var(--text);background:#111a2d;border:1px solid var(--line);border-radius:11px;padding:10px 13px;font-weight:900}.nav a.active{background:var(--red);border-color:var(--red)}
-.eyebrow{color:#ff6875;font-weight:900;letter-spacing:.1em;text-transform:uppercase;font-size:12px}.title{font-size:clamp(42px,8vw,68px);line-height:.92;margin:7px 0 12px;font-weight:950}.lead{color:var(--muted);font-size:18px;line-height:1.5}
-.card{background:#111a2df2;border:1px solid var(--line);border-radius:20px;padding:20px;margin-top:18px}
-.profile-head{display:flex;gap:18px;align-items:center;flex-wrap:wrap}.avatar{width:76px;height:76px;border-radius:50%;display:grid;place-items:center;background:var(--red);font-size:32px;font-weight:950}.name-wrap{flex:1;min-width:220px}.name-input{width:100%;max-width:430px;background:#0d1527;color:var(--text);border:1px solid var(--line);border-radius:10px;padding:11px 12px;font-size:20px;font-weight:900}.sub{color:var(--muted);margin-top:5px}
-.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:18px}.stat{background:#17223a;border-radius:15px;padding:16px}.stat b{display:block;font-size:30px;line-height:1}.stat span{display:block;color:var(--muted);margin-top:6px;font-size:12px;font-weight:800;text-transform:uppercase}
-.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.section-title{margin:0 0 12px;font-size:22px}.list{display:grid;gap:9px}.row{display:flex;justify-content:space-between;gap:10px;align-items:center;background:#0d1527;border:1px solid #202e49;border-radius:12px;padding:11px 12px}.row-main{min-width:0}.row-name{font-weight:900;overflow-wrap:anywhere}.meta{color:var(--muted);font-size:12px;margin-top:3px}.score{font-weight:950;color:var(--gold);white-space:nowrap}.empty{color:var(--muted);line-height:1.5}
-.rec{display:flex;gap:14px;align-items:center;background:#0d1527;border:1px solid #202e49;border-radius:14px;padding:13px;margin-bottom:10px}.rec-body{flex:1;min-width:0}.rec-name{font-weight:950}.reason{font-size:12px;color:var(--muted);margin-top:4px}.buy{display:inline-block;background:var(--red);color:#fff;text-decoration:none;font-weight:900;border-radius:9px;padding:8px 10px;white-space:nowrap;font-size:12px}
-.character-bar{display:grid;grid-template-columns:150px 1fr 45px;gap:10px;align-items:center;margin:10px 0}.bar{height:9px;background:#0a1020;border:1px solid #26334e;border-radius:99px;overflow:hidden}.bar i{display:block;height:100%;background:var(--red)}
-.note{color:var(--muted);font-size:12px;line-height:1.5}.danger{background:transparent;color:#ff7781;border:1px solid #5b2932;border-radius:9px;padding:8px 10px;font-weight:800;cursor:pointer}
-@media(max-width:720px){.stats{grid-template-columns:repeat(2,1fr)}.grid{grid-template-columns:1fr}.character-bar{grid-template-columns:110px 1fr 35px}.profile-head{align-items:flex-start}}
-</style>
-</head>
-<body>
-<main class="wrap">
-<nav class="nav">
-<a href="index.html">Home</a>
-<a href="reading-orders.html">📚 Reading Orders</a>
-<a href="progress.html">📊 My Progress</a>
-<a href="milestones.html">🏆 Milestones</a>
-<a class="active" href="profile.html">👤 Profile</a>
-</nav>
-
-<header>
-<div class="eyebrow">Comic Orders</div>
-<h1 class="title">My Profile</h1>
-<p class="lead">Your reading history, ratings, favourites and personalised recommendations.</p>
-</header>
-
-<section class="card">
-<div class="profile-head">
-<div class="avatar" id="avatar">C</div>
-<div class="name-wrap">
-<input id="profileName" class="name-input" maxlength="40" placeholder="Your name">
-<div class="sub">This profile is stored privately in this browser for now.</div>
-</div>
-</div>
-<div class="stats">
-<div class="stat"><b id="readCount">0</b><span>Comics read</span></div>
-<div class="stat"><b id="ratedCount">0</b><span>Rated</span></div>
-<div class="stat"><b id="avgRating">—</b><span>Average rating</span></div>
-<div class="stat"><b id="runCount">0</b><span>Runs completed</span></div>
-</div>
-</section>
-
-<div class="grid">
-<section class="card"><h2 class="section-title">🏆 Your Top 3</h2><div id="top3" class="list"></div></section>
-<section class="card"><h2 class="section-title">💀 Least Favourite</h2><div id="bottom" class="list"></div></section>
-</div>
-
-<section class="card">
-<h2 class="section-title">🦸 Most Read Characters</h2>
-<div id="characters"></div>
-</section>
-
-<section class="card">
-<h2 class="section-title">📚 Reading Recommendations</h2>
-<p class="note">Recommendations favour unread comics from the reading orders you spend the most time in. Amazon buttons only appear where your catalogue contains an affiliate purchase link.</p>
-<div id="recommendations" style="margin-top:13px"></div>
-</section>
-
-<section class="card">
-<h2 class="section-title">Your profile data</h2>
-<p class="note">Progress and ratings are currently saved in your browser's local storage. Clearing site data will remove them from this profile.</p>
-<button id="clearProfile" class="danger">Clear profile name only</button>
-</section>
-</main>
-
-<script>
-const LIBRARIES=[
-{id:'spider-man',name:'Spider-Man',data:'data.json'},
-{id:'ultimate-spider-man',name:'Ultimate Spider-Man',data:'ultimate-spider-man-2000s.json'},
-{id:'x-men',name:'X-Men',data:'x-men.json'},
-{id:'avengers',name:'Avengers',data:'avengers.json'},
-{id:'fantastic-four',name:'Fantastic Four',data:'fantastic-four.json'},
-{id:'daredevil',name:'Daredevil',data:'daredevil.json'}
-];
-
-const $=id=>document.getElementById(id);
-const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const progressKey=id=>'marvelProgress:'+id;
-const ratingKey=id=>'marvelRatings:'+id;
-
-function saved(key,fallback={}){try{return JSON.parse(localStorage.getItem(key)||JSON.stringify(fallback))}catch{return fallback}}
-function getName(){return localStorage.getItem('comicOrdersProfileName')||''}
-function setName(v){localStorage.setItem('comicOrdersProfileName',v.trim())}
-
-async function loadAll(){
-  const all=[];
-  for(const lib of LIBRARIES){
-    try{
-      const r=await fetch(lib.data,{cache:'no-store'});
-      if(!r.ok) continue;
-      const data=await r.json();
-      if(!Array.isArray(data)) continue;
-      const progress=saved(progressKey(lib.id),{});
-      const ratings=saved(ratingKey(lib.id),{});
-      const done=progress.done||{};
-      for(const item of data){
-        all.push({...item,libraryId:lib.id,libraryName:lib.name,
-          read:!!done[item.id],
-          rating:ratings[item.id]==null?'':Number(ratings[item.id])});
-      }
-    }catch(e){console.warn('Profile could not load',lib.id,e)}
-  }
-  return all;
+.wrap{width:min(1120px,calc(100% - 28px));margin:auto;padding:20px 0 70px}
+.top-nav{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:22px}.top-nav a{display:inline-block;text-decoration:none;color:var(--text);background:#111a2d;border:1px solid var(--line);border-radius:11px;padding:10px 14px;font-weight:900}.top-nav a.active{background:var(--red);border-color:var(--red)}
+.eyebrow{color:#ff6875;font-weight:900;letter-spacing:.11em;text-transform:uppercase;font-size:12px}h1{font-size:clamp(42px,8vw,70px);line-height:.92;margin:7px 0 12px;font-weight:950}.lead{color:var(--muted);font-size:18px;line-height:1.5}.card{background:#111a2df2;border:1px solid var(--line);border-radius:20px;padding:20px;margin-top:18px}.section-title{font-size:27px;font-weight:950;margin:4px 0}.small{font-size:12px;color:var(--muted);line-height:1.45}.btn{display:inline-block;text-decoration:none;color:#fff;background:var(--red);border:1px solid var(--red);border-radius:10px;padding:9px 13px;font-weight:900}
+</style><style>
+.profile{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:18px}.stat{background:#17223a;border-radius:15px;padding:15px}.stat b{display:block;font-size:30px}.stat span{color:var(--muted);font-size:11px;font-weight:900;text-transform:uppercase}.lists{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.list{display:grid;gap:9px;margin-top:12px}.row{display:flex;justify-content:space-between;gap:10px;background:#0d1527;border:1px solid #293754;border-radius:12px;padding:11px}.row-main{min-width:0}.row-name{font-weight:900;overflow-wrap:anywhere}.meta{color:var(--muted);font-size:11px;margin-top:3px}.score{color:#ffd45a;font-weight:950;white-space:nowrap}.milestones{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:12px}.mile{background:#0d1527;border:1px solid #293754;border-radius:14px;padding:13px}.mile.unlocked{border-color:#e21b2d}.mile-name{font-weight:950;margin-top:4px}.mile-desc,.status{color:var(--muted);font-size:11px;margin-top:3px}.bar{height:7px;background:#080e1b;border:1px solid #293754;border-radius:99px;overflow:hidden;margin-top:9px}.fill{height:100%;background:linear-gradient(90deg,#e21b2d,#ff6571)}@media(max-width:700px){.profile{grid-template-columns:repeat(2,1fr)}.lists,.milestones{grid-template-columns:1fr}}
+</style></head><body><main class="wrap">
+<nav class="top-nav"><a href="index.html">Home</a><a href="reading-orders.html">📚 Reading Orders</a><a class="active" href="profile.html">👤 Profile</a></nav>
+<div class="eyebrow">Comic Orders</div><h1>My Profile</h1><p class="lead">Your reading stats, achievements, favourites and ratings.</p>
+<section class="card"><div class="profile"><div class="stat"><b id="read">0</b><span>Comics read</span></div><div class="stat"><b id="rated">0</b><span>Issues rated</span></div><div class="stat"><b id="avg">—</b><span>Average rating</span></div><div class="stat"><b id="runs">0</b><span>Runs completed</span></div></div></section>
+<section class="card"><div class="section-title">🏆 Milestones</div><div id="milestones" class="milestones"></div></section>
+<div class="lists"><section class="card"><div class="section-title">🥇 Top 3 Issues</div><div id="top" class="list"></div></section><section class="card"><div class="section-title">💀 Bottom 3 Issues</div><div id="bottom" class="list"></div></section></div>
+</main><script>
+const libs=[['spider-man','Spider-Man','data.json'],['ultimate-spider-man','Ultimate Spider-Man','ultimate-spider-man-2000s.json'],['x-men','X-Men','x-men.json'],['avengers','Avengers','avengers.json'],['fantastic-four','Fantastic Four','fantastic-four.json'],['daredevil','Daredevil','daredevil.json']];
+const $=x=>document.getElementById(x);const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));const get=(k,d={})=>{try{return JSON.parse(localStorage.getItem(k)||JSON.stringify(d))}catch{return d}};
+async function run(){
+ const all=[];
+ for(const [id,name,file] of libs){try{const d=await (await fetch(file,{cache:'no-store'})).json();const p=get('marvelProgress:'+id,{}),r=get('marvelRatings:'+id,{}),done=p.done||{};d.forEach(x=>all.push({...x,lib:id,libName:name,read:!!done[x.id],rating:r[x.id]??''}))}catch(e){}}
+ const read=all.filter(x=>x.read),rated=all.filter(x=>x.rating!==''&&Number.isFinite(Number(x.rating)));
+ $('read').textContent=read.length.toLocaleString();$('rated').textContent=rated.length.toLocaleString();
+ $('avg').textContent=rated.length?(rated.reduce((a,x)=>a+Number(x.rating),0)/rated.length).toFixed(1):'—';
+ $('runs').textContent=libs.filter(([id])=>{const a=all.filter(x=>x.lib===id);return a.length&&a.every(x=>x.read)}).length;
+ const row=x=>'<div class="row"><div class="row-main"><div class="row-name">'+esc(x.name)+'</div><div class="meta">'+esc(x.libName)+'</div></div><div class="score">'+Number(x.rating).toFixed(1)+' ⭐</div></div>';
+ $('top').innerHTML=rated.slice().sort((a,b)=>Number(b.rating)-Number(a.rating)).slice(0,3).map(row).join('')||'<div class="status">Rate issues to build your Top 3.</div>';
+ $('bottom').innerHTML=rated.slice().sort((a,b)=>Number(a.rating)-Number(b.rating)).slice(0,3).map(row).join('')||'<div class="status">Rate issues to build your Bottom 3.</div>';
+ const miles=[['🕷️','Origin Story','Read your first comic.',1],['📚','If This Be My Destiny...','Read 10 comics.',10],['🔥','Prospect','Read 50 comics.',50],['💯','Full-Blown Hero','Read 100 comics.',100],['🏆','Defender','Read 250 comics.',250],['💎','Legend','Read 500 comics.',500],['👑','Avenger','Read 1,000 comics.',1000]];
+ let unlocked=0;
+ let html=miles.map(m=>{const p=Math.min(100,Math.round(read.length/m[3]*100)),u=read.length>=m[3];if(u)unlocked++;return '<div class="mile '+(u?'unlocked':'')+'"><div>'+m[0]+'</div><div class="mile-name">'+m[1]+'</div><div class="mile-desc">'+m[2]+'</div><div class="bar"><div class="fill" style="width:'+p+'%"></div></div><div class="status">'+(u?'✓ Unlocked':read.length+' / '+m[3])+'</div></div>'}).join('');
+ const watcher=libs.some(([id])=>{const a=all.filter(x=>x.lib===id);return a.length&&a.every(x=>x.read)});if(watcher)unlocked++;
+ html+='<div class="mile '+(watcher?'unlocked':'')+'"><div>🏁</div><div class="mile-name">The Watcher</div><div class="mile-desc">Finish an entire reading order.</div><div class="status">'+(watcher?'✓ Unlocked':'Not yet unlocked')+'</div></div>';
+ $('milestones').innerHTML=html;
 }
-
-function render(items){
-  const read=items.filter(x=>x.read);
-  const rated=items.filter(x=>x.rating!=='' && Number.isFinite(x.rating));
-  const avg=rated.length? rated.reduce((a,x)=>a+x.rating,0)/rated.length : null;
-
-  $('readCount').textContent=read.length.toLocaleString();
-  $('ratedCount').textContent=rated.length.toLocaleString();
-  $('avgRating').textContent=avg==null?'—':avg.toFixed(1);
-
-  const completed=LIBRARIES.filter(lib=>{
-    const subset=items.filter(x=>x.libraryId===lib.id);
-    return subset.length && subset.every(x=>x.read);
-  }).length;
-  $('runCount').textContent=completed;
-
-  const top=rated.slice().sort((a,b)=>b.rating-a.rating).slice(0,3);
-  $('top3').innerHTML=top.length?top.map((x,i)=>row(x,`${i+1}.`)).join(''):'<div class="empty">Rate some issues and your Top 3 will appear here.</div>';
-
-  const bottom=rated.slice().sort((a,b)=>a.rating-b.rating).slice(0,5);
-  $('bottom').innerHTML=bottom.length?bottom.map(x=>row(x,'')).join(''):'<div class="empty">Your lowest-rated issues will appear here.</div>';
-
-  const counts={};
-  for(const x of read) counts[x.libraryName]=(counts[x.libraryName]||0)+1;
-  const chars=Object.entries(counts).sort((a,b)=>b[1]-a[1]);
-  const max=chars[0]?.[1]||1;
-  $('characters').innerHTML=chars.length?chars.map(([name,n])=>`<div class="character-bar"><strong>${esc(name)}</strong><div class="bar"><i style="width:${Math.round(n/max*100)}%"></i></div><b>${n}</b></div>`).join(''):'<div class="empty">Start reading to build your character stats.</div>';
-
-  const prefs={};
-  for(const lib of LIBRARIES){
-    const subset=items.filter(x=>x.libraryId===lib.id);
-    const readN=subset.filter(x=>x.read).length;
-    const ratedLib=subset.filter(x=>x.rating!=='');
-    const avgLib=ratedLib.length?ratedLib.reduce((a,x)=>a+x.rating,0)/ratedLib.length:0;
-    prefs[lib.id]={readN,avgLib,score:readN*3+avgLib*10};
-  }
-  const favLib=Object.entries(prefs).sort((a,b)=>b[1].score-a[1].score)[0]?.[0];
-
-  let recs=[];
-  if(favLib){
-    recs=items.filter(x=>x.libraryId===favLib && !x.read && x.amazonUrl)
-      .sort((a,b)=>(Number(b.rating)||0)-(Number(a.rating)||0)).slice(0,5);
-  }
-  if(recs.length<5){
-    const extra=items.filter(x=>!x.read && x.amazonUrl && !recs.some(r=>r.id===x.id))
-      .sort((a,b)=>(Number(b.rating)||0)-(Number(a.rating)||0)).slice(0,5-recs.length);
-    recs.push(...extra);
-  }
-  $('recommendations').innerHTML=recs.length?recs.map(x=>`
-    <div class="rec">
-      <div class="rec-body">
-        <div class="rec-name">${esc(x.name||x.title||'Untitled')}</div>
-        <div class="reason">From your ${esc(x.libraryName)} reading order.</div>
-      </div>
-      <a class="buy" href="${esc(x.amazonUrl)}" target="_blank" rel="sponsored noopener">Buy on Amazon UK</a>
-    </div>`).join(''):'<div class="empty">Once you have some reading history and catalogue purchase links, personalised recommendations will appear here.</div>';
-}
-
-function row(x,prefix){
-  return `<div class="row"><div class="row-main"><div class="row-name">${esc(prefix)} ${esc(x.name||x.title||'Untitled')}</div><div class="meta">${esc(x.libraryName)}</div></div><div class="score">${Number(x.rating).toFixed(1)} ⭐</div></div>`;
-}
-
-const name=$('profileName');
-name.value=getName();
-function updateAvatar(v){$('avatar').textContent=(v.trim()[0]||'C').toUpperCase()}
-updateAvatar(name.value);
-name.addEventListener('input',()=>{setName(name.value);updateAvatar(name.value)});
-
-$('clearProfile').onclick=()=>{localStorage.removeItem('comicOrdersProfileName');name.value='';updateAvatar('')};
-
-loadAll().then(items=>render(items));
-</script>
-</body>
-</html>
+run();
+</script></body></html>
