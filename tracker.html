@@ -1,38 +1,9 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Comic Orders Tracker</title>
-<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-</head>
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Comic Orders</title></head>
 <body style="background:#080d19;color:white;font-family:system-ui;text-align:center;padding:40px">
-<p>Loading your reading order…</p>
+<p>Opening reading order…</p>
 <script>
-(async function(){
-  const params=new URLSearchParams(location.search);
-  const requested=params.get('library') || localStorage.getItem('activeMarvelLibrary') || 'spider-man';
-
-  // The main tracker already contains the complete working checklist UI.
-  // Set the selected library before handing control to it.
-  const known = {
-    "spider-man":"data.json",
-    "x-men":"x-men.json",
-    "avengers":"avengers.json",
-    "fantastic-four":"fantastic-four.json",
-    "daredevil":"daredevil.json",
-    "ultimate-spider-man":"ultimate-spider-man-2000s.json"
-  };
-
-  if(known[requested]){
-    localStorage.setItem('activeMarvelLibrary', requested);
-  }
-
-  // Preserve the requested library for the main page even if an older
-  // cached version of the app is encountered.
-  sessionStorage.setItem('comicOrdersRequestedLibrary', requested);
-  location.replace('index.html?library='+encodeURIComponent(requested)+'&v=20260818');
-})();
+const p=new URLSearchParams(location.search);
+const id=p.get('library')||localStorage.getItem('activeMarvelLibrary')||'spider-man';
+location.replace('index.html?library='+encodeURIComponent(id));
 </script>
-</body>
-</html>
+</body></html>

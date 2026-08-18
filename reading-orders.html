@@ -103,7 +103,7 @@ function renderOrders(library){
     const position = order.id === "spider-man" ? "center 28%" : "center";
 
     return `
-      <a class="order-card" href="tracker.html?library=${encodeURIComponent(order.id)}">
+      <a class="order-card" href="index.html?library=${encodeURIComponent(order.id)}">
         <div class="order-image">
           <img src="${image}" alt="${escapeHtml(order.name)}" style="object-position:${position}" loading="lazy"
                onerror="this.onerror=null;this.src='cover.webp'">

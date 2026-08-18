@@ -1,7 +1,15 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#e21b2d"><title>Your Marvel Reading Journey | Comic Orders</title><style>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#e21b2d">
+<link rel="manifest" href="manifest.json">
+<title>Marvel Reading Tracker</title>
+<style>
 :root{--bg:#080d19;--p:#111a2d;--p2:#17223a;--line:#293754;--text:#f7f8fc;--muted:#9aa8c2;--red:#e21b2d}
 *{box-sizing:border-box}body{margin:0;min-height:100vh;background:var(--bg);color:var(--text);font:15px system-ui,-apple-system,Segoe UI,sans-serif;position:relative}
-body::before{content:"";position:fixed;inset:-20px;z-index:-2;background-image:var(--library-bg);background-size:cover;background-position:center top;background-repeat:no-repeat;filter:blur(1px);transform:scale(1.03)}
+body::before{content:"";position:fixed;inset:-20px;z-index:-2;background-image:url("background.jpg");background-size:cover;background-position:center top;background-repeat:no-repeat;filter:blur(1px);transform:scale(1.03)}
 body::after{content:"";position:fixed;inset:0;z-index:-1;background:rgba(8,13,25,.58);pointer-events:none}
 .wrap{max-width:1100px;margin:auto;padding:22px 15px 55px;position:relative;z-index:1}
 .eyebrow{font-size:12px;font-weight:900;letter-spacing:.12em;color:#ff6875;text-transform:uppercase}
@@ -29,7 +37,6 @@ body::after{content:"";position:fixed;inset:0;z-index:-1;background:rgba(8,13,25
 .issue-checkbox:focus-visible + .spider-check{outline:3px solid rgba(226,27,45,.45);outline-offset:3px}
 
 
-.continue-card{background:#0d1527eF;border:1px solid var(--line);border-radius:20px;padding:18px;margin-bottom:16px}.continue-title{font-size:22px;font-weight:950;margin-bottom:5px}.continue-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:14px}.continue-item{background:#111a2d;border:1px solid rgba(41,55,84,.7);border-radius:16px;padding:15px}.continue-item.current{border-color:rgba(226,27,45,.7);box-shadow:0 0 0 1px rgba(226,27,45,.15)}.continue-kind{font-size:11px;color:#ff6875;text-transform:uppercase;font-weight:900;letter-spacing:.08em}.continue-name{font-size:20px;font-weight:900;margin:4px 0}.continue-issue{font-weight:800;margin-bottom:4px}.continue-meta{font-size:12px;color:var(--muted);line-height:1.45}.continue-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.continue-button{border:1px solid var(--line);background:#17223a;color:var(--text);border-radius:10px;padding:9px 12px;font:inherit;font-weight:800;cursor:pointer}.continue-button.primary{background:var(--red);border-color:var(--red)}
 .library-card{background:#0d1527eF;border:1px solid var(--line);border-radius:20px;padding:18px;margin-bottom:16px}
 .library-title{font-size:clamp(28px,6vw,44px);line-height:1;margin:6px 0 8px}
 .hero-card .hero-status.ready{color:#55e69a}.hero-card .hero-status.soon{color:#9aa8c2}.hero-card{font:inherit}
@@ -53,129 +60,288 @@ body::after{content:"";position:fixed;inset:0;z-index:-1;background:rgba(8,13,25
 
 body::before{content:"";position:fixed;inset:-24px;z-index:-3;background-image:var(--library-bg);background-size:cover;background-position:center top;background-repeat:no-repeat;filter:blur(2px);transform:scale(1.035);opacity:.88;transition:opacity .25s ease}body::after{content:"";position:fixed;inset:0;z-index:-2;background:linear-gradient(rgba(5,9,18,.68),rgba(5,9,18,.82));pointer-events:none}.hero-card:not(.active){filter:saturate(.75);opacity:.86}.hero-card:not(.active):hover{filter:saturate(1);opacity:1}.hero-card.active .hero-image{box-shadow:inset 0 -4px 0 #e21b2d}
 @media(max-width:760px){.stats{grid-template-columns:repeat(2,1fr)}.controls{grid-template-columns:1fr 1fr}.controls .input{grid-column:1/-1}.filter-grid{grid-template-columns:1fr}}
-@media(max-width:500px){.library-grid{grid-template-columns:1fr}.continue-grid{grid-template-columns:1fr}.hero-image{height:135px}}
+@media(max-width:500px){.library-grid{grid-template-columns:1fr}.hero-image{height:135px}}
 @media(max-width:500px){.controls{grid-template-columns:1fr}.controls .input{grid-column:auto}.issue{align-items:flex-start}}
+</style>
+</head>
+<body id="appBody">
+<main class="wrap">
+<section class="library-card">
+  <div class="eyebrow">Marvel Reading Tracker</div>
+  <h1 class="library-title">Choose your hero or team</h1>
+  <p class="muted">Spider-Man is ready now. The next reading orders are being added as full checklists so every character can keep its own progress.</p>
+  <div id="libraryGrid" class="library-grid"></div>
+</section>
 
-.amazon-affiliate{margin-top:18px;padding:14px;border:1px solid rgba(41,55,84,.8);border-radius:14px;background:#0d1527}
-.amazon-affiliate-title{font-weight:900;margin-bottom:7px}
-.amazon-affiliate-note{font-size:11px;color:var(--muted);margin-top:8px;line-height:1.45}
-.amazon-button{background:#ffb000;color:#111}
+<div class="eyebrow">Marvel Reading Tracker</div>
+<div class="title">Marvel<br>Reading Tracker</div>
+<p class="muted">Track your reading order, set goals, browse categories, and open an issue for reading and research links.</p>
 
+<section class="card">
+<div class="stats">
+<div class="stat"><div class="big" id="read">0</div><div class="small">READ</div></div>
+<div class="stat"><div class="big" id="pct">0%</div><div class="small">OF GOAL</div></div>
+<div class="stat"><div class="big" id="left">0</div><div class="small">TO GOAL</div></div>
+<div class="stat"><div class="big" id="filteredPct">0%</div><div class="small">FILTERED READ</div></div>
+</div>
+<div class="bar"><div class="fill" id="fill"></div></div>
+<div class="small" id="summary">Loading…</div>
+</section>
 
-.masterworks-box{margin-top:18px;padding:14px;border:1px solid rgba(113,128,156,.25);border-radius:14px;background:#111a2d}
-.masterworks-title{font-weight:900;margin-bottom:6px}
-.masterworks-note{font-size:11px;color:var(--muted);margin-top:7px;line-height:1.45}
+<section class="card">
+<div style="font-size:18px;font-weight:900">Browse & filter</div>
+<p class="small">Filters combine together. Click an issue or its Details button to open issue links.</p>
+<div class="filter-grid">
+<div class="filter"><label>Decade</label><select id="decade" class="select"></select></div>
+<div class="filter"><label>Title</label><select id="title" class="select"></select></div>
+<div class="filter"><label>Writer</label><select id="writer" class="select"></select></div>
+<div class="filter"><label>Artist</label><select id="artist" class="select"></select></div>
+<div class="filter"><label>Storyline</label><select id="storyline" class="select"></select></div>
+<div class="filter"><label>Read status</label><select id="status" class="select"><option value="all">All statuses</option><option value="unread">Unread</option><option value="reading">Reading</option><option value="read">Read</option><option value="skipped">Skipped</option></select></div>
+<div class="filter"><label>Importance</label><select id="importance" class="select"><option value="all">Essential + Optional</option><option value="essential">Essential</option><option value="optional">Optional</option></select></div>
+<div class="filter"><label>Universe</label><select id="universe" class="select"><option value="all">Main + Alternate</option><option value="main">Main universe</option><option value="alternate">Alternate universe</option></select></div>
+</div>
+<div id="chips" class="chips"></div>
+<div class="toolbar"><button class="btn" id="clearFilters">Clear filters</button><button class="btn primary" id="next">Next unread</button><button class="btn" id="clear">Clear all progress</button></div>
+</section>
 
-/* Comic Orders milestones */
+<section class="card">
+<div class="controls">
+<input id="search" class="input" placeholder="Search series, issue, notes…">
+<select id="sort" class="select"><option value="order">Reading order</option><option value="alpha">A–Z</option></select>
+<input id="goal" class="input" type="number" min="1" value="100" aria-label="Goal">
+</div>
+<div class="small" style="margin-top:7px">Goal number of issues: <b id="goalLabel">100</b></div>
+<div class="small" id="count" style="margin-top:7px"></div>
+<div id="list" class="list"></div>
+</section>
 
-.milestones-card{background:#0d1527eF;border:1px solid var(--line);border-radius:20px;padding:18px;margin-bottom:16px}
-.milestones-head{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;flex-wrap:wrap}
-.milestones-title{font-size:22px;font-weight:950;margin-bottom:4px}
-.milestones-summary{font-size:12px;color:var(--muted)}
-.milestones-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:14px}
-.milestone{position:relative;background:#111a2d;border:1px solid rgba(41,55,84,.7);border-radius:16px;padding:14px;overflow:hidden}
-.milestone.unlocked{border-color:rgba(226,27,45,.65);box-shadow:0 0 0 1px rgba(226,27,45,.12)}
-.milestone-icon{font-size:26px;line-height:1}
-.milestone-name{font-size:16px;font-weight:900;margin-top:7px}
-.milestone-desc{font-size:12px;color:var(--muted);margin-top:3px;line-height:1.4}
-.milestone-progress{height:7px;background:#090f1c;border:1px solid var(--line);border-radius:99px;overflow:hidden;margin-top:10px}
-.milestone-progress-fill{height:100%;width:0;background:linear-gradient(90deg,var(--red),#ff6571)}
-.milestone-status{font-size:11px;font-weight:900;margin-top:7px;color:#9aa8c2}
-.milestone.unlocked .milestone-status{color:#55e69a}
-.milestone-toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,20px);z-index:2000;opacity:0;pointer-events:none;background:#111a2d;border:1px solid #e21b2d;border-radius:18px;padding:16px 18px;box-shadow:0 18px 60px rgba(0,0,0,.55);width:min(420px,calc(100vw - 30px));transition:.28s ease}
-.milestone-toast.show{opacity:1;transform:translate(-50%,0)}
-.milestone-toast-eyebrow{font-size:11px;color:#ff6875;font-weight:900;letter-spacing:.1em;text-transform:uppercase}
-.milestone-toast-name{font-size:20px;font-weight:950;margin-top:4px}
-.milestone-toast-text{font-size:12px;color:var(--muted);margin-top:3px}
-@media(max-width:500px){.milestones-grid{grid-template-columns:1fr}}
+<p class="small">Current reading-order source: <a href="https://comicbookreadingorders.com/marvel/characters/spider-man-reading-order/" target="_blank" rel="noopener">ComicBookReadingOrders.com</a></p>
+</main>
+<div id="issueModal" class="modal" aria-hidden="true"></div>
 
-
-.nav{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:0 0 16px}
-.nav a{display:inline-block;text-decoration:none;color:var(--text);background:#111a2d;border:1px solid var(--line);border-radius:11px;padding:9px 12px;font-weight:800}
-.nav a.active{background:var(--red);border-color:var(--red)}
-.page-head{margin:8px 0 18px}
-.page-title{font-size:clamp(34px,7vw,56px);font-weight:950;line-height:.95;margin:5px 0}
-.page-subtitle{max-width:780px;color:var(--muted);line-height:1.55}
-.home-grid,.progress-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
-.order-card{display:block;text-decoration:none;color:var(--text);background:#0d1527;border:1px solid var(--line);border-radius:18px;overflow:hidden}
-.order-image{height:150px;overflow:hidden;background:#17223a}
-.order-image img{width:100%;height:100%;object-fit:cover}
-.order-body{padding:14px}
-.order-name{font-size:20px;font-weight:950}
-.order-kind{font-size:11px;color:#ff6875;font-weight:900;text-transform:uppercase;letter-spacing:.08em}
-.order-desc{font-size:12px;color:var(--muted);margin-top:5px;line-height:1.4}
-.pills{display:flex;gap:7px;flex-wrap:wrap;margin-top:10px}
-.pill{background:#17223b;border:1px solid rgba(113,128,156,.22);border-radius:999px;padding:5px 8px;color:#b9c5dc;font-size:11px;font-weight:800}
-.quick{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
-.quick a,.quick button{display:inline-block;text-decoration:none;border:1px solid var(--line);background:#17223a;color:var(--text);border-radius:10px;padding:9px 12px;font:inherit;font-weight:800;cursor:pointer}
-.quick .primary{background:var(--red);border-color:var(--red)}
-.kpi{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
-.kpi .stat{background:var(--p2);padding:13px;border-radius:13px}
-.milestones-page-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
-.toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,20px);opacity:0;pointer-events:none;z-index:2000;background:#111a2d;border:1px solid var(--red);border-radius:16px;padding:14px 17px;width:min(420px,calc(100vw - 30px));box-shadow:0 18px 60px rgba(0,0,0,.55);transition:.25s}
-.toast.show{opacity:1;transform:translate(-50%,0)}
-.toast b{display:block;font-size:18px}.toast span{display:block;color:var(--muted);font-size:12px;margin-top:3px}
-@media(max-width:650px){.home-grid,.progress-grid,.milestones-page-grid{grid-template-columns:1fr}.kpi{grid-template-columns:repeat(2,1fr)}}
-
-body::before{content:"";position:fixed;inset:-24px;z-index:-3;background-image:var(--library-bg,url("spider-man.jpg"));background-size:cover;background-position:center 30%;background-repeat:no-repeat;filter:blur(2px);transform:scale(1.04);opacity:.82}
-body::after{content:"";position:fixed;inset:0;z-index:-2;background:linear-gradient(rgba(5,9,18,.68),rgba(5,9,18,.84));pointer-events:none}
-.order-image img{object-position:center 32%}
-</style></head><body id="appBody"><main class="wrap">
-<nav class="nav">
-<a href="index.html" class="active">Home</a>
-<a href="reading-orders.html" class="">📚 Reading Orders</a>
-<a href="progress.html" class="">📊 My Progress</a>
-<a href="milestones.html" class="">🏆 Milestones</a>
-</nav><header class="page-head"><div class="eyebrow">Comic Orders</div><h1 class="page-title">Your Marvel Reading Journey</h1><p class="page-subtitle">Track your progress, jump back into your reading orders, and see what you've unlocked.</p></header>
-<section class="card"><div class="eyebrow">Your journey</div><h2 style="font-size:28px;margin:6px 0">Continue Reading</h2><p class="small">Jump straight to the next unread entry in any reading order.</p><div id="continueGrid" class="home-grid"></div></section>
-<section class="card"><div class="eyebrow">Explore</div><h2 style="font-size:28px;margin:6px 0">Reading Orders</h2><div id="libraryGrid" class="home-grid"></div></section>
-<section class="card"><div class="eyebrow">Achievements</div><h2 style="font-size:28px;margin:6px 0">Recent Milestones</h2><div id="milestonePreview" class="milestones-page-grid"></div><div class="quick"><a class="primary" href="milestones.html">View all milestones</a></div></section>
-</main><div id="toast" class="toast"></div><script>
-const LIBRARIES = [{"id":"spider-man","name":"Spider-Man","kind":"Hero","data":"data.json","image":"images/spider-man.jpg","background":"backgrounds/spider-man.jpg","description":"Spider-Man reading checklist."},{"id":"ultimate-spider-man","name":"Ultimate Spider-Man","kind":"Alternate Universe","data":"ultimate-spider-man-2000s-affiliate-ready.json","image":"images/ultimate-spider-man.jpg","background":"backgrounds/ultimate-spider-man.jpg","description":"The 2000s Ultimate Universe Spider-Man reading order."},{"id":"x-men","name":"X-Men","kind":"Team","data":"x-men.json","image":"images/x-men.jpeg","background":"backgrounds/x-men.jpeg","description":"X-Men reading checklist."},{"id":"avengers","name":"Avengers","kind":"Team","data":"avengers.json","image":"images/avengers.jpg","background":"backgrounds/avengers.jpg","description":"Avengers reading checklist."},{"id":"fantastic-four","name":"Fantastic Four","kind":"Team","data":"fantastic-four.json","image":"images/fantastic-four.jpg","background":"backgrounds/fantastic-four.jpg","description":"Fantastic Four reading checklist."},{"id":"daredevil","name":"Daredevil","kind":"Hero","data":"daredevil.json","image":"images/daredevil.webp","background":"backgrounds/daredevil.webp","description":"Daredevil reading checklist."}];
-const MILESTONES = [
- {id:'first',icon:'🕷️',name:'Origin Story',desc:'Read your first comic.',target:1},
- {id:'ten',icon:'📚',name:'If This Be My Destiny...',desc:'Read 10 comics.',target:10},
- {id:'fifty',icon:'🔥',name:'Prospect',desc:'Read 50 comics.',target:50},
- {id:'hundred',icon:'💯',name:'Full-Blown Hero',desc:'Read 100 comics.',target:100},
- {id:'twofifty',icon:'🏆',name:'Defender',desc:'Read 250 comics.',target:250},
- {id:'fivehundred',icon:'💎',name:'Legend',desc:'Read 500 comics.',target:500},
- {id:'thousand',icon:'👑',name:'Avenger',desc:'Read 1,000 comics.',target:1000},
- {id:'completionist',icon:'👁️',name:'The Watcher',desc:'Finish an entire reading order.',type:'library'}
-];
-const $=id=>document.getElementById(id);
-const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
-const activeId=localStorage.getItem('activeMarvelLibrary')||'spider-man';
-const key=id=>'marvelProgress:'+id;
-function saved(id){const s=JSON.parse(localStorage.getItem(key(id))||'{}');s.done=s.done||{};s.status=s.status||{};s.goal=s.goal||100;s.milestones=s.milestones||[];return s}
-function save(id,s){localStorage.setItem(key(id),JSON.stringify(s))}
-function readCount(data,s){return data.reduce((n,x)=>n+(s.done[x.id]?1:0),0)}
-function nextUnread(data,s){return data.find(x=>!s.done[x.id])||null}
-function progressFor(data,s){const read=readCount(data,s);return {read,total:data.length,pct:data.length?Math.round(read/data.length*100):0,goalPct:Math.min(100,Math.round(read/Math.max(1,s.goal)*100)),next:nextUnread(data,s)}}
-async function loadLibrary(lib){const r=await fetch(lib.data,{cache:'no-store'});if(!r.ok)throw new Error('Could not load '+lib.data);return r.json()}
-async function allProgress(){return Promise.all(LIBRARIES.map(async lib=>{try{const data=await loadLibrary(lib),s=saved(lib.id),p=progressFor(data,s);return {...lib,data,s,p}}catch(e){return {...lib,data:[],s:saved(lib.id),p:{read:0,total:0,pct:0,goalPct:0,next:null},error:true}}}))}
-function go(page,id){let url=page+'.html';if(id)url+='?library='+encodeURIComponent(id);location.href=url}
-function libraryFromQuery(){return new URLSearchParams(location.search).get('library')||activeId}
-function currentMilestones(read,data,s){return MILESTONES.filter(m=>m.type==='library'?data.length&&read>=data.length:read>=m.target)}
-function showToast(name,text){const t=$('toast');if(!t)return;t.innerHTML='<b>'+esc(name)+'</b><span>'+esc(text)+'</span>';t.classList.add('show');clearTimeout(window.toastTimer);window.toastTimer=setTimeout(()=>t.classList.remove('show'),3200)}
-</script>
 <script>
-async function renderHome(){
- const initial=LIBRARIES.find(x=>x.id===activeId)||LIBRARIES[0];
- document.body.style.setProperty('--library-bg', `url("${initial.background}")`);
- const rows=await allProgress();
- $('libraryGrid').innerHTML=rows.map(r=>`<a class="order-card" href="reading-orders.html?library=${encodeURIComponent(r.id)}"><div class="order-image"><img src="${esc(r.image)}" alt="${esc(r.name)}" onerror="this.style.display='none'"></div><div class="order-body"><div class="order-kind">${esc(r.kind)}</div><div class="order-name">${esc(r.name)}</div><div class="order-desc">${esc(r.description)}</div><div class="pills"><span class="pill">${r.p.read.toLocaleString()} read</span><span class="pill">${r.p.pct}% complete</span><span class="pill">${r.p.goalPct}% of goal</span></div></div></a>`).join('');
- $('continueGrid').innerHTML=rows.map(r=>r.p.next?`<div class="order-card"><div class="order-body"><div class="order-kind">${esc(r.name)}</div><div class="order-name">Next: ${esc(r.p.next.name)}</div><div class="order-desc">${r.p.read.toLocaleString()} / ${r.p.total.toLocaleString()} read • ${r.p.pct}% complete</div><div class="quick"><a class="primary" href="reading-orders.html?library=${encodeURIComponent(r.id)}&issue=${encodeURIComponent(r.p.next.id)}">Continue</a></div></div></div>`:`<div class="order-card"><div class="order-body"><div class="order-kind">${esc(r.name)}</div><div class="order-name">Complete ✓</div><div class="order-desc">${r.p.total.toLocaleString()} / ${r.p.total.toLocaleString()} read</div></div></div>`).join('');
- const previews=MILESTONES.map(m=>{
-   const unlocked=rows.some(r=>currentMilestones(r.p.read,r.data,r.s).some(x=>x.id===m.id));
-   const value=m.type==='library'?'Finish any run':m.target+' comics';
-   return `<div class="milestone ${unlocked?'unlocked':''}"><div class="milestone-icon">${m.icon}</div><div class="milestone-name">${esc(m.name)}</div><div class="milestone-desc">${esc(m.desc)}</div><div class="milestone-status">${unlocked?'✓ Unlocked':value}</div></div>`;
- }).slice(0,4);
- $('milestonePreview').innerHTML=previews.join('');
+const requestedLibrary=new URLSearchParams(location.search).get('library');
+if(requestedLibrary)localStorage.setItem('activeMarvelLibrary',requestedLibrary);
+let items=[],activeLibrary=requestedLibrary||localStorage.getItem('activeMarvelLibrary')||'spider-man';
+let state=JSON.parse(localStorage.getItem('marvelProgress:'+activeLibrary)||'{}');
+state.done=state.done||{};state.status=state.status||{};state.goal=state.goal||100;
+const $=id=>document.getElementById(id);
+$('goal').value=state.goal;$('goalLabel').textContent=state.goal;
+const filterIds=['decade','title','writer','artist','storyline','status','importance','universe'];
+function save(){localStorage.setItem('marvelProgress:'+activeLibrary,JSON.stringify(state))}
+function esc(s){return String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]))}
+function valueOrUnknown(v){return v||'Unknown'}
+function slug(s){return String(s||'').trim().toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')}
+function issueSearchUrl(issue){return 'https://www.google.com/search?q='+encodeURIComponent(issue.name+' comic')}
+function marvelSearchUrl(issue){return 'https://www.marvel.com/search?q='+encodeURIComponent(issue.name)}
+function marvelUnlimitedUrl(issue){return 'https://www.marvel.com/unlimited/search?query='+encodeURIComponent(issue.name)}
+function wikiSearchUrl(issue){return 'https://marvel.fandom.com/wiki/Special:Search?query='+encodeURIComponent(issue.name)}
+function verifiedLinkHTML(issue){
+ const links=Array.isArray(issue.readLinks)?issue.readLinks:[];
+ return links.map(l=>`<a class="source-button" href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label)}</a>`).join('')
 }
-document.addEventListener('click',e=>{
- const card=e.target.closest('.order-card[href*="library="]');
- if(card){const id=new URL(card.href).searchParams.get('library');const lib=LIBRARIES.find(x=>x.id===id);if(lib)document.body.style.setProperty('--library-bg',`url("${lib.background}")`);}
-});
-renderHome();
+function showIssueDetails(issue){
+ const modal=$('issueModal');
+ const verified=verifiedLinkHTML(issue);
+ const wiki=issue.wikiUrl||wikiSearchUrl(issue);
+ modal.innerHTML=`<div class="modal-box" role="dialog" aria-modal="true">
+ <button class="modal-close" type="button" aria-label="Close">×</button>
+ <div class="eyebrow">Issue details</div>
+ <h2>${esc(issue.name)}</h2>
+ <div class="modal-meta">${esc(issue.title||'Unknown title')}${issue.decade?' • '+esc(issue.decade):''}</div>
+ ${issue.writer?`<p><strong>Writer:</strong> ${esc(issue.writer)}</p>`:''}
+ ${issue.artist?`<p><strong>Artist:</strong> ${esc(issue.artist)}</p>`:''}
+ ${issue.storyline?`<p><strong>Storyline:</strong> ${esc(issue.storyline)}</p>`:''}
+ <h3>Read / find this issue</h3>
+ <div class="source-buttons">${verified}
+ <a class="source-button" href="${marvelSearchUrl(issue)}" target="_blank" rel="noopener">Search Marvel</a>
+ <a class="source-button" href="${marvelUnlimitedUrl(issue)}" target="_blank" rel="noopener">Search Marvel Unlimited</a>
+ <a class="source-button alt" href="${issueSearchUrl(issue)}" target="_blank" rel="noopener">Find other legitimate editions</a>
+ </div>
+ <h3>Research</h3>
+ <div class="source-buttons"><a class="source-button alt" href="${esc(wiki)}" target="_blank" rel="noopener">Marvel Database Wiki</a></div>
+ </div>`;
+ modal.classList.add('open');modal.setAttribute('aria-hidden','false');
+ modal.querySelector('.modal-close').onclick=closeIssueDetails;
+ modal.onclick=e=>{if(e.target===modal)closeIssueDetails()};
+}
+function closeIssueDetails(){const m=$('issueModal');m.classList.remove('open');m.setAttribute('aria-hidden','true')}
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeIssueDetails()});
+function fillSelect(id,values,label){
+ const el=$(id),unique=[...new Set(values.map(valueOrUnknown))].sort((a,b)=>a.localeCompare(b));
+ el.innerHTML='<option value="all">'+label+'</option>'+unique.map(v=>`<option value="${esc(v)}">${esc(v)}</option>`).join('');
+}
+function derive(x){
+ if(!x.decade){const m=(x.name||'').match(/\((19|20)(\d{2})\)/);if(m){const y=+(m[1]+m[2]);x.decade=Math.floor(y/10)*10+'s'}}
+ if(!x.title)x.title=(x.name||'').split('#')[0].trim();
+ if(!x.statusType)x.statusType=(x.note||'').includes('Optional')?'optional':'essential';
+ if(!x.universe)x.universe=(x.note||'').includes('Alternate Universe')?'alternate':'main';
+ x.writer=x.writer||'';x.artist=x.artist||'';x.storyline=x.storyline||'';
+}
+function setupFilters(){items.forEach(derive);fillSelect('decade',items.map(x=>x.decade),'All decades');fillSelect('title',items.map(x=>x.title),'All titles');fillSelect('writer',items.map(x=>x.writer),'All writers');fillSelect('artist',items.map(x=>x.artist),'All artists');fillSelect('storyline',items.map(x=>x.storyline),'All storylines')}
+function currentStatus(x){return state.status[x.id]||'unread'}
+function filteredItems(){
+ const q=$('search').value.trim().toLowerCase();
+ return items.filter(x=>{const s=currentStatus(x);return(!q||(x.name||'').toLowerCase().includes(q)||(x.note||'').toLowerCase().includes(q))&&($('decade').value==='all'||valueOrUnknown(x.decade)===$('decade').value)&&($('title').value==='all'||valueOrUnknown(x.title)===$('title').value)&&($('writer').value==='all'||valueOrUnknown(x.writer)===$('writer').value)&&($('artist').value==='all'||valueOrUnknown(x.artist)===$('artist').value)&&($('storyline').value==='all'||valueOrUnknown(x.storyline)===$('storyline').value)&&($('status').value==='all'||s===$('status').value)&&($('importance').value==='all'||x.statusType===$('importance').value)&&($('universe').value==='all'||x.universe===$('universe').value)})
+}
+function renderChips(){const labels={decade:'Decade',title:'Title',writer:'Writer',artist:'Artist',storyline:'Storyline',status:'Status',importance:'Importance',universe:'Universe'};$('chips').innerHTML=filterIds.filter(id=>$(id).value!=='all').map(id=>`<span class="chip">${labels[id]}: ${esc($(id).selectedOptions[0].textContent)}</span>`).join('')}
+function update(){
+ const n=items.filter(x=>state.done[x.id]).length,g=Math.max(1,+state.goal||1),p=Math.min(100,n/g*100),a=filteredItems(),fn=a.filter(x=>state.done[x.id]).length,fp=a.length?fn/a.length*100:0;
+ $('read').textContent=n.toLocaleString();$('pct').textContent=p.toFixed(p%1?1:0)+'%';$('left').textContent=Math.max(0,g-n).toLocaleString();$('filteredPct').textContent=fp.toFixed(fp%1?1:0)+'%';$('fill').style.width=p+'%';
+ $('summary').textContent=`${n.toLocaleString()} read • ${items.length.toLocaleString()} total entries • filtered: ${fn.toLocaleString()} / ${a.length.toLocaleString()} read`;
+}
+function render(){
+ const a=filteredItems();if($('sort').value==='alpha')a.sort((x,y)=>(x.name||'').localeCompare(y.name||''));
+ $('count').textContent=`Showing ${a.length.toLocaleString()} of ${items.length.toLocaleString()}`;
+ $('list').innerHTML=a.map(x=>{const st=currentStatus(x),done=!!state.done[x.id];return `<div class="issue ${done?'done':''}" data-issue="${esc(x.id)}">
+ <input class="issue-checkbox" type="checkbox" data-id="${esc(x.id)}" ${done?'checked':''} aria-label="Mark ${esc(x.name)} as read">
+ <span class="spider-check" aria-hidden="true"></span>
+ <div class="issue-info"><div class="name">${esc(x.name)}</div><div class="meta">${esc(x.title||'Unknown title')} • ${esc(x.decade||'Unknown decade')} • ${esc(st)} • ${esc(x.statusType)}</div>
+ ${x.storyline?`<div class="meta">Storyline: ${esc(x.storyline)}</div>`:''}
+ ${x.writer?`<div class="meta">Writer: ${esc(x.writer)}</div>`:''}
+ ${x.artist?`<div class="meta">Artist: ${esc(x.artist)}</div>`:''}</div>
+ </div>`}).join('')||'<div class="empty">Nothing matches these filters.</div>';
+ document.querySelectorAll('[data-issue]').forEach(row=>{
+   const checkbox=row.querySelector('.issue-checkbox');
+   const icon=row.querySelector('.spider-check');
+   icon.addEventListener('click',e=>{
+     e.stopPropagation();
+     checkbox.checked=!checkbox.checked;
+     state.done[checkbox.dataset.id]=checkbox.checked;
+     state.status[checkbox.dataset.id]=checkbox.checked?'read':'unread';
+     save();
+     render();
+   });
+   checkbox.addEventListener('click',e=>e.stopPropagation());
+   checkbox.addEventListener('change',()=>{
+     state.done[checkbox.dataset.id]=checkbox.checked;
+     state.status[checkbox.dataset.id]=checkbox.checked?'read':'unread';
+     save();
+     render();
+   });
+   row.addEventListener('click',e=>{
+     if(e.target.closest('.issue-checkbox')||e.target.closest('.spider-check')) return;
+     const x=items.find(i=>i.id===row.dataset.issue);
+     if(x)showIssueDetails(x);
+   });
+ });
+ update();renderChips();
+}
+filterIds.forEach(id=>$(id).onchange=render);$('search').oninput=render;$('sort').onchange=render;
+$('goal').oninput=()=>{state.goal=Math.max(1,+$('goal').value||1);$('goalLabel').textContent=state.goal;save();update();updateLibraryProgress()};
+$('clearFilters').onclick=()=>{filterIds.forEach(id=>$(id).value='all');$('search').value='';render()};
+$('clear').onclick=()=>{if(confirm('Clear all checked issues and statuses?')){state.done={};state.status={};save();render()}};
+$('next').onclick=()=>{const x=items.find(i=>!state.done[i.id]);if(!x)return;state.status[x.id]='reading';save();$('search').value=x.name;filterIds.forEach(id=>$(id).value='all');render();setTimeout(()=>document.querySelector(`[data-issue="${x.id}"]`)?.scrollIntoView({behavior:'smooth',block:'center'}),60)};
+
+const DEFAULT_LIBRARY=[
+  {id:'spider-man',name:'Spider-Man',kind:'Hero',ready:true,data:'data.json',image:'spider-man.jpg',background:'spider-man.jpg',description:'Spider-Man reading checklist.'},
+  {id:'ultimate-spider-man',name:'Ultimate Spider-Man',kind:'Alternate Universe',ready:true,data:'ultimate-spider-man-2000s.json',image:'ultimate-spider-man.jpg',background:'ultimate-spider-man.jpg',description:'The 2000s Ultimate Universe Spider-Man reading order.'},
+  {id:'x-men',name:'X-Men',kind:'Team',ready:true,data:'x-men.json',image:'x-men.jpeg',background:'x-men.jpeg',description:'X-Men reading checklist.'},
+  {id:'avengers',name:'Avengers',kind:'Team',ready:true,data:'avengers.json',image:'avengers.jpg',background:'avengers.jpg',description:'Avengers reading checklist.'},
+  {id:'fantastic-four',name:'Fantastic Four',kind:'Team',ready:true,data:'fantastic-four.json',image:'fantastic-four.jpg',background:'fantastic-four.jpg',description:'Fantastic Four reading checklist.'},
+  {id:'daredevil',name:'Daredevil',kind:'Hero',ready:true,data:'daredevil.json',image:'daredevil.webp',background:'daredevil.webp',description:'Daredevil reading checklist.'}
+];
+
+let libraryCache=DEFAULT_LIBRARY;
+
+async function updateLibraryProgress(){
+  await Promise.all(libraryCache.map(async entry=>{
+    try{
+      const response=await fetch(entry.data,{cache:'no-store'});
+      if(!response.ok) throw new Error('HTTP '+response.status);
+      const data=await response.json();
+      const total=Array.isArray(data)?data.length:0;
+      const saved=JSON.parse(localStorage.getItem('marvelProgress:'+entry.id)||'{}');
+      const done=(saved&&saved.done)||{};
+      const read=Array.isArray(data)?data.reduce((n,item)=>n+(done[item.id]?1:0),0):0;
+      const goal=Math.max(1,Number(saved&&saved.goal)||100);
+      const readPct=total?Math.round(read/total*100):0;
+      const goalPct=Math.min(100,Math.round(read/goal*100));
+      const readEl=document.querySelector(`[data-progress-read="${entry.id}"]`);
+      const goalEl=document.querySelector(`[data-progress-goal="${entry.id}"]`);
+      if(readEl) readEl.textContent=`${readPct}% read`;
+      if(goalEl) goalEl.textContent=`${goalPct}% of goal`;
+    }catch(err){
+      console.warn('Could not calculate progress for '+entry.id,err);
+    }
+  }));
+}
+
+function applyLibraryVisuals(entry){
+  const body=$('appBody');
+  if(body) body.style.setProperty('--library-bg',entry.background ? `url("${entry.background}")` : 'none');
+}
+
+function renderLibrary(){
+  const lib=libraryCache;
+  const active=lib.find(x=>x.id===activeLibrary)||lib[0];
+  applyLibraryVisuals(active);
+
+  $('libraryGrid').innerHTML=lib.map(x=>`
+    <button class="hero-card ${x.id===activeLibrary?'active':''}" type="button" data-library="${esc(x.id)}">
+      <div class="hero-image">
+        <img src="${esc(x.image)}" alt="${esc(x.name)}" loading="lazy"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <div class="hero-image-fallback" style="display:none">${esc(x.name)}</div>
+        <div class="hero-image-shade"></div>
+      </div>
+      <div class="hero-card-content">
+        <div class="hero-kind">${esc(x.kind)}</div>
+        <div class="hero-name">${esc(x.name)}</div>
+        <div class="hero-desc">${esc(x.description||'')}</div>
+        <div class="hero-progress">
+          <span data-progress-read="${esc(x.id)}">0% read</span>
+          <span data-progress-goal="${esc(x.id)}">0% of goal</span>
+        </div>
+        <div class="hero-status ${x.id===activeLibrary?'ready':'soon'}">
+          ${x.id===activeLibrary?'Currently selected':'Open checklist'}
+        </div>
+      </div>
+    </button>
+  `).join('');
+
+  document.querySelectorAll('[data-library]').forEach(btn=>btn.onclick=()=>{
+    const id=btn.dataset.library;
+    if(id===activeLibrary)return;
+    activeLibrary=id;
+    localStorage.setItem('activeMarvelLibrary',activeLibrary);
+    state=JSON.parse(localStorage.getItem('marvelProgress:'+activeLibrary)||'{}');
+    state.done=state.done||{};
+    state.status=state.status||{};
+    state.goal=state.goal||100;
+    renderLibrary();
+    updateLibraryProgress();
+    loadLibrary(id);
+    window.scrollTo({top:0,behavior:'smooth'});
+  });
+}
+
+function loadLibrary(id){
+  const entry=libraryCache.find(x=>x.id===id)||DEFAULT_LIBRARY[0];
+  const file=entry.data;
+  fetch(file,{cache:'no-store'}).then(r=>{
+    if(!r.ok) throw new Error('Could not load '+file+' ('+r.status+')');
+    return r.json();
+  }).then(d=>{
+    items=d;
+    setupFilters();
+    $('goal').value=state.goal;
+    $('goalLabel').textContent=state.goal;
+    render();
+    renderLibrary();
+  }).catch(err=>{
+    $('list').innerHTML='<div class="empty">Could not load this reading order. Please refresh the page.</div>';
+    $('summary').textContent='Reading order failed to load.';
+    console.error(err);
+  });
+}
+
+renderLibrary();
+updateLibraryProgress();
+loadLibrary(activeLibrary);
+
+if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js').then(r=>r.update());
 </script>
-</body></html>
+</body>
+</html>
