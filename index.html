@@ -99,6 +99,14 @@ body::before{content:"";position:fixed;inset:-24px;z-index:-3;background-image:v
 
 
 .rating-wrap{margin-top:18px;padding:14px;border:1px solid var(--line);border-radius:14px;background:#0d1527}.rating-title{font-weight:900;margin-bottom:8px}.rating-buttons{display:flex;gap:5px;flex-wrap:wrap}.rating-button{border:1px solid var(--line);background:#17223a;color:#b9c5dc;border-radius:8px;padding:7px 9px;font-weight:900;cursor:pointer}.rating-button.active,.rating-button:hover{background:var(--red);border-color:var(--red);color:#fff}.rating-note{font-size:11px;color:var(--muted);margin-top:7px}
+
+.rating-input{flex:0 0 68px;width:68px;height:36px;border:1px solid var(--line);background:#0c1425;color:var(--text);border-radius:10px;padding:6px 7px;font:800 14px system-ui;text-align:center}
+.rating-input::placeholder{color:#71809c}
+.rating-input:focus{outline:2px solid rgba(226,27,45,.45);outline-offset:2px;border-color:var(--red)}
+.rating-input-wrap{display:flex;align-items:center;gap:5px}
+.rating-input-label{font-size:10px;color:var(--muted);font-weight:900;text-transform:uppercase;letter-spacing:.04em}
+@media(max-width:500px){.rating-input{flex-basis:62px;width:62px}}
+
 </style>
 </head>
 <body id="appBody">
@@ -196,6 +204,17 @@ const $=id=>document.getElementById(id);
 $('goal').value=state.goal;$('goalLabel').textContent=state.goal;
 const filterIds=['category','decade','title','writer','artist','storyline','status','importance','universe'];
 function save(){localStorage.setItem('marvelProgress:'+activeLibrary,JSON.stringify(state))}
+
+function ratingsKey(){return 'marvelRatings:'+activeLibrary}
+function getRatings(){return JSON.parse(localStorage.getItem(ratingsKey())||'{}')}
+function saveRatings(ratings){localStorage.setItem(ratingsKey(),JSON.stringify(ratings))}
+function normaliseRating(value){
+  if(value===''||value==null)return '';
+  const n=Number(value);
+  if(!Number.isFinite(n))return '';
+  return Math.max(0,Math.min(10,Math.round(n*10)/10));
+}
+
 function ratingStore(){return JSON.parse(localStorage.getItem('marvelRatings:'+activeLibrary)||'{}')}
 function saveRating(id,score){const r=ratingStore();r[id]=score;localStorage.setItem('marvelRatings:'+activeLibrary,JSON.stringify(r))}
 function ratingHTML(issue){const r=ratingStore(),cur=Number(r[issue.id]||0);return `<div class="rating-wrap"><div class="rating-title">Your rating</div><div class="rating-buttons" data-rating-id="${esc(issue.id)}">${[1,2,3,4,5,6,7,8,9,10].map(n=>`<button type="button" class="rating-button ${n===cur?'active':''}" data-score="${n}">${n}</button>`).join('')}</div><div class="rating-note">${cur?`You rated this ${cur}/10.`:'Rate this issue from 1–10 (optional).'}</div></div>`}
@@ -351,9 +370,13 @@ function update(){
 function render(){
  const a=filteredItems();if($('sort').value==='alpha')a.sort((x,y)=>(x.name||'').localeCompare(y.name||''));
  $('count').textContent=`Showing ${a.length.toLocaleString()} of ${items.length.toLocaleString()}`;
- $('list').innerHTML=a.map(x=>{const st=currentStatus(x),done=!!state.done[x.id];return `<div class="issue ${done?'done':''}" data-issue="${esc(x.id)}">
+ const ratings=getRatings();
+ $('list').innerHTML=a.map(x=>{const st=currentStatus(x),done=!!state.done[x.id],rating=ratings[x.id]??'';return `<div class="issue ${done?'done':''}" data-issue="${esc(x.id)}">
  <input class="issue-checkbox" type="checkbox" data-id="${esc(x.id)}" ${done?'checked':''} aria-label="Mark ${esc(x.name)} as read">
  <span class="spider-check" aria-hidden="true"></span>
+ <div class="rating-input-wrap" title="Rate this issue from 0 to 10">
+   <input class="rating-input" type="number" min="0" max="10" step="0.1" inputmode="decimal" placeholder="—" value="${rating}" data-rating-id="${esc(x.id)}" aria-label="Rating for ${esc(x.name)} out of 10">
+ </div>
  <div class="issue-info"><div class="name">${esc(x.name)}</div><div class="meta">${esc(x.title||'Unknown title')} • ${esc(x.decade||'Unknown decade')} • ${esc(st)} • ${esc(x.statusType)}</div>
  ${x.storyline?`<div class="meta">Storyline: ${esc(x.storyline)}</div>`:''}
  ${x.writer?`<div class="meta">Writer: ${esc(x.writer)}</div>`:''}
@@ -362,6 +385,20 @@ function render(){
  document.querySelectorAll('[data-issue]').forEach(row=>{
    const checkbox=row.querySelector('.issue-checkbox');
    const icon=row.querySelector('.spider-check');
+   const ratingInput=row.querySelector('.rating-input');
+   ratingInput.addEventListener('click',e=>e.stopPropagation());
+   ratingInput.addEventListener('change',()=>{
+     const ratings=getRatings();
+     const value=normaliseRating(ratingInput.value);
+     if(value===''){
+       delete ratings[ratingInput.dataset.ratingId];
+       ratingInput.value='';
+     }else{
+       ratings[ratingInput.dataset.ratingId]=value;
+       ratingInput.value=value;
+     }
+     saveRatings(ratings);
+   });
    icon.addEventListener('click',e=>{
      e.stopPropagation();
      checkbox.checked=!checkbox.checked;
@@ -382,7 +419,7 @@ function render(){
      checkMilestones(beforeMilestones);
    });
    row.addEventListener('click',e=>{
-     if(e.target.closest('.issue-checkbox')||e.target.closest('.spider-check')) return;
+     if(e.target.closest('.issue-checkbox')||e.target.closest('.spider-check')||e.target.closest('.rating-input')) return;
      const x=items.find(i=>i.id===row.dataset.issue);
      if(x)showIssueDetails(x);
    });
