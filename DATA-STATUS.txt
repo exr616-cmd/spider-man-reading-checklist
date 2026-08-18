@@ -1,0 +1,34 @@
+COMIC ORDERS PATCH V2
+
+1. IMAGE FIX
+The Reading Orders page now embeds the thumbnails directly into the HTML as
+data URIs. It does not depend on an images/ or backgrounds/ folder.
+The same embedded art is used for the card thumbnails, so the thumbnail
+problem cannot be caused by a missing image folder.
+
+2. PAGE FIX
+reading-orders.html is now a real Reading Orders selection page.
+Clicking a card opens:
+tracker.html?library=LIBRARY-ID
+
+3. DATA FIX STATUS
+The currently available JSON files are:
+Spider-Man: 1232
+Ultimate Spider-Man: 154
+X-Men: 1130
+Avengers: 12
+Fantastic Four: 10
+Daredevil: 12
+
+The last three are genuinely partial JSON files. I have NOT fabricated the
+missing issues. The full source reading-order pages contain substantially
+more entries; for example the Avengers source continues through Avengers
+Vol. 9 and later material, and the Fantastic Four source continues through
+2026.
+
+The supplied IMPORT-READING-ORDERS-fixed.py is the correct mechanism for
+regenerating those three datasets from the source pages. It also has minimum
+record safeguards so a partial scrape will not overwrite a good dataset.
+
+Until that importer is actually run in an environment with internet access,
+the three partial JSON files will remain partial.
