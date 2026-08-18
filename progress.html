@@ -1,7 +1,7 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#e21b2d"><title>My Progress | Comic Orders</title><style>
 :root{--bg:#080d19;--p:#111a2d;--p2:#17223a;--line:#293754;--text:#f7f8fc;--muted:#9aa8c2;--red:#e21b2d}
 *{box-sizing:border-box}body{margin:0;min-height:100vh;background:var(--bg);color:var(--text);font:15px system-ui,-apple-system,Segoe UI,sans-serif;position:relative}
-body::before{content:"";position:fixed;inset:-20px;z-index:-2;background-image:var(--library-bg);background-size:cover;background-position:center top;background-repeat:no-repeat;filter:blur(1px);transform:scale(1.03)}
+body::before{content:"";position:fixed;inset:-20px;z-index:-2;background-image:url("background.jpg");background-size:cover;background-position:center top;background-repeat:no-repeat;filter:blur(1px);transform:scale(1.03)}
 body::after{content:"";position:fixed;inset:0;z-index:-1;background:rgba(8,13,25,.58);pointer-events:none}
 .wrap{max-width:1100px;margin:auto;padding:22px 15px 55px;position:relative;z-index:1}
 .eyebrow{font-size:12px;font-weight:900;letter-spacing:.12em;color:#ff6875;text-transform:uppercase}
@@ -122,11 +122,12 @@ body::before{content:"";position:fixed;inset:-24px;z-index:-3;background-image:v
 <a href="reading-orders.html" class="">📚 Reading Orders</a>
 <a href="progress.html" class="active">📊 My Progress</a>
 <a href="milestones.html" class="">🏆 Milestones</a>
+<a href="profile.html">👤 Profile</a>
 </nav><header class="page-head"><div class="eyebrow">Comic Orders</div><h1 class="page-title">My Progress</h1><p class="page-subtitle">See your reading progress across every Comic Orders library in one place.</p></header>
 <section class="card"><div class="kpi"><div class="stat"><div class="big" id="totalRead">0</div><div class="small">TOTAL READ</div></div><div class="stat"><div class="big" id="totalEntries">0</div><div class="small">TOTAL ENTRIES</div></div><div class="stat"><div class="big" id="overallPct">0%</div><div class="small">OVERALL</div></div><div class="stat"><div class="big" id="runsDone">0</div><div class="small">RUNS FINISHED</div></div></div></section>
 <section class="progress-grid" id="progressGrid"></section>
 </main><div id="toast" class="toast"></div><script>
-const LIBRARIES = [{"id":"spider-man","name":"Spider-Man","kind":"Hero","data":"data.json","image":"images/spider-man.jpg","background":"backgrounds/spider-man.jpg","description":"Spider-Man reading checklist."},{"id":"ultimate-spider-man","name":"Ultimate Spider-Man","kind":"Alternate Universe","data":"ultimate-spider-man-2000s-affiliate-ready.json","image":"images/ultimate-spider-man.jpg","background":"backgrounds/ultimate-spider-man.jpg","description":"The 2000s Ultimate Universe Spider-Man reading order."},{"id":"x-men","name":"X-Men","kind":"Team","data":"x-men.json","image":"images/x-men.jpeg","background":"backgrounds/x-men.jpeg","description":"X-Men reading checklist."},{"id":"avengers","name":"Avengers","kind":"Team","data":"avengers.json","image":"images/avengers.jpg","background":"backgrounds/avengers.jpg","description":"Avengers reading checklist."},{"id":"fantastic-four","name":"Fantastic Four","kind":"Team","data":"fantastic-four.json","image":"images/fantastic-four.jpg","background":"backgrounds/fantastic-four.jpg","description":"Fantastic Four reading checklist."},{"id":"daredevil","name":"Daredevil","kind":"Hero","data":"daredevil.json","image":"images/daredevil.webp","background":"backgrounds/daredevil.webp","description":"Daredevil reading checklist."}];
+const LIBRARIES = %s;
 const MILESTONES = [
  {id:'first',icon:'🕷️',name:'Origin Story',desc:'Read your first comic.',target:1},
  {id:'ten',icon:'📚',name:'If This Be My Destiny...',desc:'Read 10 comics.',target:10},
