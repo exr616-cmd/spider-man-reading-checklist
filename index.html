@@ -196,12 +196,7 @@ body::before{content:"";position:fixed;inset:-24px;z-index:-3;background-image:v
 <script>
 // Amazon Associates tracking ID supplied for Comic Orders: exr616-21.
 // Verified product URLs should be stored per issue as issue.amazonUrl.
-const requestedLibrary=new URLSearchParams(location.search).get('library');
-const validLibraries=['spider-man','ultimate-spider-man','x-men','avengers','fantastic-four','daredevil'];
-let items=[],activeLibrary=validLibraries.includes(requestedLibrary)
-  ? requestedLibrary
-  : (localStorage.getItem('activeMarvelLibrary')||'spider-man');
-if(validLibraries.includes(requestedLibrary)) localStorage.setItem('activeMarvelLibrary',activeLibrary);
+let items=[],activeLibrary=localStorage.getItem('activeMarvelLibrary')||'spider-man';
 let state=JSON.parse(localStorage.getItem('marvelProgress:'+activeLibrary)||'{}');
 state.done=state.done||{};state.status=state.status||{};state.goal=state.goal||100;
 state.milestones=state.milestones||[];
@@ -510,6 +505,13 @@ function renderContinue(rows){
   });
 }
 
+
+function focusChecklist(){
+  const target=$('[data-checklist]');
+  if(!target)return;
+  setTimeout(()=>target.scrollIntoView({behavior:'smooth',block:'start'}),80);
+}
+
 function switchLibrary(id){
   if(id===activeLibrary){
     if(pendingContinue&&pendingContinue.issueId){
@@ -519,7 +521,9 @@ function switchLibrary(id){
       filterIds.forEach(fid=>$(fid).value='all');
       render();
       setTimeout(()=>document.querySelector(`[data-issue="${CSS.escape(target)}"]`)?.scrollIntoView({behavior:'smooth',block:'center'}),60);
+      return;
     }
+    focusChecklist();
     return;
   }
   activeLibrary=id;
@@ -530,8 +534,7 @@ function switchLibrary(id){
   state.goal=state.goal||100;
   state.milestones=state.milestones||[];
   renderLibrary();
-  loadLibrary(id);
-  window.scrollTo({top:0,behavior:'smooth'});
+  loadLibrary(id, true);
 }
 function applyLibraryVisuals(entry){
   const body=$('appBody');
@@ -572,7 +575,7 @@ function renderLibrary(){
   });
 }
 
-function loadLibrary(id){
+function loadLibrary(id, focusAfterLoad=false){
   const entry=libraryCache.find(x=>x.id===id)||DEFAULT_LIBRARY[0];
   const file=entry.data;
   fetch(file,{cache:'no-store'}).then(r=>{
@@ -590,6 +593,8 @@ function loadLibrary(id){
       const target=pendingContinue.issueId;
       pendingContinue=null;
       setTimeout(()=>document.querySelector(`[data-issue="${CSS.escape(target)}"]`)?.scrollIntoView({behavior:'smooth',block:'center'}),80);
+    }else if(focusAfterLoad){
+      focusChecklist();
     }
   }).catch(err=>{
     $('list').innerHTML='<div class="empty">Could not load this reading order. Please refresh the page.</div>';
