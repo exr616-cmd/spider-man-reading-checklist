@@ -97,6 +97,8 @@ body::before{content:"";position:fixed;inset:-24px;z-index:-3;background-image:v
 .milestone-toast-text{font-size:12px;color:var(--muted);margin-top:3px}
 @media(max-width:500px){.milestones-grid{grid-template-columns:1fr}}
 
+
+.rating-wrap{margin-top:18px;padding:14px;border:1px solid var(--line);border-radius:14px;background:#0d1527}.rating-title{font-weight:900;margin-bottom:8px}.rating-buttons{display:flex;gap:5px;flex-wrap:wrap}.rating-button{border:1px solid var(--line);background:#17223a;color:#b9c5dc;border-radius:8px;padding:7px 9px;font-weight:900;cursor:pointer}.rating-button.active,.rating-button:hover{background:var(--red);border-color:var(--red);color:#fff}.rating-note{font-size:11px;color:var(--muted);margin-top:7px}
 </style>
 </head>
 <body id="appBody">
@@ -194,6 +196,10 @@ const $=id=>document.getElementById(id);
 $('goal').value=state.goal;$('goalLabel').textContent=state.goal;
 const filterIds=['category','decade','title','writer','artist','storyline','status','importance','universe'];
 function save(){localStorage.setItem('marvelProgress:'+activeLibrary,JSON.stringify(state))}
+function ratingStore(){return JSON.parse(localStorage.getItem('marvelRatings:'+activeLibrary)||'{}')}
+function saveRating(id,score){const r=ratingStore();r[id]=score;localStorage.setItem('marvelRatings:'+activeLibrary,JSON.stringify(r))}
+function ratingHTML(issue){const r=ratingStore(),cur=Number(r[issue.id]||0);return `<div class="rating-wrap"><div class="rating-title">Your rating</div><div class="rating-buttons" data-rating-id="${esc(issue.id)}">${[1,2,3,4,5,6,7,8,9,10].map(n=>`<button type="button" class="rating-button ${n===cur?'active':''}" data-score="${n}">${n}</button>`).join('')}</div><div class="rating-note">${cur?`You rated this ${cur}/10.`:'Rate this issue from 1–10 (optional).'}</div></div>`}
+
 function esc(s){return String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]))}
 function valueOrUnknown(v){return v||'Unknown'}
 function slug(s){return String(s||'').trim().toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')}
@@ -225,6 +231,7 @@ function showIssueDetails(issue){
  </div>
  <h3>Research</h3>
  <div class="source-buttons"><a class="source-button alt" href="${esc(wiki)}" target="_blank" rel="noopener">Marvel Database Wiki</a></div>
+ ${ratingHTML(issue)}
  ${issue.amazonUrl ? `
  <div class="amazon-affiliate">
    <div class="amazon-affiliate-title">Buy / collect this issue</div>
@@ -548,6 +555,8 @@ function loadLibrary(id){
     console.error(err);
   });
 }
+
+document.addEventListener('click',e=>{const b=e.target.closest('.rating-button');if(!b)return;const box=b.closest('[data-rating-id]');if(!box)return;const id=box.dataset.ratingId,score=Number(b.dataset.score);saveRating(id,score);box.querySelectorAll('.rating-button').forEach(x=>x.classList.toggle('active',Number(x.dataset.score)===score));const note=box.parentElement.querySelector('.rating-note');if(note)note.textContent=`You rated this ${score}/10.`;});
 
 renderLibrary();
 updateLibraryProgress();
