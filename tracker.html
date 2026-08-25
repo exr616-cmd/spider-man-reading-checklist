@@ -130,6 +130,7 @@ body::before{content:"";position:fixed;inset:-24px;z-index:-3;background-image:v
 .rating-95{background:#087f8f}.rating-90{background:#19733e}.rating-80{background:#4c7a31}.rating-70{background:#a37a1b}.rating-low{background:#8c2932}
 .rating-meta{font-size:10px;opacity:.78;margin-top:4px}
 @media(max-width:560px){.rating-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.rating-issue{min-height:66px;padding:7px}.rating-value{font-size:19px}}
+[hidden]{display:none!important}
 </style>
 
 </head>
@@ -627,6 +628,7 @@ function loadLibrary(id, focusAfterLoad=false){
     render();
     renderLibrary();
     updateLibraryProgress();
+    document.dispatchEvent(new CustomEvent('comicorders:issues-loaded'));
     if(pendingContinue && pendingContinue.libraryId===id && pendingContinue.issueId){
       const target=pendingContinue.issueId;
       pendingContinue=null;
@@ -700,7 +702,7 @@ if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js').then(
   }
 
   function buildRatings(){
-    const data = Array.isArray(window.items) ? window.items : [];
+    const data = Array.isArray(items) ? items : [];
     const groups = {};
     data.forEach(issue=>{
       const y = issueYear(issue);
@@ -748,6 +750,10 @@ if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js').then(
   toggleRoot.addEventListener('click',e=>{
     const b=e.target.closest('.view-btn');
     if(b) setView(b.dataset.view);
+  });
+
+  document.addEventListener('comicorders:issues-loaded',()=>{
+    if(!ratingsRoot.hidden) buildRatings();
   });
 
   // Rebuild after the existing tracker finishes loading its issue data.
