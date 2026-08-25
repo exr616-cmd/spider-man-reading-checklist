@@ -113,6 +113,25 @@ body::before{content:"";position:fixed;inset:-24px;z-index:-3;background-image:v
 .top-nav a.active{background:var(--red);border-color:var(--red)}
 .tracker-page-head{margin-bottom:18px}.tracker-page-head h1{font-size:clamp(34px,7vw,58px);line-height:.95;margin:6px 0 8px}
 </style>
+
+<style>
+.view-toggle{display:flex;gap:8px;margin:14px 0 12px}
+.view-btn{appearance:none;border:1px solid var(--line,#293754);background:#111a2d;color:var(--text,#f7f8fc);border-radius:10px;padding:9px 14px;font-weight:900;cursor:pointer}
+.view-btn.active{background:#e21b2d;border-color:#e21b2d}
+.ratings-view{display:grid;gap:18px;margin-top:12px}
+.rating-decade{background:#111a2df2;border:1px solid var(--line,#293754);border-radius:18px;padding:15px}
+.rating-decade-title{font-size:22px;font-weight:950;margin-bottom:12px}
+.rating-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(112px,1fr));gap:8px}
+.rating-issue{border:1px solid #293754;border-radius:11px;min-height:70px;padding:9px;text-decoration:none;color:#fff;display:flex;flex-direction:column;justify-content:space-between;transition:transform .12s,border-color .12s}
+.rating-issue:hover{transform:translateY(-1px);border-color:#fff}
+.rating-number{font-size:12px;font-weight:900;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.rating-value{font-size:22px;font-weight:950;line-height:1}
+.rating-unrated{background:#172033}
+.rating-95{background:#087f8f}.rating-90{background:#19733e}.rating-80{background:#4c7a31}.rating-70{background:#a37a1b}.rating-low{background:#8c2932}
+.rating-meta{font-size:10px;opacity:.78;margin-top:4px}
+@media(max-width:560px){.rating-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.rating-issue{min-height:66px;padding:7px}.rating-value{font-size:19px}}
+</style>
+
 </head>
 <body id="appBody">
 <main class="wrap">
@@ -185,6 +204,13 @@ body::before{content:"";position:fixed;inset:-24px;z-index:-3;background-image:v
 </div>
 <div class="small" style="margin-top:7px">Goal number of issues: <b id="goalLabel">100</b></div>
 <div class="small" id="count" style="margin-top:7px"></div>
+
+<div class="view-toggle" id="viewToggle">
+  <button type="button" class="view-btn active" data-view="list">LIST</button>
+  <button type="button" class="view-btn" data-view="ratings">RATINGS</button>
+</div>
+<div id="ratingsView" class="ratings-view" hidden></div>
+
 <div id="list" class="list"></div>
 </section>
 
@@ -627,5 +653,102 @@ loadLibrary(activeLibrary);
 
 if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js').then(r=>r.update());
 </script>
+
+<script>
+(function(){
+  const ratingsRoot = document.getElementById('ratingsView');
+  const toggleRoot = document.getElementById('viewToggle');
+  if(!ratingsRoot || !toggleRoot) return;
+
+  function issueYear(issue){
+    const raw = issue.year ?? issue.date ?? issue.publicationDate ?? issue.releaseDate ?? '';
+    const m = String(raw).match(/\b(19|20)\d{2}\b/);
+    if(m) return Number(m[0]);
+    const title = String(issue.name ?? issue.title ?? '');
+    const tm = title.match(/\b(19|20)\d{2}\b/);
+    return tm ? Number(tm[0]) : null;
+  }
+
+  function issueId(issue){ return issue.id ?? issue.issueId ?? issue.slug ?? ''; }
+  function issueName(issue){ return issue.name ?? issue.title ?? issue.issue ?? 'Issue'; }
+  function issueRating(issue){
+    const direct = issue.rating ?? issue.userRating;
+    if(direct !== undefined && direct !== null && direct !== '') return Number(direct);
+    try{
+      const key = 'marvelRatings:' + (window.activeLibrary || new URLSearchParams(location.search).get('library') || 'spider-man');
+      const saved = JSON.parse(localStorage.getItem(key) || '{}');
+      const id = issueId(issue);
+      if(saved[id] !== undefined) return Number(saved[id]);
+    }catch(e){}
+    return NaN;
+  }
+
+  function ratingClass(r){
+    if(!Number.isFinite(r)) return 'rating-unrated';
+    if(r >= 9.5) return 'rating-95';
+    if(r >= 9) return 'rating-90';
+    if(r >= 8) return 'rating-80';
+    if(r >= 7) return 'rating-70';
+    return 'rating-low';
+  }
+
+  function buildRatings(){
+    const data = Array.isArray(window.items) ? window.items : [];
+    const groups = {};
+    data.forEach(issue=>{
+      const y = issueYear(issue);
+      if(!y) return;
+      const decade = Math.floor(y/10)*10;
+      (groups[decade] ||= []).push(issue);
+    });
+
+    const decades = Object.keys(groups).map(Number).sort((a,b)=>a-b);
+    ratingsRoot.innerHTML = decades.map(decade=>{
+      const cells = groups[decade].map(issue=>{
+        const r = issueRating(issue);
+        const name = issueName(issue);
+        const href = 'issue.html?library=' + encodeURIComponent(window.activeLibrary || new URLSearchParams(location.search).get('library') || 'spider-man') + '&issue=' + encodeURIComponent(issueId(issue));
+        return '<a class="rating-issue '+ratingClass(r)+'" href="'+href+'">' +
+          '<span class="rating-number">'+escapeHtml(name)+'</span>' +
+          '<span class="rating-value">'+(Number.isFinite(r)?r.toFixed(1):'—')+'</span>' +
+        '</a>';
+      }).join('');
+      return '<section class="rating-decade"><div class="rating-decade-title">'+decade+'s</div><div class="rating-grid">'+cells+'</div></section>';
+    }).join('') || '<div class="small">No dated issues are available for the ratings view.</div>';
+  }
+
+  function escapeHtml(s){
+    return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  }
+
+  function setView(view){
+    const list = document.getElementById('list');
+    const isRatings = view === 'ratings';
+    ratingsRoot.hidden = !isRatings;
+    if(list) list.hidden = isRatings;
+    toggleRoot.querySelectorAll('.view-btn').forEach(b=>b.classList.toggle('active',b.dataset.view===view));
+    if(isRatings) buildRatings();
+    localStorage.setItem('comicOrdersDisplayMode',view);
+  }
+
+  toggleRoot.addEventListener('click',e=>{
+    const b=e.target.closest('.view-btn');
+    if(b) setView(b.dataset.view);
+  });
+
+  // Rebuild after the existing tracker finishes loading its issue data.
+  const oldRender = window.render;
+  if(typeof oldRender === 'function'){
+    window.render = function(){
+      const result = oldRender.apply(this,arguments);
+      if(!ratingsRoot.hidden) buildRatings();
+      return result;
+    };
+  }
+
+  setTimeout(()=>setView(localStorage.getItem('comicOrdersDisplayMode')||'list'),250);
+})();
+</script>
+
 </body>
 </html>
