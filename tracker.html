@@ -133,6 +133,60 @@ body::before{content:"";position:fixed;inset:-24px;z-index:-3;background-image:v
 [hidden]{display:none!important}
 </style>
 
+<style>
+
+/* ===== Comic-book visual themes ===== */
+:root{--accent:#e21b2d;--accent2:#1769aa;--accent-soft:rgba(226,27,45,.22);--ink:#f7f8fc;--panel:#111a2d;--panel2:#17223a;--comic-line:#293754;--halftone:rgba(255,255,255,.055)}
+body{background:var(--bg);font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+body::after{background:
+  radial-gradient(circle at 12% 18%,var(--halftone) 0 1.5px,transparent 1.7px) 0 0/12px 12px,
+  linear-gradient(rgba(5,9,18,.68),rgba(5,9,18,.84));
+  mix-blend-mode:normal}
+.title,.tracker-page-head h1,.library-title,.section-title,.rating-decade-title,.continue-title{font-family:Impact,"Arial Black",system-ui,sans-serif;letter-spacing:.015em;text-transform:uppercase}
+.tracker-page-head h1{font-size:clamp(38px,8vw,66px);text-shadow:4px 4px 0 rgba(0,0,0,.35),-1px 0 0 var(--accent)}
+.eyebrow{color:var(--accent);text-shadow:1px 1px 0 rgba(0,0,0,.35)}
+.card,.continue-card,.library-card,.milestones-card,.rating-decade{background:linear-gradient(145deg,rgba(17,26,45,.96),rgba(9,15,29,.94));border-color:var(--comic-line);box-shadow:0 12px 35px rgba(0,0,0,.28),inset 0 1px 0 rgba(255,255,255,.035);position:relative;overflow:hidden}
+.card::before,.continue-card::before,.library-card::before,.milestones-card::before,.rating-decade::before{content:"";position:absolute;left:0;top:0;width:100%;height:4px;background:linear-gradient(90deg,var(--accent),var(--accent2));opacity:.95}
+.stat,.continue-item,.milestone,.hero-card,.issue,.rating-issue,.amazon-affiliate,.masterworks-box{box-shadow:0 7px 18px rgba(0,0,0,.18);border-color:color-mix(in srgb,var(--comic-line) 80%,var(--accent) 20%)}
+.top-nav a{background:var(--panel);border-color:var(--comic-line);box-shadow:3px 3px 0 rgba(0,0,0,.22);transition:transform .12s ease,box-shadow .12s ease,background .12s ease}
+.top-nav a:hover{transform:translate(-1px,-1px) rotate(-.4deg);box-shadow:5px 5px 0 rgba(0,0,0,.28)}
+.top-nav a.active,.view-btn.active,.primary,.source-button{background:var(--accent);border-color:var(--accent);box-shadow:3px 3px 0 rgba(0,0,0,.25)}
+.btn,.view-btn,.continue-button,.rating-button,.source-button{transition:transform .12s ease,filter .12s ease}
+.btn:hover,.view-btn:hover,.continue-button:hover,.rating-button:hover,.source-button:hover{transform:translateY(-2px) rotate(-.3deg);filter:brightness(1.08)}
+.issue{background:linear-gradient(90deg,rgba(13,21,39,.98),rgba(11,18,34,.88));border-left:3px solid transparent;transition:transform .12s ease,border-color .12s ease,box-shadow .12s ease}
+.issue:hover{border-left-color:var(--accent);transform:translateX(2px);box-shadow:8px 6px 0 rgba(0,0,0,.16)}
+.spider-check{border-color:#71809c;box-shadow:inset 0 0 0 2px rgba(0,0,0,.12)}
+.issue:hover .spider-check{border-color:var(--accent)}
+.rating-issue:hover{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent-soft),5px 5px 0 rgba(0,0,0,.22)}
+.rating-decade-title{color:var(--accent);text-shadow:2px 2px 0 rgba(0,0,0,.3)}
+.hero-card{position:relative;overflow:hidden;background:linear-gradient(145deg,rgba(13,21,39,.98),rgba(7,12,24,.96))}
+.hero-card.active{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent-soft),0 14px 35px rgba(0,0,0,.35)}
+.hero-card.active .hero-image{box-shadow:inset 0 -5px 0 var(--accent)}
+.hero-card:hover{transform:translateY(-4px) rotate(-.35deg);border-color:var(--accent)}
+.hero-card-content{position:relative}
+.hero-name{font-family:"Arial Black",Impact,system-ui,sans-serif;font-size:22px;text-transform:uppercase;letter-spacing:.01em}
+.hero-kind,.continue-kind{color:var(--accent)}
+.hero-progress span,.pill,.chip{border-color:color-mix(in srgb,var(--comic-line) 70%,var(--accent) 30%)}
+.bar,.milestone-progress{background:#070b14;border-color:var(--comic-line)}
+.fill,.milestone-progress-fill{background:linear-gradient(90deg,var(--accent),var(--accent2))}
+.amazon-affiliate{border-color:color-mix(in srgb,var(--comic-line) 65%,var(--accent) 35%);background:linear-gradient(145deg,rgba(13,21,39,.98),rgba(9,14,27,.95))}
+.amazon-button{background:#ffb000!important;color:#111!important;box-shadow:3px 3px 0 rgba(0,0,0,.22)}
+/* Give the checklist a comic-panel silhouette without making it awkward to use. */
+.library-card,.continue-card,.milestones-card,.card{border-radius:14px 20px 16px 22px}
+.rating-grid{gap:9px}
+.rating-issue{border-radius:8px 12px 9px 13px}
+.rating-value{font-family:"Arial Black",Impact,system-ui,sans-serif}
+@media(max-width:560px){.tracker-page-head h1{text-shadow:3px 3px 0 rgba(0,0,0,.35),-1px 0 0 var(--accent)}}
+
+/* Individual reading-order palettes */
+body[data-library-theme="spider-man"]{--accent:#e52535;--accent2:#1769aa;--comic-line:#31527a;--panel:#101b33;--panel2:#182746;--halftone:rgba(229,37,53,.09)}
+body[data-library-theme="ultimate-spider-man"]{--accent:#e83d32;--accent2:#e6d34f;--comic-line:#4d4d4d;--panel:#151515;--panel2:#222;--halftone:rgba(232,61,50,.08)}
+body[data-library-theme="x-men"]{--accent:#f2c94c;--accent2:#7048c8;--comic-line:#554b7c;--panel:#141a32;--panel2:#20284a;--halftone:rgba(242,201,76,.08)}
+body[data-library-theme="avengers"]{--accent:#dc3845;--accent2:#d4a53b;--comic-line:#5b4c4a;--panel:#151d34;--panel2:#252c45;--halftone:rgba(212,165,59,.08)}
+body[data-library-theme="fantastic-four"]{--accent:#f28b28;--accent2:#2475c6;--comic-line:#3f6082;--panel:#10213a;--panel2:#1b3150;--halftone:rgba(242,139,40,.08)}
+body[data-library-theme="daredevil"]{--accent:#c92338;--accent2:#c2a15c;--comic-line:#5c4b4d;--panel:#171419;--panel2:#262027;--halftone:rgba(201,35,56,.09)}
+
+</style>
 </head>
 <body id="appBody">
 <main class="wrap">
@@ -577,7 +631,10 @@ function switchLibrary(id){
 }
 function applyLibraryVisuals(entry){
   const body=$('appBody');
-  if(body) body.style.setProperty('--library-bg',entry.background ? `url("${entry.background}")` : 'none');
+  if(body){
+    body.style.setProperty('--library-bg',entry.background ? `url("${entry.background}")` : 'none');
+    body.dataset.libraryTheme=entry.id || 'spider-man';
+  }
 }
 
 function renderLibrary(){
