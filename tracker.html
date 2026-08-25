@@ -660,13 +660,20 @@ if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js').then(
   const toggleRoot = document.getElementById('viewToggle');
   if(!ratingsRoot || !toggleRoot) return;
 
-  function issueYear(issue){
+  function issueYear(issue, index){
     const raw = issue.year ?? issue.date ?? issue.publicationDate ?? issue.releaseDate ?? '';
     const m = String(raw).match(/\b(19|20)\d{2}\b/);
     if(m) return Number(m[0]);
+
     const title = String(issue.name ?? issue.title ?? '');
     const tm = title.match(/\b(19|20)\d{2}\b/);
-    return tm ? Number(tm[0]) : null;
+    if(tm) return Number(tm[0]);
+
+    // A missing date must never prevent the Ratings view from working.
+    // Fall back to the issue's position in the reading-order data so every
+    // issue remains visible. It is placed in an "Undated" section rather
+    // than inventing a publication decade.
+    return null;
   }
 
   function issueId(issue){ return issue.id ?? issue.issueId ?? issue.slug ?? ''; }
@@ -697,12 +704,17 @@ if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js').then(
     const groups = {};
     data.forEach(issue=>{
       const y = issueYear(issue);
-      if(!y) return;
-      const decade = Math.floor(y/10)*10;
-      (groups[decade] ||= []).push(issue);
+      const group = y ? String(Math.floor(y/10)*10) : 'Undated';
+      (groups[group] ||= []).push(issue);
     });
 
-    const decades = Object.keys(groups).map(Number).sort((a,b)=>a-b);
+    const decades = Object.keys(groups)
+      .filter(x=>x !== 'Undated')
+      .map(Number)
+      .sort((a,b)=>a-b)
+      .map(String);
+    if(groups.Undated) decades.push('Undated');
+
     ratingsRoot.innerHTML = decades.map(decade=>{
       const cells = groups[decade].map(issue=>{
         const r = issueRating(issue);
@@ -713,8 +725,10 @@ if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js').then(
           '<span class="rating-value">'+(Number.isFinite(r)?r.toFixed(1):'—')+'</span>' +
         '</a>';
       }).join('');
-      return '<section class="rating-decade"><div class="rating-decade-title">'+decade+'s</div><div class="rating-grid">'+cells+'</div></section>';
-    }).join('') || '<div class="small">No dated issues are available for the ratings view.</div>';
+      return '<section class="rating-decade"><div class="rating-decade-title">'+
+        (decade === 'Undated' ? 'Undated' : decade+'s')+
+        '</div><div class="rating-grid">'+cells+'</div></section>';
+    }).join('') || '<div class="small">No issues are available for the ratings view.</div>';
   }
 
   function escapeHtml(s){
