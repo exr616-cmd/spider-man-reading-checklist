@@ -186,6 +186,12 @@ body[data-library-theme="avengers"]{--accent:#dc3845;--accent2:#d4a53b;--comic-l
 body[data-library-theme="fantastic-four"]{--accent:#f28b28;--accent2:#2475c6;--comic-line:#3f6082;--panel:#10213a;--panel2:#1b3150;--halftone:rgba(242,139,40,.08)}
 body[data-library-theme="daredevil"]{--accent:#c92338;--accent2:#c2a15c;--comic-line:#5c4b4d;--panel:#171419;--panel2:#262027;--halftone:rgba(201,35,56,.09)}
 
+
+.favourite-wrap{margin-top:12px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.favourite-button{border:1px solid var(--line);background:#17223a;color:#fff;border-radius:10px;padding:9px 13px;font-weight:950;cursor:pointer}
+.favourite-button:hover,.favourite-button.active{background:#d91f3a;border-color:#d91f3a}
+.favourite-note{font-size:11px;color:var(--muted)}
+
 </style>
 </head>
 <body id="appBody">
@@ -308,6 +314,20 @@ function normaliseRating(value){
   return Math.max(0,Math.min(10,Math.round(n*10)/10));
 }
 
+
+function favouritesKey(){return 'marvelFavourites'}
+function getFavourites(){try{return JSON.parse(localStorage.getItem(favouritesKey())||'{}')}catch{return {}}}
+function isFavourite(lib,id){const f=getFavourites();return !!(f[lib]&&f[lib][id])}
+function setFavourite(lib,id,value){
+  const f=getFavourites(); f[lib]=f[lib]||{};
+  if(value) f[lib][id]=true; else delete f[lib][id];
+  localStorage.setItem(favouritesKey(),JSON.stringify(f));
+}
+function favouriteHTML(issue){
+  const active=isFavourite(activeLibrary,issue.id);
+  return `<div class="favourite-wrap"><button type="button" class="favourite-button ${active?'active':''}" data-favourite-id="${esc(issue.id)}" aria-pressed="${active}">${active?'★ Favourite':'☆ Add to favourites'}</button><span class="favourite-note">${active?'This issue is on your profile.':'Add this issue to your profile favourites.'}</span></div>`;
+}
+
 function ratingStore(){return JSON.parse(localStorage.getItem('marvelRatings:'+activeLibrary)||'{}')}
 function saveRating(id,score){const r=ratingStore();r[id]=score;localStorage.setItem('marvelRatings:'+activeLibrary,JSON.stringify(r))}
 function ratingHTML(issue){const r=ratingStore(),cur=Number(r[issue.id]||0);return `<div class="rating-wrap"><div class="rating-title">Your rating</div><div class="rating-buttons" data-rating-id="${esc(issue.id)}">${[1,2,3,4,5,6,7,8,9,10].map(n=>`<button type="button" class="rating-button ${n===cur?'active':''}" data-score="${n}">${n}</button>`).join('')}</div><div class="rating-note">${cur?`You rated this ${cur}/10.`:'Rate this issue from 1–10 (optional).'}</div></div>`}
@@ -344,6 +364,7 @@ function showIssueDetails(issue){
  <h3>Research</h3>
  <div class="source-buttons"><a class="source-button alt" href="${esc(wiki)}" target="_blank" rel="noopener">Marvel Database Wiki</a></div>
  ${ratingHTML(issue)}
+ ${favouriteHTML(issue)}
  ${issue.amazonUrl ? `
  <div class="amazon-affiliate">
    <div class="amazon-affiliate-title">Buy / collect this issue</div>
@@ -703,6 +724,20 @@ function loadLibrary(id, focusAfterLoad=false){
     console.error(err);
   });
 }
+
+
+document.addEventListener('click',e=>{
+  const b=e.target.closest('.favourite-button');
+  if(!b)return;
+  const id=b.dataset.favouriteId;
+  const next=!isFavourite(activeLibrary,id);
+  setFavourite(activeLibrary,id,next);
+  const issue=items.find(x=>x.id===id);
+  if(issue){
+    const wrap=$('issueModal').querySelector('.favourite-wrap');
+    if(wrap) wrap.outerHTML=favouriteHTML(issue);
+  }
+});
 
 document.addEventListener('click',e=>{const b=e.target.closest('.rating-button');if(!b)return;const box=b.closest('[data-rating-id]');if(!box)return;const id=box.dataset.ratingId,score=Number(b.dataset.score);saveRating(id,score);box.querySelectorAll('.rating-button').forEach(x=>x.classList.toggle('active',Number(x.dataset.score)===score));const note=box.parentElement.querySelector('.rating-note');if(note)note.textContent=`You rated this ${score}/10.`;});
 

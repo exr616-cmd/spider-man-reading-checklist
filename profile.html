@@ -7,11 +7,21 @@ body{position:relative;overflow-x:hidden}body:before{content:"";position:fixed;i
 .eyebrow{color:#ff6875;font-weight:900;letter-spacing:.11em;text-transform:uppercase;font-size:12px}h1{font-size:clamp(42px,8vw,70px);line-height:.92;margin:7px 0 12px;font-weight:950}.lead{color:var(--muted);font-size:18px;line-height:1.5}.card{background:#111a2df2;border:1px solid var(--line);border-radius:20px;padding:20px;margin-top:18px}.section-title{font-size:27px;font-weight:950;margin:4px 0}.small{font-size:12px;color:var(--muted);line-height:1.45}.btn{display:inline-block;text-decoration:none;color:#fff;background:var(--red);border:1px solid var(--red);border-radius:10px;padding:9px 13px;font-weight:900}
 </style><style>
 .profile{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:18px}.stat{background:#17223a;border-radius:15px;padding:15px}.stat b{display:block;font-size:30px}.stat span{color:var(--muted);font-size:11px;font-weight:900;text-transform:uppercase}.lists{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.list{display:grid;gap:9px;margin-top:12px}.row{display:flex;justify-content:space-between;gap:10px;background:#0d1527;border:1px solid #293754;border-radius:12px;padding:11px}.row-main{min-width:0}.row-name{font-weight:900;overflow-wrap:anywhere}.meta{color:var(--muted);font-size:11px;margin-top:3px}.score{color:#ffd45a;font-weight:950;white-space:nowrap}.milestones{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:12px}.mile{background:#0d1527;border:1px solid #293754;border-radius:14px;padding:13px}.mile.unlocked{border-color:#e21b2d}.mile-name{font-weight:950;margin-top:4px}.mile-desc,.status{color:var(--muted);font-size:11px;margin-top:3px}.bar{height:7px;background:#080e1b;border:1px solid #293754;border-radius:99px;overflow:hidden;margin-top:9px}.fill{height:100%;background:linear-gradient(90deg,#e21b2d,#ff6571)}@media(max-width:700px){.profile{grid-template-columns:repeat(2,1fr)}.lists,.milestones{grid-template-columns:1fr}}
+
+.favourite-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:12px}
+.favourite-card{display:flex;justify-content:space-between;gap:10px;background:#0d1527;border:1px solid #293754;border-radius:14px;padding:12px;text-decoration:none;color:var(--text)}
+.favourite-card:hover{border-color:#e21b2d;transform:translateY(-1px)}
+.favourite-name{font-weight:950;overflow-wrap:anywhere}
+.favourite-meta{color:var(--muted);font-size:11px;margin-top:3px}
+.favourite-star{color:#ff5b70;font-size:22px;font-weight:950}
+@media(max-width:700px){.favourite-grid{grid-template-columns:1fr}}
+
 </style></head><body><main class="wrap">
 <nav class="top-nav"><a href="index.html">Home</a><a href="reading-orders.html">📚 Reading Orders</a><a class="active" href="profile.html">👤 Profile</a></nav>
 <div class="eyebrow">Comic Orders</div><h1>My Profile</h1><p class="lead">Your reading stats, achievements, favourites and ratings.</p>
 <section class="card"><div class="profile"><div class="stat"><b id="read">0</b><span>Comics read</span></div><div class="stat"><b id="rated">0</b><span>Issues rated</span></div><div class="stat"><b id="avg">—</b><span>Average rating</span></div><div class="stat"><b id="runs">0</b><span>Runs completed</span></div></div></section>
 <section class="card"><div class="section-title">🏆 Milestones</div><div id="milestones" class="milestones"></div></section>
+<section class="card"><div class="section-title">⭐ Favourite Issues</div><div id="favourites" class="favourite-grid"></div></section>
 <div class="lists"><section class="card"><div class="section-title">🥇 Top 3 Issues</div><div id="top" class="list"></div></section><section class="card"><div class="section-title">💀 Bottom 3 Issues</div><div id="bottom" class="list"></div></section></div>
 </main><script>
 const libs=[['spider-man','Spider-Man','data.json'],['ultimate-spider-man','Ultimate Spider-Man','ultimate-spider-man-2000s.json'],['x-men','X-Men','x-men.json'],['avengers','Avengers','avengers.json'],['fantastic-four','Fantastic Four','fantastic-four.json'],['daredevil','Daredevil','daredevil.json']];
@@ -20,10 +30,18 @@ async function run(){
  const all=[];
  for(const [id,name,file] of libs){try{const d=await (await fetch(file,{cache:'no-store'})).json();const p=get('marvelProgress:'+id,{}),r=get('marvelRatings:'+id,{}),done=p.done||{};d.forEach(x=>all.push({...x,lib:id,libName:name,read:!!done[x.id],rating:r[x.id]??''}))}catch(e){}}
  const read=all.filter(x=>x.read),rated=all.filter(x=>x.rating!==''&&Number.isFinite(Number(x.rating)));
+ const favourites=get('marvelFavourites',{});
+ const favs=all.filter(x=>!!(favourites[x.lib]&&favourites[x.lib][x.id]));
  $('read').textContent=read.length.toLocaleString();$('rated').textContent=rated.length.toLocaleString();
  $('avg').textContent=rated.length?(rated.reduce((a,x)=>a+Number(x.rating),0)/rated.length).toFixed(1):'—';
  $('runs').textContent=libs.filter(([id])=>{const a=all.filter(x=>x.lib===id);return a.length&&a.every(x=>x.read)}).length;
  const row=x=>'<div class="row"><div class="row-main"><div class="row-name">'+esc(x.name)+'</div><div class="meta">'+esc(x.libName)+'</div></div><div class="score">'+Number(x.rating).toFixed(1)+' ⭐</div></div>';
+
+ $('favourites').innerHTML=favs.length ? favs.map(x=>{
+   const href='tracker.html?library='+encodeURIComponent(x.lib)+'&issue='+encodeURIComponent(x.id);
+   return '<a class="favourite-card" href="'+href+'"><div><div class="favourite-name">'+esc(x.name)+'</div><div class="favourite-meta">'+esc(x.libName)+(x.rating!==''?' • '+Number(x.rating).toFixed(1)+' ⭐':'')+'</div></div><div class="favourite-star">★</div></a>';
+ }).join('') : '<div class="status">Tap ☆ Add to favourites on any issue to build your collection.</div>';
+
  $('top').innerHTML=rated.slice().sort((a,b)=>Number(b.rating)-Number(a.rating)).slice(0,3).map(row).join('')||'<div class="status">Rate issues to build your Top 3.</div>';
  $('bottom').innerHTML=rated.slice().sort((a,b)=>Number(a.rating)-Number(b.rating)).slice(0,3).map(row).join('')||'<div class="status">Rate issues to build your Bottom 3.</div>';
  const miles=[['🕷️','Origin Story','Read your first comic.',1],['📚','If This Be My Destiny...','Read 10 comics.',10],['🔥','Prospect','Read 50 comics.',50],['💯','Full-Blown Hero','Read 100 comics.',100],['🏆','Defender','Read 250 comics.',250],['💎','Legend','Read 500 comics.',500],['👑','Avenger','Read 1,000 comics.',1000]];
