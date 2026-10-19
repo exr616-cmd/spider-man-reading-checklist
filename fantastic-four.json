@@ -1,8 +1,8 @@
 [
   {
     "id": "fantastic-four-00001",
-    "name": ": Fantastic Four #1 (1961)",
-    "title": ": Fantastic Four",
+    "name": "Fantastic Four #1 (1961)",
+    "title": "Fantastic Four",
     "issueNumber": 1,
     "year": 1961,
     "decade": "1960s",
@@ -49,11 +49,11 @@
   },
   {
     "id": "fantastic-four-00004",
-    "name": "Fantastic Four #1 (1961)",
+    "name": "Fantastic Four #1",
     "title": "Fantastic Four",
     "issueNumber": 1,
-    "year": 1961,
-    "decade": "1960s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -337,11 +337,11 @@
   },
   {
     "id": "fantastic-four-00022",
-    "name": "Fantastic Four Annual #1 (1963)",
+    "name": "Fantastic Four Annual #1",
     "title": "Fantastic Four Annual",
     "issueNumber": 1,
-    "year": 1963,
-    "decade": "1960s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -1985,11 +1985,11 @@
   },
   {
     "id": "fantastic-four-00125",
-    "name": "Marvel Two-in-One #1 (1974)",
-    "title": "Marvel Two-in-One",
+    "name": "Marvel Two-In-One #1",
+    "title": "Marvel Two-In-One",
     "issueNumber": 1,
-    "year": 1974,
-    "decade": "1970s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -2001,8 +2001,8 @@
   },
   {
     "id": "fantastic-four-00126",
-    "name": "Marvel Two-in-One #50",
-    "title": "Marvel Two-in-One",
+    "name": "Marvel Two-In-One #50",
+    "title": "Marvel Two-In-One",
     "issueNumber": 50,
     "year": null,
     "decade": "",
@@ -2017,8 +2017,8 @@
   },
   {
     "id": "fantastic-four-00127",
-    "name": "Marvel Two-in-One #51",
-    "title": "Marvel Two-in-One",
+    "name": "Marvel Two-In-One #51",
+    "title": "Marvel Two-In-One",
     "issueNumber": 51,
     "year": null,
     "decade": "",
@@ -2033,8 +2033,8 @@
   },
   {
     "id": "fantastic-four-00128",
-    "name": "Marvel Two-in-One #53",
-    "title": "Marvel Two-in-One",
+    "name": "Marvel Two-In-One #53",
+    "title": "Marvel Two-In-One",
     "issueNumber": 53,
     "year": null,
     "decade": "",
@@ -2049,8 +2049,8 @@
   },
   {
     "id": "fantastic-four-00129",
-    "name": "Marvel Two-in-One #54",
-    "title": "Marvel Two-in-One",
+    "name": "Marvel Two-In-One #54",
+    "title": "Marvel Two-In-One",
     "issueNumber": 54,
     "year": null,
     "decade": "",
@@ -2065,8 +2065,8 @@
   },
   {
     "id": "fantastic-four-00130",
-    "name": "Marvel Two-in-One #55",
-    "title": "Marvel Two-in-One",
+    "name": "Marvel Two-In-One #55",
+    "title": "Marvel Two-In-One",
     "issueNumber": 55,
     "year": null,
     "decade": "",
@@ -2081,8 +2081,8 @@
   },
   {
     "id": "fantastic-four-00131",
-    "name": "Marvel Two-in-One #56",
-    "title": "Marvel Two-in-One",
+    "name": "Marvel Two-In-One #56",
+    "title": "Marvel Two-In-One",
     "issueNumber": 56,
     "year": null,
     "decade": "",
@@ -2097,8 +2097,8 @@
   },
   {
     "id": "fantastic-four-00132",
-    "name": "Marvel Two-in-One #57",
-    "title": "Marvel Two-in-One",
+    "name": "Marvel Two-In-One #57",
+    "title": "Marvel Two-In-One",
     "issueNumber": 57,
     "year": null,
     "decade": "",
@@ -2113,8 +2113,8 @@
   },
   {
     "id": "fantastic-four-00133",
-    "name": "Marvel Two-in-One #58",
-    "title": "Marvel Two-in-One",
+    "name": "Marvel Two-In-One #58",
+    "title": "Marvel Two-In-One",
     "issueNumber": 58,
     "year": null,
     "decade": "",
@@ -2129,8 +2129,8 @@
   },
   {
     "id": "fantastic-four-00134",
-    "name": "Marvel Two-in-One #60",
-    "title": "Marvel Two-in-One",
+    "name": "Marvel Two-In-One #60",
+    "title": "Marvel Two-In-One",
     "issueNumber": 60,
     "year": null,
     "decade": "",
@@ -2385,8 +2385,8 @@
   },
   {
     "id": "fantastic-four-00150",
-    "name": "Marvel Two-in-One #86",
-    "title": "Marvel Two-in-One",
+    "name": "Marvel Two-In-One #86",
+    "title": "Marvel Two-In-One",
     "issueNumber": 86,
     "year": null,
     "decade": "",
@@ -2609,8 +2609,8 @@
   },
   {
     "id": "fantastic-four-00164",
-    "name": "Marvel Two-in-One #99",
-    "title": "Marvel Two-in-One",
+    "name": "Marvel Two-In-One #99",
+    "title": "Marvel Two-In-One",
     "issueNumber": 99,
     "year": null,
     "decade": "",
@@ -2625,8 +2625,8 @@
   },
   {
     "id": "fantastic-four-00165",
-    "name": "Marvel Two-in-One #100",
-    "title": "Marvel Two-in-One",
+    "name": "Marvel Two-In-One #100",
+    "title": "Marvel Two-In-One",
     "issueNumber": 100,
     "year": null,
     "decade": "",
@@ -3265,6 +3265,22 @@
   },
   {
     "id": "fantastic-four-00205",
+    "name": "Marvel Graphic Novel #29",
+    "title": "Marvel Graphic Novel",
+    "issueNumber": 29,
+    "year": null,
+    "decade": "",
+    "writer": "",
+    "artist": "",
+    "storyline": "",
+    "note": "",
+    "statusType": "essential",
+    "universe": "main",
+    "readLinks": [],
+    "wikiUrl": ""
+  },
+  {
+    "id": "fantastic-four-00206",
     "name": "Fantastic Four #350",
     "title": "Fantastic Four",
     "issueNumber": 350,
@@ -3280,7 +3296,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00206",
+    "id": "fantastic-four-00207",
     "name": "Fantastic Four #352",
     "title": "Fantastic Four",
     "issueNumber": 352,
@@ -3296,7 +3312,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00207",
+    "id": "fantastic-four-00208",
     "name": "Fantastic Four #353",
     "title": "Fantastic Four",
     "issueNumber": 353,
@@ -3312,7 +3328,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00208",
+    "id": "fantastic-four-00209",
     "name": "Fantastic Four #354",
     "title": "Fantastic Four",
     "issueNumber": 354,
@@ -3328,7 +3344,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00209",
+    "id": "fantastic-four-00210",
     "name": "Fantastic Four Vol. 3 #61",
     "title": "Fantastic Four Vol. 3",
     "issueNumber": 61,
@@ -3344,7 +3360,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00210",
+    "id": "fantastic-four-00211",
     "name": "Fantastic Four Vol. 3 #62",
     "title": "Fantastic Four Vol. 3",
     "issueNumber": 62,
@@ -3360,7 +3376,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00211",
+    "id": "fantastic-four-00212",
     "name": "Fantastic Four Vol. 3 #63",
     "title": "Fantastic Four Vol. 3",
     "issueNumber": 63,
@@ -3376,7 +3392,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00212",
+    "id": "fantastic-four-00213",
     "name": "Fantastic Four Vol. 3 #64",
     "title": "Fantastic Four Vol. 3",
     "issueNumber": 64,
@@ -3392,7 +3408,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00213",
+    "id": "fantastic-four-00214",
     "name": "Fantastic Four Vol. 3 #65",
     "title": "Fantastic Four Vol. 3",
     "issueNumber": 65,
@@ -3408,7 +3424,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00214",
+    "id": "fantastic-four-00215",
     "name": "Fantastic Four Vol. 3 #66",
     "title": "Fantastic Four Vol. 3",
     "issueNumber": 66,
@@ -3424,7 +3440,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00215",
+    "id": "fantastic-four-00216",
     "name": "Fantastic Four Vol. 3 #67",
     "title": "Fantastic Four Vol. 3",
     "issueNumber": 67,
@@ -3440,7 +3456,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00216",
+    "id": "fantastic-four-00217",
     "name": "Fantastic Four Vol. 3 #68",
     "title": "Fantastic Four Vol. 3",
     "issueNumber": 68,
@@ -3456,7 +3472,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00217",
+    "id": "fantastic-four-00218",
     "name": "Fantastic Four Vol. 3 #69",
     "title": "Fantastic Four Vol. 3",
     "issueNumber": 69,
@@ -3472,7 +3488,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00218",
+    "id": "fantastic-four-00219",
     "name": "Fantastic Four Vol. 3 #70",
     "title": "Fantastic Four Vol. 3",
     "issueNumber": 70,
@@ -3488,9 +3504,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00219",
-    "name": "Fantastic Four #500",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00220",
+    "name": "Fantastic Four Vol. 3 #500",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 500,
     "year": null,
     "decade": "",
@@ -3504,9 +3520,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00220",
-    "name": "Fantastic Four #501",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00221",
+    "name": "Fantastic Four Vol. 3 #501",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 501,
     "year": null,
     "decade": "",
@@ -3520,9 +3536,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00221",
-    "name": "Fantastic Four #502",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00222",
+    "name": "Fantastic Four Vol. 3 #502",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 502,
     "year": null,
     "decade": "",
@@ -3536,9 +3552,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00222",
-    "name": "Fantastic Four #503",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00223",
+    "name": "Fantastic Four Vol. 3 #503",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 503,
     "year": null,
     "decade": "",
@@ -3552,9 +3568,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00223",
-    "name": "Fantastic Four #504",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00224",
+    "name": "Fantastic Four Vol. 3 #504",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 504,
     "year": null,
     "decade": "",
@@ -3568,9 +3584,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00224",
-    "name": "Fantastic Four #505",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00225",
+    "name": "Fantastic Four Vol. 3 #505",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 505,
     "year": null,
     "decade": "",
@@ -3584,9 +3600,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00225",
-    "name": "Fantastic Four #506",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00226",
+    "name": "Fantastic Four Vol. 3 #506",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 506,
     "year": null,
     "decade": "",
@@ -3600,9 +3616,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00226",
-    "name": "Fantastic Four #507",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00227",
+    "name": "Fantastic Four Vol. 3 #507",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 507,
     "year": null,
     "decade": "",
@@ -3616,9 +3632,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00227",
-    "name": "Fantastic Four #508",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00228",
+    "name": "Fantastic Four Vol. 3 #508",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 508,
     "year": null,
     "decade": "",
@@ -3632,9 +3648,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00228",
-    "name": "Fantastic Four #509",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00229",
+    "name": "Fantastic Four Vol. 3 #509",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 509,
     "year": null,
     "decade": "",
@@ -3648,9 +3664,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00229",
-    "name": "Fantastic Four #510",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00230",
+    "name": "Fantastic Four Vol. 3 #510",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 510,
     "year": null,
     "decade": "",
@@ -3664,9 +3680,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00230",
-    "name": "Fantastic Four #511",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00231",
+    "name": "Fantastic Four Vol. 3 #511",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 511,
     "year": null,
     "decade": "",
@@ -3680,9 +3696,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00231",
-    "name": "Fantastic Four #512",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00232",
+    "name": "Fantastic Four Vol. 3 #512",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 512,
     "year": null,
     "decade": "",
@@ -3696,9 +3712,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00232",
-    "name": "Fantastic Four #513",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00233",
+    "name": "Fantastic Four Vol. 3 #513",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 513,
     "year": null,
     "decade": "",
@@ -3712,9 +3728,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00233",
-    "name": "Fantastic Four #514",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00234",
+    "name": "Fantastic Four Vol. 3 #514",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 514,
     "year": null,
     "decade": "",
@@ -3728,9 +3744,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00234",
-    "name": "Fantastic Four #515",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00235",
+    "name": "Fantastic Four Vol. 3 #515",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 515,
     "year": null,
     "decade": "",
@@ -3744,9 +3760,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00235",
-    "name": "Fantastic Four #516",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00236",
+    "name": "Fantastic Four Vol. 3 #516",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 516,
     "year": null,
     "decade": "",
@@ -3760,9 +3776,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00236",
-    "name": "Fantastic Four #517",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00237",
+    "name": "Fantastic Four Vol. 3 #517",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 517,
     "year": null,
     "decade": "",
@@ -3776,9 +3792,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00237",
-    "name": "Fantastic Four #518",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00238",
+    "name": "Fantastic Four Vol. 3 #518",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 518,
     "year": null,
     "decade": "",
@@ -3792,9 +3808,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00238",
-    "name": "Fantastic Four #519",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00239",
+    "name": "Fantastic Four Vol. 3 #519",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 519,
     "year": null,
     "decade": "",
@@ -3808,9 +3824,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00239",
-    "name": "Fantastic Four #520",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00240",
+    "name": "Fantastic Four Vol. 3 #520",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 520,
     "year": null,
     "decade": "",
@@ -3824,9 +3840,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00240",
-    "name": "Fantastic Four #521",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00241",
+    "name": "Fantastic Four Vol. 3 #521",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 521,
     "year": null,
     "decade": "",
@@ -3840,9 +3856,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00241",
-    "name": "Fantastic Four #522",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00242",
+    "name": "Fantastic Four Vol. 3 #522",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 522,
     "year": null,
     "decade": "",
@@ -3856,9 +3872,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00242",
-    "name": "Fantastic Four #523",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00243",
+    "name": "Fantastic Four Vol. 3 #523",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 523,
     "year": null,
     "decade": "",
@@ -3872,9 +3888,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00243",
-    "name": "Fantastic Four #524",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00244",
+    "name": "Fantastic Four Vol. 3 #524",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 524,
     "year": null,
     "decade": "",
@@ -3888,7 +3904,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00244",
+    "id": "fantastic-four-00245",
     "name": "Dark Reign: Fantastic Four #1",
     "title": "Dark Reign: Fantastic Four",
     "issueNumber": 1,
@@ -3904,7 +3920,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00245",
+    "id": "fantastic-four-00246",
     "name": "Dark Reign: Fantastic Four #2",
     "title": "Dark Reign: Fantastic Four",
     "issueNumber": 2,
@@ -3920,7 +3936,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00246",
+    "id": "fantastic-four-00247",
     "name": "Dark Reign: Fantastic Four #3",
     "title": "Dark Reign: Fantastic Four",
     "issueNumber": 3,
@@ -3936,7 +3952,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00247",
+    "id": "fantastic-four-00248",
     "name": "Dark Reign: Fantastic Four #4",
     "title": "Dark Reign: Fantastic Four",
     "issueNumber": 4,
@@ -3952,7 +3968,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00248",
+    "id": "fantastic-four-00249",
     "name": "Dark Reign: Fantastic Four #5",
     "title": "Dark Reign: Fantastic Four",
     "issueNumber": 5,
@@ -3968,9 +3984,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00249",
-    "name": "Fantastic Four #570",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00250",
+    "name": "Fantastic Four Vol. 3 #570",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 570,
     "year": null,
     "decade": "",
@@ -3984,9 +4000,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00250",
-    "name": "Fantastic Four #571",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00251",
+    "name": "Fantastic Four Vol. 3 #571",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 571,
     "year": null,
     "decade": "",
@@ -4000,9 +4016,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00251",
-    "name": "Fantastic Four #572",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00252",
+    "name": "Fantastic Four Vol. 3 #572",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 572,
     "year": null,
     "decade": "",
@@ -4016,9 +4032,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00252",
-    "name": "Fantastic Four #573",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00253",
+    "name": "Fantastic Four Vol. 3 #573",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 573,
     "year": null,
     "decade": "",
@@ -4032,9 +4048,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00253",
-    "name": "Fantastic Four #574",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00254",
+    "name": "Fantastic Four Vol. 3 #574",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 574,
     "year": null,
     "decade": "",
@@ -4048,9 +4064,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00254",
-    "name": "Fantastic Four #575",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00255",
+    "name": "Fantastic Four Vol. 3 #575",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 575,
     "year": null,
     "decade": "",
@@ -4064,9 +4080,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00255",
-    "name": "Fantastic Four #576",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00256",
+    "name": "Fantastic Four Vol. 3 #576",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 576,
     "year": null,
     "decade": "",
@@ -4080,9 +4096,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00256",
-    "name": "Fantastic Four #577",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00257",
+    "name": "Fantastic Four Vol. 3 #577",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 577,
     "year": null,
     "decade": "",
@@ -4096,9 +4112,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00257",
-    "name": "Fantastic Four #578",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00258",
+    "name": "Fantastic Four Vol. 3 #578",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 578,
     "year": null,
     "decade": "",
@@ -4112,9 +4128,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00258",
-    "name": "Fantastic Four #579",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00259",
+    "name": "Fantastic Four Vol. 3 #579",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 579,
     "year": null,
     "decade": "",
@@ -4128,9 +4144,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00259",
-    "name": "Fantastic Four #580",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00260",
+    "name": "Fantastic Four Vol. 3 #580",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 580,
     "year": null,
     "decade": "",
@@ -4144,9 +4160,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00260",
-    "name": "Fantastic Four #581",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00261",
+    "name": "Fantastic Four Vol. 3 #581",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 581,
     "year": null,
     "decade": "",
@@ -4160,9 +4176,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00261",
-    "name": "Fantastic Four #582",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00262",
+    "name": "Fantastic Four Vol. 3 #582",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 582,
     "year": null,
     "decade": "",
@@ -4176,9 +4192,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00262",
-    "name": "Fantastic Four #583",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00263",
+    "name": "Fantastic Four Vol. 3 #583",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 583,
     "year": null,
     "decade": "",
@@ -4192,9 +4208,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00263",
-    "name": "Fantastic Four #584",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00264",
+    "name": "Fantastic Four Vol. 3 #584",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 584,
     "year": null,
     "decade": "",
@@ -4208,9 +4224,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00264",
-    "name": "Fantastic Four #585",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00265",
+    "name": "Fantastic Four Vol. 3 #585",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 585,
     "year": null,
     "decade": "",
@@ -4224,9 +4240,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00265",
-    "name": "Fantastic Four #586",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00266",
+    "name": "Fantastic Four Vol. 3 #586",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 586,
     "year": null,
     "decade": "",
@@ -4240,9 +4256,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00266",
-    "name": "Fantastic Four #587",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00267",
+    "name": "Fantastic Four Vol. 3 #587",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 587,
     "year": null,
     "decade": "",
@@ -4256,9 +4272,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00267",
-    "name": "Fantastic Four #588",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00268",
+    "name": "Fantastic Four Vol. 3 #588",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 588,
     "year": null,
     "decade": "",
@@ -4272,12 +4288,12 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00268",
-    "name": "FF #1 (2011)",
+    "id": "fantastic-four-00269",
+    "name": "FF #1",
     "title": "FF",
     "issueNumber": 1,
-    "year": 2011,
-    "decade": "2010s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -4288,7 +4304,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00269",
+    "id": "fantastic-four-00270",
     "name": "FF #2",
     "title": "FF",
     "issueNumber": 2,
@@ -4304,7 +4320,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00270",
+    "id": "fantastic-four-00271",
     "name": "FF #3",
     "title": "FF",
     "issueNumber": 3,
@@ -4320,7 +4336,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00271",
+    "id": "fantastic-four-00272",
     "name": "FF #4",
     "title": "FF",
     "issueNumber": 4,
@@ -4336,7 +4352,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00272",
+    "id": "fantastic-four-00273",
     "name": "FF #5",
     "title": "FF",
     "issueNumber": 5,
@@ -4352,7 +4368,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00273",
+    "id": "fantastic-four-00274",
     "name": "FF #6",
     "title": "FF",
     "issueNumber": 6,
@@ -4368,7 +4384,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00274",
+    "id": "fantastic-four-00275",
     "name": "FF #7",
     "title": "FF",
     "issueNumber": 7,
@@ -4384,7 +4400,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00275",
+    "id": "fantastic-four-00276",
     "name": "FF #8",
     "title": "FF",
     "issueNumber": 8,
@@ -4400,7 +4416,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00276",
+    "id": "fantastic-four-00277",
     "name": "FF #9",
     "title": "FF",
     "issueNumber": 9,
@@ -4416,7 +4432,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00277",
+    "id": "fantastic-four-00278",
     "name": "FF #10",
     "title": "FF",
     "issueNumber": 10,
@@ -4432,7 +4448,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00278",
+    "id": "fantastic-four-00279",
     "name": "FF #11",
     "title": "FF",
     "issueNumber": 11,
@@ -4448,9 +4464,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00279",
-    "name": "Fantastic Four #600",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00280",
+    "name": "Fantastic Four Vol. 3 #600",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 600,
     "year": null,
     "decade": "",
@@ -4464,7 +4480,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00280",
+    "id": "fantastic-four-00281",
     "name": "FF #12",
     "title": "FF",
     "issueNumber": 12,
@@ -4480,9 +4496,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00281",
-    "name": "Fantastic Four #601",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00282",
+    "name": "Fantastic Four Vol. 3 #601",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 601,
     "year": null,
     "decade": "",
@@ -4496,7 +4512,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00282",
+    "id": "fantastic-four-00283",
     "name": "FF #13",
     "title": "FF",
     "issueNumber": 13,
@@ -4512,9 +4528,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00283",
-    "name": "Fantastic Four #602",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00284",
+    "name": "Fantastic Four Vol. 3 #602",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 602,
     "year": null,
     "decade": "",
@@ -4528,7 +4544,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00284",
+    "id": "fantastic-four-00285",
     "name": "FF #14",
     "title": "FF",
     "issueNumber": 14,
@@ -4544,9 +4560,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00285",
-    "name": "Fantastic Four #603",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00286",
+    "name": "Fantastic Four Vol. 3 #603",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 603,
     "year": null,
     "decade": "",
@@ -4560,7 +4576,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00286",
+    "id": "fantastic-four-00287",
     "name": "FF #15",
     "title": "FF",
     "issueNumber": 15,
@@ -4576,9 +4592,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00287",
-    "name": "Fantastic Four #604",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00288",
+    "name": "Fantastic Four Vol. 3 #604",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 604,
     "year": null,
     "decade": "",
@@ -4592,7 +4608,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00288",
+    "id": "fantastic-four-00289",
     "name": "FF #16",
     "title": "FF",
     "issueNumber": 16,
@@ -4608,9 +4624,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00289",
-    "name": "Fantastic Four #605",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00290",
+    "name": "Fantastic Four Vol. 3 #605",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 605,
     "year": null,
     "decade": "",
@@ -4624,9 +4640,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00290",
-    "name": "Fantastic Four #606",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00291",
+    "name": "Fantastic Four Vol. 3 #606",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 606,
     "year": null,
     "decade": "",
@@ -4640,7 +4656,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00291",
+    "id": "fantastic-four-00292",
     "name": "FF #17",
     "title": "FF",
     "issueNumber": 17,
@@ -4656,7 +4672,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00292",
+    "id": "fantastic-four-00293",
     "name": "FF #18",
     "title": "FF",
     "issueNumber": 18,
@@ -4672,9 +4688,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00293",
-    "name": "Fantastic Four #607",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00294",
+    "name": "Fantastic Four Vol. 3 #607",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 607,
     "year": null,
     "decade": "",
@@ -4688,9 +4704,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00294",
-    "name": "Fantastic Four #608",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00295",
+    "name": "Fantastic Four Vol. 3 #608",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 608,
     "year": null,
     "decade": "",
@@ -4704,7 +4720,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00295",
+    "id": "fantastic-four-00296",
     "name": "FF #19",
     "title": "FF",
     "issueNumber": 19,
@@ -4720,7 +4736,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00296",
+    "id": "fantastic-four-00297",
     "name": "FF #20",
     "title": "FF",
     "issueNumber": 20,
@@ -4736,7 +4752,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00297",
+    "id": "fantastic-four-00298",
     "name": "FF #21",
     "title": "FF",
     "issueNumber": 21,
@@ -4752,9 +4768,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00298",
-    "name": "Fantastic Four #609",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00299",
+    "name": "Fantastic Four Vol. 3 #609",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 609,
     "year": null,
     "decade": "",
@@ -4768,9 +4784,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00299",
-    "name": "Fantastic Four #610",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00300",
+    "name": "Fantastic Four Vol. 3 #610",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 610,
     "year": null,
     "decade": "",
@@ -4784,7 +4800,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00300",
+    "id": "fantastic-four-00301",
     "name": "FF #22",
     "title": "FF",
     "issueNumber": 22,
@@ -4800,9 +4816,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00301",
-    "name": "Fantastic Four #611",
-    "title": "Fantastic Four",
+    "id": "fantastic-four-00302",
+    "name": "Fantastic Four Vol. 3 #611",
+    "title": "Fantastic Four Vol. 3",
     "issueNumber": 611,
     "year": null,
     "decade": "",
@@ -4816,7 +4832,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00302",
+    "id": "fantastic-four-00303",
     "name": "FF #23",
     "title": "FF",
     "issueNumber": 23,
@@ -4832,28 +4848,12 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00303",
-    "name": "Fantastic Four Vol. 4 #1 (2013)",
+    "id": "fantastic-four-00304",
+    "name": "Fantastic Four Vol. 4 #1",
     "title": "Fantastic Four Vol. 4",
     "issueNumber": 1,
-    "year": 2013,
-    "decade": "2010s",
-    "writer": "",
-    "artist": "",
-    "storyline": "",
-    "note": "",
-    "statusType": "essential",
-    "universe": "main",
-    "readLinks": [],
-    "wikiUrl": ""
-  },
-  {
-    "id": "fantastic-four-00304",
-    "name": "FF Vol. 2 #1 (2013)",
-    "title": "FF Vol. 2",
-    "issueNumber": 1,
-    "year": 2013,
-    "decade": "2010s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -4865,6 +4865,22 @@
   },
   {
     "id": "fantastic-four-00305",
+    "name": "FF Vol. 2 #1",
+    "title": "FF Vol. 2",
+    "issueNumber": 1,
+    "year": null,
+    "decade": "",
+    "writer": "",
+    "artist": "",
+    "storyline": "",
+    "note": "",
+    "statusType": "essential",
+    "universe": "main",
+    "readLinks": [],
+    "wikiUrl": ""
+  },
+  {
+    "id": "fantastic-four-00306",
     "name": "Fantastic Four Vol. 4 #2",
     "title": "Fantastic Four Vol. 4",
     "issueNumber": 2,
@@ -4880,7 +4896,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00306",
+    "id": "fantastic-four-00307",
     "name": "FF Vol. 2 #2",
     "title": "FF Vol. 2",
     "issueNumber": 2,
@@ -4896,7 +4912,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00307",
+    "id": "fantastic-four-00308",
     "name": "Fantastic Four Vol. 4 #3",
     "title": "Fantastic Four Vol. 4",
     "issueNumber": 3,
@@ -4912,7 +4928,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00308",
+    "id": "fantastic-four-00309",
     "name": "FF Vol. 2 #3",
     "title": "FF Vol. 2",
     "issueNumber": 3,
@@ -4928,7 +4944,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00309",
+    "id": "fantastic-four-00310",
     "name": "FF Vol. 2 #4",
     "title": "FF Vol. 2",
     "issueNumber": 4,
@@ -4944,7 +4960,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00310",
+    "id": "fantastic-four-00311",
     "name": "Fantastic Four Vol. 4 #4",
     "title": "Fantastic Four Vol. 4",
     "issueNumber": 4,
@@ -4960,7 +4976,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00311",
+    "id": "fantastic-four-00312",
     "name": "Fantastic Four Vol. 4 #5",
     "title": "Fantastic Four Vol. 4",
     "issueNumber": 5,
@@ -4976,7 +4992,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00312",
+    "id": "fantastic-four-00313",
     "name": "FF Vol. 2 #5",
     "title": "FF Vol. 2",
     "issueNumber": 5,
@@ -4992,7 +5008,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00313",
+    "id": "fantastic-four-00314",
     "name": "FF Vol. 2 #6",
     "title": "FF Vol. 2",
     "issueNumber": 6,
@@ -5008,7 +5024,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00314",
+    "id": "fantastic-four-00315",
     "name": "FF Vol. 2 #7",
     "title": "FF Vol. 2",
     "issueNumber": 7,
@@ -5024,7 +5040,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00315",
+    "id": "fantastic-four-00316",
     "name": "FF Vol. 2 #8",
     "title": "FF Vol. 2",
     "issueNumber": 8,
@@ -5040,7 +5056,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00316",
+    "id": "fantastic-four-00317",
     "name": "Fantastic Four Vol. 4 #6",
     "title": "Fantastic Four Vol. 4",
     "issueNumber": 6,
@@ -5056,7 +5072,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00317",
+    "id": "fantastic-four-00318",
     "name": "Fantastic Four Vol. 4 #7",
     "title": "Fantastic Four Vol. 4",
     "issueNumber": 7,
@@ -5072,7 +5088,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00318",
+    "id": "fantastic-four-00319",
     "name": "Fantastic Four Vol. 4 #8",
     "title": "Fantastic Four Vol. 4",
     "issueNumber": 8,
@@ -5088,7 +5104,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00319",
+    "id": "fantastic-four-00320",
     "name": "Fantastic Four Vol. 4 #9",
     "title": "Fantastic Four Vol. 4",
     "issueNumber": 9,
@@ -5104,7 +5120,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00320",
+    "id": "fantastic-four-00321",
     "name": "Fantastic Four Vol. 4 #10",
     "title": "Fantastic Four Vol. 4",
     "issueNumber": 10,
@@ -5120,7 +5136,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00321",
+    "id": "fantastic-four-00322",
     "name": "Fantastic Four Vol. 4 #11",
     "title": "Fantastic Four Vol. 4",
     "issueNumber": 11,
@@ -5136,7 +5152,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00322",
+    "id": "fantastic-four-00323",
     "name": "Fantastic Four Vol. 4 #12",
     "title": "Fantastic Four Vol. 4",
     "issueNumber": 12,
@@ -5152,7 +5168,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00323",
+    "id": "fantastic-four-00324",
     "name": "FF Vol. 2 #9",
     "title": "FF Vol. 2",
     "issueNumber": 9,
@@ -5168,7 +5184,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00324",
+    "id": "fantastic-four-00325",
     "name": "FF Vol. 2 #10",
     "title": "FF Vol. 2",
     "issueNumber": 10,
@@ -5184,7 +5200,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00325",
+    "id": "fantastic-four-00326",
     "name": "FF Vol. 2 #11",
     "title": "FF Vol. 2",
     "issueNumber": 11,
@@ -5200,7 +5216,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00326",
+    "id": "fantastic-four-00327",
     "name": "FF Vol. 2 #12",
     "title": "FF Vol. 2",
     "issueNumber": 12,
@@ -5216,7 +5232,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00327",
+    "id": "fantastic-four-00328",
     "name": "FF Vol. 2 #13",
     "title": "FF Vol. 2",
     "issueNumber": 13,
@@ -5232,7 +5248,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00328",
+    "id": "fantastic-four-00329",
     "name": "Fantastic Four Vol. 4 #13",
     "title": "Fantastic Four Vol. 4",
     "issueNumber": 13,
@@ -5248,7 +5264,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00329",
+    "id": "fantastic-four-00330",
     "name": "Fantastic Four Vol. 4 #14",
     "title": "Fantastic Four Vol. 4",
     "issueNumber": 14,
@@ -5264,7 +5280,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00330",
+    "id": "fantastic-four-00331",
     "name": "Fantastic Four Vol. 4 #15",
     "title": "Fantastic Four Vol. 4",
     "issueNumber": 15,
@@ -5280,7 +5296,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00331",
+    "id": "fantastic-four-00332",
     "name": "FF Vol. 2 #14",
     "title": "FF Vol. 2",
     "issueNumber": 14,
@@ -5296,7 +5312,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00332",
+    "id": "fantastic-four-00333",
     "name": "FF Vol. 2 #15",
     "title": "FF Vol. 2",
     "issueNumber": 15,
@@ -5312,7 +5328,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00333",
+    "id": "fantastic-four-00334",
     "name": "FF Vol. 2 #16",
     "title": "FF Vol. 2",
     "issueNumber": 16,
@@ -5328,7 +5344,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00334",
+    "id": "fantastic-four-00335",
     "name": "Fantastic Four Vol. 4 #16",
     "title": "Fantastic Four Vol. 4",
     "issueNumber": 16,
@@ -5344,12 +5360,12 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00335",
-    "name": "Fantastic Four Vol. 5 #1 (2014)",
+    "id": "fantastic-four-00336",
+    "name": "Fantastic Four Vol. 5 #1",
     "title": "Fantastic Four Vol. 5",
     "issueNumber": 1,
-    "year": 2014,
-    "decade": "2010s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -5360,7 +5376,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00336",
+    "id": "fantastic-four-00337",
     "name": "Fantastic Four Vol. 5 #2",
     "title": "Fantastic Four Vol. 5",
     "issueNumber": 2,
@@ -5376,7 +5392,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00337",
+    "id": "fantastic-four-00338",
     "name": "Fantastic Four Vol. 5 #3",
     "title": "Fantastic Four Vol. 5",
     "issueNumber": 3,
@@ -5392,7 +5408,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00338",
+    "id": "fantastic-four-00339",
     "name": "Fantastic Four Vol. 5 #4",
     "title": "Fantastic Four Vol. 5",
     "issueNumber": 4,
@@ -5408,7 +5424,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00339",
+    "id": "fantastic-four-00340",
     "name": "Fantastic Four Vol. 5 #5",
     "title": "Fantastic Four Vol. 5",
     "issueNumber": 5,
@@ -5424,7 +5440,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00340",
+    "id": "fantastic-four-00341",
     "name": "Fantastic Four Vol. 5 #6",
     "title": "Fantastic Four Vol. 5",
     "issueNumber": 6,
@@ -5440,7 +5456,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00341",
+    "id": "fantastic-four-00342",
     "name": "Fantastic Four Vol. 5 #7",
     "title": "Fantastic Four Vol. 5",
     "issueNumber": 7,
@@ -5456,7 +5472,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00342",
+    "id": "fantastic-four-00343",
     "name": "Fantastic Four Vol. 5 #8",
     "title": "Fantastic Four Vol. 5",
     "issueNumber": 8,
@@ -5472,7 +5488,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00343",
+    "id": "fantastic-four-00344",
     "name": "Fantastic Four Vol. 5 #9",
     "title": "Fantastic Four Vol. 5",
     "issueNumber": 9,
@@ -5488,7 +5504,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00344",
+    "id": "fantastic-four-00345",
     "name": "Fantastic Four Vol. 5 #10",
     "title": "Fantastic Four Vol. 5",
     "issueNumber": 10,
@@ -5504,7 +5520,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00345",
+    "id": "fantastic-four-00346",
     "name": "Fantastic Four Vol. 5 #11",
     "title": "Fantastic Four Vol. 5",
     "issueNumber": 11,
@@ -5520,7 +5536,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00346",
+    "id": "fantastic-four-00347",
     "name": "Fantastic Four Vol. 5 #12",
     "title": "Fantastic Four Vol. 5",
     "issueNumber": 12,
@@ -5536,7 +5552,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00347",
+    "id": "fantastic-four-00348",
     "name": "Fantastic Four Vol. 5 #13",
     "title": "Fantastic Four Vol. 5",
     "issueNumber": 13,
@@ -5552,7 +5568,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00348",
+    "id": "fantastic-four-00349",
     "name": "Fantastic Four Vol. 5 #14",
     "title": "Fantastic Four Vol. 5",
     "issueNumber": 14,
@@ -5568,7 +5584,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00349",
+    "id": "fantastic-four-00350",
     "name": "Fantastic Four #642",
     "title": "Fantastic Four",
     "issueNumber": 642,
@@ -5584,7 +5600,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00350",
+    "id": "fantastic-four-00351",
     "name": "Fantastic Four #643",
     "title": "Fantastic Four",
     "issueNumber": 643,
@@ -5600,7 +5616,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00351",
+    "id": "fantastic-four-00352",
     "name": "Fantastic Four #644",
     "title": "Fantastic Four",
     "issueNumber": 644,
@@ -5616,7 +5632,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00352",
+    "id": "fantastic-four-00353",
     "name": "Fantastic Four #645",
     "title": "Fantastic Four",
     "issueNumber": 645,
@@ -5632,7 +5648,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00353",
+    "id": "fantastic-four-00354",
     "name": "Secret Wars #1",
     "title": "Secret Wars",
     "issueNumber": 1,
@@ -5648,7 +5664,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00354",
+    "id": "fantastic-four-00355",
     "name": "Secret Wars #2",
     "title": "Secret Wars",
     "issueNumber": 2,
@@ -5664,7 +5680,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00355",
+    "id": "fantastic-four-00356",
     "name": "Secret Wars #3",
     "title": "Secret Wars",
     "issueNumber": 3,
@@ -5680,7 +5696,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00356",
+    "id": "fantastic-four-00357",
     "name": "Secret Wars #4",
     "title": "Secret Wars",
     "issueNumber": 4,
@@ -5696,7 +5712,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00357",
+    "id": "fantastic-four-00358",
     "name": "Secret Wars #5",
     "title": "Secret Wars",
     "issueNumber": 5,
@@ -5712,7 +5728,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00358",
+    "id": "fantastic-four-00359",
     "name": "Secret Wars #6",
     "title": "Secret Wars",
     "issueNumber": 6,
@@ -5728,7 +5744,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00359",
+    "id": "fantastic-four-00360",
     "name": "Secret Wars #7",
     "title": "Secret Wars",
     "issueNumber": 7,
@@ -5744,7 +5760,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00360",
+    "id": "fantastic-four-00361",
     "name": "Secret Wars #8",
     "title": "Secret Wars",
     "issueNumber": 8,
@@ -5760,7 +5776,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00361",
+    "id": "fantastic-four-00362",
     "name": "Secret Wars #9",
     "title": "Secret Wars",
     "issueNumber": 9,
@@ -5776,12 +5792,12 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00362",
-    "name": "Marvel 2-In-One #1 (2018)",
+    "id": "fantastic-four-00363",
+    "name": "Marvel 2-In-One #1",
     "title": "Marvel 2-In-One",
     "issueNumber": 1,
-    "year": 2018,
-    "decade": "2010s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -5792,7 +5808,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00363",
+    "id": "fantastic-four-00364",
     "name": "Marvel 2-In-One #2",
     "title": "Marvel 2-In-One",
     "issueNumber": 2,
@@ -5808,7 +5824,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00364",
+    "id": "fantastic-four-00365",
     "name": "Marvel 2-In-One #3",
     "title": "Marvel 2-In-One",
     "issueNumber": 3,
@@ -5824,7 +5840,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00365",
+    "id": "fantastic-four-00366",
     "name": "Marvel 2-In-One #4",
     "title": "Marvel 2-In-One",
     "issueNumber": 4,
@@ -5840,7 +5856,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00366",
+    "id": "fantastic-four-00367",
     "name": "Marvel 2-In-One #5",
     "title": "Marvel 2-In-One",
     "issueNumber": 5,
@@ -5856,7 +5872,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00367",
+    "id": "fantastic-four-00368",
     "name": "Marvel 2-In-One #6",
     "title": "Marvel 2-In-One",
     "issueNumber": 6,
@@ -5872,12 +5888,12 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00368",
-    "name": "Marvel 2-In-One Annual #1 (2018)",
+    "id": "fantastic-four-00369",
+    "name": "Marvel 2-In-One Annual #1",
     "title": "Marvel 2-In-One Annual",
     "issueNumber": 1,
-    "year": 2018,
-    "decade": "2010s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -5888,7 +5904,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00369",
+    "id": "fantastic-four-00370",
     "name": "Marvel 2-In-One #7",
     "title": "Marvel 2-In-One",
     "issueNumber": 7,
@@ -5904,7 +5920,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00370",
+    "id": "fantastic-four-00371",
     "name": "Marvel 2-In-One #8",
     "title": "Marvel 2-In-One",
     "issueNumber": 8,
@@ -5920,7 +5936,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00371",
+    "id": "fantastic-four-00372",
     "name": "Marvel 2-In-One #9",
     "title": "Marvel 2-In-One",
     "issueNumber": 9,
@@ -5936,7 +5952,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00372",
+    "id": "fantastic-four-00373",
     "name": "Marvel 2-In-One #10",
     "title": "Marvel 2-In-One",
     "issueNumber": 10,
@@ -5952,12 +5968,12 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00373",
-    "name": "Fantastic Four Vol. 6 #1 (2018)",
+    "id": "fantastic-four-00374",
+    "name": "Fantastic Four Vol. 6 #1",
     "title": "Fantastic Four Vol. 6",
     "issueNumber": 1,
-    "year": 2018,
-    "decade": "2010s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -5968,7 +5984,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00374",
+    "id": "fantastic-four-00375",
     "name": "Fantastic Four Vol. 6 #2",
     "title": "Fantastic Four Vol. 6",
     "issueNumber": 2,
@@ -5984,7 +6000,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00375",
+    "id": "fantastic-four-00376",
     "name": "Fantastic Four Vol. 6 #3",
     "title": "Fantastic Four Vol. 6",
     "issueNumber": 3,
@@ -6000,7 +6016,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00376",
+    "id": "fantastic-four-00377",
     "name": "Fantastic Four Vol. 6 #4",
     "title": "Fantastic Four Vol. 6",
     "issueNumber": 4,
@@ -6016,7 +6032,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00377",
+    "id": "fantastic-four-00378",
     "name": "Fantastic Four: Wedding Special #1",
     "title": "Fantastic Four: Wedding Special",
     "issueNumber": 1,
@@ -6032,7 +6048,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00378",
+    "id": "fantastic-four-00379",
     "name": "Fantastic Four Vol. 6 #5",
     "title": "Fantastic Four Vol. 6",
     "issueNumber": 5,
@@ -6048,7 +6064,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00379",
+    "id": "fantastic-four-00380",
     "name": "Marvel 2-In-One #11",
     "title": "Marvel 2-In-One",
     "issueNumber": 11,
@@ -6064,7 +6080,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00380",
+    "id": "fantastic-four-00381",
     "name": "Marvel 2-In-One #12",
     "title": "Marvel 2-In-One",
     "issueNumber": 12,
@@ -6080,7 +6096,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00381",
+    "id": "fantastic-four-00382",
     "name": "Fantastic Four Vol. 6 #6",
     "title": "Fantastic Four Vol. 6",
     "issueNumber": 6,
@@ -6096,7 +6112,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00382",
+    "id": "fantastic-four-00383",
     "name": "Fantastic Four Vol. 6 #7",
     "title": "Fantastic Four Vol. 6",
     "issueNumber": 7,
@@ -6112,7 +6128,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00383",
+    "id": "fantastic-four-00384",
     "name": "Fantastic Four Vol. 6 #8",
     "title": "Fantastic Four Vol. 6",
     "issueNumber": 8,
@@ -6128,7 +6144,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00384",
+    "id": "fantastic-four-00385",
     "name": "Fantastic Four Vol. 6 #9",
     "title": "Fantastic Four Vol. 6",
     "issueNumber": 9,
@@ -6144,7 +6160,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00385",
+    "id": "fantastic-four-00386",
     "name": "Fantastic Four Vol. 6 #10",
     "title": "Fantastic Four Vol. 6",
     "issueNumber": 10,
@@ -6160,7 +6176,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00386",
+    "id": "fantastic-four-00387",
     "name": "Fantastic Four: 4 Yancy Street #1",
     "title": "Fantastic Four: 4 Yancy Street",
     "issueNumber": 1,
@@ -6176,7 +6192,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00387",
+    "id": "fantastic-four-00388",
     "name": "Fantastic Four: The Prodigal Sun #1",
     "title": "Fantastic Four: The Prodigal Sun",
     "issueNumber": 1,
@@ -6192,7 +6208,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00388",
+    "id": "fantastic-four-00389",
     "name": "Fantastic Four Vol. 6 #11",
     "title": "Fantastic Four Vol. 6",
     "issueNumber": 11,
@@ -6208,7 +6224,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00389",
+    "id": "fantastic-four-00390",
     "name": "Fantastic Four Vol. 6 #12",
     "title": "Fantastic Four Vol. 6",
     "issueNumber": 12,
@@ -6224,7 +6240,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00390",
+    "id": "fantastic-four-00391",
     "name": "Fantastic Four Vol. 6 #13",
     "title": "Fantastic Four Vol. 6",
     "issueNumber": 13,
@@ -6240,7 +6256,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00391",
+    "id": "fantastic-four-00392",
     "name": "X-Men/Fantastic Four Vol. 2 #1",
     "title": "X-Men/Fantastic Four Vol. 2",
     "issueNumber": 1,
@@ -6256,7 +6272,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00392",
+    "id": "fantastic-four-00393",
     "name": "X-Men/Fantastic Four Vol. 2 #2",
     "title": "X-Men/Fantastic Four Vol. 2",
     "issueNumber": 2,
@@ -6272,7 +6288,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00393",
+    "id": "fantastic-four-00394",
     "name": "X-Men/Fantastic Four Vol. 2 #3",
     "title": "X-Men/Fantastic Four Vol. 2",
     "issueNumber": 3,
@@ -6288,7 +6304,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00394",
+    "id": "fantastic-four-00395",
     "name": "X-Men/Fantastic Four Vol. 2 #4",
     "title": "X-Men/Fantastic Four Vol. 2",
     "issueNumber": 4,
@@ -6304,7 +6320,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00395",
+    "id": "fantastic-four-00396",
     "name": "Contagion #1",
     "title": "Contagion",
     "issueNumber": 1,
@@ -6320,7 +6336,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00396",
+    "id": "fantastic-four-00397",
     "name": "Contagion #2",
     "title": "Contagion",
     "issueNumber": 2,
@@ -6336,7 +6352,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00397",
+    "id": "fantastic-four-00398",
     "name": "Contagion #3",
     "title": "Contagion",
     "issueNumber": 3,
@@ -6352,7 +6368,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00398",
+    "id": "fantastic-four-00399",
     "name": "Contagion #4",
     "title": "Contagion",
     "issueNumber": 4,
@@ -6368,7 +6384,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00399",
+    "id": "fantastic-four-00400",
     "name": "Contagion #5",
     "title": "Contagion",
     "issueNumber": 5,
@@ -6384,7 +6400,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00400",
+    "id": "fantastic-four-00401",
     "name": "Fantastic Four: Negative Zone #1",
     "title": "Fantastic Four: Negative Zone",
     "issueNumber": 1,
@@ -6400,7 +6416,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00401",
+    "id": "fantastic-four-00402",
     "name": "Fantastic Four Vol. 6 #14",
     "title": "Fantastic Four Vol. 6",
     "issueNumber": 14,
@@ -6416,7 +6432,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00402",
+    "id": "fantastic-four-00403",
     "name": "Fantastic Four Vol. 6 #15",
     "title": "Fantastic Four Vol. 6",
     "issueNumber": 15,
@@ -6432,7 +6448,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00403",
+    "id": "fantastic-four-00404",
     "name": "Fantastic Four Vol. 6 #16",
     "title": "Fantastic Four Vol. 6",
     "issueNumber": 16,
@@ -6448,7 +6464,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00404",
+    "id": "fantastic-four-00405",
     "name": "Fantastic Four Vol. 6 #17",
     "title": "Fantastic Four Vol. 6",
     "issueNumber": 17,
@@ -6464,7 +6480,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00405",
+    "id": "fantastic-four-00406",
     "name": "Fantastic Four Vol. 6 #18",
     "title": "Fantastic Four Vol. 6",
     "issueNumber": 18,
@@ -6480,7 +6496,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00406",
+    "id": "fantastic-four-00407",
     "name": "Fantastic Four Vol. 6 #19",
     "title": "Fantastic Four Vol. 6",
     "issueNumber": 19,
@@ -6496,7 +6512,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00407",
+    "id": "fantastic-four-00408",
     "name": "Fantastic Four: Grimm Noir #1",
     "title": "Fantastic Four: Grimm Noir",
     "issueNumber": 1,
@@ -6512,7 +6528,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00408",
+    "id": "fantastic-four-00409",
     "name": "Fantastic Four Vol. 6 #20",
     "title": "Fantastic Four Vol. 6",
     "issueNumber": 20,
@@ -6528,7 +6544,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00409",
+    "id": "fantastic-four-00410",
     "name": "Empyre: Fantastic Four #0",
     "title": "Empyre: Fantastic Four",
     "issueNumber": 0,
@@ -6544,7 +6560,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00410",
+    "id": "fantastic-four-00411",
     "name": "Empyre #1",
     "title": "Empyre",
     "issueNumber": 1,
@@ -6560,7 +6576,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00411",
+    "id": "fantastic-four-00412",
     "name": "Empyre #2",
     "title": "Empyre",
     "issueNumber": 2,
@@ -6576,7 +6592,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00412",
+    "id": "fantastic-four-00413",
     "name": "Fantastic Four Vol. 6 #21",
     "title": "Fantastic Four Vol. 6",
     "issueNumber": 21,
@@ -6592,7 +6608,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00413",
+    "id": "fantastic-four-00414",
     "name": "Fantastic Four Vol. 6 #22",
     "title": "Fantastic Four Vol. 6",
     "issueNumber": 22,
@@ -6608,7 +6624,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00414",
+    "id": "fantastic-four-00415",
     "name": "Empyre #3",
     "title": "Empyre",
     "issueNumber": 3,
@@ -6624,7 +6640,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00415",
+    "id": "fantastic-four-00416",
     "name": "Empyre #4",
     "title": "Empyre",
     "issueNumber": 4,
@@ -6640,7 +6656,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00416",
+    "id": "fantastic-four-00417",
     "name": "Empyre #5",
     "title": "Empyre",
     "issueNumber": 5,
@@ -6656,7 +6672,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00417",
+    "id": "fantastic-four-00418",
     "name": "Empyre #6",
     "title": "Empyre",
     "issueNumber": 6,
@@ -6672,7 +6688,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00418",
+    "id": "fantastic-four-00419",
     "name": "Fantastic Four Vol. 6 #23",
     "title": "Fantastic Four Vol. 6",
     "issueNumber": 23,
@@ -6688,9 +6704,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00419",
-    "name": "Empyre Fallout: Fantastic Four #1",
-    "title": "Empyre Fallout: Fantastic Four",
+    "id": "fantastic-four-00420",
+    "name": "Empyre: Fallout Fantastic Four #1",
+    "title": "Empyre: Fallout Fantastic Four",
     "issueNumber": 1,
     "year": null,
     "decade": "",
@@ -6704,7 +6720,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00420",
+    "id": "fantastic-four-00421",
     "name": "Fantastic Four: Antithesis #1",
     "title": "Fantastic Four: Antithesis",
     "issueNumber": 1,
@@ -6720,7 +6736,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00421",
+    "id": "fantastic-four-00422",
     "name": "Fantastic Four: Antithesis #2",
     "title": "Fantastic Four: Antithesis",
     "issueNumber": 2,
@@ -6736,7 +6752,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00422",
+    "id": "fantastic-four-00423",
     "name": "Fantastic Four: Antithesis #3",
     "title": "Fantastic Four: Antithesis",
     "issueNumber": 3,
@@ -6752,7 +6768,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00423",
+    "id": "fantastic-four-00424",
     "name": "Fantastic Four: Antithesis #4",
     "title": "Fantastic Four: Antithesis",
     "issueNumber": 4,
@@ -6768,7 +6784,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00424",
+    "id": "fantastic-four-00425",
     "name": "Fantastic Four Vol. 6 #24",
     "title": "Fantastic Four Vol. 6",
     "issueNumber": 24,
@@ -6784,7 +6800,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00425",
+    "id": "fantastic-four-00426",
     "name": "Fantastic Four Vol. 6 #25",
     "title": "Fantastic Four Vol. 6",
     "issueNumber": 25,
@@ -6800,7 +6816,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00426",
+    "id": "fantastic-four-00427",
     "name": "Fantastic Four Vol. 6 #26",
     "title": "Fantastic Four Vol. 6",
     "issueNumber": 26,
@@ -6816,7 +6832,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00427",
+    "id": "fantastic-four-00428",
     "name": "Fantastic Four Vol. 6 #27",
     "title": "Fantastic Four Vol. 6",
     "issueNumber": 27,
@@ -6832,7 +6848,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00428",
+    "id": "fantastic-four-00429",
     "name": "Fantastic Four Vol. 6 #28",
     "title": "Fantastic Four Vol. 6",
     "issueNumber": 28,
@@ -6848,7 +6864,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00429",
+    "id": "fantastic-four-00430",
     "name": "Fantastic Four: Road Trip #1",
     "title": "Fantastic Four: Road Trip",
     "issueNumber": 1,
@@ -6864,9 +6880,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00430",
-    "name": "King In Black #1",
-    "title": "King In Black",
+    "id": "fantastic-four-00431",
+    "name": "King in Black #1",
+    "title": "King in Black",
     "issueNumber": 1,
     "year": null,
     "decade": "",
@@ -6880,9 +6896,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00431",
-    "name": "King In Black #2",
-    "title": "King In Black",
+    "id": "fantastic-four-00432",
+    "name": "King in Black #2",
+    "title": "King in Black",
     "issueNumber": 2,
     "year": null,
     "decade": "",
@@ -6896,9 +6912,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00432",
-    "name": "King In Black #3",
-    "title": "King In Black",
+    "id": "fantastic-four-00433",
+    "name": "King in Black #3",
+    "title": "King in Black",
     "issueNumber": 3,
     "year": null,
     "decade": "",
@@ -6912,9 +6928,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00433",
-    "name": "King In Black #4",
-    "title": "King In Black",
+    "id": "fantastic-four-00434",
+    "name": "King in Black #4",
+    "title": "King in Black",
     "issueNumber": 4,
     "year": null,
     "decade": "",
@@ -6928,7 +6944,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00434",
+    "id": "fantastic-four-00435",
     "name": "Fantastic Four Vol. 6 #29",
     "title": "Fantastic Four Vol. 6",
     "issueNumber": 29,
@@ -6944,7 +6960,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00435",
+    "id": "fantastic-four-00436",
     "name": "Fantastic Four Vol. 6 #30",
     "title": "Fantastic Four Vol. 6",
     "issueNumber": 30,
@@ -6960,9 +6976,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00436",
-    "name": "King In Black #5",
-    "title": "King In Black",
+    "id": "fantastic-four-00437",
+    "name": "King in Black #5",
+    "title": "King in Black",
     "issueNumber": 5,
     "year": null,
     "decade": "",
@@ -6976,7 +6992,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00437",
+    "id": "fantastic-four-00438",
     "name": "Fantastic Four: Life Story #1",
     "title": "Fantastic Four: Life Story",
     "issueNumber": 1,
@@ -6992,7 +7008,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00438",
+    "id": "fantastic-four-00439",
     "name": "Fantastic Four: Life Story #2",
     "title": "Fantastic Four: Life Story",
     "issueNumber": 2,
@@ -7008,7 +7024,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00439",
+    "id": "fantastic-four-00440",
     "name": "Fantastic Four: Life Story #3",
     "title": "Fantastic Four: Life Story",
     "issueNumber": 3,
@@ -7024,7 +7040,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00440",
+    "id": "fantastic-four-00441",
     "name": "Fantastic Four: Life Story #4",
     "title": "Fantastic Four: Life Story",
     "issueNumber": 4,
@@ -7040,7 +7056,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00441",
+    "id": "fantastic-four-00442",
     "name": "Fantastic Four: Life Story #5",
     "title": "Fantastic Four: Life Story",
     "issueNumber": 5,
@@ -7056,7 +7072,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00442",
+    "id": "fantastic-four-00443",
     "name": "Fantastic Four: Life Story #6",
     "title": "Fantastic Four: Life Story",
     "issueNumber": 6,
@@ -7072,7 +7088,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00443",
+    "id": "fantastic-four-00444",
     "name": "Fantastic Four Vol. 6 #31",
     "title": "Fantastic Four Vol. 6",
     "issueNumber": 31,
@@ -7088,7 +7104,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00444",
+    "id": "fantastic-four-00445",
     "name": "Fantastic Four Vol. 6 #32",
     "title": "Fantastic Four Vol. 6",
     "issueNumber": 32,
@@ -7104,7 +7120,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00445",
+    "id": "fantastic-four-00446",
     "name": "Fantastic Four Vol. 6 #33",
     "title": "Fantastic Four Vol. 6",
     "issueNumber": 33,
@@ -7120,7 +7136,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00446",
+    "id": "fantastic-four-00447",
     "name": "Fantastic Four Vol. 6 #34",
     "title": "Fantastic Four Vol. 6",
     "issueNumber": 34,
@@ -7136,7 +7152,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00447",
+    "id": "fantastic-four-00448",
     "name": "Fantastic Four Vol. 6 #35",
     "title": "Fantastic Four Vol. 6",
     "issueNumber": 35,
@@ -7152,7 +7168,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00448",
+    "id": "fantastic-four-00449",
     "name": "Fantastic Four Vol. 6 #36",
     "title": "Fantastic Four Vol. 6",
     "issueNumber": 36,
@@ -7168,7 +7184,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00449",
+    "id": "fantastic-four-00450",
     "name": "Fantastic Four Vol. 6 #37",
     "title": "Fantastic Four Vol. 6",
     "issueNumber": 37,
@@ -7184,7 +7200,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00450",
+    "id": "fantastic-four-00451",
     "name": "Fantastic Four Vol. 6 #38",
     "title": "Fantastic Four Vol. 6",
     "issueNumber": 38,
@@ -7200,9 +7216,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00451",
-    "name": "Fantastic Four: Anniversary Tribute #1",
-    "title": "Fantastic Four: Anniversary Tribute",
+    "id": "fantastic-four-00452",
+    "name": "Fantastic Four Anniversary Tribute #1",
+    "title": "Fantastic Four Anniversary Tribute",
     "issueNumber": 1,
     "year": null,
     "decade": "",
@@ -7216,7 +7232,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00452",
+    "id": "fantastic-four-00453",
     "name": "Fantastic Four Vol. 6 #39",
     "title": "Fantastic Four Vol. 6",
     "issueNumber": 39,
@@ -7232,9 +7248,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00453",
-    "name": "Fantastic Four: Reckoning War: Alpha #1",
-    "title": "Fantastic Four: Reckoning War: Alpha",
+    "id": "fantastic-four-00454",
+    "name": "Fantastic Four: Reckoning War Alpha #1",
+    "title": "Fantastic Four: Reckoning War Alpha",
     "issueNumber": 1,
     "year": null,
     "decade": "",
@@ -7248,7 +7264,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00454",
+    "id": "fantastic-four-00455",
     "name": "Fantastic Four Vol. 6 #40",
     "title": "Fantastic Four Vol. 6",
     "issueNumber": 40,
@@ -7264,7 +7280,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00455",
+    "id": "fantastic-four-00456",
     "name": "Fantastic Four Vol. 6 #41",
     "title": "Fantastic Four Vol. 6",
     "issueNumber": 41,
@@ -7280,7 +7296,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00456",
+    "id": "fantastic-four-00457",
     "name": "Reckoning War: Trial of the Watcher #1",
     "title": "Reckoning War: Trial of the Watcher",
     "issueNumber": 1,
@@ -7296,7 +7312,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00457",
+    "id": "fantastic-four-00458",
     "name": "Fantastic Four Vol. 6 #42",
     "title": "Fantastic Four Vol. 6",
     "issueNumber": 42,
@@ -7312,7 +7328,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00458",
+    "id": "fantastic-four-00459",
     "name": "Fantastic Four Vol. 6 #43",
     "title": "Fantastic Four Vol. 6",
     "issueNumber": 43,
@@ -7328,7 +7344,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00459",
+    "id": "fantastic-four-00460",
     "name": "Fantastic Four Vol. 6 #44",
     "title": "Fantastic Four Vol. 6",
     "issueNumber": 44,
@@ -7344,7 +7360,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00460",
+    "id": "fantastic-four-00461",
     "name": "Fantastic Four Vol. 6 #45",
     "title": "Fantastic Four Vol. 6",
     "issueNumber": 45,
@@ -7360,7 +7376,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00461",
+    "id": "fantastic-four-00462",
     "name": "Fantastic Four Vol. 6 #46",
     "title": "Fantastic Four Vol. 6",
     "issueNumber": 46,
@@ -7376,7 +7392,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00462",
+    "id": "fantastic-four-00463",
     "name": "Fantastic Four: Full Circle #1",
     "title": "Fantastic Four: Full Circle",
     "issueNumber": 1,
@@ -7392,12 +7408,12 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00463",
-    "name": "Fantastic Four Vol. 7 #1 (2022)",
+    "id": "fantastic-four-00464",
+    "name": "Fantastic Four Vol. 7 #1",
     "title": "Fantastic Four Vol. 7",
     "issueNumber": 1,
-    "year": 2022,
-    "decade": "2020s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -7408,7 +7424,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00464",
+    "id": "fantastic-four-00465",
     "name": "Fantastic Four Vol. 7 #2",
     "title": "Fantastic Four Vol. 7",
     "issueNumber": 2,
@@ -7424,7 +7440,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00465",
+    "id": "fantastic-four-00466",
     "name": "Fantastic Four Vol. 7 #3",
     "title": "Fantastic Four Vol. 7",
     "issueNumber": 3,
@@ -7440,7 +7456,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00466",
+    "id": "fantastic-four-00467",
     "name": "Fantastic Four Vol. 7 #4",
     "title": "Fantastic Four Vol. 7",
     "issueNumber": 4,
@@ -7456,7 +7472,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00467",
+    "id": "fantastic-four-00468",
     "name": "Fantastic Four Vol. 7 #5",
     "title": "Fantastic Four Vol. 7",
     "issueNumber": 5,
@@ -7472,7 +7488,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00468",
+    "id": "fantastic-four-00469",
     "name": "Fantastic Four Vol. 7 #6",
     "title": "Fantastic Four Vol. 7",
     "issueNumber": 6,
@@ -7488,7 +7504,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00469",
+    "id": "fantastic-four-00470",
     "name": "Fantastic Four Vol. 7 #7",
     "title": "Fantastic Four Vol. 7",
     "issueNumber": 7,
@@ -7504,7 +7520,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00470",
+    "id": "fantastic-four-00471",
     "name": "Fantastic Four Vol. 7 #8",
     "title": "Fantastic Four Vol. 7",
     "issueNumber": 8,
@@ -7520,7 +7536,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00471",
+    "id": "fantastic-four-00472",
     "name": "Fantastic Four Vol. 7 #9",
     "title": "Fantastic Four Vol. 7",
     "issueNumber": 9,
@@ -7536,7 +7552,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00472",
+    "id": "fantastic-four-00473",
     "name": "Amazing Spider-Man Vol. 6 #23",
     "title": "Amazing Spider-Man Vol. 6",
     "issueNumber": 23,
@@ -7552,7 +7568,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00473",
+    "id": "fantastic-four-00474",
     "name": "Amazing Spider-Man Vol. 6 #24",
     "title": "Amazing Spider-Man Vol. 6",
     "issueNumber": 24,
@@ -7568,7 +7584,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00474",
+    "id": "fantastic-four-00475",
     "name": "Amazing Spider-Man Vol. 6 #25",
     "title": "Amazing Spider-Man Vol. 6",
     "issueNumber": 25,
@@ -7584,7 +7600,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00475",
+    "id": "fantastic-four-00476",
     "name": "Amazing Spider-Man Vol. 6 #26",
     "title": "Amazing Spider-Man Vol. 6",
     "issueNumber": 26,
@@ -7600,7 +7616,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00476",
+    "id": "fantastic-four-00477",
     "name": "Fantastic Four Vol. 7 #10",
     "title": "Fantastic Four Vol. 7",
     "issueNumber": 10,
@@ -7616,7 +7632,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00477",
+    "id": "fantastic-four-00478",
     "name": "Fantastic Four Vol. 7 #11",
     "title": "Fantastic Four Vol. 7",
     "issueNumber": 11,
@@ -7632,7 +7648,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00478",
+    "id": "fantastic-four-00479",
     "name": "Fantastic Four Vol. 7 #12",
     "title": "Fantastic Four Vol. 7",
     "issueNumber": 12,
@@ -7648,7 +7664,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00479",
+    "id": "fantastic-four-00480",
     "name": "Fantastic Four Vol. 7 #13",
     "title": "Fantastic Four Vol. 7",
     "issueNumber": 13,
@@ -7664,7 +7680,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00480",
+    "id": "fantastic-four-00481",
     "name": "Fantastic Four Vol. 7 #14",
     "title": "Fantastic Four Vol. 7",
     "issueNumber": 14,
@@ -7680,7 +7696,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00481",
+    "id": "fantastic-four-00482",
     "name": "Fantastic Four Vol. 7 #15",
     "title": "Fantastic Four Vol. 7",
     "issueNumber": 15,
@@ -7696,7 +7712,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00482",
+    "id": "fantastic-four-00483",
     "name": "Fantastic Four Vol. 7 #16",
     "title": "Fantastic Four Vol. 7",
     "issueNumber": 16,
@@ -7712,7 +7728,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00483",
+    "id": "fantastic-four-00484",
     "name": "Giant-Size Fantastic Four Vol. 2 #1",
     "title": "Giant-Size Fantastic Four Vol. 2",
     "issueNumber": 1,
@@ -7728,7 +7744,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00484",
+    "id": "fantastic-four-00485",
     "name": "Fantastic Four Vol. 7 #17",
     "title": "Fantastic Four Vol. 7",
     "issueNumber": 17,
@@ -7744,7 +7760,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00485",
+    "id": "fantastic-four-00486",
     "name": "Fantastic Four Vol. 7 #18",
     "title": "Fantastic Four Vol. 7",
     "issueNumber": 18,
@@ -7760,7 +7776,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00486",
+    "id": "fantastic-four-00487",
     "name": "Fantastic Four Vol. 7 #19",
     "title": "Fantastic Four Vol. 7",
     "issueNumber": 19,
@@ -7776,7 +7792,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00487",
+    "id": "fantastic-four-00488",
     "name": "Fantastic Four Vol. 7 #20",
     "title": "Fantastic Four Vol. 7",
     "issueNumber": 20,
@@ -7792,7 +7808,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00488",
+    "id": "fantastic-four-00489",
     "name": "Fantastic Four Vol. 7 #21",
     "title": "Fantastic Four Vol. 7",
     "issueNumber": 21,
@@ -7808,7 +7824,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00489",
+    "id": "fantastic-four-00490",
     "name": "Fantastic Four Vol. 7 #22",
     "title": "Fantastic Four Vol. 7",
     "issueNumber": 22,
@@ -7824,7 +7840,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00490",
+    "id": "fantastic-four-00491",
     "name": "Fantastic Four Vol. 7 #23",
     "title": "Fantastic Four Vol. 7",
     "issueNumber": 23,
@@ -7840,7 +7856,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00491",
+    "id": "fantastic-four-00492",
     "name": "Fantastic Four Vol. 7 #24",
     "title": "Fantastic Four Vol. 7",
     "issueNumber": 24,
@@ -7856,7 +7872,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00492",
+    "id": "fantastic-four-00493",
     "name": "Fantastic Four Vol. 7 #25",
     "title": "Fantastic Four Vol. 7",
     "issueNumber": 25,
@@ -7872,7 +7888,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00493",
+    "id": "fantastic-four-00494",
     "name": "Fantastic Four Vol. 7 #26",
     "title": "Fantastic Four Vol. 7",
     "issueNumber": 26,
@@ -7888,7 +7904,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00494",
+    "id": "fantastic-four-00495",
     "name": "Fantastic Four Vol. 7 #27",
     "title": "Fantastic Four Vol. 7",
     "issueNumber": 27,
@@ -7904,9 +7920,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00495",
-    "name": "Fantastic Four: Fanfare #1",
-    "title": "Fantastic Four: Fanfare",
+    "id": "fantastic-four-00496",
+    "name": "Fantastic Four Fanfare #1",
+    "title": "Fantastic Four Fanfare",
     "issueNumber": 1,
     "year": null,
     "decade": "",
@@ -7920,9 +7936,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00496",
-    "name": "Fantastic Four: Fanfare #2",
-    "title": "Fantastic Four: Fanfare",
+    "id": "fantastic-four-00497",
+    "name": "Fantastic Four Fanfare #2",
+    "title": "Fantastic Four Fanfare",
     "issueNumber": 2,
     "year": null,
     "decade": "",
@@ -7936,9 +7952,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00497",
-    "name": "Fantastic Four: Fanfare #3",
-    "title": "Fantastic Four: Fanfare",
+    "id": "fantastic-four-00498",
+    "name": "Fantastic Four Fanfare #3",
+    "title": "Fantastic Four Fanfare",
     "issueNumber": 3,
     "year": null,
     "decade": "",
@@ -7952,9 +7968,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00498",
-    "name": "Fantastic Four: Fanfare #4",
-    "title": "Fantastic Four: Fanfare",
+    "id": "fantastic-four-00499",
+    "name": "Fantastic Four Fanfare #4",
+    "title": "Fantastic Four Fanfare",
     "issueNumber": 4,
     "year": null,
     "decade": "",
@@ -7968,7 +7984,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00499",
+    "id": "fantastic-four-00500",
     "name": "Fantastic Four Vol. 7 #28",
     "title": "Fantastic Four Vol. 7",
     "issueNumber": 28,
@@ -7984,7 +8000,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00500",
+    "id": "fantastic-four-00501",
     "name": "One World Under Doom #1",
     "title": "One World Under Doom",
     "issueNumber": 1,
@@ -8000,7 +8016,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00501",
+    "id": "fantastic-four-00502",
     "name": "Fantastic Four Vol. 7 #29",
     "title": "Fantastic Four Vol. 7",
     "issueNumber": 29,
@@ -8016,7 +8032,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00502",
+    "id": "fantastic-four-00503",
     "name": "One World Under Doom #2",
     "title": "One World Under Doom",
     "issueNumber": 2,
@@ -8032,7 +8048,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00503",
+    "id": "fantastic-four-00504",
     "name": "Fantastic Four Vol. 7 #30",
     "title": "Fantastic Four Vol. 7",
     "issueNumber": 30,
@@ -8048,7 +8064,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00504",
+    "id": "fantastic-four-00505",
     "name": "Fantastic Four Vol. 7 #31",
     "title": "Fantastic Four Vol. 7",
     "issueNumber": 31,
@@ -8064,7 +8080,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00505",
+    "id": "fantastic-four-00506",
     "name": "Fantastic Four Vol. 7 #32",
     "title": "Fantastic Four Vol. 7",
     "issueNumber": 32,
@@ -8080,7 +8096,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00506",
+    "id": "fantastic-four-00507",
     "name": "Fantastic Four Vol. 7 #33",
     "title": "Fantastic Four Vol. 7",
     "issueNumber": 33,
@@ -8096,7 +8112,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00507",
+    "id": "fantastic-four-00508",
     "name": "One World Under Doom #3",
     "title": "One World Under Doom",
     "issueNumber": 3,
@@ -8112,12 +8128,12 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00508",
-    "name": "Fantastic Four Vol. 8 #1 (2025)",
+    "id": "fantastic-four-00509",
+    "name": "Fantastic Four Vol. 8 #1",
     "title": "Fantastic Four Vol. 8",
     "issueNumber": 1,
-    "year": 2025,
-    "decade": "2020s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -8128,7 +8144,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00509",
+    "id": "fantastic-four-00510",
     "name": "Fantastic Four Vol. 8 #2",
     "title": "Fantastic Four Vol. 8",
     "issueNumber": 2,
@@ -8144,7 +8160,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00510",
+    "id": "fantastic-four-00511",
     "name": "Fantastic Four Vol. 8 #3",
     "title": "Fantastic Four Vol. 8",
     "issueNumber": 3,
@@ -8160,7 +8176,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00511",
+    "id": "fantastic-four-00512",
     "name": "One World Under Doom #4",
     "title": "One World Under Doom",
     "issueNumber": 4,
@@ -8176,7 +8192,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00512",
+    "id": "fantastic-four-00513",
     "name": "One World Under Doom #5",
     "title": "One World Under Doom",
     "issueNumber": 5,
@@ -8192,7 +8208,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00513",
+    "id": "fantastic-four-00514",
     "name": "One World Under Doom #6",
     "title": "One World Under Doom",
     "issueNumber": 6,
@@ -8208,7 +8224,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00514",
+    "id": "fantastic-four-00515",
     "name": "One World Under Doom #7",
     "title": "One World Under Doom",
     "issueNumber": 7,
@@ -8224,7 +8240,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00515",
+    "id": "fantastic-four-00516",
     "name": "One World Under Doom #8",
     "title": "One World Under Doom",
     "issueNumber": 8,
@@ -8240,7 +8256,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00516",
+    "id": "fantastic-four-00517",
     "name": "One World Under Doom #9",
     "title": "One World Under Doom",
     "issueNumber": 9,
@@ -8256,7 +8272,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00517",
+    "id": "fantastic-four-00518",
     "name": "Will of Doom #1",
     "title": "Will of Doom",
     "issueNumber": 1,
@@ -8272,7 +8288,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00518",
+    "id": "fantastic-four-00519",
     "name": "FCBD 2025: Fantastic Four/X-Men #1",
     "title": "FCBD 2025: Fantastic Four/X-Men",
     "issueNumber": 1,
@@ -8288,7 +8304,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "fantastic-four-00519",
+    "id": "fantastic-four-00520",
     "name": "Fantastic Four: First Steps #1",
     "title": "Fantastic Four: First Steps",
     "issueNumber": 1,

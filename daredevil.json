@@ -1,8 +1,8 @@
 [
   {
     "id": "daredevil-00001",
-    "name": ": Daredevil #1 (1964)",
-    "title": ": Daredevil",
+    "name": "Daredevil #1 (1964)",
+    "title": "Daredevil",
     "issueNumber": 1,
     "year": 1964,
     "decade": "1960s",
@@ -113,8 +113,8 @@
   },
   {
     "id": "daredevil-00008",
-    "name": "Daredevil: Battlin’ Jack Murdock #1",
-    "title": "Daredevil: Battlin’ Jack Murdock",
+    "name": "Daredevil: Battlin' Jack Murdock #1",
+    "title": "Daredevil: Battlin' Jack Murdock",
     "issueNumber": 1,
     "year": null,
     "decade": "",
@@ -129,8 +129,8 @@
   },
   {
     "id": "daredevil-00009",
-    "name": "Daredevil: Battlin’ Jack Murdock #2",
-    "title": "Daredevil: Battlin’ Jack Murdock",
+    "name": "Daredevil: Battlin' Jack Murdock #2",
+    "title": "Daredevil: Battlin' Jack Murdock",
     "issueNumber": 2,
     "year": null,
     "decade": "",
@@ -145,8 +145,8 @@
   },
   {
     "id": "daredevil-00010",
-    "name": "Daredevil: Battlin’ Jack Murdock #3",
-    "title": "Daredevil: Battlin’ Jack Murdock",
+    "name": "Daredevil: Battlin' Jack Murdock #3",
+    "title": "Daredevil: Battlin' Jack Murdock",
     "issueNumber": 3,
     "year": null,
     "decade": "",
@@ -161,8 +161,8 @@
   },
   {
     "id": "daredevil-00011",
-    "name": "Daredevil: Battlin’ Jack Murdock #4",
-    "title": "Daredevil: Battlin’ Jack Murdock",
+    "name": "Daredevil: Battlin' Jack Murdock #4",
+    "title": "Daredevil: Battlin' Jack Murdock",
     "issueNumber": 4,
     "year": null,
     "decade": "",
@@ -353,6 +353,22 @@
   },
   {
     "id": "daredevil-00023",
+    "name": "Daredevil #168",
+    "title": "Daredevil",
+    "issueNumber": 168,
+    "year": null,
+    "decade": "",
+    "writer": "",
+    "artist": "",
+    "storyline": "",
+    "note": "",
+    "statusType": "essential",
+    "universe": "main",
+    "readLinks": [],
+    "wikiUrl": ""
+  },
+  {
+    "id": "daredevil-00024",
     "name": "Daredevil #169",
     "title": "Daredevil",
     "issueNumber": 169,
@@ -368,7 +384,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00024",
+    "id": "daredevil-00025",
     "name": "Daredevil #170",
     "title": "Daredevil",
     "issueNumber": 170,
@@ -384,7 +400,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00025",
+    "id": "daredevil-00026",
     "name": "Daredevil #171",
     "title": "Daredevil",
     "issueNumber": 171,
@@ -400,7 +416,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00026",
+    "id": "daredevil-00027",
     "name": "Daredevil #172",
     "title": "Daredevil",
     "issueNumber": 172,
@@ -416,7 +432,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00027",
+    "id": "daredevil-00028",
     "name": "Daredevil #173",
     "title": "Daredevil",
     "issueNumber": 173,
@@ -432,7 +448,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00028",
+    "id": "daredevil-00029",
     "name": "Daredevil #174",
     "title": "Daredevil",
     "issueNumber": 174,
@@ -448,7 +464,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00029",
+    "id": "daredevil-00030",
     "name": "Daredevil #175",
     "title": "Daredevil",
     "issueNumber": 175,
@@ -464,7 +480,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00030",
+    "id": "daredevil-00031",
     "name": "Daredevil #176",
     "title": "Daredevil",
     "issueNumber": 176,
@@ -480,7 +496,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00031",
+    "id": "daredevil-00032",
     "name": "Daredevil #177",
     "title": "Daredevil",
     "issueNumber": 177,
@@ -496,7 +512,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00032",
+    "id": "daredevil-00033",
     "name": "Daredevil #178",
     "title": "Daredevil",
     "issueNumber": 178,
@@ -512,7 +528,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00033",
+    "id": "daredevil-00034",
     "name": "Daredevil #179",
     "title": "Daredevil",
     "issueNumber": 179,
@@ -528,7 +544,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00034",
+    "id": "daredevil-00035",
     "name": "Daredevil #180",
     "title": "Daredevil",
     "issueNumber": 180,
@@ -544,7 +560,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00035",
+    "id": "daredevil-00036",
     "name": "Daredevil #181",
     "title": "Daredevil",
     "issueNumber": 181,
@@ -560,7 +576,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00036",
+    "id": "daredevil-00037",
     "name": "Daredevil #182",
     "title": "Daredevil",
     "issueNumber": 182,
@@ -576,7 +592,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00037",
+    "id": "daredevil-00038",
     "name": "Daredevil #183",
     "title": "Daredevil",
     "issueNumber": 183,
@@ -592,7 +608,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00038",
+    "id": "daredevil-00039",
     "name": "Daredevil #184",
     "title": "Daredevil",
     "issueNumber": 184,
@@ -608,7 +624,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00039",
+    "id": "daredevil-00040",
     "name": "Daredevil #185",
     "title": "Daredevil",
     "issueNumber": 185,
@@ -624,7 +640,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00040",
+    "id": "daredevil-00041",
     "name": "Daredevil #186",
     "title": "Daredevil",
     "issueNumber": 186,
@@ -640,7 +656,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00041",
+    "id": "daredevil-00042",
     "name": "Daredevil #187",
     "title": "Daredevil",
     "issueNumber": 187,
@@ -656,7 +672,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00042",
+    "id": "daredevil-00043",
     "name": "Daredevil #188",
     "title": "Daredevil",
     "issueNumber": 188,
@@ -672,7 +688,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00043",
+    "id": "daredevil-00044",
     "name": "Daredevil #189",
     "title": "Daredevil",
     "issueNumber": 189,
@@ -688,7 +704,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00044",
+    "id": "daredevil-00045",
     "name": "Daredevil #190",
     "title": "Daredevil",
     "issueNumber": 190,
@@ -704,7 +720,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00045",
+    "id": "daredevil-00046",
     "name": "Daredevil #191",
     "title": "Daredevil",
     "issueNumber": 191,
@@ -720,7 +736,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00046",
+    "id": "daredevil-00047",
     "name": "Daredevil #208",
     "title": "Daredevil",
     "issueNumber": 208,
@@ -736,7 +752,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00047",
+    "id": "daredevil-00048",
     "name": "Daredevil #219",
     "title": "Daredevil",
     "issueNumber": 219,
@@ -752,9 +768,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00048",
-    "name": "Peter Parker, the Spectacular Spider-Man #107",
-    "title": "Peter Parker, the Spectacular Spider-Man",
+    "id": "daredevil-00049",
+    "name": "Peter Parker, The Spectacular Spider-Man #107",
+    "title": "Peter Parker, The Spectacular Spider-Man",
     "issueNumber": 107,
     "year": null,
     "decade": "",
@@ -768,9 +784,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00049",
-    "name": "Peter Parker, the Spectacular Spider-Man #108",
-    "title": "Peter Parker, the Spectacular Spider-Man",
+    "id": "daredevil-00050",
+    "name": "Peter Parker, The Spectacular Spider-Man #108",
+    "title": "Peter Parker, The Spectacular Spider-Man",
     "issueNumber": 108,
     "year": null,
     "decade": "",
@@ -784,9 +800,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00050",
-    "name": "Peter Parker, the Spectacular Spider-Man #109",
-    "title": "Peter Parker, the Spectacular Spider-Man",
+    "id": "daredevil-00051",
+    "name": "Peter Parker, The Spectacular Spider-Man #109",
+    "title": "Peter Parker, The Spectacular Spider-Man",
     "issueNumber": 109,
     "year": null,
     "decade": "",
@@ -800,9 +816,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00051",
-    "name": "Peter Parker, the Spectacular Spider-Man #110",
-    "title": "Peter Parker, the Spectacular Spider-Man",
+    "id": "daredevil-00052",
+    "name": "Peter Parker, The Spectacular Spider-Man #110",
+    "title": "Peter Parker, The Spectacular Spider-Man",
     "issueNumber": 110,
     "year": null,
     "decade": "",
@@ -816,7 +832,23 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00052",
+    "id": "daredevil-00053",
+    "name": "Marvel Graphic Novel #24",
+    "title": "Marvel Graphic Novel",
+    "issueNumber": 24,
+    "year": null,
+    "decade": "",
+    "writer": "",
+    "artist": "",
+    "storyline": "",
+    "note": "",
+    "statusType": "essential",
+    "universe": "main",
+    "readLinks": [],
+    "wikiUrl": ""
+  },
+  {
+    "id": "daredevil-00054",
     "name": "Daredevil #226",
     "title": "Daredevil",
     "issueNumber": 226,
@@ -832,7 +864,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00053",
+    "id": "daredevil-00055",
     "name": "Daredevil #227",
     "title": "Daredevil",
     "issueNumber": 227,
@@ -848,7 +880,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00054",
+    "id": "daredevil-00056",
     "name": "Daredevil #228",
     "title": "Daredevil",
     "issueNumber": 228,
@@ -864,7 +896,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00055",
+    "id": "daredevil-00057",
     "name": "Daredevil #229",
     "title": "Daredevil",
     "issueNumber": 229,
@@ -880,7 +912,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00056",
+    "id": "daredevil-00058",
     "name": "Daredevil #230",
     "title": "Daredevil",
     "issueNumber": 230,
@@ -896,7 +928,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00057",
+    "id": "daredevil-00059",
     "name": "Daredevil #231",
     "title": "Daredevil",
     "issueNumber": 231,
@@ -912,7 +944,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00058",
+    "id": "daredevil-00060",
     "name": "Daredevil #232",
     "title": "Daredevil",
     "issueNumber": 232,
@@ -928,7 +960,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00059",
+    "id": "daredevil-00061",
     "name": "Daredevil #233",
     "title": "Daredevil",
     "issueNumber": 233,
@@ -944,7 +976,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00060",
+    "id": "daredevil-00062",
     "name": "Daredevil #250",
     "title": "Daredevil",
     "issueNumber": 250,
@@ -960,7 +992,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00061",
+    "id": "daredevil-00063",
     "name": "Daredevil #251",
     "title": "Daredevil",
     "issueNumber": 251,
@@ -976,7 +1008,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00062",
+    "id": "daredevil-00064",
     "name": "Daredevil #252",
     "title": "Daredevil",
     "issueNumber": 252,
@@ -992,7 +1024,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00063",
+    "id": "daredevil-00065",
     "name": "Daredevil #253",
     "title": "Daredevil",
     "issueNumber": 253,
@@ -1008,7 +1040,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00064",
+    "id": "daredevil-00066",
     "name": "Daredevil #254",
     "title": "Daredevil",
     "issueNumber": 254,
@@ -1024,7 +1056,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00065",
+    "id": "daredevil-00067",
     "name": "Daredevil #255",
     "title": "Daredevil",
     "issueNumber": 255,
@@ -1040,7 +1072,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00066",
+    "id": "daredevil-00068",
     "name": "Daredevil #256",
     "title": "Daredevil",
     "issueNumber": 256,
@@ -1056,7 +1088,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00067",
+    "id": "daredevil-00069",
     "name": "Daredevil #257",
     "title": "Daredevil",
     "issueNumber": 257,
@@ -1072,7 +1104,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00068",
+    "id": "daredevil-00070",
     "name": "Daredevil #258",
     "title": "Daredevil",
     "issueNumber": 258,
@@ -1088,7 +1120,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00069",
+    "id": "daredevil-00071",
     "name": "Daredevil #259",
     "title": "Daredevil",
     "issueNumber": 259,
@@ -1104,7 +1136,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00070",
+    "id": "daredevil-00072",
     "name": "Daredevil #260",
     "title": "Daredevil",
     "issueNumber": 260,
@@ -1120,7 +1152,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00071",
+    "id": "daredevil-00073",
     "name": "Daredevil #261",
     "title": "Daredevil",
     "issueNumber": 261,
@@ -1136,7 +1168,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00072",
+    "id": "daredevil-00074",
     "name": "Daredevil #262",
     "title": "Daredevil",
     "issueNumber": 262,
@@ -1152,7 +1184,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00073",
+    "id": "daredevil-00075",
     "name": "Daredevil #263",
     "title": "Daredevil",
     "issueNumber": 263,
@@ -1168,7 +1200,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00074",
+    "id": "daredevil-00076",
     "name": "Daredevil #264",
     "title": "Daredevil",
     "issueNumber": 264,
@@ -1184,7 +1216,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00075",
+    "id": "daredevil-00077",
     "name": "Daredevil #265",
     "title": "Daredevil",
     "issueNumber": 265,
@@ -1200,7 +1232,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00076",
+    "id": "daredevil-00078",
     "name": "Daredevil #266",
     "title": "Daredevil",
     "issueNumber": 266,
@@ -1216,7 +1248,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00077",
+    "id": "daredevil-00079",
     "name": "Daredevil #267",
     "title": "Daredevil",
     "issueNumber": 267,
@@ -1232,7 +1264,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00078",
+    "id": "daredevil-00080",
     "name": "Daredevil #268",
     "title": "Daredevil",
     "issueNumber": 268,
@@ -1248,7 +1280,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00079",
+    "id": "daredevil-00081",
     "name": "Daredevil #269",
     "title": "Daredevil",
     "issueNumber": 269,
@@ -1264,7 +1296,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00080",
+    "id": "daredevil-00082",
     "name": "Daredevil #270",
     "title": "Daredevil",
     "issueNumber": 270,
@@ -1280,7 +1312,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00081",
+    "id": "daredevil-00083",
     "name": "Daredevil #271",
     "title": "Daredevil",
     "issueNumber": 271,
@@ -1296,7 +1328,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00082",
+    "id": "daredevil-00084",
     "name": "Daredevil #272",
     "title": "Daredevil",
     "issueNumber": 272,
@@ -1312,7 +1344,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00083",
+    "id": "daredevil-00085",
     "name": "Daredevil #273",
     "title": "Daredevil",
     "issueNumber": 273,
@@ -1328,7 +1360,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00084",
+    "id": "daredevil-00086",
     "name": "Daredevil #274",
     "title": "Daredevil",
     "issueNumber": 274,
@@ -1344,7 +1376,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00085",
+    "id": "daredevil-00087",
     "name": "Daredevil #275",
     "title": "Daredevil",
     "issueNumber": 275,
@@ -1360,7 +1392,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00086",
+    "id": "daredevil-00088",
     "name": "Daredevil #276",
     "title": "Daredevil",
     "issueNumber": 276,
@@ -1376,7 +1408,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00087",
+    "id": "daredevil-00089",
     "name": "Daredevil #277",
     "title": "Daredevil",
     "issueNumber": 277,
@@ -1392,7 +1424,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00088",
+    "id": "daredevil-00090",
     "name": "Daredevil #278",
     "title": "Daredevil",
     "issueNumber": 278,
@@ -1408,7 +1440,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00089",
+    "id": "daredevil-00091",
     "name": "Daredevil #279",
     "title": "Daredevil",
     "issueNumber": 279,
@@ -1424,7 +1456,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00090",
+    "id": "daredevil-00092",
     "name": "Daredevil #280",
     "title": "Daredevil",
     "issueNumber": 280,
@@ -1440,7 +1472,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00091",
+    "id": "daredevil-00093",
     "name": "Daredevil #281",
     "title": "Daredevil",
     "issueNumber": 281,
@@ -1456,7 +1488,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00092",
+    "id": "daredevil-00094",
     "name": "Daredevil #282",
     "title": "Daredevil",
     "issueNumber": 282,
@@ -1472,7 +1504,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00093",
+    "id": "daredevil-00095",
     "name": "Daredevil #297",
     "title": "Daredevil",
     "issueNumber": 297,
@@ -1488,7 +1520,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00094",
+    "id": "daredevil-00096",
     "name": "Daredevil #298",
     "title": "Daredevil",
     "issueNumber": 298,
@@ -1504,7 +1536,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00095",
+    "id": "daredevil-00097",
     "name": "Daredevil #299",
     "title": "Daredevil",
     "issueNumber": 299,
@@ -1520,7 +1552,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00096",
+    "id": "daredevil-00098",
     "name": "Daredevil #300",
     "title": "Daredevil",
     "issueNumber": 300,
@@ -1536,7 +1568,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00097",
+    "id": "daredevil-00099",
     "name": "Daredevil #304",
     "title": "Daredevil",
     "issueNumber": 304,
@@ -1552,7 +1584,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00098",
+    "id": "daredevil-00100",
     "name": "Daredevil/Spider-Man #1",
     "title": "Daredevil/Spider-Man",
     "issueNumber": 1,
@@ -1568,7 +1600,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00099",
+    "id": "daredevil-00101",
     "name": "Daredevil/Spider-Man #2",
     "title": "Daredevil/Spider-Man",
     "issueNumber": 2,
@@ -1584,7 +1616,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00100",
+    "id": "daredevil-00102",
     "name": "Daredevil/Spider-Man #3",
     "title": "Daredevil/Spider-Man",
     "issueNumber": 3,
@@ -1600,7 +1632,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00101",
+    "id": "daredevil-00103",
     "name": "Daredevil/Spider-Man #4",
     "title": "Daredevil/Spider-Man",
     "issueNumber": 4,
@@ -1616,23 +1648,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00102",
-    "name": "Daredevil Vol. 2 #1 (1998)",
-    "title": "Daredevil Vol. 2",
-    "issueNumber": 1,
-    "year": 1998,
-    "decade": "1990s",
-    "writer": "",
-    "artist": "",
-    "storyline": "",
-    "note": "",
-    "statusType": "essential",
-    "universe": "main",
-    "readLinks": [],
-    "wikiUrl": ""
-  },
-  {
-    "id": "daredevil-00103",
+    "id": "daredevil-00104",
     "name": "Daredevil Vol. 2 #2",
     "title": "Daredevil Vol. 2",
     "issueNumber": 2,
@@ -1648,7 +1664,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00104",
+    "id": "daredevil-00105",
     "name": "Daredevil Vol. 2 #3",
     "title": "Daredevil Vol. 2",
     "issueNumber": 3,
@@ -1664,7 +1680,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00105",
+    "id": "daredevil-00106",
     "name": "Daredevil Vol. 2 #4",
     "title": "Daredevil Vol. 2",
     "issueNumber": 4,
@@ -1680,7 +1696,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00106",
+    "id": "daredevil-00107",
     "name": "Daredevil Vol. 2 #5",
     "title": "Daredevil Vol. 2",
     "issueNumber": 5,
@@ -1696,7 +1712,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00107",
+    "id": "daredevil-00108",
     "name": "Daredevil Vol. 2 #6",
     "title": "Daredevil Vol. 2",
     "issueNumber": 6,
@@ -1712,7 +1728,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00108",
+    "id": "daredevil-00109",
     "name": "Daredevil Vol. 2 #7",
     "title": "Daredevil Vol. 2",
     "issueNumber": 7,
@@ -1728,7 +1744,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00109",
+    "id": "daredevil-00110",
     "name": "Daredevil Vol. 2 #8",
     "title": "Daredevil Vol. 2",
     "issueNumber": 8,
@@ -1744,7 +1760,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00110",
+    "id": "daredevil-00111",
     "name": "Daredevil Vol. 2 #9",
     "title": "Daredevil Vol. 2",
     "issueNumber": 9,
@@ -1760,7 +1776,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00111",
+    "id": "daredevil-00112",
     "name": "Daredevil Vol. 2 #10",
     "title": "Daredevil Vol. 2",
     "issueNumber": 10,
@@ -1776,7 +1792,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00112",
+    "id": "daredevil-00113",
     "name": "Daredevil Vol. 2 #11",
     "title": "Daredevil Vol. 2",
     "issueNumber": 11,
@@ -1792,7 +1808,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00113",
+    "id": "daredevil-00114",
     "name": "Daredevil Vol. 2 #12",
     "title": "Daredevil Vol. 2",
     "issueNumber": 12,
@@ -1808,7 +1824,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00114",
+    "id": "daredevil-00115",
     "name": "Daredevil Vol. 2 #13",
     "title": "Daredevil Vol. 2",
     "issueNumber": 13,
@@ -1824,7 +1840,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00115",
+    "id": "daredevil-00116",
     "name": "Daredevil Vol. 2 #14",
     "title": "Daredevil Vol. 2",
     "issueNumber": 14,
@@ -1840,7 +1856,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00116",
+    "id": "daredevil-00117",
     "name": "Daredevil Vol. 2 #15",
     "title": "Daredevil Vol. 2",
     "issueNumber": 15,
@@ -1856,7 +1872,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00117",
+    "id": "daredevil-00118",
     "name": "Daredevil Vol. 2 #16",
     "title": "Daredevil Vol. 2",
     "issueNumber": 16,
@@ -1872,7 +1888,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00118",
+    "id": "daredevil-00119",
     "name": "Daredevil Vol. 2 #17",
     "title": "Daredevil Vol. 2",
     "issueNumber": 17,
@@ -1888,7 +1904,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00119",
+    "id": "daredevil-00120",
     "name": "Daredevil Vol. 2 #18",
     "title": "Daredevil Vol. 2",
     "issueNumber": 18,
@@ -1904,7 +1920,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00120",
+    "id": "daredevil-00121",
     "name": "Daredevil Vol. 2 #19",
     "title": "Daredevil Vol. 2",
     "issueNumber": 19,
@@ -1920,7 +1936,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00121",
+    "id": "daredevil-00122",
     "name": "Daredevil Vol. 2 #20",
     "title": "Daredevil Vol. 2",
     "issueNumber": 20,
@@ -1936,7 +1952,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00122",
+    "id": "daredevil-00123",
     "name": "Daredevil Vol. 2 #21",
     "title": "Daredevil Vol. 2",
     "issueNumber": 21,
@@ -1952,7 +1968,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00123",
+    "id": "daredevil-00124",
     "name": "Daredevil Vol. 2 #22",
     "title": "Daredevil Vol. 2",
     "issueNumber": 22,
@@ -1968,7 +1984,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00124",
+    "id": "daredevil-00125",
     "name": "Daredevil Vol. 2 #23",
     "title": "Daredevil Vol. 2",
     "issueNumber": 23,
@@ -1984,7 +2000,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00125",
+    "id": "daredevil-00126",
     "name": "Daredevil Vol. 2 #24",
     "title": "Daredevil Vol. 2",
     "issueNumber": 24,
@@ -2000,7 +2016,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00126",
+    "id": "daredevil-00127",
     "name": "Daredevil Vol. 2 #25",
     "title": "Daredevil Vol. 2",
     "issueNumber": 25,
@@ -2016,7 +2032,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00127",
+    "id": "daredevil-00128",
     "name": "Daredevil: Yellow #1",
     "title": "Daredevil: Yellow",
     "issueNumber": 1,
@@ -2032,7 +2048,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00128",
+    "id": "daredevil-00129",
     "name": "Daredevil: Yellow #2",
     "title": "Daredevil: Yellow",
     "issueNumber": 2,
@@ -2048,7 +2064,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00129",
+    "id": "daredevil-00130",
     "name": "Daredevil: Yellow #3",
     "title": "Daredevil: Yellow",
     "issueNumber": 3,
@@ -2064,7 +2080,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00130",
+    "id": "daredevil-00131",
     "name": "Daredevil: Yellow #4",
     "title": "Daredevil: Yellow",
     "issueNumber": 4,
@@ -2080,7 +2096,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00131",
+    "id": "daredevil-00132",
     "name": "Daredevil: Yellow #5",
     "title": "Daredevil: Yellow",
     "issueNumber": 5,
@@ -2096,7 +2112,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00132",
+    "id": "daredevil-00133",
     "name": "Daredevil: Yellow #6",
     "title": "Daredevil: Yellow",
     "issueNumber": 6,
@@ -2112,7 +2128,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00133",
+    "id": "daredevil-00134",
     "name": "Daredevil Vol. 2 #26",
     "title": "Daredevil Vol. 2",
     "issueNumber": 26,
@@ -2128,7 +2144,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00134",
+    "id": "daredevil-00135",
     "name": "Daredevil Vol. 2 #27",
     "title": "Daredevil Vol. 2",
     "issueNumber": 27,
@@ -2144,7 +2160,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00135",
+    "id": "daredevil-00136",
     "name": "Daredevil Vol. 2 #28",
     "title": "Daredevil Vol. 2",
     "issueNumber": 28,
@@ -2160,7 +2176,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00136",
+    "id": "daredevil-00137",
     "name": "Daredevil Vol. 2 #29",
     "title": "Daredevil Vol. 2",
     "issueNumber": 29,
@@ -2176,7 +2192,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00137",
+    "id": "daredevil-00138",
     "name": "Daredevil Vol. 2 #30",
     "title": "Daredevil Vol. 2",
     "issueNumber": 30,
@@ -2192,7 +2208,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00138",
+    "id": "daredevil-00139",
     "name": "Daredevil Vol. 2 #31",
     "title": "Daredevil Vol. 2",
     "issueNumber": 31,
@@ -2208,7 +2224,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00139",
+    "id": "daredevil-00140",
     "name": "Daredevil Vol. 2 #32",
     "title": "Daredevil Vol. 2",
     "issueNumber": 32,
@@ -2224,7 +2240,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00140",
+    "id": "daredevil-00141",
     "name": "Daredevil Vol. 2 #33",
     "title": "Daredevil Vol. 2",
     "issueNumber": 33,
@@ -2240,7 +2256,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00141",
+    "id": "daredevil-00142",
     "name": "Daredevil Vol. 2 #34",
     "title": "Daredevil Vol. 2",
     "issueNumber": 34,
@@ -2256,7 +2272,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00142",
+    "id": "daredevil-00143",
     "name": "Daredevil Vol. 2 #35",
     "title": "Daredevil Vol. 2",
     "issueNumber": 35,
@@ -2272,7 +2288,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00143",
+    "id": "daredevil-00144",
     "name": "Daredevil Vol. 2 #36",
     "title": "Daredevil Vol. 2",
     "issueNumber": 36,
@@ -2288,7 +2304,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00144",
+    "id": "daredevil-00145",
     "name": "Daredevil Vol. 2 #37",
     "title": "Daredevil Vol. 2",
     "issueNumber": 37,
@@ -2304,7 +2320,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00145",
+    "id": "daredevil-00146",
     "name": "Daredevil Vol. 2 #38",
     "title": "Daredevil Vol. 2",
     "issueNumber": 38,
@@ -2320,7 +2336,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00146",
+    "id": "daredevil-00147",
     "name": "Daredevil Vol. 2 #39",
     "title": "Daredevil Vol. 2",
     "issueNumber": 39,
@@ -2336,7 +2352,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00147",
+    "id": "daredevil-00148",
     "name": "Daredevil Vol. 2 #40",
     "title": "Daredevil Vol. 2",
     "issueNumber": 40,
@@ -2352,7 +2368,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00148",
+    "id": "daredevil-00149",
     "name": "Daredevil Vol. 2 #41",
     "title": "Daredevil Vol. 2",
     "issueNumber": 41,
@@ -2368,7 +2384,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00149",
+    "id": "daredevil-00150",
     "name": "Daredevil Vol. 2 #42",
     "title": "Daredevil Vol. 2",
     "issueNumber": 42,
@@ -2384,7 +2400,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00150",
+    "id": "daredevil-00151",
     "name": "Daredevil Vol. 2 #43",
     "title": "Daredevil Vol. 2",
     "issueNumber": 43,
@@ -2400,7 +2416,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00151",
+    "id": "daredevil-00152",
     "name": "Daredevil Vol. 2 #44",
     "title": "Daredevil Vol. 2",
     "issueNumber": 44,
@@ -2416,7 +2432,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00152",
+    "id": "daredevil-00153",
     "name": "Daredevil Vol. 2 #45",
     "title": "Daredevil Vol. 2",
     "issueNumber": 45,
@@ -2432,7 +2448,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00153",
+    "id": "daredevil-00154",
     "name": "Daredevil Vol. 2 #46",
     "title": "Daredevil Vol. 2",
     "issueNumber": 46,
@@ -2448,7 +2464,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00154",
+    "id": "daredevil-00155",
     "name": "Daredevil Vol. 2 #47",
     "title": "Daredevil Vol. 2",
     "issueNumber": 47,
@@ -2464,7 +2480,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00155",
+    "id": "daredevil-00156",
     "name": "Daredevil Vol. 2 #48",
     "title": "Daredevil Vol. 2",
     "issueNumber": 48,
@@ -2480,7 +2496,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00156",
+    "id": "daredevil-00157",
     "name": "Daredevil Vol. 2 #49",
     "title": "Daredevil Vol. 2",
     "issueNumber": 49,
@@ -2496,7 +2512,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00157",
+    "id": "daredevil-00158",
     "name": "Daredevil Vol. 2 #50",
     "title": "Daredevil Vol. 2",
     "issueNumber": 50,
@@ -2512,7 +2528,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00158",
+    "id": "daredevil-00159",
     "name": "Daredevil Vol. 2 #51",
     "title": "Daredevil Vol. 2",
     "issueNumber": 51,
@@ -2528,7 +2544,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00159",
+    "id": "daredevil-00160",
     "name": "Daredevil Vol. 2 #52",
     "title": "Daredevil Vol. 2",
     "issueNumber": 52,
@@ -2544,7 +2560,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00160",
+    "id": "daredevil-00161",
     "name": "Daredevil Vol. 2 #53",
     "title": "Daredevil Vol. 2",
     "issueNumber": 53,
@@ -2560,7 +2576,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00161",
+    "id": "daredevil-00162",
     "name": "Daredevil Vol. 2 #54",
     "title": "Daredevil Vol. 2",
     "issueNumber": 54,
@@ -2576,7 +2592,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00162",
+    "id": "daredevil-00163",
     "name": "Daredevil Vol. 2 #55",
     "title": "Daredevil Vol. 2",
     "issueNumber": 55,
@@ -2592,7 +2608,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00163",
+    "id": "daredevil-00164",
     "name": "Daredevil Vol. 2 #56",
     "title": "Daredevil Vol. 2",
     "issueNumber": 56,
@@ -2608,7 +2624,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00164",
+    "id": "daredevil-00165",
     "name": "Daredevil Vol. 2 #57",
     "title": "Daredevil Vol. 2",
     "issueNumber": 57,
@@ -2624,7 +2640,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00165",
+    "id": "daredevil-00166",
     "name": "Daredevil Vol. 2 #58",
     "title": "Daredevil Vol. 2",
     "issueNumber": 58,
@@ -2640,7 +2656,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00166",
+    "id": "daredevil-00167",
     "name": "Daredevil Vol. 2 #59",
     "title": "Daredevil Vol. 2",
     "issueNumber": 59,
@@ -2656,7 +2672,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00167",
+    "id": "daredevil-00168",
     "name": "Daredevil Vol. 2 #60",
     "title": "Daredevil Vol. 2",
     "issueNumber": 60,
@@ -2672,7 +2688,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00168",
+    "id": "daredevil-00169",
     "name": "Daredevil Vol. 2 #61",
     "title": "Daredevil Vol. 2",
     "issueNumber": 61,
@@ -2688,7 +2704,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00169",
+    "id": "daredevil-00170",
     "name": "Daredevil Vol. 2 #62",
     "title": "Daredevil Vol. 2",
     "issueNumber": 62,
@@ -2704,7 +2720,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00170",
+    "id": "daredevil-00171",
     "name": "Daredevil Vol. 2 #63",
     "title": "Daredevil Vol. 2",
     "issueNumber": 63,
@@ -2720,7 +2736,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00171",
+    "id": "daredevil-00172",
     "name": "Daredevil Vol. 2 #64",
     "title": "Daredevil Vol. 2",
     "issueNumber": 64,
@@ -2736,7 +2752,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00172",
+    "id": "daredevil-00173",
     "name": "Daredevil Vol. 2 #65",
     "title": "Daredevil Vol. 2",
     "issueNumber": 65,
@@ -2752,7 +2768,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00173",
+    "id": "daredevil-00174",
     "name": "Daredevil Vol. 2 #66",
     "title": "Daredevil Vol. 2",
     "issueNumber": 66,
@@ -2768,7 +2784,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00174",
+    "id": "daredevil-00175",
     "name": "Daredevil Vol. 2 #67",
     "title": "Daredevil Vol. 2",
     "issueNumber": 67,
@@ -2784,7 +2800,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00175",
+    "id": "daredevil-00176",
     "name": "Daredevil Vol. 2 #68",
     "title": "Daredevil Vol. 2",
     "issueNumber": 68,
@@ -2800,7 +2816,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00176",
+    "id": "daredevil-00177",
     "name": "Daredevil Vol. 2 #69",
     "title": "Daredevil Vol. 2",
     "issueNumber": 69,
@@ -2816,7 +2832,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00177",
+    "id": "daredevil-00178",
     "name": "Daredevil Vol. 2 #70",
     "title": "Daredevil Vol. 2",
     "issueNumber": 70,
@@ -2832,7 +2848,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00178",
+    "id": "daredevil-00179",
     "name": "Daredevil Vol. 2 #71",
     "title": "Daredevil Vol. 2",
     "issueNumber": 71,
@@ -2848,7 +2864,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00179",
+    "id": "daredevil-00180",
     "name": "Daredevil Vol. 2 #72",
     "title": "Daredevil Vol. 2",
     "issueNumber": 72,
@@ -2864,7 +2880,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00180",
+    "id": "daredevil-00181",
     "name": "Daredevil Vol. 2 #73",
     "title": "Daredevil Vol. 2",
     "issueNumber": 73,
@@ -2880,7 +2896,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00181",
+    "id": "daredevil-00182",
     "name": "Daredevil Vol. 2 #74",
     "title": "Daredevil Vol. 2",
     "issueNumber": 74,
@@ -2896,7 +2912,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00182",
+    "id": "daredevil-00183",
     "name": "Daredevil Vol. 2 #75",
     "title": "Daredevil Vol. 2",
     "issueNumber": 75,
@@ -2912,7 +2928,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00183",
+    "id": "daredevil-00184",
     "name": "Daredevil Vol. 2 #76",
     "title": "Daredevil Vol. 2",
     "issueNumber": 76,
@@ -2928,7 +2944,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00184",
+    "id": "daredevil-00185",
     "name": "Daredevil Vol. 2 #77",
     "title": "Daredevil Vol. 2",
     "issueNumber": 77,
@@ -2944,7 +2960,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00185",
+    "id": "daredevil-00186",
     "name": "Daredevil Vol. 2 #78",
     "title": "Daredevil Vol. 2",
     "issueNumber": 78,
@@ -2960,7 +2976,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00186",
+    "id": "daredevil-00187",
     "name": "Daredevil Vol. 2 #79",
     "title": "Daredevil Vol. 2",
     "issueNumber": 79,
@@ -2976,7 +2992,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00187",
+    "id": "daredevil-00188",
     "name": "Daredevil Vol. 2 #80",
     "title": "Daredevil Vol. 2",
     "issueNumber": 80,
@@ -2992,7 +3008,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00188",
+    "id": "daredevil-00189",
     "name": "Daredevil Vol. 2 #81",
     "title": "Daredevil Vol. 2",
     "issueNumber": 81,
@@ -3008,7 +3024,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00189",
+    "id": "daredevil-00190",
     "name": "Daredevil Vol. 2 #82",
     "title": "Daredevil Vol. 2",
     "issueNumber": 82,
@@ -3024,7 +3040,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00190",
+    "id": "daredevil-00191",
     "name": "Daredevil Vol. 2 #83",
     "title": "Daredevil Vol. 2",
     "issueNumber": 83,
@@ -3040,7 +3056,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00191",
+    "id": "daredevil-00192",
     "name": "Daredevil Vol. 2 #84",
     "title": "Daredevil Vol. 2",
     "issueNumber": 84,
@@ -3056,7 +3072,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00192",
+    "id": "daredevil-00193",
     "name": "Daredevil Vol. 2 #85",
     "title": "Daredevil Vol. 2",
     "issueNumber": 85,
@@ -3072,7 +3088,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00193",
+    "id": "daredevil-00194",
     "name": "Daredevil Vol. 2 #86",
     "title": "Daredevil Vol. 2",
     "issueNumber": 86,
@@ -3088,7 +3104,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00194",
+    "id": "daredevil-00195",
     "name": "Daredevil Vol. 2 #87",
     "title": "Daredevil Vol. 2",
     "issueNumber": 87,
@@ -3104,7 +3120,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00195",
+    "id": "daredevil-00196",
     "name": "Daredevil Vol. 2 #88",
     "title": "Daredevil Vol. 2",
     "issueNumber": 88,
@@ -3120,7 +3136,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00196",
+    "id": "daredevil-00197",
     "name": "Daredevil Vol. 2 #89",
     "title": "Daredevil Vol. 2",
     "issueNumber": 89,
@@ -3136,7 +3152,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00197",
+    "id": "daredevil-00198",
     "name": "Daredevil Vol. 2 #90",
     "title": "Daredevil Vol. 2",
     "issueNumber": 90,
@@ -3152,7 +3168,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00198",
+    "id": "daredevil-00199",
     "name": "Daredevil Vol. 2 #91",
     "title": "Daredevil Vol. 2",
     "issueNumber": 91,
@@ -3168,7 +3184,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00199",
+    "id": "daredevil-00200",
     "name": "Daredevil Vol. 2 #92",
     "title": "Daredevil Vol. 2",
     "issueNumber": 92,
@@ -3184,7 +3200,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00200",
+    "id": "daredevil-00201",
     "name": "Daredevil Vol. 2 #93",
     "title": "Daredevil Vol. 2",
     "issueNumber": 93,
@@ -3200,7 +3216,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00201",
+    "id": "daredevil-00202",
     "name": "Daredevil Vol. 2 #94",
     "title": "Daredevil Vol. 2",
     "issueNumber": 94,
@@ -3216,7 +3232,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00202",
+    "id": "daredevil-00203",
     "name": "Daredevil Vol. 2 #95",
     "title": "Daredevil Vol. 2",
     "issueNumber": 95,
@@ -3232,7 +3248,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00203",
+    "id": "daredevil-00204",
     "name": "Daredevil Vol. 2 #96",
     "title": "Daredevil Vol. 2",
     "issueNumber": 96,
@@ -3248,7 +3264,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00204",
+    "id": "daredevil-00205",
     "name": "Daredevil Vol. 2 #97",
     "title": "Daredevil Vol. 2",
     "issueNumber": 97,
@@ -3264,7 +3280,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00205",
+    "id": "daredevil-00206",
     "name": "Daredevil Vol. 2 #98",
     "title": "Daredevil Vol. 2",
     "issueNumber": 98,
@@ -3280,7 +3296,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00206",
+    "id": "daredevil-00207",
     "name": "Daredevil Vol. 2 #99",
     "title": "Daredevil Vol. 2",
     "issueNumber": 99,
@@ -3296,7 +3312,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00207",
+    "id": "daredevil-00208",
     "name": "Daredevil Vol. 2 #100",
     "title": "Daredevil Vol. 2",
     "issueNumber": 100,
@@ -3312,7 +3328,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00208",
+    "id": "daredevil-00209",
     "name": "Daredevil Vol. 2 #101",
     "title": "Daredevil Vol. 2",
     "issueNumber": 101,
@@ -3328,7 +3344,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00209",
+    "id": "daredevil-00210",
     "name": "Daredevil Vol. 2 #102",
     "title": "Daredevil Vol. 2",
     "issueNumber": 102,
@@ -3344,7 +3360,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00210",
+    "id": "daredevil-00211",
     "name": "Daredevil Vol. 2 #103",
     "title": "Daredevil Vol. 2",
     "issueNumber": 103,
@@ -3360,7 +3376,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00211",
+    "id": "daredevil-00212",
     "name": "Daredevil Vol. 2 #104",
     "title": "Daredevil Vol. 2",
     "issueNumber": 104,
@@ -3376,7 +3392,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00212",
+    "id": "daredevil-00213",
     "name": "Daredevil Vol. 2 #105",
     "title": "Daredevil Vol. 2",
     "issueNumber": 105,
@@ -3392,7 +3408,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00213",
+    "id": "daredevil-00214",
     "name": "Daredevil Vol. 2 #106",
     "title": "Daredevil Vol. 2",
     "issueNumber": 106,
@@ -3408,7 +3424,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00214",
+    "id": "daredevil-00215",
     "name": "Daredevil Vol. 2 #107",
     "title": "Daredevil Vol. 2",
     "issueNumber": 107,
@@ -3424,7 +3440,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00215",
+    "id": "daredevil-00216",
     "name": "Daredevil Vol. 2 #108",
     "title": "Daredevil Vol. 2",
     "issueNumber": 108,
@@ -3440,7 +3456,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00216",
+    "id": "daredevil-00217",
     "name": "Daredevil Vol. 2 #109",
     "title": "Daredevil Vol. 2",
     "issueNumber": 109,
@@ -3456,7 +3472,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00217",
+    "id": "daredevil-00218",
     "name": "Daredevil Vol. 2 #110",
     "title": "Daredevil Vol. 2",
     "issueNumber": 110,
@@ -3472,7 +3488,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00218",
+    "id": "daredevil-00219",
     "name": "Daredevil Vol. 2 #111",
     "title": "Daredevil Vol. 2",
     "issueNumber": 111,
@@ -3488,7 +3504,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00219",
+    "id": "daredevil-00220",
     "name": "Daredevil Vol. 2 #112",
     "title": "Daredevil Vol. 2",
     "issueNumber": 112,
@@ -3504,7 +3520,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00220",
+    "id": "daredevil-00221",
     "name": "Daredevil Vol. 2 #113",
     "title": "Daredevil Vol. 2",
     "issueNumber": 113,
@@ -3520,7 +3536,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00221",
+    "id": "daredevil-00222",
     "name": "Daredevil Vol. 2 #114",
     "title": "Daredevil Vol. 2",
     "issueNumber": 114,
@@ -3536,7 +3552,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00222",
+    "id": "daredevil-00223",
     "name": "Daredevil Vol. 2 #115",
     "title": "Daredevil Vol. 2",
     "issueNumber": 115,
@@ -3552,7 +3568,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00223",
+    "id": "daredevil-00224",
     "name": "Daredevil Vol. 2 #116",
     "title": "Daredevil Vol. 2",
     "issueNumber": 116,
@@ -3568,7 +3584,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00224",
+    "id": "daredevil-00225",
     "name": "Daredevil Vol. 2 #117",
     "title": "Daredevil Vol. 2",
     "issueNumber": 117,
@@ -3584,7 +3600,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00225",
+    "id": "daredevil-00226",
     "name": "Daredevil Vol. 2 #118",
     "title": "Daredevil Vol. 2",
     "issueNumber": 118,
@@ -3600,7 +3616,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00226",
+    "id": "daredevil-00227",
     "name": "Daredevil Vol. 2 #119",
     "title": "Daredevil Vol. 2",
     "issueNumber": 119,
@@ -3616,7 +3632,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00227",
+    "id": "daredevil-00228",
     "name": "Daredevil #500",
     "title": "Daredevil",
     "issueNumber": 500,
@@ -3632,9 +3648,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00228",
-    "name": "Daredevil: Noir #1",
-    "title": "Daredevil: Noir",
+    "id": "daredevil-00229",
+    "name": "Daredevil Noir #1",
+    "title": "Daredevil Noir",
     "issueNumber": 1,
     "year": null,
     "decade": "",
@@ -3648,9 +3664,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00229",
-    "name": "Daredevil: Noir #2",
-    "title": "Daredevil: Noir",
+    "id": "daredevil-00230",
+    "name": "Daredevil Noir #2",
+    "title": "Daredevil Noir",
     "issueNumber": 2,
     "year": null,
     "decade": "",
@@ -3664,9 +3680,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00230",
-    "name": "Daredevil: Noir #3",
-    "title": "Daredevil: Noir",
+    "id": "daredevil-00231",
+    "name": "Daredevil Noir #3",
+    "title": "Daredevil Noir",
     "issueNumber": 3,
     "year": null,
     "decade": "",
@@ -3680,9 +3696,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00231",
-    "name": "Daredevil: Noir #4",
-    "title": "Daredevil: Noir",
+    "id": "daredevil-00232",
+    "name": "Daredevil Noir #4",
+    "title": "Daredevil Noir",
     "issueNumber": 4,
     "year": null,
     "decade": "",
@@ -3696,7 +3712,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00232",
+    "id": "daredevil-00233",
     "name": "Daredevil: Cage Match #1",
     "title": "Daredevil: Cage Match",
     "issueNumber": 1,
@@ -3712,7 +3728,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00233",
+    "id": "daredevil-00234",
     "name": "Daredevil: Reborn #1",
     "title": "Daredevil: Reborn",
     "issueNumber": 1,
@@ -3728,7 +3744,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00234",
+    "id": "daredevil-00235",
     "name": "Daredevil: Reborn #2",
     "title": "Daredevil: Reborn",
     "issueNumber": 2,
@@ -3744,7 +3760,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00235",
+    "id": "daredevil-00236",
     "name": "Daredevil: Reborn #3",
     "title": "Daredevil: Reborn",
     "issueNumber": 3,
@@ -3760,7 +3776,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00236",
+    "id": "daredevil-00237",
     "name": "Daredevil: Reborn #4",
     "title": "Daredevil: Reborn",
     "issueNumber": 4,
@@ -3776,12 +3792,12 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00237",
-    "name": "Daredevil Vol. 3 #1 (2011)",
+    "id": "daredevil-00238",
+    "name": "Daredevil Vol. 3 #1",
     "title": "Daredevil Vol. 3",
     "issueNumber": 1,
-    "year": 2011,
-    "decade": "2010s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -3792,7 +3808,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00238",
+    "id": "daredevil-00239",
     "name": "Daredevil Vol. 3 #2",
     "title": "Daredevil Vol. 3",
     "issueNumber": 2,
@@ -3808,7 +3824,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00239",
+    "id": "daredevil-00240",
     "name": "Daredevil Vol. 3 #3",
     "title": "Daredevil Vol. 3",
     "issueNumber": 3,
@@ -3824,7 +3840,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00240",
+    "id": "daredevil-00241",
     "name": "Daredevil Vol. 3 #4",
     "title": "Daredevil Vol. 3",
     "issueNumber": 4,
@@ -3840,7 +3856,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00241",
+    "id": "daredevil-00242",
     "name": "Daredevil Vol. 3 #5",
     "title": "Daredevil Vol. 3",
     "issueNumber": 5,
@@ -3856,7 +3872,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00242",
+    "id": "daredevil-00243",
     "name": "Daredevil Vol. 3 #6",
     "title": "Daredevil Vol. 3",
     "issueNumber": 6,
@@ -3872,7 +3888,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00243",
+    "id": "daredevil-00244",
     "name": "Daredevil Vol. 3 #7",
     "title": "Daredevil Vol. 3",
     "issueNumber": 7,
@@ -3888,7 +3904,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00244",
+    "id": "daredevil-00245",
     "name": "Daredevil Vol. 3 #8",
     "title": "Daredevil Vol. 3",
     "issueNumber": 8,
@@ -3904,7 +3920,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00245",
+    "id": "daredevil-00246",
     "name": "Daredevil Vol. 3 #9",
     "title": "Daredevil Vol. 3",
     "issueNumber": 9,
@@ -3920,7 +3936,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00246",
+    "id": "daredevil-00247",
     "name": "Daredevil Vol. 3 #10",
     "title": "Daredevil Vol. 3",
     "issueNumber": 10,
@@ -3936,7 +3952,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00247",
+    "id": "daredevil-00248",
     "name": "Daredevil Vol. 3 #11",
     "title": "Daredevil Vol. 3",
     "issueNumber": 11,
@@ -3952,7 +3968,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00248",
+    "id": "daredevil-00249",
     "name": "Daredevil Vol. 3 #12",
     "title": "Daredevil Vol. 3",
     "issueNumber": 12,
@@ -3968,7 +3984,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00249",
+    "id": "daredevil-00250",
     "name": "Daredevil Vol. 3 #13",
     "title": "Daredevil Vol. 3",
     "issueNumber": 13,
@@ -3984,7 +4000,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00250",
+    "id": "daredevil-00251",
     "name": "Daredevil Vol. 3 #14",
     "title": "Daredevil Vol. 3",
     "issueNumber": 14,
@@ -4000,7 +4016,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00251",
+    "id": "daredevil-00252",
     "name": "Daredevil Vol. 3 #15",
     "title": "Daredevil Vol. 3",
     "issueNumber": 15,
@@ -4016,7 +4032,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00252",
+    "id": "daredevil-00253",
     "name": "Daredevil Vol. 3 #16",
     "title": "Daredevil Vol. 3",
     "issueNumber": 16,
@@ -4032,7 +4048,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00253",
+    "id": "daredevil-00254",
     "name": "Daredevil Vol. 3 #17",
     "title": "Daredevil Vol. 3",
     "issueNumber": 17,
@@ -4048,7 +4064,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00254",
+    "id": "daredevil-00255",
     "name": "Daredevil Vol. 3 #18",
     "title": "Daredevil Vol. 3",
     "issueNumber": 18,
@@ -4064,7 +4080,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00255",
+    "id": "daredevil-00256",
     "name": "Daredevil Vol. 3 #19",
     "title": "Daredevil Vol. 3",
     "issueNumber": 19,
@@ -4080,7 +4096,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00256",
+    "id": "daredevil-00257",
     "name": "Daredevil Vol. 3 #20",
     "title": "Daredevil Vol. 3",
     "issueNumber": 20,
@@ -4096,7 +4112,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00257",
+    "id": "daredevil-00258",
     "name": "Daredevil Vol. 3 #21",
     "title": "Daredevil Vol. 3",
     "issueNumber": 21,
@@ -4112,7 +4128,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00258",
+    "id": "daredevil-00259",
     "name": "Daredevil Vol. 3 #22",
     "title": "Daredevil Vol. 3",
     "issueNumber": 22,
@@ -4128,7 +4144,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00259",
+    "id": "daredevil-00260",
     "name": "Daredevil Vol. 3 #23",
     "title": "Daredevil Vol. 3",
     "issueNumber": 23,
@@ -4144,7 +4160,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00260",
+    "id": "daredevil-00261",
     "name": "Daredevil Vol. 3 #24",
     "title": "Daredevil Vol. 3",
     "issueNumber": 24,
@@ -4160,7 +4176,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00261",
+    "id": "daredevil-00262",
     "name": "Daredevil Vol. 3 #25",
     "title": "Daredevil Vol. 3",
     "issueNumber": 25,
@@ -4176,7 +4192,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00262",
+    "id": "daredevil-00263",
     "name": "Daredevil Vol. 3 #26",
     "title": "Daredevil Vol. 3",
     "issueNumber": 26,
@@ -4192,7 +4208,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00263",
+    "id": "daredevil-00264",
     "name": "Daredevil Vol. 3 #27",
     "title": "Daredevil Vol. 3",
     "issueNumber": 27,
@@ -4208,7 +4224,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00264",
+    "id": "daredevil-00265",
     "name": "Daredevil Vol. 3 #28",
     "title": "Daredevil Vol. 3",
     "issueNumber": 28,
@@ -4224,7 +4240,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00265",
+    "id": "daredevil-00266",
     "name": "Daredevil Vol. 3 #29",
     "title": "Daredevil Vol. 3",
     "issueNumber": 29,
@@ -4240,7 +4256,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00266",
+    "id": "daredevil-00267",
     "name": "Daredevil Vol. 3 #30",
     "title": "Daredevil Vol. 3",
     "issueNumber": 30,
@@ -4256,7 +4272,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00267",
+    "id": "daredevil-00268",
     "name": "Daredevil Vol. 3 #31",
     "title": "Daredevil Vol. 3",
     "issueNumber": 31,
@@ -4272,7 +4288,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00268",
+    "id": "daredevil-00269",
     "name": "Daredevil Vol. 3 #32",
     "title": "Daredevil Vol. 3",
     "issueNumber": 32,
@@ -4288,7 +4304,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00269",
+    "id": "daredevil-00270",
     "name": "Daredevil Vol. 3 #33",
     "title": "Daredevil Vol. 3",
     "issueNumber": 33,
@@ -4304,7 +4320,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00270",
+    "id": "daredevil-00271",
     "name": "Daredevil Vol. 3 #34",
     "title": "Daredevil Vol. 3",
     "issueNumber": 34,
@@ -4320,7 +4336,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00271",
+    "id": "daredevil-00272",
     "name": "Daredevil Vol. 3 #35",
     "title": "Daredevil Vol. 3",
     "issueNumber": 35,
@@ -4336,7 +4352,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00272",
+    "id": "daredevil-00273",
     "name": "Daredevil Vol. 3 #36",
     "title": "Daredevil Vol. 3",
     "issueNumber": 36,
@@ -4352,12 +4368,12 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00273",
-    "name": "Daredevil Vol. 4 #1 (2014)",
+    "id": "daredevil-00274",
+    "name": "Daredevil Vol. 4 #1",
     "title": "Daredevil Vol. 4",
     "issueNumber": 1,
-    "year": 2014,
-    "decade": "2010s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -4368,7 +4384,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00274",
+    "id": "daredevil-00275",
     "name": "Daredevil Vol. 4 #2",
     "title": "Daredevil Vol. 4",
     "issueNumber": 2,
@@ -4384,7 +4400,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00275",
+    "id": "daredevil-00276",
     "name": "Daredevil Vol. 4 #3",
     "title": "Daredevil Vol. 4",
     "issueNumber": 3,
@@ -4400,7 +4416,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00276",
+    "id": "daredevil-00277",
     "name": "Daredevil Vol. 4 #4",
     "title": "Daredevil Vol. 4",
     "issueNumber": 4,
@@ -4416,7 +4432,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00277",
+    "id": "daredevil-00278",
     "name": "Daredevil Vol. 4 #5",
     "title": "Daredevil Vol. 4",
     "issueNumber": 5,
@@ -4432,7 +4448,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00278",
+    "id": "daredevil-00279",
     "name": "Daredevil Vol. 4 #6",
     "title": "Daredevil Vol. 4",
     "issueNumber": 6,
@@ -4448,7 +4464,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00279",
+    "id": "daredevil-00280",
     "name": "Daredevil Vol. 4 #7",
     "title": "Daredevil Vol. 4",
     "issueNumber": 7,
@@ -4464,7 +4480,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00280",
+    "id": "daredevil-00281",
     "name": "Daredevil Vol. 4 #8",
     "title": "Daredevil Vol. 4",
     "issueNumber": 8,
@@ -4480,7 +4496,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00281",
+    "id": "daredevil-00282",
     "name": "Daredevil Vol. 4 #9",
     "title": "Daredevil Vol. 4",
     "issueNumber": 9,
@@ -4496,7 +4512,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00282",
+    "id": "daredevil-00283",
     "name": "Daredevil Vol. 4 #10",
     "title": "Daredevil Vol. 4",
     "issueNumber": 10,
@@ -4512,7 +4528,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00283",
+    "id": "daredevil-00284",
     "name": "Daredevil Vol. 4 #11",
     "title": "Daredevil Vol. 4",
     "issueNumber": 11,
@@ -4528,7 +4544,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00284",
+    "id": "daredevil-00285",
     "name": "Daredevil Vol. 4 #12",
     "title": "Daredevil Vol. 4",
     "issueNumber": 12,
@@ -4544,7 +4560,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00285",
+    "id": "daredevil-00286",
     "name": "Daredevil Vol. 4 #13",
     "title": "Daredevil Vol. 4",
     "issueNumber": 13,
@@ -4560,7 +4576,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00286",
+    "id": "daredevil-00287",
     "name": "Daredevil Vol. 4 #14",
     "title": "Daredevil Vol. 4",
     "issueNumber": 14,
@@ -4576,7 +4592,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00287",
+    "id": "daredevil-00288",
     "name": "Daredevil Vol. 4 #15",
     "title": "Daredevil Vol. 4",
     "issueNumber": 15,
@@ -4592,7 +4608,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00288",
+    "id": "daredevil-00289",
     "name": "Daredevil Vol. 4 #16",
     "title": "Daredevil Vol. 4",
     "issueNumber": 16,
@@ -4608,7 +4624,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00289",
+    "id": "daredevil-00290",
     "name": "Daredevil Vol. 4 #17",
     "title": "Daredevil Vol. 4",
     "issueNumber": 17,
@@ -4624,7 +4640,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00290",
+    "id": "daredevil-00291",
     "name": "Daredevil Vol. 4 #18",
     "title": "Daredevil Vol. 4",
     "issueNumber": 18,
@@ -4640,12 +4656,12 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00291",
-    "name": "Daredevil Vol. 5 #1 (2016)",
+    "id": "daredevil-00292",
+    "name": "Daredevil Vol. 5 #1",
     "title": "Daredevil Vol. 5",
     "issueNumber": 1,
-    "year": 2016,
-    "decade": "2010s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -4656,7 +4672,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00292",
+    "id": "daredevil-00293",
     "name": "Daredevil Vol. 5 #2",
     "title": "Daredevil Vol. 5",
     "issueNumber": 2,
@@ -4672,7 +4688,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00293",
+    "id": "daredevil-00294",
     "name": "Daredevil Vol. 5 #3",
     "title": "Daredevil Vol. 5",
     "issueNumber": 3,
@@ -4688,7 +4704,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00294",
+    "id": "daredevil-00295",
     "name": "Daredevil Vol. 5 #4",
     "title": "Daredevil Vol. 5",
     "issueNumber": 4,
@@ -4704,7 +4720,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00295",
+    "id": "daredevil-00296",
     "name": "Daredevil Vol. 5 #5",
     "title": "Daredevil Vol. 5",
     "issueNumber": 5,
@@ -4720,7 +4736,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00296",
+    "id": "daredevil-00297",
     "name": "Daredevil Vol. 5 #6",
     "title": "Daredevil Vol. 5",
     "issueNumber": 6,
@@ -4736,7 +4752,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00297",
+    "id": "daredevil-00298",
     "name": "Daredevil Vol. 5 #7",
     "title": "Daredevil Vol. 5",
     "issueNumber": 7,
@@ -4752,7 +4768,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00298",
+    "id": "daredevil-00299",
     "name": "Daredevil Vol. 5 #8",
     "title": "Daredevil Vol. 5",
     "issueNumber": 8,
@@ -4768,7 +4784,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00299",
+    "id": "daredevil-00300",
     "name": "Daredevil Vol. 5 #9",
     "title": "Daredevil Vol. 5",
     "issueNumber": 9,
@@ -4784,7 +4800,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00300",
+    "id": "daredevil-00301",
     "name": "Daredevil Vol. 5 #10",
     "title": "Daredevil Vol. 5",
     "issueNumber": 10,
@@ -4800,7 +4816,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00301",
+    "id": "daredevil-00302",
     "name": "Daredevil Vol. 5 #11",
     "title": "Daredevil Vol. 5",
     "issueNumber": 11,
@@ -4816,7 +4832,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00302",
+    "id": "daredevil-00303",
     "name": "Daredevil Vol. 5 #12",
     "title": "Daredevil Vol. 5",
     "issueNumber": 12,
@@ -4832,7 +4848,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00303",
+    "id": "daredevil-00304",
     "name": "Daredevil Vol. 5 #13",
     "title": "Daredevil Vol. 5",
     "issueNumber": 13,
@@ -4848,7 +4864,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00304",
+    "id": "daredevil-00305",
     "name": "Daredevil Vol. 5 #14",
     "title": "Daredevil Vol. 5",
     "issueNumber": 14,
@@ -4864,12 +4880,12 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00305",
-    "name": "Daredevil Vol. 5 Annual #1 (2016)",
+    "id": "daredevil-00306",
+    "name": "Daredevil Vol. 5 Annual #1",
     "title": "Daredevil Vol. 5 Annual",
     "issueNumber": 1,
-    "year": 2016,
-    "decade": "2010s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -4880,7 +4896,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00306",
+    "id": "daredevil-00307",
     "name": "Daredevil Vol. 5 #15",
     "title": "Daredevil Vol. 5",
     "issueNumber": 15,
@@ -4896,7 +4912,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00307",
+    "id": "daredevil-00308",
     "name": "Daredevil Vol. 5 #16",
     "title": "Daredevil Vol. 5",
     "issueNumber": 16,
@@ -4912,7 +4928,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00308",
+    "id": "daredevil-00309",
     "name": "Daredevil Vol. 5 #17",
     "title": "Daredevil Vol. 5",
     "issueNumber": 17,
@@ -4928,7 +4944,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00309",
+    "id": "daredevil-00310",
     "name": "Daredevil Vol. 5 #18",
     "title": "Daredevil Vol. 5",
     "issueNumber": 18,
@@ -4944,7 +4960,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00310",
+    "id": "daredevil-00311",
     "name": "Daredevil Vol. 5 #19",
     "title": "Daredevil Vol. 5",
     "issueNumber": 19,
@@ -4960,7 +4976,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00311",
+    "id": "daredevil-00312",
     "name": "Daredevil Vol. 5 #20",
     "title": "Daredevil Vol. 5",
     "issueNumber": 20,
@@ -4976,12 +4992,12 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00312",
-    "name": "Kingpin Vol. 2 #1 (2017)",
+    "id": "daredevil-00313",
+    "name": "Kingpin Vol. 2 #1",
     "title": "Kingpin Vol. 2",
     "issueNumber": 1,
-    "year": 2017,
-    "decade": "2010s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -4992,7 +5008,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00313",
+    "id": "daredevil-00314",
     "name": "Kingpin Vol. 2 #2",
     "title": "Kingpin Vol. 2",
     "issueNumber": 2,
@@ -5008,7 +5024,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00314",
+    "id": "daredevil-00315",
     "name": "Kingpin Vol. 2 #3",
     "title": "Kingpin Vol. 2",
     "issueNumber": 3,
@@ -5024,7 +5040,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00315",
+    "id": "daredevil-00316",
     "name": "Kingpin Vol. 2 #4",
     "title": "Kingpin Vol. 2",
     "issueNumber": 4,
@@ -5040,7 +5056,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00316",
+    "id": "daredevil-00317",
     "name": "Kingpin Vol. 2 #5",
     "title": "Kingpin Vol. 2",
     "issueNumber": 5,
@@ -5056,12 +5072,12 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00317",
-    "name": "Elektra Vol. 4 #1 (2017)",
+    "id": "daredevil-00318",
+    "name": "Elektra Vol. 4 #1",
     "title": "Elektra Vol. 4",
     "issueNumber": 1,
-    "year": 2017,
-    "decade": "2010s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -5072,7 +5088,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00318",
+    "id": "daredevil-00319",
     "name": "Elektra Vol. 4 #2",
     "title": "Elektra Vol. 4",
     "issueNumber": 2,
@@ -5088,7 +5104,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00319",
+    "id": "daredevil-00320",
     "name": "Elektra Vol. 4 #3",
     "title": "Elektra Vol. 4",
     "issueNumber": 3,
@@ -5104,7 +5120,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00320",
+    "id": "daredevil-00321",
     "name": "Elektra Vol. 4 #4",
     "title": "Elektra Vol. 4",
     "issueNumber": 4,
@@ -5120,7 +5136,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00321",
+    "id": "daredevil-00322",
     "name": "Elektra Vol. 4 #5",
     "title": "Elektra Vol. 4",
     "issueNumber": 5,
@@ -5136,7 +5152,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00322",
+    "id": "daredevil-00323",
     "name": "Daredevil Vol. 5 #21",
     "title": "Daredevil Vol. 5",
     "issueNumber": 21,
@@ -5152,7 +5168,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00323",
+    "id": "daredevil-00324",
     "name": "Daredevil Vol. 5 #22",
     "title": "Daredevil Vol. 5",
     "issueNumber": 22,
@@ -5168,7 +5184,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00324",
+    "id": "daredevil-00325",
     "name": "Daredevil Vol. 5 #23",
     "title": "Daredevil Vol. 5",
     "issueNumber": 23,
@@ -5184,7 +5200,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00325",
+    "id": "daredevil-00326",
     "name": "Daredevil Vol. 5 #24",
     "title": "Daredevil Vol. 5",
     "issueNumber": 24,
@@ -5200,7 +5216,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00326",
+    "id": "daredevil-00327",
     "name": "Daredevil Vol. 5 #25",
     "title": "Daredevil Vol. 5",
     "issueNumber": 25,
@@ -5216,7 +5232,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00327",
+    "id": "daredevil-00328",
     "name": "Daredevil Vol. 5 #26",
     "title": "Daredevil Vol. 5",
     "issueNumber": 26,
@@ -5232,7 +5248,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00328",
+    "id": "daredevil-00329",
     "name": "Daredevil Vol. 5 #27",
     "title": "Daredevil Vol. 5",
     "issueNumber": 27,
@@ -5248,7 +5264,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00329",
+    "id": "daredevil-00330",
     "name": "Daredevil Vol. 5 #28",
     "title": "Daredevil Vol. 5",
     "issueNumber": 28,
@@ -5264,7 +5280,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00330",
+    "id": "daredevil-00331",
     "name": "Daredevil #595",
     "title": "Daredevil",
     "issueNumber": 595,
@@ -5280,7 +5296,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00331",
+    "id": "daredevil-00332",
     "name": "Daredevil #596",
     "title": "Daredevil",
     "issueNumber": 596,
@@ -5296,7 +5312,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00332",
+    "id": "daredevil-00333",
     "name": "Daredevil #597",
     "title": "Daredevil",
     "issueNumber": 597,
@@ -5312,7 +5328,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00333",
+    "id": "daredevil-00334",
     "name": "Daredevil #598",
     "title": "Daredevil",
     "issueNumber": 598,
@@ -5328,7 +5344,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00334",
+    "id": "daredevil-00335",
     "name": "Daredevil #599",
     "title": "Daredevil",
     "issueNumber": 599,
@@ -5344,7 +5360,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00335",
+    "id": "daredevil-00336",
     "name": "Daredevil #600",
     "title": "Daredevil",
     "issueNumber": 600,
@@ -5360,7 +5376,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00336",
+    "id": "daredevil-00337",
     "name": "Daredevil #601",
     "title": "Daredevil",
     "issueNumber": 601,
@@ -5376,7 +5392,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00337",
+    "id": "daredevil-00338",
     "name": "Daredevil #602",
     "title": "Daredevil",
     "issueNumber": 602,
@@ -5392,7 +5408,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00338",
+    "id": "daredevil-00339",
     "name": "Daredevil #603",
     "title": "Daredevil",
     "issueNumber": 603,
@@ -5408,7 +5424,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00339",
+    "id": "daredevil-00340",
     "name": "Daredevil #604",
     "title": "Daredevil",
     "issueNumber": 604,
@@ -5424,7 +5440,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00340",
+    "id": "daredevil-00341",
     "name": "Daredevil #605",
     "title": "Daredevil",
     "issueNumber": 605,
@@ -5440,7 +5456,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00341",
+    "id": "daredevil-00342",
     "name": "Daredevil #606",
     "title": "Daredevil",
     "issueNumber": 606,
@@ -5456,7 +5472,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00342",
+    "id": "daredevil-00343",
     "name": "Daredevil #607",
     "title": "Daredevil",
     "issueNumber": 607,
@@ -5472,7 +5488,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00343",
+    "id": "daredevil-00344",
     "name": "Daredevil #608",
     "title": "Daredevil",
     "issueNumber": 608,
@@ -5488,7 +5504,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00344",
+    "id": "daredevil-00345",
     "name": "Daredevil #609",
     "title": "Daredevil",
     "issueNumber": 609,
@@ -5504,7 +5520,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00345",
+    "id": "daredevil-00346",
     "name": "Daredevil #610",
     "title": "Daredevil",
     "issueNumber": 610,
@@ -5520,7 +5536,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00346",
+    "id": "daredevil-00347",
     "name": "Daredevil #611",
     "title": "Daredevil",
     "issueNumber": 611,
@@ -5536,7 +5552,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00347",
+    "id": "daredevil-00348",
     "name": "Daredevil #612",
     "title": "Daredevil",
     "issueNumber": 612,
@@ -5552,12 +5568,12 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00348",
-    "name": "Daredevil Vol. 6 Annual #1 (2018)",
-    "title": "Daredevil Vol. 6 Annual",
+    "id": "daredevil-00349",
+    "name": "Daredevil 2018 Annual #1",
+    "title": "Daredevil 2018 Annual",
     "issueNumber": 1,
-    "year": 2018,
-    "decade": "2010s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -5568,7 +5584,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00349",
+    "id": "daredevil-00350",
     "name": "Man Without Fear #1",
     "title": "Man Without Fear",
     "issueNumber": 1,
@@ -5584,7 +5600,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00350",
+    "id": "daredevil-00351",
     "name": "Man Without Fear #2",
     "title": "Man Without Fear",
     "issueNumber": 2,
@@ -5600,7 +5616,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00351",
+    "id": "daredevil-00352",
     "name": "Man Without Fear #3",
     "title": "Man Without Fear",
     "issueNumber": 3,
@@ -5616,7 +5632,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00352",
+    "id": "daredevil-00353",
     "name": "Man Without Fear #4",
     "title": "Man Without Fear",
     "issueNumber": 4,
@@ -5632,7 +5648,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00353",
+    "id": "daredevil-00354",
     "name": "Man Without Fear #5",
     "title": "Man Without Fear",
     "issueNumber": 5,
@@ -5648,12 +5664,12 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00354",
-    "name": "Daredevil Vol. 6 #1 (2019)",
+    "id": "daredevil-00355",
+    "name": "Daredevil Vol. 6 #1",
     "title": "Daredevil Vol. 6",
     "issueNumber": 1,
-    "year": 2019,
-    "decade": "2010s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -5664,7 +5680,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00355",
+    "id": "daredevil-00356",
     "name": "Daredevil Vol. 6 #2",
     "title": "Daredevil Vol. 6",
     "issueNumber": 2,
@@ -5680,7 +5696,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00356",
+    "id": "daredevil-00357",
     "name": "Daredevil Vol. 6 #3",
     "title": "Daredevil Vol. 6",
     "issueNumber": 3,
@@ -5696,7 +5712,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00357",
+    "id": "daredevil-00358",
     "name": "Daredevil Vol. 6 #4",
     "title": "Daredevil Vol. 6",
     "issueNumber": 4,
@@ -5712,7 +5728,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00358",
+    "id": "daredevil-00359",
     "name": "Daredevil Vol. 6 #5",
     "title": "Daredevil Vol. 6",
     "issueNumber": 5,
@@ -5728,7 +5744,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00359",
+    "id": "daredevil-00360",
     "name": "Daredevil Vol. 6 #6",
     "title": "Daredevil Vol. 6",
     "issueNumber": 6,
@@ -5744,7 +5760,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00360",
+    "id": "daredevil-00361",
     "name": "Daredevil Vol. 6 #7",
     "title": "Daredevil Vol. 6",
     "issueNumber": 7,
@@ -5760,7 +5776,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00361",
+    "id": "daredevil-00362",
     "name": "Daredevil Vol. 6 #8",
     "title": "Daredevil Vol. 6",
     "issueNumber": 8,
@@ -5776,7 +5792,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00362",
+    "id": "daredevil-00363",
     "name": "Daredevil Vol. 6 #9",
     "title": "Daredevil Vol. 6",
     "issueNumber": 9,
@@ -5792,7 +5808,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00363",
+    "id": "daredevil-00364",
     "name": "Daredevil Vol. 6 #10",
     "title": "Daredevil Vol. 6",
     "issueNumber": 10,
@@ -5808,7 +5824,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00364",
+    "id": "daredevil-00365",
     "name": "Daredevil Vol. 6 #11",
     "title": "Daredevil Vol. 6",
     "issueNumber": 11,
@@ -5824,7 +5840,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00365",
+    "id": "daredevil-00366",
     "name": "Daredevil Vol. 6 #12",
     "title": "Daredevil Vol. 6",
     "issueNumber": 12,
@@ -5840,7 +5856,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00366",
+    "id": "daredevil-00367",
     "name": "Daredevil Vol. 6 #13",
     "title": "Daredevil Vol. 6",
     "issueNumber": 13,
@@ -5856,7 +5872,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00367",
+    "id": "daredevil-00368",
     "name": "Daredevil Vol. 6 #14",
     "title": "Daredevil Vol. 6",
     "issueNumber": 14,
@@ -5872,7 +5888,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00368",
+    "id": "daredevil-00369",
     "name": "Daredevil Vol. 6 #15",
     "title": "Daredevil Vol. 6",
     "issueNumber": 15,
@@ -5888,7 +5904,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00369",
+    "id": "daredevil-00370",
     "name": "Daredevil Vol. 6 #16",
     "title": "Daredevil Vol. 6",
     "issueNumber": 16,
@@ -5904,7 +5920,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00370",
+    "id": "daredevil-00371",
     "name": "Daredevil Vol. 6 #17",
     "title": "Daredevil Vol. 6",
     "issueNumber": 17,
@@ -5920,7 +5936,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00371",
+    "id": "daredevil-00372",
     "name": "Daredevil Vol. 6 #18",
     "title": "Daredevil Vol. 6",
     "issueNumber": 18,
@@ -5936,7 +5952,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00372",
+    "id": "daredevil-00373",
     "name": "Daredevil Vol. 6 #19",
     "title": "Daredevil Vol. 6",
     "issueNumber": 19,
@@ -5952,7 +5968,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00373",
+    "id": "daredevil-00374",
     "name": "Daredevil Vol. 6 #20",
     "title": "Daredevil Vol. 6",
     "issueNumber": 20,
@@ -5968,7 +5984,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00374",
+    "id": "daredevil-00375",
     "name": "Daredevil Vol. 6 #21",
     "title": "Daredevil Vol. 6",
     "issueNumber": 21,
@@ -5984,12 +6000,12 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00375",
-    "name": "Daredevil Vol. 6 Annual #1 (2020)",
+    "id": "daredevil-00376",
+    "name": "Daredevil Vol. 6 Annual #1",
     "title": "Daredevil Vol. 6 Annual",
     "issueNumber": 1,
-    "year": 2020,
-    "decade": "2020s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -6000,7 +6016,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00376",
+    "id": "daredevil-00377",
     "name": "Daredevil Vol. 6 #22",
     "title": "Daredevil Vol. 6",
     "issueNumber": 22,
@@ -6016,7 +6032,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00377",
+    "id": "daredevil-00378",
     "name": "Daredevil Vol. 6 #23",
     "title": "Daredevil Vol. 6",
     "issueNumber": 23,
@@ -6032,7 +6048,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00378",
+    "id": "daredevil-00379",
     "name": "Daredevil Vol. 6 #24",
     "title": "Daredevil Vol. 6",
     "issueNumber": 24,
@@ -6048,7 +6064,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00379",
+    "id": "daredevil-00380",
     "name": "Daredevil Vol. 6 #25",
     "title": "Daredevil Vol. 6",
     "issueNumber": 25,
@@ -6064,7 +6080,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00380",
+    "id": "daredevil-00381",
     "name": "Daredevil Vol. 6 #26",
     "title": "Daredevil Vol. 6",
     "issueNumber": 26,
@@ -6080,7 +6096,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00381",
+    "id": "daredevil-00382",
     "name": "Daredevil Vol. 6 #27",
     "title": "Daredevil Vol. 6",
     "issueNumber": 27,
@@ -6096,7 +6112,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00382",
+    "id": "daredevil-00383",
     "name": "Daredevil Vol. 6 #28",
     "title": "Daredevil Vol. 6",
     "issueNumber": 28,
@@ -6112,7 +6128,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00383",
+    "id": "daredevil-00384",
     "name": "Daredevil Vol. 6 #29",
     "title": "Daredevil Vol. 6",
     "issueNumber": 29,
@@ -6128,7 +6144,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00384",
+    "id": "daredevil-00385",
     "name": "Daredevil Vol. 6 #30",
     "title": "Daredevil Vol. 6",
     "issueNumber": 30,
@@ -6144,7 +6160,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00385",
+    "id": "daredevil-00386",
     "name": "Daredevil Vol. 6 #31",
     "title": "Daredevil Vol. 6",
     "issueNumber": 31,
@@ -6160,7 +6176,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00386",
+    "id": "daredevil-00387",
     "name": "Daredevil Vol. 6 #32",
     "title": "Daredevil Vol. 6",
     "issueNumber": 32,
@@ -6176,7 +6192,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00387",
+    "id": "daredevil-00388",
     "name": "Daredevil Vol. 6 #33",
     "title": "Daredevil Vol. 6",
     "issueNumber": 33,
@@ -6192,7 +6208,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00388",
+    "id": "daredevil-00389",
     "name": "Daredevil Vol. 6 #34",
     "title": "Daredevil Vol. 6",
     "issueNumber": 34,
@@ -6208,7 +6224,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00389",
+    "id": "daredevil-00390",
     "name": "Daredevil Vol. 6 #35",
     "title": "Daredevil Vol. 6",
     "issueNumber": 35,
@@ -6224,7 +6240,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00390",
+    "id": "daredevil-00391",
     "name": "Daredevil Vol. 6 #36",
     "title": "Daredevil Vol. 6",
     "issueNumber": 36,
@@ -6240,12 +6256,12 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00391",
-    "name": "Daredevil Vol. 7 #1 (2022)",
+    "id": "daredevil-00392",
+    "name": "Daredevil Vol. 7 #1",
     "title": "Daredevil Vol. 7",
     "issueNumber": 1,
-    "year": 2022,
-    "decade": "2020s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -6256,7 +6272,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00392",
+    "id": "daredevil-00393",
     "name": "Daredevil Vol. 7 #2",
     "title": "Daredevil Vol. 7",
     "issueNumber": 2,
@@ -6272,7 +6288,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00393",
+    "id": "daredevil-00394",
     "name": "Daredevil Vol. 7 #3",
     "title": "Daredevil Vol. 7",
     "issueNumber": 3,
@@ -6288,7 +6304,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00394",
+    "id": "daredevil-00395",
     "name": "Daredevil Vol. 7 #4",
     "title": "Daredevil Vol. 7",
     "issueNumber": 4,
@@ -6304,7 +6320,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00395",
+    "id": "daredevil-00396",
     "name": "Daredevil Vol. 7 #5",
     "title": "Daredevil Vol. 7",
     "issueNumber": 5,
@@ -6320,7 +6336,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00396",
+    "id": "daredevil-00397",
     "name": "Daredevil Vol. 7 #6",
     "title": "Daredevil Vol. 7",
     "issueNumber": 6,
@@ -6336,7 +6352,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00397",
+    "id": "daredevil-00398",
     "name": "Daredevil Vol. 7 #7",
     "title": "Daredevil Vol. 7",
     "issueNumber": 7,
@@ -6352,7 +6368,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00398",
+    "id": "daredevil-00399",
     "name": "Daredevil Vol. 7 #8",
     "title": "Daredevil Vol. 7",
     "issueNumber": 8,
@@ -6368,7 +6384,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00399",
+    "id": "daredevil-00400",
     "name": "Daredevil Vol. 7 #9",
     "title": "Daredevil Vol. 7",
     "issueNumber": 9,
@@ -6384,7 +6400,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00400",
+    "id": "daredevil-00401",
     "name": "Daredevil Vol. 7 #10",
     "title": "Daredevil Vol. 7",
     "issueNumber": 10,
@@ -6400,7 +6416,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00401",
+    "id": "daredevil-00402",
     "name": "Daredevil & Echo #1",
     "title": "Daredevil & Echo",
     "issueNumber": 1,
@@ -6416,7 +6432,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00402",
+    "id": "daredevil-00403",
     "name": "Daredevil & Echo #2",
     "title": "Daredevil & Echo",
     "issueNumber": 2,
@@ -6432,7 +6448,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00403",
+    "id": "daredevil-00404",
     "name": "Daredevil & Echo #3",
     "title": "Daredevil & Echo",
     "issueNumber": 3,
@@ -6448,7 +6464,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00404",
+    "id": "daredevil-00405",
     "name": "Daredevil & Echo #4",
     "title": "Daredevil & Echo",
     "issueNumber": 4,
@@ -6464,7 +6480,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00405",
+    "id": "daredevil-00406",
     "name": "Daredevil Vol. 7 #11",
     "title": "Daredevil Vol. 7",
     "issueNumber": 11,
@@ -6480,7 +6496,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00406",
+    "id": "daredevil-00407",
     "name": "Daredevil Vol. 7 #12",
     "title": "Daredevil Vol. 7",
     "issueNumber": 12,
@@ -6496,7 +6512,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00407",
+    "id": "daredevil-00408",
     "name": "Daredevil Vol. 7 #13",
     "title": "Daredevil Vol. 7",
     "issueNumber": 13,
@@ -6512,7 +6528,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00408",
+    "id": "daredevil-00409",
     "name": "Daredevil Vol. 7 #14",
     "title": "Daredevil Vol. 7",
     "issueNumber": 14,
@@ -6528,12 +6544,12 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00409",
-    "name": "Daredevil Vol. 8 #1 (2023)",
+    "id": "daredevil-00410",
+    "name": "Daredevil Vol. 8 #1",
     "title": "Daredevil Vol. 8",
     "issueNumber": 1,
-    "year": 2023,
-    "decade": "2020s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -6544,7 +6560,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00410",
+    "id": "daredevil-00411",
     "name": "Daredevil Vol. 8 #2",
     "title": "Daredevil Vol. 8",
     "issueNumber": 2,
@@ -6560,7 +6576,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00411",
+    "id": "daredevil-00412",
     "name": "Daredevil Vol. 8 #3",
     "title": "Daredevil Vol. 8",
     "issueNumber": 3,
@@ -6576,7 +6592,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00412",
+    "id": "daredevil-00413",
     "name": "Daredevil Vol. 8 #4",
     "title": "Daredevil Vol. 8",
     "issueNumber": 4,
@@ -6592,7 +6608,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00413",
+    "id": "daredevil-00414",
     "name": "Daredevil: Black Armor #1",
     "title": "Daredevil: Black Armor",
     "issueNumber": 1,
@@ -6608,7 +6624,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00414",
+    "id": "daredevil-00415",
     "name": "Daredevil: Black Armor #2",
     "title": "Daredevil: Black Armor",
     "issueNumber": 2,
@@ -6624,7 +6640,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00415",
+    "id": "daredevil-00416",
     "name": "Daredevil: Black Armor #3",
     "title": "Daredevil: Black Armor",
     "issueNumber": 3,
@@ -6640,7 +6656,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00416",
+    "id": "daredevil-00417",
     "name": "Daredevil: Black Armor #4",
     "title": "Daredevil: Black Armor",
     "issueNumber": 4,
@@ -6656,7 +6672,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00417",
+    "id": "daredevil-00418",
     "name": "Daredevil Vol. 8 #5",
     "title": "Daredevil Vol. 8",
     "issueNumber": 5,
@@ -6672,7 +6688,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00418",
+    "id": "daredevil-00419",
     "name": "Daredevil Vol. 8 #6",
     "title": "Daredevil Vol. 8",
     "issueNumber": 6,
@@ -6688,7 +6704,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00419",
+    "id": "daredevil-00420",
     "name": "Daredevil Vol. 8 #7",
     "title": "Daredevil Vol. 8",
     "issueNumber": 7,
@@ -6704,7 +6720,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00420",
+    "id": "daredevil-00421",
     "name": "Giant-Size Daredevil Vol. 2 #1",
     "title": "Giant-Size Daredevil Vol. 2",
     "issueNumber": 1,
@@ -6720,7 +6736,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00421",
+    "id": "daredevil-00422",
     "name": "Daredevil Vol. 8 #8",
     "title": "Daredevil Vol. 8",
     "issueNumber": 8,
@@ -6736,7 +6752,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00422",
+    "id": "daredevil-00423",
     "name": "Daredevil Vol. 8 #9",
     "title": "Daredevil Vol. 8",
     "issueNumber": 9,
@@ -6752,7 +6768,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00423",
+    "id": "daredevil-00424",
     "name": "Daredevil Vol. 8 #10",
     "title": "Daredevil Vol. 8",
     "issueNumber": 10,
@@ -6768,7 +6784,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00424",
+    "id": "daredevil-00425",
     "name": "Daredevil Vol. 8 #11",
     "title": "Daredevil Vol. 8",
     "issueNumber": 11,
@@ -6784,7 +6800,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00425",
+    "id": "daredevil-00426",
     "name": "Daredevil Vol. 8 #12",
     "title": "Daredevil Vol. 8",
     "issueNumber": 12,
@@ -6800,7 +6816,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00426",
+    "id": "daredevil-00427",
     "name": "Daredevil Vol. 8 #13",
     "title": "Daredevil Vol. 8",
     "issueNumber": 13,
@@ -6816,7 +6832,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00427",
+    "id": "daredevil-00428",
     "name": "Daredevil Vol. 8 #14",
     "title": "Daredevil Vol. 8",
     "issueNumber": 14,
@@ -6832,7 +6848,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00428",
+    "id": "daredevil-00429",
     "name": "Daredevil Vol. 8 #15",
     "title": "Daredevil Vol. 8",
     "issueNumber": 15,
@@ -6848,7 +6864,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00429",
+    "id": "daredevil-00430",
     "name": "Daredevil Vol. 8 #16",
     "title": "Daredevil Vol. 8",
     "issueNumber": 16,
@@ -6864,7 +6880,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00430",
+    "id": "daredevil-00431",
     "name": "Daredevil Vol. 8 #17",
     "title": "Daredevil Vol. 8",
     "issueNumber": 17,
@@ -6880,7 +6896,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00431",
+    "id": "daredevil-00432",
     "name": "Daredevil Vol. 8 #18",
     "title": "Daredevil Vol. 8",
     "issueNumber": 18,
@@ -6896,7 +6912,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00432",
+    "id": "daredevil-00433",
     "name": "Daredevil Vol. 8 #19",
     "title": "Daredevil Vol. 8",
     "issueNumber": 19,
@@ -6912,7 +6928,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00433",
+    "id": "daredevil-00434",
     "name": "Daredevil Vol. 8 #20",
     "title": "Daredevil Vol. 8",
     "issueNumber": 20,
@@ -6928,7 +6944,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00434",
+    "id": "daredevil-00435",
     "name": "Daredevil Vol. 8 #21",
     "title": "Daredevil Vol. 8",
     "issueNumber": 21,
@@ -6944,7 +6960,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00435",
+    "id": "daredevil-00436",
     "name": "Daredevil Vol. 8 #22",
     "title": "Daredevil Vol. 8",
     "issueNumber": 22,
@@ -6960,7 +6976,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00436",
+    "id": "daredevil-00437",
     "name": "Daredevil Vol. 8 #23",
     "title": "Daredevil Vol. 8",
     "issueNumber": 23,
@@ -6976,7 +6992,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00437",
+    "id": "daredevil-00438",
     "name": "Daredevil Vol. 8 #24",
     "title": "Daredevil Vol. 8",
     "issueNumber": 24,
@@ -6992,7 +7008,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00438",
+    "id": "daredevil-00439",
     "name": "Daredevil Vol. 8 #25",
     "title": "Daredevil Vol. 8",
     "issueNumber": 25,
@@ -7008,9 +7024,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00439",
-    "name": "Daredevil/Punisher: The Devil’s Trigger #1",
-    "title": "Daredevil/Punisher: The Devil’s Trigger",
+    "id": "daredevil-00440",
+    "name": "Daredevil/Punisher: The Devil's Trigger #1",
+    "title": "Daredevil/Punisher: The Devil's Trigger",
     "issueNumber": 1,
     "year": null,
     "decade": "",
@@ -7024,9 +7040,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00440",
-    "name": "Daredevil/Punisher: The Devil’s Trigger #2",
-    "title": "Daredevil/Punisher: The Devil’s Trigger",
+    "id": "daredevil-00441",
+    "name": "Daredevil/Punisher: The Devil's Trigger #2",
+    "title": "Daredevil/Punisher: The Devil's Trigger",
     "issueNumber": 2,
     "year": null,
     "decade": "",
@@ -7040,9 +7056,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00441",
-    "name": "Daredevil/Punisher: The Devil’s Trigger #3",
-    "title": "Daredevil/Punisher: The Devil’s Trigger",
+    "id": "daredevil-00442",
+    "name": "Daredevil/Punisher: The Devil's Trigger #3",
+    "title": "Daredevil/Punisher: The Devil's Trigger",
     "issueNumber": 3,
     "year": null,
     "decade": "",
@@ -7056,9 +7072,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00442",
-    "name": "Daredevil/Punisher: The Devil’s Trigger #4",
-    "title": "Daredevil/Punisher: The Devil’s Trigger",
+    "id": "daredevil-00443",
+    "name": "Daredevil/Punisher: The Devil's Trigger #4",
+    "title": "Daredevil/Punisher: The Devil's Trigger",
     "issueNumber": 4,
     "year": null,
     "decade": "",
@@ -7072,9 +7088,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "daredevil-00443",
-    "name": "Daredevil/Punisher: The Devil’s Trigger #5",
-    "title": "Daredevil/Punisher: The Devil’s Trigger",
+    "id": "daredevil-00444",
+    "name": "Daredevil/Punisher: The Devil's Trigger #5",
+    "title": "Daredevil/Punisher: The Devil's Trigger",
     "issueNumber": 5,
     "year": null,
     "decade": "",

@@ -18,7 +18,7 @@
     "data": "x-men.json",
     "image": "images/x-men.jpeg",
     "background": "backgrounds/x-men.jpeg",
-    "count": 1130,
+    "count": 1152,
     "lastImportedSource": "https://comicbookreadingorders.com/marvel/characters/x-men-reading-order/"
   },
   {
@@ -30,7 +30,7 @@
     "data": "avengers.json",
     "image": "images/avengers.jpg",
     "background": "backgrounds/avengers.jpg",
-    "count": 931,
+    "count": 934,
     "lastImportedSource": "https://comicbookreadingorders.com/marvel/characters/avengers-reading-order/"
   },
   {
@@ -42,7 +42,7 @@
     "data": "fantastic-four.json",
     "image": "images/fantastic-four.jpg",
     "background": "backgrounds/fantastic-four.jpg",
-    "count": 519,
+    "count": 520,
     "lastImportedSource": "https://comicbookreadingorders.com/marvel/characters/fantastic-four-reading-order/"
   },
   {
@@ -54,7 +54,7 @@
     "data": "daredevil.json",
     "image": "images/daredevil.webp",
     "background": "backgrounds/daredevil.webp",
-    "count": 443,
+    "count": 444,
     "lastImportedSource": "https://comicbookreadingorders.com/marvel/characters/daredevil-reading-order/"
   }
 ]

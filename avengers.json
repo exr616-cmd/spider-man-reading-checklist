@@ -1,8 +1,8 @@
 [
   {
     "id": "avengers-00001",
-    "name": ": Avengers #1 (1963)",
-    "title": ": Avengers",
+    "name": "Avengers #1 (1963)",
+    "title": "Avengers",
     "issueNumber": 1,
     "year": 1963,
     "decade": "1960s",
@@ -33,40 +33,8 @@
   },
   {
     "id": "avengers-00003",
-    "name": "Uncanny Avengers #1 (2012)",
-    "title": "Uncanny Avengers",
-    "issueNumber": 1,
-    "year": 2012,
-    "decade": "2010s",
-    "writer": "",
-    "artist": "",
-    "storyline": "",
-    "note": "",
-    "statusType": "essential",
-    "universe": "main",
-    "readLinks": [],
-    "wikiUrl": ""
-  },
-  {
-    "id": "avengers-00004",
-    "name": "Avengers #1 (1963)",
+    "name": "Avengers #1",
     "title": "Avengers",
-    "issueNumber": 1,
-    "year": 1963,
-    "decade": "1960s",
-    "writer": "",
-    "artist": "",
-    "storyline": "",
-    "note": "",
-    "statusType": "essential",
-    "universe": "main",
-    "readLinks": [],
-    "wikiUrl": ""
-  },
-  {
-    "id": "avengers-00005",
-    "name": "Avengers: Earth’s Mightiest Heroes #1",
-    "title": "Avengers: Earth’s Mightiest Heroes",
     "issueNumber": 1,
     "year": null,
     "decade": "",
@@ -80,7 +48,23 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00006",
+    "id": "avengers-00004",
+    "name": "Avengers: Earth's Mightiest Heroes #1",
+    "title": "Avengers: Earth's Mightiest Heroes",
+    "issueNumber": 1,
+    "year": null,
+    "decade": "",
+    "writer": "",
+    "artist": "",
+    "storyline": "",
+    "note": "",
+    "statusType": "essential",
+    "universe": "main",
+    "readLinks": [],
+    "wikiUrl": ""
+  },
+  {
+    "id": "avengers-00005",
     "name": "Avengers #4",
     "title": "Avengers",
     "issueNumber": 4,
@@ -96,9 +80,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00007",
-    "name": "Avengers: Earth’s Mightiest Heroes #2",
-    "title": "Avengers: Earth’s Mightiest Heroes",
+    "id": "avengers-00006",
+    "name": "Avengers: Earth's Mightiest Heroes #2",
+    "title": "Avengers: Earth's Mightiest Heroes",
     "issueNumber": 2,
     "year": null,
     "decade": "",
@@ -112,7 +96,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00008",
+    "id": "avengers-00007",
     "name": "Avengers #5",
     "title": "Avengers",
     "issueNumber": 5,
@@ -128,7 +112,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00009",
+    "id": "avengers-00008",
     "name": "Avengers #6",
     "title": "Avengers",
     "issueNumber": 6,
@@ -144,9 +128,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00010",
-    "name": "Avengers: Earth’s Mightiest Heroes #3",
-    "title": "Avengers: Earth’s Mightiest Heroes",
+    "id": "avengers-00009",
+    "name": "Avengers: Earth's Mightiest Heroes #3",
+    "title": "Avengers: Earth's Mightiest Heroes",
     "issueNumber": 3,
     "year": null,
     "decade": "",
@@ -160,7 +144,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00011",
+    "id": "avengers-00010",
     "name": "Avengers #8",
     "title": "Avengers",
     "issueNumber": 8,
@@ -176,9 +160,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00012",
-    "name": "Avengers: Earth’s Mightiest Heroes #4",
-    "title": "Avengers: Earth’s Mightiest Heroes",
+    "id": "avengers-00011",
+    "name": "Avengers: Earth's Mightiest Heroes #4",
+    "title": "Avengers: Earth's Mightiest Heroes",
     "issueNumber": 4,
     "year": null,
     "decade": "",
@@ -192,9 +176,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00013",
-    "name": "Avengers: Earth’s Mightiest Heroes #5",
-    "title": "Avengers: Earth’s Mightiest Heroes",
+    "id": "avengers-00012",
+    "name": "Avengers: Earth's Mightiest Heroes #5",
+    "title": "Avengers: Earth's Mightiest Heroes",
     "issueNumber": 5,
     "year": null,
     "decade": "",
@@ -208,9 +192,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00014",
-    "name": "Avengers: Earth’s Mightiest Heroes #6",
-    "title": "Avengers: Earth’s Mightiest Heroes",
+    "id": "avengers-00013",
+    "name": "Avengers: Earth's Mightiest Heroes #6",
+    "title": "Avengers: Earth's Mightiest Heroes",
     "issueNumber": 6,
     "year": null,
     "decade": "",
@@ -224,9 +208,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00015",
-    "name": "Avengers: Earth’s Mightiest Heroes #7",
-    "title": "Avengers: Earth’s Mightiest Heroes",
+    "id": "avengers-00014",
+    "name": "Avengers: Earth's Mightiest Heroes #7",
+    "title": "Avengers: Earth's Mightiest Heroes",
     "issueNumber": 7,
     "year": null,
     "decade": "",
@@ -240,9 +224,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00016",
-    "name": "Avengers: Earth’s Mightiest Heroes #8",
-    "title": "Avengers: Earth’s Mightiest Heroes",
+    "id": "avengers-00015",
+    "name": "Avengers: Earth's Mightiest Heroes #8",
+    "title": "Avengers: Earth's Mightiest Heroes",
     "issueNumber": 8,
     "year": null,
     "decade": "",
@@ -256,7 +240,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00017",
+    "id": "avengers-00016",
     "name": "Avengers: Season One #1",
     "title": "Avengers: Season One",
     "issueNumber": 1,
@@ -272,7 +256,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00018",
+    "id": "avengers-00017",
     "name": "Avengers #34",
     "title": "Avengers",
     "issueNumber": 34,
@@ -288,7 +272,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00019",
+    "id": "avengers-00018",
     "name": "Avengers #35",
     "title": "Avengers",
     "issueNumber": 35,
@@ -304,7 +288,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00020",
+    "id": "avengers-00019",
     "name": "Avengers #36",
     "title": "Avengers",
     "issueNumber": 36,
@@ -320,7 +304,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00021",
+    "id": "avengers-00020",
     "name": "Avengers #37",
     "title": "Avengers",
     "issueNumber": 37,
@@ -336,7 +320,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00022",
+    "id": "avengers-00021",
     "name": "Avengers #38",
     "title": "Avengers",
     "issueNumber": 38,
@@ -352,7 +336,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00023",
+    "id": "avengers-00022",
     "name": "Avengers #39",
     "title": "Avengers",
     "issueNumber": 39,
@@ -368,7 +352,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00024",
+    "id": "avengers-00023",
     "name": "Avengers #40",
     "title": "Avengers",
     "issueNumber": 40,
@@ -384,7 +368,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00025",
+    "id": "avengers-00024",
     "name": "Avengers #41",
     "title": "Avengers",
     "issueNumber": 41,
@@ -400,7 +384,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00026",
+    "id": "avengers-00025",
     "name": "Avengers #42",
     "title": "Avengers",
     "issueNumber": 42,
@@ -416,7 +400,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00027",
+    "id": "avengers-00026",
     "name": "Avengers #43",
     "title": "Avengers",
     "issueNumber": 43,
@@ -432,7 +416,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00028",
+    "id": "avengers-00027",
     "name": "Avengers #44",
     "title": "Avengers",
     "issueNumber": 44,
@@ -448,12 +432,12 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00029",
-    "name": "Avengers Annual #1 (1967)",
+    "id": "avengers-00028",
+    "name": "Avengers Annual #1",
     "title": "Avengers Annual",
     "issueNumber": 1,
-    "year": 1967,
-    "decade": "1960s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -464,7 +448,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00030",
+    "id": "avengers-00029",
     "name": "Avengers #45",
     "title": "Avengers",
     "issueNumber": 45,
@@ -480,7 +464,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00031",
+    "id": "avengers-00030",
     "name": "Avengers #46",
     "title": "Avengers",
     "issueNumber": 46,
@@ -496,7 +480,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00032",
+    "id": "avengers-00031",
     "name": "Avengers #47",
     "title": "Avengers",
     "issueNumber": 47,
@@ -512,7 +496,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00033",
+    "id": "avengers-00032",
     "name": "Avengers #48",
     "title": "Avengers",
     "issueNumber": 48,
@@ -528,7 +512,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00034",
+    "id": "avengers-00033",
     "name": "Avengers #49",
     "title": "Avengers",
     "issueNumber": 49,
@@ -544,7 +528,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00035",
+    "id": "avengers-00034",
     "name": "Avengers #50",
     "title": "Avengers",
     "issueNumber": 50,
@@ -560,7 +544,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00036",
+    "id": "avengers-00035",
     "name": "Avengers #51",
     "title": "Avengers",
     "issueNumber": 51,
@@ -576,7 +560,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00037",
+    "id": "avengers-00036",
     "name": "Avengers #52",
     "title": "Avengers",
     "issueNumber": 52,
@@ -592,7 +576,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00038",
+    "id": "avengers-00037",
     "name": "Avengers #53",
     "title": "Avengers",
     "issueNumber": 53,
@@ -608,7 +592,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00039",
+    "id": "avengers-00038",
     "name": "Avengers #54",
     "title": "Avengers",
     "issueNumber": 54,
@@ -624,7 +608,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00040",
+    "id": "avengers-00039",
     "name": "Avengers #55",
     "title": "Avengers",
     "issueNumber": 55,
@@ -640,7 +624,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00041",
+    "id": "avengers-00040",
     "name": "Avengers #56",
     "title": "Avengers",
     "issueNumber": 56,
@@ -656,7 +640,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00042",
+    "id": "avengers-00041",
     "name": "Avengers Annual #2",
     "title": "Avengers Annual",
     "issueNumber": 2,
@@ -672,7 +656,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00043",
+    "id": "avengers-00042",
     "name": "Avengers #57",
     "title": "Avengers",
     "issueNumber": 57,
@@ -688,7 +672,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00044",
+    "id": "avengers-00043",
     "name": "Avengers #58",
     "title": "Avengers",
     "issueNumber": 58,
@@ -704,9 +688,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00045",
-    "name": "Avengers: Earth’s Mightiest Heroes Vol. 2 #1",
-    "title": "Avengers: Earth’s Mightiest Heroes Vol. 2",
+    "id": "avengers-00044",
+    "name": "Avengers: Earth's Mightiest Heroes II #1",
+    "title": "Avengers: Earth's Mightiest Heroes II",
     "issueNumber": 1,
     "year": null,
     "decade": "",
@@ -720,9 +704,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00046",
-    "name": "Avengers: Earth’s Mightiest Heroes Vol. 2 #2",
-    "title": "Avengers: Earth’s Mightiest Heroes Vol. 2",
+    "id": "avengers-00045",
+    "name": "Avengers: Earth's Mightiest Heroes II #2",
+    "title": "Avengers: Earth's Mightiest Heroes II",
     "issueNumber": 2,
     "year": null,
     "decade": "",
@@ -736,9 +720,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00047",
-    "name": "Avengers: Earth’s Mightiest Heroes Vol. 2 #3",
-    "title": "Avengers: Earth’s Mightiest Heroes Vol. 2",
+    "id": "avengers-00046",
+    "name": "Avengers: Earth's Mightiest Heroes II #3",
+    "title": "Avengers: Earth's Mightiest Heroes II",
     "issueNumber": 3,
     "year": null,
     "decade": "",
@@ -752,9 +736,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00048",
-    "name": "Avengers: Earth’s Mightiest Heroes Vol. 2 #4",
-    "title": "Avengers: Earth’s Mightiest Heroes Vol. 2",
+    "id": "avengers-00047",
+    "name": "Avengers: Earth's Mightiest Heroes II #4",
+    "title": "Avengers: Earth's Mightiest Heroes II",
     "issueNumber": 4,
     "year": null,
     "decade": "",
@@ -768,7 +752,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00049",
+    "id": "avengers-00048",
     "name": "Avengers #59",
     "title": "Avengers",
     "issueNumber": 59,
@@ -784,9 +768,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00050",
-    "name": "Avengers: Earth’s Mightiest Heroes Vol. 2 #5",
-    "title": "Avengers: Earth’s Mightiest Heroes Vol. 2",
+    "id": "avengers-00049",
+    "name": "Avengers: Earth's Mightiest Heroes II #5",
+    "title": "Avengers: Earth's Mightiest Heroes II",
     "issueNumber": 5,
     "year": null,
     "decade": "",
@@ -800,7 +784,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00051",
+    "id": "avengers-00050",
     "name": "Avengers #60",
     "title": "Avengers",
     "issueNumber": 60,
@@ -816,9 +800,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00052",
-    "name": "Avengers: Earth’s Mightiest Heroes Vol. 2 #6",
-    "title": "Avengers: Earth’s Mightiest Heroes Vol. 2",
+    "id": "avengers-00051",
+    "name": "Avengers: Earth's Mightiest Heroes II #6",
+    "title": "Avengers: Earth's Mightiest Heroes II",
     "issueNumber": 6,
     "year": null,
     "decade": "",
@@ -832,9 +816,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00053",
-    "name": "Avengers: Earth’s Mightiest Heroes Vol. 2 #7",
-    "title": "Avengers: Earth’s Mightiest Heroes Vol. 2",
+    "id": "avengers-00052",
+    "name": "Avengers: Earth's Mightiest Heroes II #7",
+    "title": "Avengers: Earth's Mightiest Heroes II",
     "issueNumber": 7,
     "year": null,
     "decade": "",
@@ -848,9 +832,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00054",
-    "name": "Avengers: Earth’s Mightiest Heroes Vol. 2 #8",
-    "title": "Avengers: Earth’s Mightiest Heroes Vol. 2",
+    "id": "avengers-00053",
+    "name": "Avengers: Earth's Mightiest Heroes II #8",
+    "title": "Avengers: Earth's Mightiest Heroes II",
     "issueNumber": 8,
     "year": null,
     "decade": "",
@@ -864,7 +848,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00055",
+    "id": "avengers-00054",
     "name": "Avengers #61",
     "title": "Avengers",
     "issueNumber": 61,
@@ -880,7 +864,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00056",
+    "id": "avengers-00055",
     "name": "Avengers #62",
     "title": "Avengers",
     "issueNumber": 62,
@@ -896,7 +880,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00057",
+    "id": "avengers-00056",
     "name": "Avengers #63",
     "title": "Avengers",
     "issueNumber": 63,
@@ -912,7 +896,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00058",
+    "id": "avengers-00057",
     "name": "Avengers #64",
     "title": "Avengers",
     "issueNumber": 64,
@@ -928,7 +912,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00059",
+    "id": "avengers-00058",
     "name": "Avengers #65",
     "title": "Avengers",
     "issueNumber": 65,
@@ -944,7 +928,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00060",
+    "id": "avengers-00059",
     "name": "Avengers #66",
     "title": "Avengers",
     "issueNumber": 66,
@@ -960,7 +944,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00061",
+    "id": "avengers-00060",
     "name": "Avengers #67",
     "title": "Avengers",
     "issueNumber": 67,
@@ -976,7 +960,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00062",
+    "id": "avengers-00061",
     "name": "Avengers #68",
     "title": "Avengers",
     "issueNumber": 68,
@@ -992,7 +976,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00063",
+    "id": "avengers-00062",
     "name": "Avengers #69",
     "title": "Avengers",
     "issueNumber": 69,
@@ -1008,7 +992,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00064",
+    "id": "avengers-00063",
     "name": "Avengers #70",
     "title": "Avengers",
     "issueNumber": 70,
@@ -1024,7 +1008,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00065",
+    "id": "avengers-00064",
     "name": "Avengers #71",
     "title": "Avengers",
     "issueNumber": 71,
@@ -1040,7 +1024,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00066",
+    "id": "avengers-00065",
     "name": "Avengers #72",
     "title": "Avengers",
     "issueNumber": 72,
@@ -1056,7 +1040,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00067",
+    "id": "avengers-00066",
     "name": "Avengers #73",
     "title": "Avengers",
     "issueNumber": 73,
@@ -1072,7 +1056,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00068",
+    "id": "avengers-00067",
     "name": "Avengers #74",
     "title": "Avengers",
     "issueNumber": 74,
@@ -1088,7 +1072,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00069",
+    "id": "avengers-00068",
     "name": "Avengers #75",
     "title": "Avengers",
     "issueNumber": 75,
@@ -1104,7 +1088,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00070",
+    "id": "avengers-00069",
     "name": "Avengers #76",
     "title": "Avengers",
     "issueNumber": 76,
@@ -1120,7 +1104,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00071",
+    "id": "avengers-00070",
     "name": "Avengers #77",
     "title": "Avengers",
     "issueNumber": 77,
@@ -1136,7 +1120,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00072",
+    "id": "avengers-00071",
     "name": "Avengers #78",
     "title": "Avengers",
     "issueNumber": 78,
@@ -1152,7 +1136,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00073",
+    "id": "avengers-00072",
     "name": "Avengers #79",
     "title": "Avengers",
     "issueNumber": 79,
@@ -1168,7 +1152,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00074",
+    "id": "avengers-00073",
     "name": "Avengers #80",
     "title": "Avengers",
     "issueNumber": 80,
@@ -1184,7 +1168,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00075",
+    "id": "avengers-00074",
     "name": "Avengers #81",
     "title": "Avengers",
     "issueNumber": 81,
@@ -1200,7 +1184,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00076",
+    "id": "avengers-00075",
     "name": "Avengers #82",
     "title": "Avengers",
     "issueNumber": 82,
@@ -1216,7 +1200,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00077",
+    "id": "avengers-00076",
     "name": "Avengers #83",
     "title": "Avengers",
     "issueNumber": 83,
@@ -1232,7 +1216,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00078",
+    "id": "avengers-00077",
     "name": "Avengers #84",
     "title": "Avengers",
     "issueNumber": 84,
@@ -1248,7 +1232,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00079",
+    "id": "avengers-00078",
     "name": "Avengers #85",
     "title": "Avengers",
     "issueNumber": 85,
@@ -1264,7 +1248,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00080",
+    "id": "avengers-00079",
     "name": "Avengers #86",
     "title": "Avengers",
     "issueNumber": 86,
@@ -1280,7 +1264,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00081",
+    "id": "avengers-00080",
     "name": "Avengers #87",
     "title": "Avengers",
     "issueNumber": 87,
@@ -1296,7 +1280,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00082",
+    "id": "avengers-00081",
     "name": "Avengers #88",
     "title": "Avengers",
     "issueNumber": 88,
@@ -1312,7 +1296,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00083",
+    "id": "avengers-00082",
     "name": "Avengers #89",
     "title": "Avengers",
     "issueNumber": 89,
@@ -1328,7 +1312,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00084",
+    "id": "avengers-00083",
     "name": "Avengers #90",
     "title": "Avengers",
     "issueNumber": 90,
@@ -1344,7 +1328,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00085",
+    "id": "avengers-00084",
     "name": "Avengers #91",
     "title": "Avengers",
     "issueNumber": 91,
@@ -1360,7 +1344,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00086",
+    "id": "avengers-00085",
     "name": "Avengers #92",
     "title": "Avengers",
     "issueNumber": 92,
@@ -1376,7 +1360,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00087",
+    "id": "avengers-00086",
     "name": "Avengers #93",
     "title": "Avengers",
     "issueNumber": 93,
@@ -1392,7 +1376,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00088",
+    "id": "avengers-00087",
     "name": "Avengers #94",
     "title": "Avengers",
     "issueNumber": 94,
@@ -1408,7 +1392,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00089",
+    "id": "avengers-00088",
     "name": "Avengers #95",
     "title": "Avengers",
     "issueNumber": 95,
@@ -1424,7 +1408,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00090",
+    "id": "avengers-00089",
     "name": "Avengers #96",
     "title": "Avengers",
     "issueNumber": 96,
@@ -1440,7 +1424,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00091",
+    "id": "avengers-00090",
     "name": "Avengers #97",
     "title": "Avengers",
     "issueNumber": 97,
@@ -1456,7 +1440,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00092",
+    "id": "avengers-00091",
     "name": "Avengers #98",
     "title": "Avengers",
     "issueNumber": 98,
@@ -1472,7 +1456,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00093",
+    "id": "avengers-00092",
     "name": "Avengers #99",
     "title": "Avengers",
     "issueNumber": 99,
@@ -1488,7 +1472,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00094",
+    "id": "avengers-00093",
     "name": "Avengers #100",
     "title": "Avengers",
     "issueNumber": 100,
@@ -1504,7 +1488,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00095",
+    "id": "avengers-00094",
     "name": "Avengers #101",
     "title": "Avengers",
     "issueNumber": 101,
@@ -1520,7 +1504,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00096",
+    "id": "avengers-00095",
     "name": "Avengers #102",
     "title": "Avengers",
     "issueNumber": 102,
@@ -1536,7 +1520,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00097",
+    "id": "avengers-00096",
     "name": "Avengers #103",
     "title": "Avengers",
     "issueNumber": 103,
@@ -1552,7 +1536,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00098",
+    "id": "avengers-00097",
     "name": "Avengers #104",
     "title": "Avengers",
     "issueNumber": 104,
@@ -1568,7 +1552,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00099",
+    "id": "avengers-00098",
     "name": "Avengers #105",
     "title": "Avengers",
     "issueNumber": 105,
@@ -1584,7 +1568,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00100",
+    "id": "avengers-00099",
     "name": "Avengers #106",
     "title": "Avengers",
     "issueNumber": 106,
@@ -1600,7 +1584,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00101",
+    "id": "avengers-00100",
     "name": "Avengers #107",
     "title": "Avengers",
     "issueNumber": 107,
@@ -1616,7 +1600,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00102",
+    "id": "avengers-00101",
     "name": "Avengers #108",
     "title": "Avengers",
     "issueNumber": 108,
@@ -1632,7 +1616,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00103",
+    "id": "avengers-00102",
     "name": "Avengers #109",
     "title": "Avengers",
     "issueNumber": 109,
@@ -1648,7 +1632,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00104",
+    "id": "avengers-00103",
     "name": "Avengers #110",
     "title": "Avengers",
     "issueNumber": 110,
@@ -1664,7 +1648,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00105",
+    "id": "avengers-00104",
     "name": "Avengers #111",
     "title": "Avengers",
     "issueNumber": 111,
@@ -1680,7 +1664,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00106",
+    "id": "avengers-00105",
     "name": "Avengers #112",
     "title": "Avengers",
     "issueNumber": 112,
@@ -1696,7 +1680,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00107",
+    "id": "avengers-00106",
     "name": "Avengers #113",
     "title": "Avengers",
     "issueNumber": 113,
@@ -1712,7 +1696,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00108",
+    "id": "avengers-00107",
     "name": "Avengers #114",
     "title": "Avengers",
     "issueNumber": 114,
@@ -1728,7 +1712,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00109",
+    "id": "avengers-00108",
     "name": "Avengers #119",
     "title": "Avengers",
     "issueNumber": 119,
@@ -1744,7 +1728,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00110",
+    "id": "avengers-00109",
     "name": "Avengers #120",
     "title": "Avengers",
     "issueNumber": 120,
@@ -1760,7 +1744,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00111",
+    "id": "avengers-00110",
     "name": "Avengers #121",
     "title": "Avengers",
     "issueNumber": 121,
@@ -1776,7 +1760,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00112",
+    "id": "avengers-00111",
     "name": "Avengers #122",
     "title": "Avengers",
     "issueNumber": 122,
@@ -1792,7 +1776,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00113",
+    "id": "avengers-00112",
     "name": "Avengers #123",
     "title": "Avengers",
     "issueNumber": 123,
@@ -1808,7 +1792,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00114",
+    "id": "avengers-00113",
     "name": "Avengers #124",
     "title": "Avengers",
     "issueNumber": 124,
@@ -1824,7 +1808,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00115",
+    "id": "avengers-00114",
     "name": "Avengers #125",
     "title": "Avengers",
     "issueNumber": 125,
@@ -1840,7 +1824,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00116",
+    "id": "avengers-00115",
     "name": "Avengers #126",
     "title": "Avengers",
     "issueNumber": 126,
@@ -1856,7 +1840,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00117",
+    "id": "avengers-00116",
     "name": "Avengers #127",
     "title": "Avengers",
     "issueNumber": 127,
@@ -1872,7 +1856,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00118",
+    "id": "avengers-00117",
     "name": "Avengers #128",
     "title": "Avengers",
     "issueNumber": 128,
@@ -1888,7 +1872,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00119",
+    "id": "avengers-00118",
     "name": "Avengers #129",
     "title": "Avengers",
     "issueNumber": 129,
@@ -1904,7 +1888,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00120",
+    "id": "avengers-00119",
     "name": "Giant-Size Avengers #2",
     "title": "Giant-Size Avengers",
     "issueNumber": 2,
@@ -1920,7 +1904,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00121",
+    "id": "avengers-00120",
     "name": "Avengers #130",
     "title": "Avengers",
     "issueNumber": 130,
@@ -1936,7 +1920,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00122",
+    "id": "avengers-00121",
     "name": "Avengers #131",
     "title": "Avengers",
     "issueNumber": 131,
@@ -1952,7 +1936,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00123",
+    "id": "avengers-00122",
     "name": "Avengers #132",
     "title": "Avengers",
     "issueNumber": 132,
@@ -1968,7 +1952,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00124",
+    "id": "avengers-00123",
     "name": "Giant-Size Avengers #3",
     "title": "Giant-Size Avengers",
     "issueNumber": 3,
@@ -1984,7 +1968,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00125",
+    "id": "avengers-00124",
     "name": "Avengers #133",
     "title": "Avengers",
     "issueNumber": 133,
@@ -2000,7 +1984,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00126",
+    "id": "avengers-00125",
     "name": "Avengers #134",
     "title": "Avengers",
     "issueNumber": 134,
@@ -2016,7 +2000,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00127",
+    "id": "avengers-00126",
     "name": "Avengers #135",
     "title": "Avengers",
     "issueNumber": 135,
@@ -2032,7 +2016,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00128",
+    "id": "avengers-00127",
     "name": "Giant-Size Avengers #4",
     "title": "Giant-Size Avengers",
     "issueNumber": 4,
@@ -2048,7 +2032,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00129",
+    "id": "avengers-00128",
     "name": "Avengers #137",
     "title": "Avengers",
     "issueNumber": 137,
@@ -2064,7 +2048,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00130",
+    "id": "avengers-00129",
     "name": "Avengers #138",
     "title": "Avengers",
     "issueNumber": 138,
@@ -2080,7 +2064,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00131",
+    "id": "avengers-00130",
     "name": "Avengers #139",
     "title": "Avengers",
     "issueNumber": 139,
@@ -2096,7 +2080,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00132",
+    "id": "avengers-00131",
     "name": "Avengers #140",
     "title": "Avengers",
     "issueNumber": 140,
@@ -2112,7 +2096,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00133",
+    "id": "avengers-00132",
     "name": "Avengers #141",
     "title": "Avengers",
     "issueNumber": 141,
@@ -2128,7 +2112,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00134",
+    "id": "avengers-00133",
     "name": "Avengers #142",
     "title": "Avengers",
     "issueNumber": 142,
@@ -2144,7 +2128,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00135",
+    "id": "avengers-00134",
     "name": "Avengers #143",
     "title": "Avengers",
     "issueNumber": 143,
@@ -2160,7 +2144,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00136",
+    "id": "avengers-00135",
     "name": "Avengers #144",
     "title": "Avengers",
     "issueNumber": 144,
@@ -2176,7 +2160,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00137",
+    "id": "avengers-00136",
     "name": "Avengers #145",
     "title": "Avengers",
     "issueNumber": 145,
@@ -2192,7 +2176,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00138",
+    "id": "avengers-00137",
     "name": "Avengers #146",
     "title": "Avengers",
     "issueNumber": 146,
@@ -2208,7 +2192,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00139",
+    "id": "avengers-00138",
     "name": "Avengers #147",
     "title": "Avengers",
     "issueNumber": 147,
@@ -2224,7 +2208,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00140",
+    "id": "avengers-00139",
     "name": "Avengers #148",
     "title": "Avengers",
     "issueNumber": 148,
@@ -2240,7 +2224,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00141",
+    "id": "avengers-00140",
     "name": "Avengers #149",
     "title": "Avengers",
     "issueNumber": 149,
@@ -2256,7 +2240,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00142",
+    "id": "avengers-00141",
     "name": "Avengers #150",
     "title": "Avengers",
     "issueNumber": 150,
@@ -2272,7 +2256,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00143",
+    "id": "avengers-00142",
     "name": "Avengers #151",
     "title": "Avengers",
     "issueNumber": 151,
@@ -2288,7 +2272,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00144",
+    "id": "avengers-00143",
     "name": "Avengers #152",
     "title": "Avengers",
     "issueNumber": 152,
@@ -2304,7 +2288,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00145",
+    "id": "avengers-00144",
     "name": "Avengers #156",
     "title": "Avengers",
     "issueNumber": 156,
@@ -2320,7 +2304,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00146",
+    "id": "avengers-00145",
     "name": "Avengers #158",
     "title": "Avengers",
     "issueNumber": 158,
@@ -2336,7 +2320,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00147",
+    "id": "avengers-00146",
     "name": "Avengers #159",
     "title": "Avengers",
     "issueNumber": 159,
@@ -2352,7 +2336,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00148",
+    "id": "avengers-00147",
     "name": "Avengers #160",
     "title": "Avengers",
     "issueNumber": 160,
@@ -2368,7 +2352,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00149",
+    "id": "avengers-00148",
     "name": "Avengers #161",
     "title": "Avengers",
     "issueNumber": 161,
@@ -2384,7 +2368,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00150",
+    "id": "avengers-00149",
     "name": "Avengers #162",
     "title": "Avengers",
     "issueNumber": 162,
@@ -2400,7 +2384,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00151",
+    "id": "avengers-00150",
     "name": "Avengers #163",
     "title": "Avengers",
     "issueNumber": 163,
@@ -2416,7 +2400,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00152",
+    "id": "avengers-00151",
     "name": "Avengers #164",
     "title": "Avengers",
     "issueNumber": 164,
@@ -2432,7 +2416,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00153",
+    "id": "avengers-00152",
     "name": "Avengers #165",
     "title": "Avengers",
     "issueNumber": 165,
@@ -2448,7 +2432,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00154",
+    "id": "avengers-00153",
     "name": "Avengers #166",
     "title": "Avengers",
     "issueNumber": 166,
@@ -2464,7 +2448,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00155",
+    "id": "avengers-00154",
     "name": "Avengers #167",
     "title": "Avengers",
     "issueNumber": 167,
@@ -2480,7 +2464,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00156",
+    "id": "avengers-00155",
     "name": "Avengers #168",
     "title": "Avengers",
     "issueNumber": 168,
@@ -2496,7 +2480,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00157",
+    "id": "avengers-00156",
     "name": "Avengers #170",
     "title": "Avengers",
     "issueNumber": 170,
@@ -2512,7 +2496,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00158",
+    "id": "avengers-00157",
     "name": "Avengers #171",
     "title": "Avengers",
     "issueNumber": 171,
@@ -2528,7 +2512,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00159",
+    "id": "avengers-00158",
     "name": "Avengers #172",
     "title": "Avengers",
     "issueNumber": 172,
@@ -2544,7 +2528,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00160",
+    "id": "avengers-00159",
     "name": "Avengers #173",
     "title": "Avengers",
     "issueNumber": 173,
@@ -2560,7 +2544,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00161",
+    "id": "avengers-00160",
     "name": "Avengers #174",
     "title": "Avengers",
     "issueNumber": 174,
@@ -2576,7 +2560,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00162",
+    "id": "avengers-00161",
     "name": "Avengers #175",
     "title": "Avengers",
     "issueNumber": 175,
@@ -2592,7 +2576,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00163",
+    "id": "avengers-00162",
     "name": "Avengers #176",
     "title": "Avengers",
     "issueNumber": 176,
@@ -2608,7 +2592,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00164",
+    "id": "avengers-00163",
     "name": "Avengers #177",
     "title": "Avengers",
     "issueNumber": 177,
@@ -2624,7 +2608,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00165",
+    "id": "avengers-00164",
     "name": "Avengers #181",
     "title": "Avengers",
     "issueNumber": 181,
@@ -2640,7 +2624,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00166",
+    "id": "avengers-00165",
     "name": "Avengers #182",
     "title": "Avengers",
     "issueNumber": 182,
@@ -2656,7 +2640,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00167",
+    "id": "avengers-00166",
     "name": "Avengers #183",
     "title": "Avengers",
     "issueNumber": 183,
@@ -2672,7 +2656,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00168",
+    "id": "avengers-00167",
     "name": "Avengers #184",
     "title": "Avengers",
     "issueNumber": 184,
@@ -2688,7 +2672,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00169",
+    "id": "avengers-00168",
     "name": "Avengers #185",
     "title": "Avengers",
     "issueNumber": 185,
@@ -2704,7 +2688,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00170",
+    "id": "avengers-00169",
     "name": "Avengers #186",
     "title": "Avengers",
     "issueNumber": 186,
@@ -2720,7 +2704,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00171",
+    "id": "avengers-00170",
     "name": "Avengers #187",
     "title": "Avengers",
     "issueNumber": 187,
@@ -2736,7 +2720,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00172",
+    "id": "avengers-00171",
     "name": "Avengers #194",
     "title": "Avengers",
     "issueNumber": 194,
@@ -2752,7 +2736,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00173",
+    "id": "avengers-00172",
     "name": "Avengers #195",
     "title": "Avengers",
     "issueNumber": 195,
@@ -2768,7 +2752,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00174",
+    "id": "avengers-00173",
     "name": "Avengers #196",
     "title": "Avengers",
     "issueNumber": 196,
@@ -2784,9 +2768,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00175",
-    "name": "Avenger Annual #10",
-    "title": "Avenger Annual",
+    "id": "avengers-00174",
+    "name": "Avengers Annual #10",
+    "title": "Avengers Annual",
     "issueNumber": 10,
     "year": null,
     "decade": "",
@@ -2800,7 +2784,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00176",
+    "id": "avengers-00175",
     "name": "Avengers #212",
     "title": "Avengers",
     "issueNumber": 212,
@@ -2816,7 +2800,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00177",
+    "id": "avengers-00176",
     "name": "Avengers #213",
     "title": "Avengers",
     "issueNumber": 213,
@@ -2832,7 +2816,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00178",
+    "id": "avengers-00177",
     "name": "Avengers #214",
     "title": "Avengers",
     "issueNumber": 214,
@@ -2848,7 +2832,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00179",
+    "id": "avengers-00178",
     "name": "Avengers #215",
     "title": "Avengers",
     "issueNumber": 215,
@@ -2864,7 +2848,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00180",
+    "id": "avengers-00179",
     "name": "Avengers #216",
     "title": "Avengers",
     "issueNumber": 216,
@@ -2880,7 +2864,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00181",
+    "id": "avengers-00180",
     "name": "Avengers #217",
     "title": "Avengers",
     "issueNumber": 217,
@@ -2896,7 +2880,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00182",
+    "id": "avengers-00181",
     "name": "Avengers #218",
     "title": "Avengers",
     "issueNumber": 218,
@@ -2912,7 +2896,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00183",
+    "id": "avengers-00182",
     "name": "Avengers #219",
     "title": "Avengers",
     "issueNumber": 219,
@@ -2928,7 +2912,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00184",
+    "id": "avengers-00183",
     "name": "Avengers #220",
     "title": "Avengers",
     "issueNumber": 220,
@@ -2944,7 +2928,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00185",
+    "id": "avengers-00184",
     "name": "Avengers #221",
     "title": "Avengers",
     "issueNumber": 221,
@@ -2960,7 +2944,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00186",
+    "id": "avengers-00185",
     "name": "Avengers #222",
     "title": "Avengers",
     "issueNumber": 222,
@@ -2976,7 +2960,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00187",
+    "id": "avengers-00186",
     "name": "Avengers #223",
     "title": "Avengers",
     "issueNumber": 223,
@@ -2992,7 +2976,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00188",
+    "id": "avengers-00187",
     "name": "Avengers #224",
     "title": "Avengers",
     "issueNumber": 224,
@@ -3008,7 +2992,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00189",
+    "id": "avengers-00188",
     "name": "Avengers #225",
     "title": "Avengers",
     "issueNumber": 225,
@@ -3024,7 +3008,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00190",
+    "id": "avengers-00189",
     "name": "Avengers #226",
     "title": "Avengers",
     "issueNumber": 226,
@@ -3040,7 +3024,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00191",
+    "id": "avengers-00190",
     "name": "Avengers #227",
     "title": "Avengers",
     "issueNumber": 227,
@@ -3056,7 +3040,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00192",
+    "id": "avengers-00191",
     "name": "Avengers #228",
     "title": "Avengers",
     "issueNumber": 228,
@@ -3072,7 +3056,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00193",
+    "id": "avengers-00192",
     "name": "Avengers #229",
     "title": "Avengers",
     "issueNumber": 229,
@@ -3088,7 +3072,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00194",
+    "id": "avengers-00193",
     "name": "Avengers #230",
     "title": "Avengers",
     "issueNumber": 230,
@@ -3104,7 +3088,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00195",
+    "id": "avengers-00194",
     "name": "Avengers #231",
     "title": "Avengers",
     "issueNumber": 231,
@@ -3120,7 +3104,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00196",
+    "id": "avengers-00195",
     "name": "Avengers #232",
     "title": "Avengers",
     "issueNumber": 232,
@@ -3136,7 +3120,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00197",
+    "id": "avengers-00196",
     "name": "Avengers #233",
     "title": "Avengers",
     "issueNumber": 233,
@@ -3152,7 +3136,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00198",
+    "id": "avengers-00197",
     "name": "Avengers #234",
     "title": "Avengers",
     "issueNumber": 234,
@@ -3168,7 +3152,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00199",
+    "id": "avengers-00198",
     "name": "Avengers #235",
     "title": "Avengers",
     "issueNumber": 235,
@@ -3184,7 +3168,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00200",
+    "id": "avengers-00199",
     "name": "Avengers #236",
     "title": "Avengers",
     "issueNumber": 236,
@@ -3200,7 +3184,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00201",
+    "id": "avengers-00200",
     "name": "Avengers #237",
     "title": "Avengers",
     "issueNumber": 237,
@@ -3216,7 +3200,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00202",
+    "id": "avengers-00201",
     "name": "Avengers #238",
     "title": "Avengers",
     "issueNumber": 238,
@@ -3232,7 +3216,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00203",
+    "id": "avengers-00202",
     "name": "Avengers #239",
     "title": "Avengers",
     "issueNumber": 239,
@@ -3248,7 +3232,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00204",
+    "id": "avengers-00203",
     "name": "Avengers #240",
     "title": "Avengers",
     "issueNumber": 240,
@@ -3264,7 +3248,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00205",
+    "id": "avengers-00204",
     "name": "Avengers #241",
     "title": "Avengers",
     "issueNumber": 241,
@@ -3280,7 +3264,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00206",
+    "id": "avengers-00205",
     "name": "Avengers #242",
     "title": "Avengers",
     "issueNumber": 242,
@@ -3296,7 +3280,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00207",
+    "id": "avengers-00206",
     "name": "Avengers #243",
     "title": "Avengers",
     "issueNumber": 243,
@@ -3312,7 +3296,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00208",
+    "id": "avengers-00207",
     "name": "Avengers #244",
     "title": "Avengers",
     "issueNumber": 244,
@@ -3328,7 +3312,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00209",
+    "id": "avengers-00208",
     "name": "Avengers #245",
     "title": "Avengers",
     "issueNumber": 245,
@@ -3344,7 +3328,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00210",
+    "id": "avengers-00209",
     "name": "Avengers #246",
     "title": "Avengers",
     "issueNumber": 246,
@@ -3360,7 +3344,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00211",
+    "id": "avengers-00210",
     "name": "Avengers #247",
     "title": "Avengers",
     "issueNumber": 247,
@@ -3376,7 +3360,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00212",
+    "id": "avengers-00211",
     "name": "Avengers #248",
     "title": "Avengers",
     "issueNumber": 248,
@@ -3392,7 +3376,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00213",
+    "id": "avengers-00212",
     "name": "Avengers #249",
     "title": "Avengers",
     "issueNumber": 249,
@@ -3408,7 +3392,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00214",
+    "id": "avengers-00213",
     "name": "Avengers #250",
     "title": "Avengers",
     "issueNumber": 250,
@@ -3424,7 +3408,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00215",
+    "id": "avengers-00214",
     "name": "Avengers #251",
     "title": "Avengers",
     "issueNumber": 251,
@@ -3440,7 +3424,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00216",
+    "id": "avengers-00215",
     "name": "Avengers #252",
     "title": "Avengers",
     "issueNumber": 252,
@@ -3456,7 +3440,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00217",
+    "id": "avengers-00216",
     "name": "Avengers #253",
     "title": "Avengers",
     "issueNumber": 253,
@@ -3472,7 +3456,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00218",
+    "id": "avengers-00217",
     "name": "Avengers #254",
     "title": "Avengers",
     "issueNumber": 254,
@@ -3488,7 +3472,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00219",
+    "id": "avengers-00218",
     "name": "Avengers #255",
     "title": "Avengers",
     "issueNumber": 255,
@@ -3504,7 +3488,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00220",
+    "id": "avengers-00219",
     "name": "Avengers #256",
     "title": "Avengers",
     "issueNumber": 256,
@@ -3520,7 +3504,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00221",
+    "id": "avengers-00220",
     "name": "Avengers #257",
     "title": "Avengers",
     "issueNumber": 257,
@@ -3536,7 +3520,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00222",
+    "id": "avengers-00221",
     "name": "Avengers #258",
     "title": "Avengers",
     "issueNumber": 258,
@@ -3552,7 +3536,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00223",
+    "id": "avengers-00222",
     "name": "Avengers #259",
     "title": "Avengers",
     "issueNumber": 259,
@@ -3568,7 +3552,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00224",
+    "id": "avengers-00223",
     "name": "Avengers #260",
     "title": "Avengers",
     "issueNumber": 260,
@@ -3584,7 +3568,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00225",
+    "id": "avengers-00224",
     "name": "Avengers #261",
     "title": "Avengers",
     "issueNumber": 261,
@@ -3600,7 +3584,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00226",
+    "id": "avengers-00225",
     "name": "Avengers #262",
     "title": "Avengers",
     "issueNumber": 262,
@@ -3616,7 +3600,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00227",
+    "id": "avengers-00226",
     "name": "Avengers #263",
     "title": "Avengers",
     "issueNumber": 263,
@@ -3632,7 +3616,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00228",
+    "id": "avengers-00227",
     "name": "Avengers #264",
     "title": "Avengers",
     "issueNumber": 264,
@@ -3648,7 +3632,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00229",
+    "id": "avengers-00228",
     "name": "Avengers #265",
     "title": "Avengers",
     "issueNumber": 265,
@@ -3664,7 +3648,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00230",
+    "id": "avengers-00229",
     "name": "Avengers #266",
     "title": "Avengers",
     "issueNumber": 266,
@@ -3680,7 +3664,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00231",
+    "id": "avengers-00230",
     "name": "Avengers #267",
     "title": "Avengers",
     "issueNumber": 267,
@@ -3696,7 +3680,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00232",
+    "id": "avengers-00231",
     "name": "Avengers #268",
     "title": "Avengers",
     "issueNumber": 268,
@@ -3712,7 +3696,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00233",
+    "id": "avengers-00232",
     "name": "Avengers #269",
     "title": "Avengers",
     "issueNumber": 269,
@@ -3728,7 +3712,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00234",
+    "id": "avengers-00233",
     "name": "Avengers #270",
     "title": "Avengers",
     "issueNumber": 270,
@@ -3744,7 +3728,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00235",
+    "id": "avengers-00234",
     "name": "Avengers #271",
     "title": "Avengers",
     "issueNumber": 271,
@@ -3760,7 +3744,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00236",
+    "id": "avengers-00235",
     "name": "Avengers #272",
     "title": "Avengers",
     "issueNumber": 272,
@@ -3776,7 +3760,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00237",
+    "id": "avengers-00236",
     "name": "Avengers #273",
     "title": "Avengers",
     "issueNumber": 273,
@@ -3792,7 +3776,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00238",
+    "id": "avengers-00237",
     "name": "Avengers #274",
     "title": "Avengers",
     "issueNumber": 274,
@@ -3808,7 +3792,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00239",
+    "id": "avengers-00238",
     "name": "Avengers #275",
     "title": "Avengers",
     "issueNumber": 275,
@@ -3824,7 +3808,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00240",
+    "id": "avengers-00239",
     "name": "Avengers #276",
     "title": "Avengers",
     "issueNumber": 276,
@@ -3840,7 +3824,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00241",
+    "id": "avengers-00240",
     "name": "Avengers #277",
     "title": "Avengers",
     "issueNumber": 277,
@@ -3856,7 +3840,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00242",
+    "id": "avengers-00241",
     "name": "Avengers #278",
     "title": "Avengers",
     "issueNumber": 278,
@@ -3872,7 +3856,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00243",
+    "id": "avengers-00242",
     "name": "Avengers #279",
     "title": "Avengers",
     "issueNumber": 279,
@@ -3888,7 +3872,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00244",
+    "id": "avengers-00243",
     "name": "Avengers #281",
     "title": "Avengers",
     "issueNumber": 281,
@@ -3904,7 +3888,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00245",
+    "id": "avengers-00244",
     "name": "Avengers #282",
     "title": "Avengers",
     "issueNumber": 282,
@@ -3920,7 +3904,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00246",
+    "id": "avengers-00245",
     "name": "Avengers #283",
     "title": "Avengers",
     "issueNumber": 283,
@@ -3936,7 +3920,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00247",
+    "id": "avengers-00246",
     "name": "Avengers #284",
     "title": "Avengers",
     "issueNumber": 284,
@@ -3952,7 +3936,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00248",
+    "id": "avengers-00247",
     "name": "Avengers #285",
     "title": "Avengers",
     "issueNumber": 285,
@@ -3968,7 +3952,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00249",
+    "id": "avengers-00248",
     "name": "Avengers #286",
     "title": "Avengers",
     "issueNumber": 286,
@@ -3984,7 +3968,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00250",
+    "id": "avengers-00249",
     "name": "Avengers #287",
     "title": "Avengers",
     "issueNumber": 287,
@@ -4000,7 +3984,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00251",
+    "id": "avengers-00250",
     "name": "West Coast Avengers Vol. 2 #42",
     "title": "West Coast Avengers Vol. 2",
     "issueNumber": 42,
@@ -4016,7 +4000,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00252",
+    "id": "avengers-00251",
     "name": "West Coast Avengers Vol. 2 #43",
     "title": "West Coast Avengers Vol. 2",
     "issueNumber": 43,
@@ -4032,7 +4016,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00253",
+    "id": "avengers-00252",
     "name": "West Coast Avengers Vol. 2 #44",
     "title": "West Coast Avengers Vol. 2",
     "issueNumber": 44,
@@ -4048,7 +4032,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00254",
+    "id": "avengers-00253",
     "name": "West Coast Avengers Vol. 2 #45",
     "title": "West Coast Avengers Vol. 2",
     "issueNumber": 45,
@@ -4064,7 +4048,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00255",
+    "id": "avengers-00254",
     "name": "West Coast Avengers Vol. 2 #46",
     "title": "West Coast Avengers Vol. 2",
     "issueNumber": 46,
@@ -4080,9 +4064,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00256",
-    "name": "Avengers: West Coast #47",
-    "title": "Avengers: West Coast",
+    "id": "avengers-00255",
+    "name": "Avengers West Coast #47",
+    "title": "Avengers West Coast",
     "issueNumber": 47,
     "year": null,
     "decade": "",
@@ -4096,9 +4080,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00257",
-    "name": "Avengers: West Coast #48",
-    "title": "Avengers: West Coast",
+    "id": "avengers-00256",
+    "name": "Avengers West Coast #48",
+    "title": "Avengers West Coast",
     "issueNumber": 48,
     "year": null,
     "decade": "",
@@ -4112,9 +4096,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00258",
-    "name": "Avengers: West Coast #49",
-    "title": "Avengers: West Coast",
+    "id": "avengers-00257",
+    "name": "Avengers West Coast #49",
+    "title": "Avengers West Coast",
     "issueNumber": 49,
     "year": null,
     "decade": "",
@@ -4128,9 +4112,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00259",
-    "name": "Avengers: West Coast #50",
-    "title": "Avengers: West Coast",
+    "id": "avengers-00258",
+    "name": "Avengers West Coast #50",
+    "title": "Avengers West Coast",
     "issueNumber": 50,
     "year": null,
     "decade": "",
@@ -4144,9 +4128,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00260",
-    "name": "Avengers: West Coast #51",
-    "title": "Avengers: West Coast",
+    "id": "avengers-00259",
+    "name": "Avengers West Coast #51",
+    "title": "Avengers West Coast",
     "issueNumber": 51,
     "year": null,
     "decade": "",
@@ -4160,9 +4144,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00261",
-    "name": "Avengers: West Coast #52",
-    "title": "Avengers: West Coast",
+    "id": "avengers-00260",
+    "name": "Avengers West Coast #52",
+    "title": "Avengers West Coast",
     "issueNumber": 52,
     "year": null,
     "decade": "",
@@ -4176,9 +4160,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00262",
-    "name": "Avengers: West Coast #53",
-    "title": "Avengers: West Coast",
+    "id": "avengers-00261",
+    "name": "Avengers West Coast #53",
+    "title": "Avengers West Coast",
     "issueNumber": 53,
     "year": null,
     "decade": "",
@@ -4192,9 +4176,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00263",
-    "name": "Avengers: West Coast #54",
-    "title": "Avengers: West Coast",
+    "id": "avengers-00262",
+    "name": "Avengers West Coast #54",
+    "title": "Avengers West Coast",
     "issueNumber": 54,
     "year": null,
     "decade": "",
@@ -4208,9 +4192,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00264",
-    "name": "Avengers: West Coast #55",
-    "title": "Avengers: West Coast",
+    "id": "avengers-00263",
+    "name": "Avengers West Coast #55",
+    "title": "Avengers West Coast",
     "issueNumber": 55,
     "year": null,
     "decade": "",
@@ -4224,9 +4208,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00265",
-    "name": "Avengers: West Coast #56",
-    "title": "Avengers: West Coast",
+    "id": "avengers-00264",
+    "name": "Avengers West Coast #56",
+    "title": "Avengers West Coast",
     "issueNumber": 56,
     "year": null,
     "decade": "",
@@ -4240,9 +4224,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00266",
-    "name": "Avengers: West Coast #57",
-    "title": "Avengers: West Coast",
+    "id": "avengers-00265",
+    "name": "Avengers West Coast #57",
+    "title": "Avengers West Coast",
     "issueNumber": 57,
     "year": null,
     "decade": "",
@@ -4256,9 +4240,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00267",
-    "name": "Avengers: West Coast #60",
-    "title": "Avengers: West Coast",
+    "id": "avengers-00266",
+    "name": "Avengers West Coast #60",
+    "title": "Avengers West Coast",
     "issueNumber": 60,
     "year": null,
     "decade": "",
@@ -4272,9 +4256,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00268",
-    "name": "Avengers: West Coast #61",
-    "title": "Avengers: West Coast",
+    "id": "avengers-00267",
+    "name": "Avengers West Coast #61",
+    "title": "Avengers West Coast",
     "issueNumber": 61,
     "year": null,
     "decade": "",
@@ -4288,9 +4272,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00269",
-    "name": "Avengers: West Coast #62",
-    "title": "Avengers: West Coast",
+    "id": "avengers-00268",
+    "name": "Avengers West Coast #62",
+    "title": "Avengers West Coast",
     "issueNumber": 62,
     "year": null,
     "decade": "",
@@ -4304,7 +4288,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00270",
+    "id": "avengers-00269",
     "name": "The Last Avengers Story #1",
     "title": "The Last Avengers Story",
     "issueNumber": 1,
@@ -4320,10 +4304,26 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00271",
+    "id": "avengers-00270",
     "name": "The Last Avengers Story #2",
     "title": "The Last Avengers Story",
     "issueNumber": 2,
+    "year": null,
+    "decade": "",
+    "writer": "",
+    "artist": "",
+    "storyline": "",
+    "note": "",
+    "statusType": "essential",
+    "universe": "main",
+    "readLinks": [],
+    "wikiUrl": ""
+  },
+  {
+    "id": "avengers-00271",
+    "name": "Avengers Vol. 3 #1",
+    "title": "Avengers Vol. 3",
+    "issueNumber": 1,
     "year": null,
     "decade": "",
     "writer": "",
@@ -5521,8 +5521,8 @@
   },
   {
     "id": "avengers-00346",
-    "name": "Great Lakes Avengers #1",
-    "title": "Great Lakes Avengers",
+    "name": "G.L.A. #1",
+    "title": "G.L.A.",
     "issueNumber": 1,
     "year": null,
     "decade": "",
@@ -5537,8 +5537,8 @@
   },
   {
     "id": "avengers-00347",
-    "name": "Great Lakes Avengers #2",
-    "title": "Great Lakes Avengers",
+    "name": "G.L.A. #2",
+    "title": "G.L.A.",
     "issueNumber": 2,
     "year": null,
     "decade": "",
@@ -5553,8 +5553,8 @@
   },
   {
     "id": "avengers-00348",
-    "name": "Great Lakes Avengers #3",
-    "title": "Great Lakes Avengers",
+    "name": "G.L.A. #3",
+    "title": "G.L.A.",
     "issueNumber": 3,
     "year": null,
     "decade": "",
@@ -5569,8 +5569,8 @@
   },
   {
     "id": "avengers-00349",
-    "name": "Great Lakes Avengers #4",
-    "title": "Great Lakes Avengers",
+    "name": "G.L.A. #4",
+    "title": "G.L.A.",
     "issueNumber": 4,
     "year": null,
     "decade": "",
@@ -5585,11 +5585,11 @@
   },
   {
     "id": "avengers-00350",
-    "name": "New Avengers #1 (2005)",
+    "name": "New Avengers #1",
     "title": "New Avengers",
     "issueNumber": 1,
-    "year": 2005,
-    "decade": "2000s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -5825,8 +5825,8 @@
   },
   {
     "id": "avengers-00365",
-    "name": "GLX-mas Special #1",
-    "title": "GLX-mas Special",
+    "name": "GLX-Mas Special #1",
+    "title": "GLX-Mas Special",
     "issueNumber": 1,
     "year": null,
     "decade": "",
@@ -5921,11 +5921,11 @@
   },
   {
     "id": "avengers-00371",
-    "name": "New Avengers Annual #1 (2006)",
+    "name": "New Avengers Annual #1",
     "title": "New Avengers Annual",
     "issueNumber": 1,
-    "year": 2006,
-    "decade": "2000s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -5937,8 +5937,8 @@
   },
   {
     "id": "avengers-00372",
-    "name": "Deadpool/GLI Summer Fun Spectacular #1",
-    "title": "Deadpool/GLI Summer Fun Spectacular",
+    "name": "Deadpool/GLI - Summer Fun Spectacular #1",
+    "title": "Deadpool/GLI - Summer Fun Spectacular",
     "issueNumber": 1,
     "year": null,
     "decade": "",
@@ -6161,8 +6161,8 @@
   },
   {
     "id": "avengers-00386",
-    "name": "Lockjaw and the Pet Avengers: Unleashed #1",
-    "title": "Lockjaw and the Pet Avengers: Unleashed",
+    "name": "Lockjaw and the Pet Avengers Unleashed #1",
+    "title": "Lockjaw and the Pet Avengers Unleashed",
     "issueNumber": 1,
     "year": null,
     "decade": "",
@@ -6177,8 +6177,8 @@
   },
   {
     "id": "avengers-00387",
-    "name": "Lockjaw and the Pet Avengers: Unleashed #2",
-    "title": "Lockjaw and the Pet Avengers: Unleashed",
+    "name": "Lockjaw and the Pet Avengers Unleashed #2",
+    "title": "Lockjaw and the Pet Avengers Unleashed",
     "issueNumber": 2,
     "year": null,
     "decade": "",
@@ -6193,8 +6193,8 @@
   },
   {
     "id": "avengers-00388",
-    "name": "Lockjaw and the Pet Avengers: Unleashed #3",
-    "title": "Lockjaw and the Pet Avengers: Unleashed",
+    "name": "Lockjaw and the Pet Avengers Unleashed #3",
+    "title": "Lockjaw and the Pet Avengers Unleashed",
     "issueNumber": 3,
     "year": null,
     "decade": "",
@@ -6209,8 +6209,8 @@
   },
   {
     "id": "avengers-00389",
-    "name": "Lockjaw and the Pet Avengers: Unleashed #4",
-    "title": "Lockjaw and the Pet Avengers: Unleashed",
+    "name": "Lockjaw and the Pet Avengers Unleashed #4",
+    "title": "Lockjaw and the Pet Avengers Unleashed",
     "issueNumber": 4,
     "year": null,
     "decade": "",
@@ -6577,8 +6577,8 @@
   },
   {
     "id": "avengers-00412",
-    "name": "Ant-Man and Wasp #1",
-    "title": "Ant-Man and Wasp",
+    "name": "Ant-Man & Wasp #1",
+    "title": "Ant-Man & Wasp",
     "issueNumber": 1,
     "year": null,
     "decade": "",
@@ -6593,8 +6593,8 @@
   },
   {
     "id": "avengers-00413",
-    "name": "Ant-Man and Wasp #2",
-    "title": "Ant-Man and Wasp",
+    "name": "Ant-Man & Wasp #2",
+    "title": "Ant-Man & Wasp",
     "issueNumber": 2,
     "year": null,
     "decade": "",
@@ -6609,8 +6609,8 @@
   },
   {
     "id": "avengers-00414",
-    "name": "Ant-Man and Wasp #3",
-    "title": "Ant-Man and Wasp",
+    "name": "Ant-Man & Wasp #3",
+    "title": "Ant-Man & Wasp",
     "issueNumber": 3,
     "year": null,
     "decade": "",
@@ -6625,11 +6625,11 @@
   },
   {
     "id": "avengers-00415",
-    "name": "New Avengers Vol. 2 Annual #1 (2011)",
+    "name": "New Avengers Vol. 2 Annual #1",
     "title": "New Avengers Vol. 2 Annual",
     "issueNumber": 1,
-    "year": 2011,
-    "decade": "2010s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -6641,11 +6641,11 @@
   },
   {
     "id": "avengers-00416",
-    "name": "Avengers Vol. 4 Annual #1 (2011)",
+    "name": "Avengers Vol. 4 Annual #1",
     "title": "Avengers Vol. 4 Annual",
     "issueNumber": 1,
-    "year": 2011,
-    "decade": "2010s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -7089,6 +7089,22 @@
   },
   {
     "id": "avengers-00444",
+    "name": "Uncanny Avengers #1",
+    "title": "Uncanny Avengers",
+    "issueNumber": 1,
+    "year": null,
+    "decade": "",
+    "writer": "",
+    "artist": "",
+    "storyline": "",
+    "note": "",
+    "statusType": "essential",
+    "universe": "main",
+    "readLinks": [],
+    "wikiUrl": ""
+  },
+  {
+    "id": "avengers-00445",
     "name": "Uncanny Avengers #2",
     "title": "Uncanny Avengers",
     "issueNumber": 2,
@@ -7104,7 +7120,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00445",
+    "id": "avengers-00446",
     "name": "Uncanny Avengers #3",
     "title": "Uncanny Avengers",
     "issueNumber": 3,
@@ -7120,7 +7136,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00446",
+    "id": "avengers-00447",
     "name": "Uncanny Avengers #4",
     "title": "Uncanny Avengers",
     "issueNumber": 4,
@@ -7136,7 +7152,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00447",
+    "id": "avengers-00448",
     "name": "Avengers Assemble Vol. 2 #9",
     "title": "Avengers Assemble Vol. 2",
     "issueNumber": 9,
@@ -7152,7 +7168,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00448",
+    "id": "avengers-00449",
     "name": "Avengers Assemble Vol. 2 #10",
     "title": "Avengers Assemble Vol. 2",
     "issueNumber": 10,
@@ -7168,7 +7184,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00449",
+    "id": "avengers-00450",
     "name": "Avengers Assemble Vol. 2 #11",
     "title": "Avengers Assemble Vol. 2",
     "issueNumber": 11,
@@ -7184,7 +7200,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00450",
+    "id": "avengers-00451",
     "name": "Avengers Assemble Vol. 2 #12",
     "title": "Avengers Assemble Vol. 2",
     "issueNumber": 12,
@@ -7200,7 +7216,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00451",
+    "id": "avengers-00452",
     "name": "Avengers Assemble Vol. 2 #13",
     "title": "Avengers Assemble Vol. 2",
     "issueNumber": 13,
@@ -7216,28 +7232,12 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00452",
-    "name": "Avengers Assemble Vol. 2 Annual #1 (2013)",
+    "id": "avengers-00453",
+    "name": "Avengers Assemble Vol. 2 Annual #1",
     "title": "Avengers Assemble Vol. 2 Annual",
     "issueNumber": 1,
-    "year": 2013,
-    "decade": "2010s",
-    "writer": "",
-    "artist": "",
-    "storyline": "",
-    "note": "",
-    "statusType": "essential",
-    "universe": "main",
-    "readLinks": [],
-    "wikiUrl": ""
-  },
-  {
-    "id": "avengers-00453",
-    "name": "New Avengers Vol. 3 #1 (2013)",
-    "title": "New Avengers Vol. 3",
-    "issueNumber": 1,
-    "year": 2013,
-    "decade": "2010s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -7249,6 +7249,22 @@
   },
   {
     "id": "avengers-00454",
+    "name": "New Avengers Vol. 3 #1",
+    "title": "New Avengers Vol. 3",
+    "issueNumber": 1,
+    "year": null,
+    "decade": "",
+    "writer": "",
+    "artist": "",
+    "storyline": "",
+    "note": "",
+    "statusType": "essential",
+    "universe": "main",
+    "readLinks": [],
+    "wikiUrl": ""
+  },
+  {
+    "id": "avengers-00455",
     "name": "New Avengers Vol. 3 #2",
     "title": "New Avengers Vol. 3",
     "issueNumber": 2,
@@ -7264,7 +7280,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00455",
+    "id": "avengers-00456",
     "name": "New Avengers Vol. 3 #3",
     "title": "New Avengers Vol. 3",
     "issueNumber": 3,
@@ -7280,12 +7296,12 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00456",
-    "name": "Avengers Vol. 5 #1 (2013)",
+    "id": "avengers-00457",
+    "name": "Avengers Vol. 5 #1",
     "title": "Avengers Vol. 5",
     "issueNumber": 1,
-    "year": 2013,
-    "decade": "2010s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -7296,7 +7312,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00457",
+    "id": "avengers-00458",
     "name": "Avengers Vol. 5 #2",
     "title": "Avengers Vol. 5",
     "issueNumber": 2,
@@ -7312,7 +7328,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00458",
+    "id": "avengers-00459",
     "name": "Avengers Vol. 5 #3",
     "title": "Avengers Vol. 5",
     "issueNumber": 3,
@@ -7328,7 +7344,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00459",
+    "id": "avengers-00460",
     "name": "Avengers Vol. 5 #4",
     "title": "Avengers Vol. 5",
     "issueNumber": 4,
@@ -7344,7 +7360,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00460",
+    "id": "avengers-00461",
     "name": "Avengers Vol. 5 #5",
     "title": "Avengers Vol. 5",
     "issueNumber": 5,
@@ -7360,7 +7376,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00461",
+    "id": "avengers-00462",
     "name": "New Avengers Vol. 3 #4",
     "title": "New Avengers Vol. 3",
     "issueNumber": 4,
@@ -7376,7 +7392,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00462",
+    "id": "avengers-00463",
     "name": "New Avengers Vol. 3 #5",
     "title": "New Avengers Vol. 3",
     "issueNumber": 5,
@@ -7392,7 +7408,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00463",
+    "id": "avengers-00464",
     "name": "New Avengers Vol. 3 #6",
     "title": "New Avengers Vol. 3",
     "issueNumber": 6,
@@ -7408,7 +7424,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00464",
+    "id": "avengers-00465",
     "name": "Avengers Vol. 5 #6",
     "title": "Avengers Vol. 5",
     "issueNumber": 6,
@@ -7424,7 +7440,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00465",
+    "id": "avengers-00466",
     "name": "Avengers Vol. 5 #7",
     "title": "Avengers Vol. 5",
     "issueNumber": 7,
@@ -7440,7 +7456,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00466",
+    "id": "avengers-00467",
     "name": "Avengers Vol. 5 #8",
     "title": "Avengers Vol. 5",
     "issueNumber": 8,
@@ -7456,7 +7472,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00467",
+    "id": "avengers-00468",
     "name": "Avengers Vol. 5 #9",
     "title": "Avengers Vol. 5",
     "issueNumber": 9,
@@ -7472,7 +7488,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00468",
+    "id": "avengers-00469",
     "name": "Avengers: Endless Wartime #1",
     "title": "Avengers: Endless Wartime",
     "issueNumber": 1,
@@ -7488,7 +7504,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00469",
+    "id": "avengers-00470",
     "name": "Avengers Vol. 5 #10",
     "title": "Avengers Vol. 5",
     "issueNumber": 10,
@@ -7504,7 +7520,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00470",
+    "id": "avengers-00471",
     "name": "Avengers Vol. 5 #11",
     "title": "Avengers Vol. 5",
     "issueNumber": 11,
@@ -7520,7 +7536,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00471",
+    "id": "avengers-00472",
     "name": "Avengers Vol. 5 #12",
     "title": "Avengers Vol. 5",
     "issueNumber": 12,
@@ -7536,7 +7552,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00472",
+    "id": "avengers-00473",
     "name": "Avengers Vol. 5 #13",
     "title": "Avengers Vol. 5",
     "issueNumber": 13,
@@ -7552,7 +7568,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00473",
+    "id": "avengers-00474",
     "name": "Uncanny Avengers #5",
     "title": "Uncanny Avengers",
     "issueNumber": 5,
@@ -7568,12 +7584,12 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00474",
-    "name": "Secret Avengers Vol. 2 #1 (2013)",
+    "id": "avengers-00475",
+    "name": "Secret Avengers Vol. 2 #1",
     "title": "Secret Avengers Vol. 2",
     "issueNumber": 1,
-    "year": 2013,
-    "decade": "2010s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -7584,7 +7600,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00475",
+    "id": "avengers-00476",
     "name": "Secret Avengers Vol. 2 #2",
     "title": "Secret Avengers Vol. 2",
     "issueNumber": 2,
@@ -7600,7 +7616,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00476",
+    "id": "avengers-00477",
     "name": "Secret Avengers Vol. 2 #3",
     "title": "Secret Avengers Vol. 2",
     "issueNumber": 3,
@@ -7616,7 +7632,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00477",
+    "id": "avengers-00478",
     "name": "Secret Avengers Vol. 2 #4",
     "title": "Secret Avengers Vol. 2",
     "issueNumber": 4,
@@ -7632,7 +7648,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00478",
+    "id": "avengers-00479",
     "name": "Secret Avengers Vol. 2 #5",
     "title": "Secret Avengers Vol. 2",
     "issueNumber": 5,
@@ -7648,7 +7664,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00479",
+    "id": "avengers-00480",
     "name": "Secret Avengers Vol. 2 #6",
     "title": "Secret Avengers Vol. 2",
     "issueNumber": 6,
@@ -7664,7 +7680,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00480",
+    "id": "avengers-00481",
     "name": "Secret Avengers Vol. 2 #7",
     "title": "Secret Avengers Vol. 2",
     "issueNumber": 7,
@@ -7680,7 +7696,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00481",
+    "id": "avengers-00482",
     "name": "Uncanny Avengers #6",
     "title": "Uncanny Avengers",
     "issueNumber": 6,
@@ -7696,7 +7712,23 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00482",
+    "id": "avengers-00483",
+    "name": "Avengers A.I. #1",
+    "title": "Avengers A.I.",
+    "issueNumber": 1,
+    "year": null,
+    "decade": "",
+    "writer": "",
+    "artist": "",
+    "storyline": "",
+    "note": "",
+    "statusType": "essential",
+    "universe": "main",
+    "readLinks": [],
+    "wikiUrl": ""
+  },
+  {
+    "id": "avengers-00484",
     "name": "Avengers A.I. #2",
     "title": "Avengers A.I.",
     "issueNumber": 2,
@@ -7712,7 +7744,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00483",
+    "id": "avengers-00485",
     "name": "Avengers A.I. #3",
     "title": "Avengers A.I.",
     "issueNumber": 3,
@@ -7728,7 +7760,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00484",
+    "id": "avengers-00486",
     "name": "Avengers A.I. #4",
     "title": "Avengers A.I.",
     "issueNumber": 4,
@@ -7744,7 +7776,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00485",
+    "id": "avengers-00487",
     "name": "Avengers A.I. #5",
     "title": "Avengers A.I.",
     "issueNumber": 5,
@@ -7760,7 +7792,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00486",
+    "id": "avengers-00488",
     "name": "Avengers A.I. #6",
     "title": "Avengers A.I.",
     "issueNumber": 6,
@@ -7776,7 +7808,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00487",
+    "id": "avengers-00489",
     "name": "Secret Avengers Vol. 2 #8",
     "title": "Secret Avengers Vol. 2",
     "issueNumber": 8,
@@ -7792,7 +7824,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00488",
+    "id": "avengers-00490",
     "name": "Secret Avengers Vol. 2 #9",
     "title": "Secret Avengers Vol. 2",
     "issueNumber": 9,
@@ -7808,7 +7840,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00489",
+    "id": "avengers-00491",
     "name": "New Avengers Vol. 3 #7",
     "title": "New Avengers Vol. 3",
     "issueNumber": 7,
@@ -7824,7 +7856,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00490",
+    "id": "avengers-00492",
     "name": "Avengers: The Enemy Within #1",
     "title": "Avengers: The Enemy Within",
     "issueNumber": 1,
@@ -7840,7 +7872,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00491",
+    "id": "avengers-00493",
     "name": "Avengers Assemble Vol. 2 #16",
     "title": "Avengers Assemble Vol. 2",
     "issueNumber": 16,
@@ -7856,7 +7888,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00492",
+    "id": "avengers-00494",
     "name": "Captain Marvel Vol. 7 #13",
     "title": "Captain Marvel Vol. 7",
     "issueNumber": 13,
@@ -7872,7 +7904,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00493",
+    "id": "avengers-00495",
     "name": "Avengers Assemble Vol. 2 #17",
     "title": "Avengers Assemble Vol. 2",
     "issueNumber": 17,
@@ -7888,7 +7920,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00494",
+    "id": "avengers-00496",
     "name": "Captain Marvel Vol. 7 #14",
     "title": "Captain Marvel Vol. 7",
     "issueNumber": 14,
@@ -7904,7 +7936,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00495",
+    "id": "avengers-00497",
     "name": "Avengers A.I. #9",
     "title": "Avengers A.I.",
     "issueNumber": 9,
@@ -7920,7 +7952,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00496",
+    "id": "avengers-00498",
     "name": "Avengers A.I. #10",
     "title": "Avengers A.I.",
     "issueNumber": 10,
@@ -7936,7 +7968,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00497",
+    "id": "avengers-00499",
     "name": "Avengers A.I. #11",
     "title": "Avengers A.I.",
     "issueNumber": 11,
@@ -7952,7 +7984,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00498",
+    "id": "avengers-00500",
     "name": "Avengers A.I. #12",
     "title": "Avengers A.I.",
     "issueNumber": 12,
@@ -7968,7 +8000,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00499",
+    "id": "avengers-00501",
     "name": "Uncanny Avengers #7",
     "title": "Uncanny Avengers",
     "issueNumber": 7,
@@ -7984,7 +8016,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00500",
+    "id": "avengers-00502",
     "name": "Uncanny Avengers #8",
     "title": "Uncanny Avengers",
     "issueNumber": 8,
@@ -8000,7 +8032,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00501",
+    "id": "avengers-00503",
     "name": "Uncanny Avengers #9",
     "title": "Uncanny Avengers",
     "issueNumber": 9,
@@ -8016,7 +8048,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00502",
+    "id": "avengers-00504",
     "name": "Uncanny Avengers #10",
     "title": "Uncanny Avengers",
     "issueNumber": 10,
@@ -8032,7 +8064,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00503",
+    "id": "avengers-00505",
     "name": "Uncanny Avengers #11",
     "title": "Uncanny Avengers",
     "issueNumber": 11,
@@ -8048,7 +8080,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00504",
+    "id": "avengers-00506",
     "name": "Uncanny Avengers #12",
     "title": "Uncanny Avengers",
     "issueNumber": 12,
@@ -8064,7 +8096,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00505",
+    "id": "avengers-00507",
     "name": "Uncanny Avengers #13",
     "title": "Uncanny Avengers",
     "issueNumber": 13,
@@ -8080,7 +8112,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00506",
+    "id": "avengers-00508",
     "name": "Uncanny Avengers #14",
     "title": "Uncanny Avengers",
     "issueNumber": 14,
@@ -8096,7 +8128,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00507",
+    "id": "avengers-00509",
     "name": "Uncanny Avengers #15",
     "title": "Uncanny Avengers",
     "issueNumber": 15,
@@ -8112,7 +8144,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00508",
+    "id": "avengers-00510",
     "name": "Uncanny Avengers #16",
     "title": "Uncanny Avengers",
     "issueNumber": 16,
@@ -8128,7 +8160,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00509",
+    "id": "avengers-00511",
     "name": "Uncanny Avengers #17",
     "title": "Uncanny Avengers",
     "issueNumber": 17,
@@ -8144,7 +8176,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00510",
+    "id": "avengers-00512",
     "name": "Uncanny Avengers #19",
     "title": "Uncanny Avengers",
     "issueNumber": 19,
@@ -8160,7 +8192,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00511",
+    "id": "avengers-00513",
     "name": "Uncanny Avengers #20",
     "title": "Uncanny Avengers",
     "issueNumber": 20,
@@ -8176,7 +8208,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00512",
+    "id": "avengers-00514",
     "name": "Uncanny Avengers #21",
     "title": "Uncanny Avengers",
     "issueNumber": 21,
@@ -8192,7 +8224,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00513",
+    "id": "avengers-00515",
     "name": "Uncanny Avengers #22",
     "title": "Uncanny Avengers",
     "issueNumber": 22,
@@ -8208,7 +8240,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00514",
+    "id": "avengers-00516",
     "name": "Secret Avengers Vol. 2 #12",
     "title": "Secret Avengers Vol. 2",
     "issueNumber": 12,
@@ -8224,7 +8256,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00515",
+    "id": "avengers-00517",
     "name": "Secret Avengers Vol. 2 #13",
     "title": "Secret Avengers Vol. 2",
     "issueNumber": 13,
@@ -8240,7 +8272,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00516",
+    "id": "avengers-00518",
     "name": "Secret Avengers Vol. 2 #14",
     "title": "Secret Avengers Vol. 2",
     "issueNumber": 14,
@@ -8256,7 +8288,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00517",
+    "id": "avengers-00519",
     "name": "Secret Avengers Vol. 2 #15",
     "title": "Secret Avengers Vol. 2",
     "issueNumber": 15,
@@ -8272,7 +8304,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00518",
+    "id": "avengers-00520",
     "name": "Secret Avengers Vol. 2 #16",
     "title": "Secret Avengers Vol. 2",
     "issueNumber": 16,
@@ -8288,12 +8320,12 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00519",
-    "name": "Avengers World #1 (2014)",
+    "id": "avengers-00521",
+    "name": "Avengers World #1",
     "title": "Avengers World",
     "issueNumber": 1,
-    "year": 2014,
-    "decade": "2010s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -8304,7 +8336,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00520",
+    "id": "avengers-00522",
     "name": "Avengers World #2",
     "title": "Avengers World",
     "issueNumber": 2,
@@ -8320,7 +8352,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00521",
+    "id": "avengers-00523",
     "name": "Avengers World #3",
     "title": "Avengers World",
     "issueNumber": 3,
@@ -8336,7 +8368,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00522",
+    "id": "avengers-00524",
     "name": "Avengers World #4",
     "title": "Avengers World",
     "issueNumber": 4,
@@ -8352,7 +8384,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00523",
+    "id": "avengers-00525",
     "name": "Avengers World #5",
     "title": "Avengers World",
     "issueNumber": 5,
@@ -8368,7 +8400,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00524",
+    "id": "avengers-00526",
     "name": "Avengers World #6",
     "title": "Avengers World",
     "issueNumber": 6,
@@ -8384,7 +8416,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00525",
+    "id": "avengers-00527",
     "name": "Avengers World #7",
     "title": "Avengers World",
     "issueNumber": 7,
@@ -8400,7 +8432,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00526",
+    "id": "avengers-00528",
     "name": "Avengers World #8",
     "title": "Avengers World",
     "issueNumber": 8,
@@ -8416,7 +8448,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00527",
+    "id": "avengers-00529",
     "name": "Avengers World #9",
     "title": "Avengers World",
     "issueNumber": 9,
@@ -8432,7 +8464,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00528",
+    "id": "avengers-00530",
     "name": "Avengers World #10",
     "title": "Avengers World",
     "issueNumber": 10,
@@ -8448,7 +8480,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00529",
+    "id": "avengers-00531",
     "name": "Avengers World #12",
     "title": "Avengers World",
     "issueNumber": 12,
@@ -8464,7 +8496,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00530",
+    "id": "avengers-00532",
     "name": "Avengers World #13",
     "title": "Avengers World",
     "issueNumber": 13,
@@ -8480,7 +8512,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00531",
+    "id": "avengers-00533",
     "name": "Avengers World #14",
     "title": "Avengers World",
     "issueNumber": 14,
@@ -8496,12 +8528,12 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00532",
-    "name": "Avengers Vol. 5 Annual #1 (2014)",
+    "id": "avengers-00534",
+    "name": "Avengers Vol. 5 Annual #1",
     "title": "Avengers Vol. 5 Annual",
     "issueNumber": 1,
-    "year": 2014,
-    "decade": "2010s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -8512,7 +8544,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00533",
+    "id": "avengers-00535",
     "name": "New Avengers Vol. 3 #14",
     "title": "New Avengers Vol. 3",
     "issueNumber": 14,
@@ -8528,7 +8560,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00534",
+    "id": "avengers-00536",
     "name": "New Avengers Vol. 3 #15",
     "title": "New Avengers Vol. 3",
     "issueNumber": 15,
@@ -8544,7 +8576,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00535",
+    "id": "avengers-00537",
     "name": "Mighty Avengers Vol. 2 #6",
     "title": "Mighty Avengers Vol. 2",
     "issueNumber": 6,
@@ -8560,7 +8592,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00536",
+    "id": "avengers-00538",
     "name": "Mighty Avengers Vol. 2 #7",
     "title": "Mighty Avengers Vol. 2",
     "issueNumber": 7,
@@ -8576,7 +8608,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00537",
+    "id": "avengers-00539",
     "name": "Mighty Avengers Vol. 2 #8",
     "title": "Mighty Avengers Vol. 2",
     "issueNumber": 8,
@@ -8592,7 +8624,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00538",
+    "id": "avengers-00540",
     "name": "Mighty Avengers Vol. 2 #9",
     "title": "Mighty Avengers Vol. 2",
     "issueNumber": 9,
@@ -8608,7 +8640,23 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00539",
+    "id": "avengers-00541",
+    "name": "Secret Avengers Vol. 3 #1",
+    "title": "Secret Avengers Vol. 3",
+    "issueNumber": 1,
+    "year": null,
+    "decade": "",
+    "writer": "",
+    "artist": "",
+    "storyline": "",
+    "note": "",
+    "statusType": "essential",
+    "universe": "main",
+    "readLinks": [],
+    "wikiUrl": ""
+  },
+  {
+    "id": "avengers-00542",
     "name": "Secret Avengers Vol. 3 #2",
     "title": "Secret Avengers Vol. 3",
     "issueNumber": 2,
@@ -8624,7 +8672,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00540",
+    "id": "avengers-00543",
     "name": "Secret Avengers Vol. 3 #3",
     "title": "Secret Avengers Vol. 3",
     "issueNumber": 3,
@@ -8640,7 +8688,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00541",
+    "id": "avengers-00544",
     "name": "Secret Avengers Vol. 3 #4",
     "title": "Secret Avengers Vol. 3",
     "issueNumber": 4,
@@ -8656,12 +8704,12 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00542",
-    "name": "Uncanny Avengers Annual #1 (2014)",
+    "id": "avengers-00545",
+    "name": "Uncanny Avengers Annual #1",
     "title": "Uncanny Avengers Annual",
     "issueNumber": 1,
-    "year": 2014,
-    "decade": "2010s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -8672,7 +8720,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00543",
+    "id": "avengers-00546",
     "name": "Avengers Vol. 5 #25",
     "title": "Avengers Vol. 5",
     "issueNumber": 25,
@@ -8688,7 +8736,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00544",
+    "id": "avengers-00547",
     "name": "Avengers Vol. 5 #26",
     "title": "Avengers Vol. 5",
     "issueNumber": 26,
@@ -8704,7 +8752,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00545",
+    "id": "avengers-00548",
     "name": "Avengers Vol. 5 #27",
     "title": "Avengers Vol. 5",
     "issueNumber": 27,
@@ -8720,7 +8768,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00546",
+    "id": "avengers-00549",
     "name": "Avengers Vol. 5 #28",
     "title": "Avengers Vol. 5",
     "issueNumber": 28,
@@ -8736,7 +8784,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00547",
+    "id": "avengers-00550",
     "name": "New Avengers Vol. 3 #17",
     "title": "New Avengers Vol. 3",
     "issueNumber": 17,
@@ -8752,12 +8800,12 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00548",
-    "name": "New Avengers Vol. 3 Annual #1 (2014)",
+    "id": "avengers-00551",
+    "name": "New Avengers Vol. 3 Annual #1",
     "title": "New Avengers Vol. 3 Annual",
     "issueNumber": 1,
-    "year": 2014,
-    "decade": "2010s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -8768,7 +8816,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00549",
+    "id": "avengers-00552",
     "name": "New Avengers Vol. 3 #18",
     "title": "New Avengers Vol. 3",
     "issueNumber": 18,
@@ -8784,7 +8832,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00550",
+    "id": "avengers-00553",
     "name": "New Avengers Vol. 3 #19",
     "title": "New Avengers Vol. 3",
     "issueNumber": 19,
@@ -8800,7 +8848,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00551",
+    "id": "avengers-00554",
     "name": "New Avengers Vol. 3 #20",
     "title": "New Avengers Vol. 3",
     "issueNumber": 20,
@@ -8816,7 +8864,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00552",
+    "id": "avengers-00555",
     "name": "New Avengers Vol. 3 #21",
     "title": "New Avengers Vol. 3",
     "issueNumber": 21,
@@ -8832,7 +8880,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00553",
+    "id": "avengers-00556",
     "name": "New Avengers Vol. 3 #22",
     "title": "New Avengers Vol. 3",
     "issueNumber": 22,
@@ -8848,7 +8896,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00554",
+    "id": "avengers-00557",
     "name": "New Avengers Vol. 3 #23",
     "title": "New Avengers Vol. 3",
     "issueNumber": 23,
@@ -8864,7 +8912,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00555",
+    "id": "avengers-00558",
     "name": "Uncanny Avengers #23",
     "title": "Uncanny Avengers",
     "issueNumber": 23,
@@ -8880,7 +8928,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00556",
+    "id": "avengers-00559",
     "name": "Captain America and the Mighty Avengers #4",
     "title": "Captain America and the Mighty Avengers",
     "issueNumber": 4,
@@ -8896,7 +8944,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00557",
+    "id": "avengers-00560",
     "name": "Secret Avengers Vol. 3 #5",
     "title": "Secret Avengers Vol. 3",
     "issueNumber": 5,
@@ -8912,7 +8960,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00558",
+    "id": "avengers-00561",
     "name": "Secret Avengers Vol. 3 #6",
     "title": "Secret Avengers Vol. 3",
     "issueNumber": 6,
@@ -8928,7 +8976,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00559",
+    "id": "avengers-00562",
     "name": "Secret Avengers Vol. 3 #7",
     "title": "Secret Avengers Vol. 3",
     "issueNumber": 7,
@@ -8944,7 +8992,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00560",
+    "id": "avengers-00563",
     "name": "Secret Avengers Vol. 3 #8",
     "title": "Secret Avengers Vol. 3",
     "issueNumber": 8,
@@ -8960,7 +9008,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00561",
+    "id": "avengers-00564",
     "name": "Secret Avengers Vol. 3 #9",
     "title": "Secret Avengers Vol. 3",
     "issueNumber": 9,
@@ -8976,7 +9024,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00562",
+    "id": "avengers-00565",
     "name": "Secret Avengers Vol. 3 #10",
     "title": "Secret Avengers Vol. 3",
     "issueNumber": 10,
@@ -8992,7 +9040,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00563",
+    "id": "avengers-00566",
     "name": "Secret Avengers Vol. 3 #11",
     "title": "Secret Avengers Vol. 3",
     "issueNumber": 11,
@@ -9008,7 +9056,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00564",
+    "id": "avengers-00567",
     "name": "Secret Avengers Vol. 3 #12",
     "title": "Secret Avengers Vol. 3",
     "issueNumber": 12,
@@ -9024,7 +9072,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00565",
+    "id": "avengers-00568",
     "name": "Secret Avengers Vol. 3 #13",
     "title": "Secret Avengers Vol. 3",
     "issueNumber": 13,
@@ -9040,7 +9088,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00566",
+    "id": "avengers-00569",
     "name": "Secret Avengers Vol. 3 #14",
     "title": "Secret Avengers Vol. 3",
     "issueNumber": 14,
@@ -9056,7 +9104,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00567",
+    "id": "avengers-00570",
     "name": "Secret Avengers Vol. 3 #15",
     "title": "Secret Avengers Vol. 3",
     "issueNumber": 15,
@@ -9072,12 +9120,12 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00568",
-    "name": "Uncanny Avengers Vol. 2 #1 (2015)",
+    "id": "avengers-00571",
+    "name": "Uncanny Avengers Vol. 2 #1",
     "title": "Uncanny Avengers Vol. 2",
     "issueNumber": 1,
-    "year": 2015,
-    "decade": "2010s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -9088,7 +9136,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00569",
+    "id": "avengers-00572",
     "name": "Uncanny Avengers Vol. 2 #2",
     "title": "Uncanny Avengers Vol. 2",
     "issueNumber": 2,
@@ -9104,7 +9152,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00570",
+    "id": "avengers-00573",
     "name": "Uncanny Avengers Vol. 2 #3",
     "title": "Uncanny Avengers Vol. 2",
     "issueNumber": 3,
@@ -9120,7 +9168,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00571",
+    "id": "avengers-00574",
     "name": "Uncanny Avengers Vol. 2 #4",
     "title": "Uncanny Avengers Vol. 2",
     "issueNumber": 4,
@@ -9136,7 +9184,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00572",
+    "id": "avengers-00575",
     "name": "Uncanny Avengers Vol. 2 #5",
     "title": "Uncanny Avengers Vol. 2",
     "issueNumber": 5,
@@ -9152,7 +9200,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00573",
+    "id": "avengers-00576",
     "name": "Captain America and the Mighty Avengers #5",
     "title": "Captain America and the Mighty Avengers",
     "issueNumber": 5,
@@ -9168,7 +9216,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00574",
+    "id": "avengers-00577",
     "name": "Captain America and the Mighty Avengers #6",
     "title": "Captain America and the Mighty Avengers",
     "issueNumber": 6,
@@ -9184,7 +9232,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00575",
+    "id": "avengers-00578",
     "name": "Captain America and the Mighty Avengers #7",
     "title": "Captain America and the Mighty Avengers",
     "issueNumber": 7,
@@ -9200,7 +9248,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00576",
+    "id": "avengers-00579",
     "name": "Avengers: Ultron Forever #1",
     "title": "Avengers: Ultron Forever",
     "issueNumber": 1,
@@ -9216,7 +9264,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00577",
+    "id": "avengers-00580",
     "name": "New Avengers: Ultron Forever #1",
     "title": "New Avengers: Ultron Forever",
     "issueNumber": 1,
@@ -9232,7 +9280,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00578",
+    "id": "avengers-00581",
     "name": "Uncanny Avengers: Ultron Forever #1",
     "title": "Uncanny Avengers: Ultron Forever",
     "issueNumber": 1,
@@ -9248,7 +9296,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00579",
+    "id": "avengers-00582",
     "name": "Avengers Vol. 5 #35",
     "title": "Avengers Vol. 5",
     "issueNumber": 35,
@@ -9264,7 +9312,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00580",
+    "id": "avengers-00583",
     "name": "New Avengers Vol. 3 #24",
     "title": "New Avengers Vol. 3",
     "issueNumber": 24,
@@ -9280,7 +9328,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00581",
+    "id": "avengers-00584",
     "name": "Avengers Vol. 5 #36",
     "title": "Avengers Vol. 5",
     "issueNumber": 36,
@@ -9296,7 +9344,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00582",
+    "id": "avengers-00585",
     "name": "New Avengers Vol. 3 #25",
     "title": "New Avengers Vol. 3",
     "issueNumber": 25,
@@ -9312,7 +9360,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00583",
+    "id": "avengers-00586",
     "name": "Avengers Vol. 5 #37",
     "title": "Avengers Vol. 5",
     "issueNumber": 37,
@@ -9328,7 +9376,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00584",
+    "id": "avengers-00587",
     "name": "New Avengers Vol. 3 #26",
     "title": "New Avengers Vol. 3",
     "issueNumber": 26,
@@ -9344,7 +9392,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00585",
+    "id": "avengers-00588",
     "name": "Avengers Vol. 5 #38",
     "title": "Avengers Vol. 5",
     "issueNumber": 38,
@@ -9360,7 +9408,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00586",
+    "id": "avengers-00589",
     "name": "New Avengers Vol. 3 #27",
     "title": "New Avengers Vol. 3",
     "issueNumber": 27,
@@ -9376,7 +9424,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00587",
+    "id": "avengers-00590",
     "name": "Avengers Vol. 5 #39",
     "title": "Avengers Vol. 5",
     "issueNumber": 39,
@@ -9392,7 +9440,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00588",
+    "id": "avengers-00591",
     "name": "New Avengers Vol. 3 #28",
     "title": "New Avengers Vol. 3",
     "issueNumber": 28,
@@ -9408,7 +9456,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00589",
+    "id": "avengers-00592",
     "name": "Avengers Vol. 5 #40",
     "title": "Avengers Vol. 5",
     "issueNumber": 40,
@@ -9424,7 +9472,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00590",
+    "id": "avengers-00593",
     "name": "New Avengers Vol. 3 #29",
     "title": "New Avengers Vol. 3",
     "issueNumber": 29,
@@ -9440,7 +9488,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00591",
+    "id": "avengers-00594",
     "name": "Avengers World #17",
     "title": "Avengers World",
     "issueNumber": 17,
@@ -9456,7 +9504,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00592",
+    "id": "avengers-00595",
     "name": "Avengers World #18",
     "title": "Avengers World",
     "issueNumber": 18,
@@ -9472,7 +9520,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00593",
+    "id": "avengers-00596",
     "name": "Avengers World #19",
     "title": "Avengers World",
     "issueNumber": 19,
@@ -9488,7 +9536,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00594",
+    "id": "avengers-00597",
     "name": "Avengers World #20",
     "title": "Avengers World",
     "issueNumber": 20,
@@ -9504,7 +9552,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00595",
+    "id": "avengers-00598",
     "name": "Avengers World #21",
     "title": "Avengers World",
     "issueNumber": 21,
@@ -9520,7 +9568,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00596",
+    "id": "avengers-00599",
     "name": "New Avengers Vol. 3 #30",
     "title": "New Avengers Vol. 3",
     "issueNumber": 30,
@@ -9536,7 +9584,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00597",
+    "id": "avengers-00600",
     "name": "Captain America and the Mighty Avengers #8",
     "title": "Captain America and the Mighty Avengers",
     "issueNumber": 8,
@@ -9552,7 +9600,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00598",
+    "id": "avengers-00601",
     "name": "Avengers Vol. 5 #42",
     "title": "Avengers Vol. 5",
     "issueNumber": 42,
@@ -9568,7 +9616,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00599",
+    "id": "avengers-00602",
     "name": "New Avengers Vol. 3 #31",
     "title": "New Avengers Vol. 3",
     "issueNumber": 31,
@@ -9584,7 +9632,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00600",
+    "id": "avengers-00603",
     "name": "New Avengers Vol. 3 #32",
     "title": "New Avengers Vol. 3",
     "issueNumber": 32,
@@ -9600,7 +9648,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00601",
+    "id": "avengers-00604",
     "name": "Avengers Vol. 5 #43",
     "title": "Avengers Vol. 5",
     "issueNumber": 43,
@@ -9616,7 +9664,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00602",
+    "id": "avengers-00605",
     "name": "New Avengers Vol. 3 #33",
     "title": "New Avengers Vol. 3",
     "issueNumber": 33,
@@ -9632,7 +9680,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00603",
+    "id": "avengers-00606",
     "name": "Avengers Vol. 5 #44",
     "title": "Avengers Vol. 5",
     "issueNumber": 44,
@@ -9648,7 +9696,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00604",
+    "id": "avengers-00607",
     "name": "Avengers: Rage of Ultron #1",
     "title": "Avengers: Rage of Ultron",
     "issueNumber": 1,
@@ -9664,7 +9712,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00605",
+    "id": "avengers-00608",
     "name": "All-New, All-Different Marvel Point One #1",
     "title": "All-New, All-Different Marvel Point One",
     "issueNumber": 1,
@@ -9680,7 +9728,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00606",
+    "id": "avengers-00609",
     "name": "Avengers Vol. 6 #0",
     "title": "Avengers Vol. 6",
     "issueNumber": 0,
@@ -9696,12 +9744,12 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00607",
-    "name": "All-New, All-Different Avengers #1 (2016)",
+    "id": "avengers-00610",
+    "name": "All-New, All-Different Avengers #1",
     "title": "All-New, All-Different Avengers",
     "issueNumber": 1,
-    "year": 2016,
-    "decade": "2010s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -9712,7 +9760,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00608",
+    "id": "avengers-00611",
     "name": "All-New, All-Different Avengers #2",
     "title": "All-New, All-Different Avengers",
     "issueNumber": 2,
@@ -9728,7 +9776,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00609",
+    "id": "avengers-00612",
     "name": "All-New, All-Different Avengers #3",
     "title": "All-New, All-Different Avengers",
     "issueNumber": 3,
@@ -9744,9 +9792,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00610",
-    "name": "All-New, All-Different Avengers FCBD 2015 #1",
-    "title": "All-New, All-Different Avengers FCBD 2015",
+    "id": "avengers-00613",
+    "name": "Free Comic Book Day 2015 (Avengers) #1",
+    "title": "Free Comic Book Day 2015 (Avengers)",
     "issueNumber": 1,
     "year": null,
     "decade": "",
@@ -9760,12 +9808,12 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00611",
-    "name": "New Avengers Vol. 4 #1 (2015)",
+    "id": "avengers-00614",
+    "name": "New Avengers Vol. 4 #1",
     "title": "New Avengers Vol. 4",
     "issueNumber": 1,
-    "year": 2015,
-    "decade": "2010s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -9776,7 +9824,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00612",
+    "id": "avengers-00615",
     "name": "New Avengers Vol. 4 #2",
     "title": "New Avengers Vol. 4",
     "issueNumber": 2,
@@ -9792,12 +9840,12 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00613",
-    "name": "Uncanny Avengers Vol. 3 #1 (2015)",
+    "id": "avengers-00616",
+    "name": "Uncanny Avengers Vol. 3 #1",
     "title": "Uncanny Avengers Vol. 3",
     "issueNumber": 1,
-    "year": 2015,
-    "decade": "2010s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -9808,7 +9856,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00614",
+    "id": "avengers-00617",
     "name": "Uncanny Avengers Vol. 3 #2",
     "title": "Uncanny Avengers Vol. 3",
     "issueNumber": 2,
@@ -9824,7 +9872,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00615",
+    "id": "avengers-00618",
     "name": "Uncanny Avengers Vol. 3 #3",
     "title": "Uncanny Avengers Vol. 3",
     "issueNumber": 3,
@@ -9840,7 +9888,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00616",
+    "id": "avengers-00619",
     "name": "Uncanny Avengers Vol. 3 #4",
     "title": "Uncanny Avengers Vol. 3",
     "issueNumber": 4,
@@ -9856,12 +9904,12 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00617",
-    "name": "Ultimates Vol. 2 #1 (2016)",
+    "id": "avengers-00620",
+    "name": "Ultimates Vol. 2 #1",
     "title": "Ultimates Vol. 2",
     "issueNumber": 1,
-    "year": 2016,
-    "decade": "2010s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -9872,7 +9920,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00618",
+    "id": "avengers-00621",
     "name": "Ultimates Vol. 2 #2",
     "title": "Ultimates Vol. 2",
     "issueNumber": 2,
@@ -9888,12 +9936,12 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00619",
-    "name": "Uncanny Avengers Vol. 3 Annual #1 (2016)",
+    "id": "avengers-00622",
+    "name": "Uncanny Avengers Vol. 3 Annual #1",
     "title": "Uncanny Avengers Vol. 3 Annual",
     "issueNumber": 1,
-    "year": 2016,
-    "decade": "2010s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -9904,7 +9952,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00620",
+    "id": "avengers-00623",
     "name": "New Avengers Vol. 4 #3",
     "title": "New Avengers Vol. 4",
     "issueNumber": 3,
@@ -9920,7 +9968,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00621",
+    "id": "avengers-00624",
     "name": "New Avengers Vol. 4 #4",
     "title": "New Avengers Vol. 4",
     "issueNumber": 4,
@@ -9936,7 +9984,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00622",
+    "id": "avengers-00625",
     "name": "New Avengers Vol. 4 #5",
     "title": "New Avengers Vol. 4",
     "issueNumber": 5,
@@ -9952,7 +10000,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00623",
+    "id": "avengers-00626",
     "name": "New Avengers Vol. 4 #6",
     "title": "New Avengers Vol. 4",
     "issueNumber": 6,
@@ -9968,12 +10016,12 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00624",
-    "name": "A-Force Vol. 2 #1 (2016)",
+    "id": "avengers-00627",
+    "name": "A-Force Vol. 2 #1",
     "title": "A-Force Vol. 2",
     "issueNumber": 1,
-    "year": 2016,
-    "decade": "2010s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -9984,7 +10032,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00625",
+    "id": "avengers-00628",
     "name": "A-Force Vol. 2 #2",
     "title": "A-Force Vol. 2",
     "issueNumber": 2,
@@ -10000,7 +10048,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00626",
+    "id": "avengers-00629",
     "name": "A-Force Vol. 2 #3",
     "title": "A-Force Vol. 2",
     "issueNumber": 3,
@@ -10016,7 +10064,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00627",
+    "id": "avengers-00630",
     "name": "A-Force Vol. 2 #4",
     "title": "A-Force Vol. 2",
     "issueNumber": 4,
@@ -10032,7 +10080,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00628",
+    "id": "avengers-00631",
     "name": "All-New, All-Different Avengers #4",
     "title": "All-New, All-Different Avengers",
     "issueNumber": 4,
@@ -10048,7 +10096,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00629",
+    "id": "avengers-00632",
     "name": "All-New, All-Different Avengers #5",
     "title": "All-New, All-Different Avengers",
     "issueNumber": 5,
@@ -10064,7 +10112,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00630",
+    "id": "avengers-00633",
     "name": "All-New, All-Different Avengers #6",
     "title": "All-New, All-Different Avengers",
     "issueNumber": 6,
@@ -10080,7 +10128,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00631",
+    "id": "avengers-00634",
     "name": "Uncanny Avengers Vol. 3 #5",
     "title": "Uncanny Avengers Vol. 3",
     "issueNumber": 5,
@@ -10096,7 +10144,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00632",
+    "id": "avengers-00635",
     "name": "Uncanny Avengers Vol. 3 #6",
     "title": "Uncanny Avengers Vol. 3",
     "issueNumber": 6,
@@ -10112,7 +10160,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00633",
+    "id": "avengers-00636",
     "name": "New Avengers Vol. 4 #7",
     "title": "New Avengers Vol. 4",
     "issueNumber": 7,
@@ -10128,7 +10176,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00634",
+    "id": "avengers-00637",
     "name": "Ultimates Vol. 2 #3",
     "title": "Ultimates Vol. 2",
     "issueNumber": 3,
@@ -10144,7 +10192,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00635",
+    "id": "avengers-00638",
     "name": "Ultimates Vol. 2 #4",
     "title": "Ultimates Vol. 2",
     "issueNumber": 4,
@@ -10160,7 +10208,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00636",
+    "id": "avengers-00639",
     "name": "Ultimates Vol. 2 #5",
     "title": "Ultimates Vol. 2",
     "issueNumber": 5,
@@ -10176,7 +10224,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00637",
+    "id": "avengers-00640",
     "name": "Ultimates Vol. 2 #6",
     "title": "Ultimates Vol. 2",
     "issueNumber": 6,
@@ -10192,7 +10240,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00638",
+    "id": "avengers-00641",
     "name": "All-New, All-Different Avengers #9",
     "title": "All-New, All-Different Avengers",
     "issueNumber": 9,
@@ -10208,7 +10256,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00639",
+    "id": "avengers-00642",
     "name": "All-New, All-Different Avengers #10",
     "title": "All-New, All-Different Avengers",
     "issueNumber": 10,
@@ -10224,7 +10272,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00640",
+    "id": "avengers-00643",
     "name": "All-New, All-Different Avengers #11",
     "title": "All-New, All-Different Avengers",
     "issueNumber": 11,
@@ -10240,7 +10288,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00641",
+    "id": "avengers-00644",
     "name": "All-New, All-Different Avengers #12",
     "title": "All-New, All-Different Avengers",
     "issueNumber": 12,
@@ -10256,7 +10304,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00642",
+    "id": "avengers-00645",
     "name": "New Avengers Vol. 4 #11",
     "title": "New Avengers Vol. 4",
     "issueNumber": 11,
@@ -10272,7 +10320,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00643",
+    "id": "avengers-00646",
     "name": "Uncanny Avengers Vol. 3 #9",
     "title": "Uncanny Avengers Vol. 3",
     "issueNumber": 9,
@@ -10288,7 +10336,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00644",
+    "id": "avengers-00647",
     "name": "Uncanny Avengers Vol. 3 #10",
     "title": "Uncanny Avengers Vol. 3",
     "issueNumber": 10,
@@ -10304,7 +10352,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00645",
+    "id": "avengers-00648",
     "name": "Uncanny Avengers Vol. 3 #11",
     "title": "Uncanny Avengers Vol. 3",
     "issueNumber": 11,
@@ -10320,7 +10368,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00646",
+    "id": "avengers-00649",
     "name": "Uncanny Avengers Vol. 3 #12",
     "title": "Uncanny Avengers Vol. 3",
     "issueNumber": 12,
@@ -10336,7 +10384,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00647",
+    "id": "avengers-00650",
     "name": "A-Force Vol. 2 #5",
     "title": "A-Force Vol. 2",
     "issueNumber": 5,
@@ -10352,7 +10400,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00648",
+    "id": "avengers-00651",
     "name": "A-Force Vol. 2 #6",
     "title": "A-Force Vol. 2",
     "issueNumber": 6,
@@ -10368,7 +10416,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00649",
+    "id": "avengers-00652",
     "name": "A-Force Vol. 2 #7",
     "title": "A-Force Vol. 2",
     "issueNumber": 7,
@@ -10384,12 +10432,12 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00650",
-    "name": "All-New, All-Different Avengers Annual #1 (2016)",
+    "id": "avengers-00653",
+    "name": "All-New, All-Different Avengers Annual #1",
     "title": "All-New, All-Different Avengers Annual",
     "issueNumber": 1,
-    "year": 2016,
-    "decade": "2010s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -10400,12 +10448,12 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00651",
-    "name": "Avengers Vol. 7 #1 (2016)",
+    "id": "avengers-00654",
+    "name": "Avengers Vol. 7 #1",
     "title": "Avengers Vol. 7",
     "issueNumber": 1,
-    "year": 2016,
-    "decade": "2010s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -10416,7 +10464,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00652",
+    "id": "avengers-00655",
     "name": "Avengers Vol. 7 #2",
     "title": "Avengers Vol. 7",
     "issueNumber": 2,
@@ -10432,7 +10480,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00653",
+    "id": "avengers-00656",
     "name": "Avengers Vol. 7 #3",
     "title": "Avengers Vol. 7",
     "issueNumber": 3,
@@ -10448,7 +10496,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00654",
+    "id": "avengers-00657",
     "name": "Avengers Vol. 7 #4",
     "title": "Avengers Vol. 7",
     "issueNumber": 4,
@@ -10464,7 +10512,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00655",
+    "id": "avengers-00658",
     "name": "Avengers Vol. 7 #5",
     "title": "Avengers Vol. 7",
     "issueNumber": 5,
@@ -10480,7 +10528,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00656",
+    "id": "avengers-00659",
     "name": "Avengers Vol. 7 #6",
     "title": "Avengers Vol. 7",
     "issueNumber": 6,
@@ -10496,58 +10544,10 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00657",
-    "name": "Great Lakes Avengers Vol. 2 #1 (2016)",
-    "title": "Great Lakes Avengers Vol. 2",
-    "issueNumber": 1,
-    "year": 2016,
-    "decade": "2010s",
-    "writer": "",
-    "artist": "",
-    "storyline": "",
-    "note": "",
-    "statusType": "essential",
-    "universe": "main",
-    "readLinks": [],
-    "wikiUrl": ""
-  },
-  {
-    "id": "avengers-00658",
-    "name": "Great Lakes Avengers Vol. 2 #2",
-    "title": "Great Lakes Avengers Vol. 2",
-    "issueNumber": 2,
-    "year": null,
-    "decade": "",
-    "writer": "",
-    "artist": "",
-    "storyline": "",
-    "note": "",
-    "statusType": "essential",
-    "universe": "main",
-    "readLinks": [],
-    "wikiUrl": ""
-  },
-  {
-    "id": "avengers-00659",
-    "name": "Great Lakes Avengers Vol. 2 #3",
-    "title": "Great Lakes Avengers Vol. 2",
-    "issueNumber": 3,
-    "year": null,
-    "decade": "",
-    "writer": "",
-    "artist": "",
-    "storyline": "",
-    "note": "",
-    "statusType": "essential",
-    "universe": "main",
-    "readLinks": [],
-    "wikiUrl": ""
-  },
-  {
     "id": "avengers-00660",
-    "name": "Great Lakes Avengers Vol. 2 #4",
-    "title": "Great Lakes Avengers Vol. 2",
-    "issueNumber": 4,
+    "name": "Great Lakes Avengers #1",
+    "title": "Great Lakes Avengers",
+    "issueNumber": 1,
     "year": null,
     "decade": "",
     "writer": "",
@@ -10561,9 +10561,9 @@
   },
   {
     "id": "avengers-00661",
-    "name": "Great Lakes Avengers Vol. 2 #5",
-    "title": "Great Lakes Avengers Vol. 2",
-    "issueNumber": 5,
+    "name": "Great Lakes Avengers #2",
+    "title": "Great Lakes Avengers",
+    "issueNumber": 2,
     "year": null,
     "decade": "",
     "writer": "",
@@ -10577,9 +10577,9 @@
   },
   {
     "id": "avengers-00662",
-    "name": "Great Lakes Avengers Vol. 2 #6",
-    "title": "Great Lakes Avengers Vol. 2",
-    "issueNumber": 6,
+    "name": "Great Lakes Avengers #3",
+    "title": "Great Lakes Avengers",
+    "issueNumber": 3,
     "year": null,
     "decade": "",
     "writer": "",
@@ -10593,9 +10593,9 @@
   },
   {
     "id": "avengers-00663",
-    "name": "Great Lakes Avengers Vol. 2 #7",
-    "title": "Great Lakes Avengers Vol. 2",
-    "issueNumber": 7,
+    "name": "Great Lakes Avengers #4",
+    "title": "Great Lakes Avengers",
+    "issueNumber": 4,
     "year": null,
     "decade": "",
     "writer": "",
@@ -10609,6 +10609,54 @@
   },
   {
     "id": "avengers-00664",
+    "name": "Great Lakes Avengers #5",
+    "title": "Great Lakes Avengers",
+    "issueNumber": 5,
+    "year": null,
+    "decade": "",
+    "writer": "",
+    "artist": "",
+    "storyline": "",
+    "note": "",
+    "statusType": "essential",
+    "universe": "main",
+    "readLinks": [],
+    "wikiUrl": ""
+  },
+  {
+    "id": "avengers-00665",
+    "name": "Great Lakes Avengers #6",
+    "title": "Great Lakes Avengers",
+    "issueNumber": 6,
+    "year": null,
+    "decade": "",
+    "writer": "",
+    "artist": "",
+    "storyline": "",
+    "note": "",
+    "statusType": "essential",
+    "universe": "main",
+    "readLinks": [],
+    "wikiUrl": ""
+  },
+  {
+    "id": "avengers-00666",
+    "name": "Great Lakes Avengers #7",
+    "title": "Great Lakes Avengers",
+    "issueNumber": 7,
+    "year": null,
+    "decade": "",
+    "writer": "",
+    "artist": "",
+    "storyline": "",
+    "note": "",
+    "statusType": "essential",
+    "universe": "main",
+    "readLinks": [],
+    "wikiUrl": ""
+  },
+  {
+    "id": "avengers-00667",
     "name": "Avengers Vol. 7 #7",
     "title": "Avengers Vol. 7",
     "issueNumber": 7,
@@ -10624,7 +10672,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00665",
+    "id": "avengers-00668",
     "name": "Avengers Vol. 7 #8",
     "title": "Avengers Vol. 7",
     "issueNumber": 8,
@@ -10640,12 +10688,12 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00666",
-    "name": "U.S.Avengers #1 (2017)",
+    "id": "avengers-00669",
+    "name": "U.S.Avengers #1",
     "title": "U.S.Avengers",
     "issueNumber": 1,
-    "year": 2017,
-    "decade": "2010s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -10656,7 +10704,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00667",
+    "id": "avengers-00670",
     "name": "U.S.Avengers #2",
     "title": "U.S.Avengers",
     "issueNumber": 2,
@@ -10672,7 +10720,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00668",
+    "id": "avengers-00671",
     "name": "U.S.Avengers #3",
     "title": "U.S.Avengers",
     "issueNumber": 3,
@@ -10688,7 +10736,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00669",
+    "id": "avengers-00672",
     "name": "U.S.Avengers #4",
     "title": "U.S.Avengers",
     "issueNumber": 4,
@@ -10704,7 +10752,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00670",
+    "id": "avengers-00673",
     "name": "Uncanny Avengers Vol. 3 #18",
     "title": "Uncanny Avengers Vol. 3",
     "issueNumber": 18,
@@ -10720,7 +10768,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00671",
+    "id": "avengers-00674",
     "name": "Uncanny Avengers Vol. 3 #19",
     "title": "Uncanny Avengers Vol. 3",
     "issueNumber": 19,
@@ -10736,7 +10784,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00672",
+    "id": "avengers-00675",
     "name": "Uncanny Avengers Vol. 3 #20",
     "title": "Uncanny Avengers Vol. 3",
     "issueNumber": 20,
@@ -10752,7 +10800,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00673",
+    "id": "avengers-00676",
     "name": "Uncanny Avengers Vol. 3 #21",
     "title": "Uncanny Avengers Vol. 3",
     "issueNumber": 21,
@@ -10768,12 +10816,12 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00674",
-    "name": "Ultimates 2 Vol. 2 #1 (2017)",
+    "id": "avengers-00677",
+    "name": "Ultimates 2 Vol. 2 #1",
     "title": "Ultimates 2 Vol. 2",
     "issueNumber": 1,
-    "year": 2017,
-    "decade": "2010s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -10784,7 +10832,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00675",
+    "id": "avengers-00678",
     "name": "Ultimates 2 Vol. 2 #2",
     "title": "Ultimates 2 Vol. 2",
     "issueNumber": 2,
@@ -10800,7 +10848,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00676",
+    "id": "avengers-00679",
     "name": "Ultimates 2 Vol. 2 #3",
     "title": "Ultimates 2 Vol. 2",
     "issueNumber": 3,
@@ -10816,7 +10864,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00677",
+    "id": "avengers-00680",
     "name": "Ultimates 2 Vol. 2 #4",
     "title": "Ultimates 2 Vol. 2",
     "issueNumber": 4,
@@ -10832,7 +10880,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00678",
+    "id": "avengers-00681",
     "name": "Ultimates 2 Vol. 2 #5",
     "title": "Ultimates 2 Vol. 2",
     "issueNumber": 5,
@@ -10848,7 +10896,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00679",
+    "id": "avengers-00682",
     "name": "Ultimates 2 Vol. 2 #6",
     "title": "Ultimates 2 Vol. 2",
     "issueNumber": 6,
@@ -10864,7 +10912,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00680",
+    "id": "avengers-00683",
     "name": "U.S.Avengers #10",
     "title": "U.S.Avengers",
     "issueNumber": 10,
@@ -10880,7 +10928,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00681",
+    "id": "avengers-00684",
     "name": "Avengers Vol. 7 #11",
     "title": "Avengers Vol. 7",
     "issueNumber": 11,
@@ -10896,7 +10944,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00682",
+    "id": "avengers-00685",
     "name": "Ultimates 2 Vol. 2 #8",
     "title": "Ultimates 2 Vol. 2",
     "issueNumber": 8,
@@ -10912,7 +10960,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00683",
+    "id": "avengers-00686",
     "name": "Ultimates 2 Vol. 2 #9",
     "title": "Ultimates 2 Vol. 2",
     "issueNumber": 9,
@@ -10928,9 +10976,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00684",
-    "name": "Ultimates 2 #100",
-    "title": "Ultimates 2",
+    "id": "avengers-00687",
+    "name": "Ultimates 2 Vol. 2 #100",
+    "title": "Ultimates 2 Vol. 2",
     "issueNumber": 100,
     "year": null,
     "decade": "",
@@ -10944,7 +10992,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00685",
+    "id": "avengers-00688",
     "name": "Uncanny Avengers Vol. 3 #27",
     "title": "Uncanny Avengers Vol. 3",
     "issueNumber": 27,
@@ -10960,7 +11008,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00686",
+    "id": "avengers-00689",
     "name": "Marvel Legacy #1",
     "title": "Marvel Legacy",
     "issueNumber": 1,
@@ -10976,7 +11024,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00687",
+    "id": "avengers-00690",
     "name": "U.S.Avengers #11",
     "title": "U.S.Avengers",
     "issueNumber": 11,
@@ -10992,7 +11040,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00688",
+    "id": "avengers-00691",
     "name": "U.S.Avengers #12",
     "title": "U.S.Avengers",
     "issueNumber": 12,
@@ -11008,7 +11056,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00689",
+    "id": "avengers-00692",
     "name": "Avengers #672",
     "title": "Avengers",
     "issueNumber": 672,
@@ -11024,7 +11072,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00690",
+    "id": "avengers-00693",
     "name": "Champions Vol. 2 #13",
     "title": "Champions Vol. 2",
     "issueNumber": 13,
@@ -11040,7 +11088,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00691",
+    "id": "avengers-00694",
     "name": "Avengers #673",
     "title": "Avengers",
     "issueNumber": 673,
@@ -11056,7 +11104,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00692",
+    "id": "avengers-00695",
     "name": "Champions Vol. 2 #14",
     "title": "Champions Vol. 2",
     "issueNumber": 14,
@@ -11072,7 +11120,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00693",
+    "id": "avengers-00696",
     "name": "Avengers #674",
     "title": "Avengers",
     "issueNumber": 674,
@@ -11088,7 +11136,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00694",
+    "id": "avengers-00697",
     "name": "Champions Vol. 2 #15",
     "title": "Champions Vol. 2",
     "issueNumber": 15,
@@ -11104,7 +11152,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00695",
+    "id": "avengers-00698",
     "name": "Uncanny Avengers Vol. 3 #28",
     "title": "Uncanny Avengers Vol. 3",
     "issueNumber": 28,
@@ -11120,7 +11168,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00696",
+    "id": "avengers-00699",
     "name": "Uncanny Avengers Vol. 3 #29",
     "title": "Uncanny Avengers Vol. 3",
     "issueNumber": 29,
@@ -11136,7 +11184,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00697",
+    "id": "avengers-00700",
     "name": "Uncanny Avengers Vol. 3 #30",
     "title": "Uncanny Avengers Vol. 3",
     "issueNumber": 30,
@@ -11152,7 +11200,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00698",
+    "id": "avengers-00701",
     "name": "Avengers #675",
     "title": "Avengers",
     "issueNumber": 675,
@@ -11168,7 +11216,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00699",
+    "id": "avengers-00702",
     "name": "Avengers #676",
     "title": "Avengers",
     "issueNumber": 676,
@@ -11184,7 +11232,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00700",
+    "id": "avengers-00703",
     "name": "Avengers #677",
     "title": "Avengers",
     "issueNumber": 677,
@@ -11200,7 +11248,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00701",
+    "id": "avengers-00704",
     "name": "Avengers #678",
     "title": "Avengers",
     "issueNumber": 678,
@@ -11216,7 +11264,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00702",
+    "id": "avengers-00705",
     "name": "Avengers #679",
     "title": "Avengers",
     "issueNumber": 679,
@@ -11232,7 +11280,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00703",
+    "id": "avengers-00706",
     "name": "Avengers #680",
     "title": "Avengers",
     "issueNumber": 680,
@@ -11248,7 +11296,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00704",
+    "id": "avengers-00707",
     "name": "Avengers #681",
     "title": "Avengers",
     "issueNumber": 681,
@@ -11264,7 +11312,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00705",
+    "id": "avengers-00708",
     "name": "Avengers #682",
     "title": "Avengers",
     "issueNumber": 682,
@@ -11280,7 +11328,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00706",
+    "id": "avengers-00709",
     "name": "Avengers #683",
     "title": "Avengers",
     "issueNumber": 683,
@@ -11296,7 +11344,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00707",
+    "id": "avengers-00710",
     "name": "Avengers #684",
     "title": "Avengers",
     "issueNumber": 684,
@@ -11312,7 +11360,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00708",
+    "id": "avengers-00711",
     "name": "Avengers #685",
     "title": "Avengers",
     "issueNumber": 685,
@@ -11328,7 +11376,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00709",
+    "id": "avengers-00712",
     "name": "Avengers #686",
     "title": "Avengers",
     "issueNumber": 686,
@@ -11344,7 +11392,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00710",
+    "id": "avengers-00713",
     "name": "Avengers #687",
     "title": "Avengers",
     "issueNumber": 687,
@@ -11360,7 +11408,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00711",
+    "id": "avengers-00714",
     "name": "Avengers #688",
     "title": "Avengers",
     "issueNumber": 688,
@@ -11376,7 +11424,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00712",
+    "id": "avengers-00715",
     "name": "Avengers #689",
     "title": "Avengers",
     "issueNumber": 689,
@@ -11392,7 +11440,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00713",
+    "id": "avengers-00716",
     "name": "Avengers #690",
     "title": "Avengers",
     "issueNumber": 690,
@@ -11408,12 +11456,12 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00714",
-    "name": "Avengers Vol. 8 #1 (2018)",
+    "id": "avengers-00717",
+    "name": "Avengers Vol. 8 #1",
     "title": "Avengers Vol. 8",
     "issueNumber": 1,
-    "year": 2018,
-    "decade": "2010s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -11424,7 +11472,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00715",
+    "id": "avengers-00718",
     "name": "Avengers Vol. 8 #2",
     "title": "Avengers Vol. 8",
     "issueNumber": 2,
@@ -11440,7 +11488,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00716",
+    "id": "avengers-00719",
     "name": "Avengers Vol. 8 #3",
     "title": "Avengers Vol. 8",
     "issueNumber": 3,
@@ -11456,7 +11504,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00717",
+    "id": "avengers-00720",
     "name": "Avengers Vol. 8 #4",
     "title": "Avengers Vol. 8",
     "issueNumber": 4,
@@ -11472,7 +11520,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00718",
+    "id": "avengers-00721",
     "name": "Avengers Vol. 8 #5",
     "title": "Avengers Vol. 8",
     "issueNumber": 5,
@@ -11488,7 +11536,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00719",
+    "id": "avengers-00722",
     "name": "Avengers Vol. 8 #6",
     "title": "Avengers Vol. 8",
     "issueNumber": 6,
@@ -11504,12 +11552,12 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00720",
-    "name": "West Coast Avengers Vol. 3 #1 (2018)",
+    "id": "avengers-00723",
+    "name": "West Coast Avengers Vol. 3 #1",
     "title": "West Coast Avengers Vol. 3",
     "issueNumber": 1,
-    "year": 2018,
-    "decade": "2010s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -11520,7 +11568,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00721",
+    "id": "avengers-00724",
     "name": "West Coast Avengers Vol. 3 #2",
     "title": "West Coast Avengers Vol. 3",
     "issueNumber": 2,
@@ -11536,7 +11584,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00722",
+    "id": "avengers-00725",
     "name": "West Coast Avengers Vol. 3 #3",
     "title": "West Coast Avengers Vol. 3",
     "issueNumber": 3,
@@ -11552,7 +11600,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00723",
+    "id": "avengers-00726",
     "name": "West Coast Avengers Vol. 3 #4",
     "title": "West Coast Avengers Vol. 3",
     "issueNumber": 4,
@@ -11568,7 +11616,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00724",
+    "id": "avengers-00727",
     "name": "West Coast Avengers Vol. 3 #5",
     "title": "West Coast Avengers Vol. 3",
     "issueNumber": 5,
@@ -11584,7 +11632,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00725",
+    "id": "avengers-00728",
     "name": "West Coast Avengers Vol. 3 #6",
     "title": "West Coast Avengers Vol. 3",
     "issueNumber": 6,
@@ -11600,7 +11648,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00726",
+    "id": "avengers-00729",
     "name": "West Coast Avengers Vol. 3 #7",
     "title": "West Coast Avengers Vol. 3",
     "issueNumber": 7,
@@ -11616,7 +11664,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00727",
+    "id": "avengers-00730",
     "name": "West Coast Avengers Vol. 3 #8",
     "title": "West Coast Avengers Vol. 3",
     "issueNumber": 8,
@@ -11632,7 +11680,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00728",
+    "id": "avengers-00731",
     "name": "West Coast Avengers Vol. 3 #9",
     "title": "West Coast Avengers Vol. 3",
     "issueNumber": 9,
@@ -11648,7 +11696,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00729",
+    "id": "avengers-00732",
     "name": "West Coast Avengers Vol. 3 #10",
     "title": "West Coast Avengers Vol. 3",
     "issueNumber": 10,
@@ -11664,7 +11712,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00730",
+    "id": "avengers-00733",
     "name": "Avengers Vol. 8 #7",
     "title": "Avengers Vol. 8",
     "issueNumber": 7,
@@ -11680,7 +11728,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00731",
+    "id": "avengers-00734",
     "name": "Avengers Vol. 8 #8",
     "title": "Avengers Vol. 8",
     "issueNumber": 8,
@@ -11696,7 +11744,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00732",
+    "id": "avengers-00735",
     "name": "Avengers Vol. 8 #9",
     "title": "Avengers Vol. 8",
     "issueNumber": 9,
@@ -11712,7 +11760,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00733",
+    "id": "avengers-00736",
     "name": "Avengers Vol. 8 #10",
     "title": "Avengers Vol. 8",
     "issueNumber": 10,
@@ -11728,7 +11776,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00734",
+    "id": "avengers-00737",
     "name": "Avengers Vol. 8 #11",
     "title": "Avengers Vol. 8",
     "issueNumber": 11,
@@ -11744,7 +11792,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00735",
+    "id": "avengers-00738",
     "name": "Avengers Vol. 8 #12",
     "title": "Avengers Vol. 8",
     "issueNumber": 12,
@@ -11760,7 +11808,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00736",
+    "id": "avengers-00739",
     "name": "Avengers Vol. 8 #13",
     "title": "Avengers Vol. 8",
     "issueNumber": 13,
@@ -11776,7 +11824,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00737",
+    "id": "avengers-00740",
     "name": "Avengers: No Road Home #1",
     "title": "Avengers: No Road Home",
     "issueNumber": 1,
@@ -11792,7 +11840,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00738",
+    "id": "avengers-00741",
     "name": "Avengers: No Road Home #2",
     "title": "Avengers: No Road Home",
     "issueNumber": 2,
@@ -11808,7 +11856,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00739",
+    "id": "avengers-00742",
     "name": "Avengers: No Road Home #3",
     "title": "Avengers: No Road Home",
     "issueNumber": 3,
@@ -11824,7 +11872,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00740",
+    "id": "avengers-00743",
     "name": "Avengers: No Road Home #4",
     "title": "Avengers: No Road Home",
     "issueNumber": 4,
@@ -11840,7 +11888,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00741",
+    "id": "avengers-00744",
     "name": "Avengers: No Road Home #5",
     "title": "Avengers: No Road Home",
     "issueNumber": 5,
@@ -11856,7 +11904,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00742",
+    "id": "avengers-00745",
     "name": "Avengers: No Road Home #6",
     "title": "Avengers: No Road Home",
     "issueNumber": 6,
@@ -11872,7 +11920,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00743",
+    "id": "avengers-00746",
     "name": "Avengers: No Road Home #7",
     "title": "Avengers: No Road Home",
     "issueNumber": 7,
@@ -11888,7 +11936,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00744",
+    "id": "avengers-00747",
     "name": "Avengers: No Road Home #8",
     "title": "Avengers: No Road Home",
     "issueNumber": 8,
@@ -11904,7 +11952,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00745",
+    "id": "avengers-00748",
     "name": "Avengers: No Road Home #9",
     "title": "Avengers: No Road Home",
     "issueNumber": 9,
@@ -11920,7 +11968,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00746",
+    "id": "avengers-00749",
     "name": "Avengers: No Road Home #10",
     "title": "Avengers: No Road Home",
     "issueNumber": 10,
@@ -11936,7 +11984,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00747",
+    "id": "avengers-00750",
     "name": "Avengers Vol. 8 #14",
     "title": "Avengers Vol. 8",
     "issueNumber": 14,
@@ -11952,7 +12000,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00748",
+    "id": "avengers-00751",
     "name": "Avengers Vol. 8 #15",
     "title": "Avengers Vol. 8",
     "issueNumber": 15,
@@ -11968,7 +12016,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00749",
+    "id": "avengers-00752",
     "name": "Avengers Vol. 8 #16",
     "title": "Avengers Vol. 8",
     "issueNumber": 16,
@@ -11984,7 +12032,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00750",
+    "id": "avengers-00753",
     "name": "Avengers Vol. 8 #17",
     "title": "Avengers Vol. 8",
     "issueNumber": 17,
@@ -12000,7 +12048,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00751",
+    "id": "avengers-00754",
     "name": "Avengers Vol. 8 #21",
     "title": "Avengers Vol. 8",
     "issueNumber": 21,
@@ -12016,12 +12064,12 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00752",
-    "name": "Savage Avengers #1 (2019)",
+    "id": "avengers-00755",
+    "name": "Savage Avengers #1",
     "title": "Savage Avengers",
     "issueNumber": 1,
-    "year": 2019,
-    "decade": "2010s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -12032,7 +12080,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00753",
+    "id": "avengers-00756",
     "name": "Savage Avengers #2",
     "title": "Savage Avengers",
     "issueNumber": 2,
@@ -12048,7 +12096,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00754",
+    "id": "avengers-00757",
     "name": "Savage Avengers #3",
     "title": "Savage Avengers",
     "issueNumber": 3,
@@ -12064,7 +12112,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00755",
+    "id": "avengers-00758",
     "name": "Savage Avengers #4",
     "title": "Savage Avengers",
     "issueNumber": 4,
@@ -12080,7 +12128,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00756",
+    "id": "avengers-00759",
     "name": "Savage Avengers #5",
     "title": "Savage Avengers",
     "issueNumber": 5,
@@ -12096,7 +12144,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00757",
+    "id": "avengers-00760",
     "name": "Savage Avengers #6",
     "title": "Savage Avengers",
     "issueNumber": 6,
@@ -12112,12 +12160,12 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00758",
-    "name": "Savage Avengers Annual #1 (2019)",
+    "id": "avengers-00761",
+    "name": "Savage Avengers Annual #1",
     "title": "Savage Avengers Annual",
     "issueNumber": 1,
-    "year": 2019,
-    "decade": "2010s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -12128,7 +12176,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00759",
+    "id": "avengers-00762",
     "name": "Avengers Vol. 8 #22",
     "title": "Avengers Vol. 8",
     "issueNumber": 22,
@@ -12144,7 +12192,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00760",
+    "id": "avengers-00763",
     "name": "Avengers Vol. 8 #23",
     "title": "Avengers Vol. 8",
     "issueNumber": 23,
@@ -12160,7 +12208,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00761",
+    "id": "avengers-00764",
     "name": "Avengers Vol. 8 #24",
     "title": "Avengers Vol. 8",
     "issueNumber": 24,
@@ -12176,7 +12224,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00762",
+    "id": "avengers-00765",
     "name": "Avengers Vol. 8 #25",
     "title": "Avengers Vol. 8",
     "issueNumber": 25,
@@ -12192,7 +12240,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00763",
+    "id": "avengers-00766",
     "name": "Avengers Vol. 8 #26",
     "title": "Avengers Vol. 8",
     "issueNumber": 26,
@@ -12208,7 +12256,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00764",
+    "id": "avengers-00767",
     "name": "Avengers Vol. 8 #27",
     "title": "Avengers Vol. 8",
     "issueNumber": 27,
@@ -12224,7 +12272,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00765",
+    "id": "avengers-00768",
     "name": "Avengers Vol. 8 #28",
     "title": "Avengers Vol. 8",
     "issueNumber": 28,
@@ -12240,7 +12288,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00766",
+    "id": "avengers-00769",
     "name": "Avengers Vol. 8 #29",
     "title": "Avengers Vol. 8",
     "issueNumber": 29,
@@ -12256,7 +12304,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00767",
+    "id": "avengers-00770",
     "name": "Avengers Vol. 8 #30",
     "title": "Avengers Vol. 8",
     "issueNumber": 30,
@@ -12272,7 +12320,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00768",
+    "id": "avengers-00771",
     "name": "Avengers Vol. 8 #31",
     "title": "Avengers Vol. 8",
     "issueNumber": 31,
@@ -12288,9 +12336,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00769",
-    "name": "Incoming! #1",
-    "title": "Incoming!",
+    "id": "avengers-00772",
+    "name": "Incoming #1",
+    "title": "Incoming",
     "issueNumber": 1,
     "year": null,
     "decade": "",
@@ -12304,7 +12352,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00770",
+    "id": "avengers-00773",
     "name": "Avengers of the Wastelands #1",
     "title": "Avengers of the Wastelands",
     "issueNumber": 1,
@@ -12320,7 +12368,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00771",
+    "id": "avengers-00774",
     "name": "Avengers of the Wastelands #2",
     "title": "Avengers of the Wastelands",
     "issueNumber": 2,
@@ -12336,7 +12384,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00772",
+    "id": "avengers-00775",
     "name": "Avengers of the Wastelands #3",
     "title": "Avengers of the Wastelands",
     "issueNumber": 3,
@@ -12352,7 +12400,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00773",
+    "id": "avengers-00776",
     "name": "Avengers of the Wastelands #4",
     "title": "Avengers of the Wastelands",
     "issueNumber": 4,
@@ -12368,7 +12416,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00774",
+    "id": "avengers-00777",
     "name": "Avengers of the Wastelands #5",
     "title": "Avengers of the Wastelands",
     "issueNumber": 5,
@@ -12384,7 +12432,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00775",
+    "id": "avengers-00778",
     "name": "Avengers Vol. 8 #32",
     "title": "Avengers Vol. 8",
     "issueNumber": 32,
@@ -12400,7 +12448,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00776",
+    "id": "avengers-00779",
     "name": "Avengers Vol. 8 #33",
     "title": "Avengers Vol. 8",
     "issueNumber": 33,
@@ -12416,7 +12464,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00777",
+    "id": "avengers-00780",
     "name": "Avengers Vol. 8 #34",
     "title": "Avengers Vol. 8",
     "issueNumber": 34,
@@ -12432,7 +12480,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00778",
+    "id": "avengers-00781",
     "name": "Avengers Vol. 8 #35",
     "title": "Avengers Vol. 8",
     "issueNumber": 35,
@@ -12448,7 +12496,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00779",
+    "id": "avengers-00782",
     "name": "Avengers Vol. 8 #36",
     "title": "Avengers Vol. 8",
     "issueNumber": 36,
@@ -12464,7 +12512,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00780",
+    "id": "avengers-00783",
     "name": "Avengers Vol. 8 #37",
     "title": "Avengers Vol. 8",
     "issueNumber": 37,
@@ -12480,7 +12528,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00781",
+    "id": "avengers-00784",
     "name": "Savage Avengers #7",
     "title": "Savage Avengers",
     "issueNumber": 7,
@@ -12496,7 +12544,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00782",
+    "id": "avengers-00785",
     "name": "Savage Avengers #8",
     "title": "Savage Avengers",
     "issueNumber": 8,
@@ -12512,7 +12560,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00783",
+    "id": "avengers-00786",
     "name": "Savage Avengers #9",
     "title": "Savage Avengers",
     "issueNumber": 9,
@@ -12528,7 +12576,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00784",
+    "id": "avengers-00787",
     "name": "Savage Avengers #10",
     "title": "Savage Avengers",
     "issueNumber": 10,
@@ -12544,7 +12592,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00785",
+    "id": "avengers-00788",
     "name": "Savage Avengers #11",
     "title": "Savage Avengers",
     "issueNumber": 11,
@@ -12560,7 +12608,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00786",
+    "id": "avengers-00789",
     "name": "Savage Avengers #12",
     "title": "Savage Avengers",
     "issueNumber": 12,
@@ -12576,7 +12624,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00787",
+    "id": "avengers-00790",
     "name": "Savage Avengers #0",
     "title": "Savage Avengers",
     "issueNumber": 0,
@@ -12592,7 +12640,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00788",
+    "id": "avengers-00791",
     "name": "Savage Avengers #13",
     "title": "Savage Avengers",
     "issueNumber": 13,
@@ -12608,7 +12656,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00789",
+    "id": "avengers-00792",
     "name": "Savage Avengers #14",
     "title": "Savage Avengers",
     "issueNumber": 14,
@@ -12624,7 +12672,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00790",
+    "id": "avengers-00793",
     "name": "Savage Avengers #15",
     "title": "Savage Avengers",
     "issueNumber": 15,
@@ -12640,7 +12688,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00791",
+    "id": "avengers-00794",
     "name": "Savage Avengers #16",
     "title": "Savage Avengers",
     "issueNumber": 16,
@@ -12656,7 +12704,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00792",
+    "id": "avengers-00795",
     "name": "Avengers Vol. 8 #38",
     "title": "Avengers Vol. 8",
     "issueNumber": 38,
@@ -12672,7 +12720,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00793",
+    "id": "avengers-00796",
     "name": "Avengers Vol. 8 #39",
     "title": "Avengers Vol. 8",
     "issueNumber": 39,
@@ -12688,7 +12736,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00794",
+    "id": "avengers-00797",
     "name": "Avengers Vol. 8 #40",
     "title": "Avengers Vol. 8",
     "issueNumber": 40,
@@ -12704,7 +12752,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00795",
+    "id": "avengers-00798",
     "name": "Avengers Vol. 8 #41",
     "title": "Avengers Vol. 8",
     "issueNumber": 41,
@@ -12720,7 +12768,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00796",
+    "id": "avengers-00799",
     "name": "Avengers Vol. 8 #42",
     "title": "Avengers Vol. 8",
     "issueNumber": 42,
@@ -12736,7 +12784,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00797",
+    "id": "avengers-00800",
     "name": "Avengers Vol. 8 #43",
     "title": "Avengers Vol. 8",
     "issueNumber": 43,
@@ -12752,7 +12800,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00798",
+    "id": "avengers-00801",
     "name": "Avengers Vol. 8 #44",
     "title": "Avengers Vol. 8",
     "issueNumber": 44,
@@ -12768,7 +12816,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00799",
+    "id": "avengers-00802",
     "name": "Avengers: Mech Strike #1",
     "title": "Avengers: Mech Strike",
     "issueNumber": 1,
@@ -12784,7 +12832,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00800",
+    "id": "avengers-00803",
     "name": "Avengers: Mech Strike #2",
     "title": "Avengers: Mech Strike",
     "issueNumber": 2,
@@ -12800,7 +12848,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00801",
+    "id": "avengers-00804",
     "name": "Avengers: Mech Strike #3",
     "title": "Avengers: Mech Strike",
     "issueNumber": 3,
@@ -12816,7 +12864,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00802",
+    "id": "avengers-00805",
     "name": "Avengers: Mech Strike #4",
     "title": "Avengers: Mech Strike",
     "issueNumber": 4,
@@ -12832,7 +12880,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00803",
+    "id": "avengers-00806",
     "name": "Avengers: Mech Strike #5",
     "title": "Avengers: Mech Strike",
     "issueNumber": 5,
@@ -12848,7 +12896,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00804",
+    "id": "avengers-00807",
     "name": "Savage Avengers #20",
     "title": "Savage Avengers",
     "issueNumber": 20,
@@ -12864,7 +12912,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00805",
+    "id": "avengers-00808",
     "name": "Savage Avengers #21",
     "title": "Savage Avengers",
     "issueNumber": 21,
@@ -12880,7 +12928,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00806",
+    "id": "avengers-00809",
     "name": "Savage Avengers #22",
     "title": "Savage Avengers",
     "issueNumber": 22,
@@ -12896,7 +12944,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00807",
+    "id": "avengers-00810",
     "name": "Savage Avengers #23",
     "title": "Savage Avengers",
     "issueNumber": 23,
@@ -12912,7 +12960,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00808",
+    "id": "avengers-00811",
     "name": "Savage Avengers #24",
     "title": "Savage Avengers",
     "issueNumber": 24,
@@ -12928,7 +12976,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00809",
+    "id": "avengers-00812",
     "name": "Savage Avengers #25",
     "title": "Savage Avengers",
     "issueNumber": 25,
@@ -12944,7 +12992,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00810",
+    "id": "avengers-00813",
     "name": "Savage Avengers #26",
     "title": "Savage Avengers",
     "issueNumber": 26,
@@ -12960,7 +13008,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00811",
+    "id": "avengers-00814",
     "name": "Savage Avengers #27",
     "title": "Savage Avengers",
     "issueNumber": 27,
@@ -12976,7 +13024,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00812",
+    "id": "avengers-00815",
     "name": "Savage Avengers #28",
     "title": "Savage Avengers",
     "issueNumber": 28,
@@ -12992,7 +13040,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00813",
+    "id": "avengers-00816",
     "name": "Avengers Vol. 8 #46",
     "title": "Avengers Vol. 8",
     "issueNumber": 46,
@@ -13008,7 +13056,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00814",
+    "id": "avengers-00817",
     "name": "Avengers Vol. 8 #47",
     "title": "Avengers Vol. 8",
     "issueNumber": 47,
@@ -13024,7 +13072,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00815",
+    "id": "avengers-00818",
     "name": "Avengers Vol. 8 #48",
     "title": "Avengers Vol. 8",
     "issueNumber": 48,
@@ -13040,7 +13088,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00816",
+    "id": "avengers-00819",
     "name": "Avengers Vol. 8 #49",
     "title": "Avengers Vol. 8",
     "issueNumber": 49,
@@ -13056,7 +13104,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00817",
+    "id": "avengers-00820",
     "name": "Avengers: Tech-On #1",
     "title": "Avengers: Tech-On",
     "issueNumber": 1,
@@ -13072,7 +13120,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00818",
+    "id": "avengers-00821",
     "name": "Avengers: Tech-On #2",
     "title": "Avengers: Tech-On",
     "issueNumber": 2,
@@ -13088,7 +13136,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00819",
+    "id": "avengers-00822",
     "name": "Avengers: Tech-On #3",
     "title": "Avengers: Tech-On",
     "issueNumber": 3,
@@ -13104,7 +13152,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00820",
+    "id": "avengers-00823",
     "name": "Avengers: Tech-On #4",
     "title": "Avengers: Tech-On",
     "issueNumber": 4,
@@ -13120,7 +13168,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00821",
+    "id": "avengers-00824",
     "name": "Avengers: Tech-On #5",
     "title": "Avengers: Tech-On",
     "issueNumber": 5,
@@ -13136,7 +13184,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00822",
+    "id": "avengers-00825",
     "name": "Avengers: Tech-On #6",
     "title": "Avengers: Tech-On",
     "issueNumber": 6,
@@ -13152,7 +13200,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00823",
+    "id": "avengers-00826",
     "name": "All-Out Avengers #1",
     "title": "All-Out Avengers",
     "issueNumber": 1,
@@ -13168,7 +13216,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00824",
+    "id": "avengers-00827",
     "name": "All-Out Avengers #2",
     "title": "All-Out Avengers",
     "issueNumber": 2,
@@ -13184,7 +13232,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00825",
+    "id": "avengers-00828",
     "name": "All-Out Avengers #3",
     "title": "All-Out Avengers",
     "issueNumber": 3,
@@ -13200,7 +13248,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00826",
+    "id": "avengers-00829",
     "name": "All-Out Avengers #4",
     "title": "All-Out Avengers",
     "issueNumber": 4,
@@ -13216,7 +13264,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00827",
+    "id": "avengers-00830",
     "name": "All-Out Avengers #5",
     "title": "All-Out Avengers",
     "issueNumber": 5,
@@ -13232,9 +13280,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00828",
-    "name": "Avengers: Beyond #1",
-    "title": "Avengers: Beyond",
+    "id": "avengers-00831",
+    "name": "Avengers Beyond #1",
+    "title": "Avengers Beyond",
     "issueNumber": 1,
     "year": null,
     "decade": "",
@@ -13248,9 +13296,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00829",
-    "name": "Avengers: Beyond #2",
-    "title": "Avengers: Beyond",
+    "id": "avengers-00832",
+    "name": "Avengers Beyond #2",
+    "title": "Avengers Beyond",
     "issueNumber": 2,
     "year": null,
     "decade": "",
@@ -13264,9 +13312,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00830",
-    "name": "Avengers: Beyond #3",
-    "title": "Avengers: Beyond",
+    "id": "avengers-00833",
+    "name": "Avengers Beyond #3",
+    "title": "Avengers Beyond",
     "issueNumber": 3,
     "year": null,
     "decade": "",
@@ -13280,9 +13328,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00831",
-    "name": "Avengers: Beyond #4",
-    "title": "Avengers: Beyond",
+    "id": "avengers-00834",
+    "name": "Avengers Beyond #4",
+    "title": "Avengers Beyond",
     "issueNumber": 4,
     "year": null,
     "decade": "",
@@ -13296,9 +13344,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00832",
-    "name": "Avengers: Beyond #5",
-    "title": "Avengers: Beyond",
+    "id": "avengers-00835",
+    "name": "Avengers Beyond #5",
+    "title": "Avengers Beyond",
     "issueNumber": 5,
     "year": null,
     "decade": "",
@@ -13312,7 +13360,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00833",
+    "id": "avengers-00836",
     "name": "Avengers Vol. 8 #50",
     "title": "Avengers Vol. 8",
     "issueNumber": 50,
@@ -13328,7 +13376,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00834",
+    "id": "avengers-00837",
     "name": "Avengers Vol. 8 #51",
     "title": "Avengers Vol. 8",
     "issueNumber": 51,
@@ -13344,12 +13392,12 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00835",
-    "name": "Avengers Forever Vol. 2 #1 (2022)",
+    "id": "avengers-00838",
+    "name": "Avengers Forever Vol. 2 #1",
     "title": "Avengers Forever Vol. 2",
     "issueNumber": 1,
-    "year": 2022,
-    "decade": "2020s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -13360,7 +13408,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00836",
+    "id": "avengers-00839",
     "name": "Avengers Vol. 8 #52",
     "title": "Avengers Vol. 8",
     "issueNumber": 52,
@@ -13376,7 +13424,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00837",
+    "id": "avengers-00840",
     "name": "Avengers Forever Vol. 2 #2",
     "title": "Avengers Forever Vol. 2",
     "issueNumber": 2,
@@ -13392,7 +13440,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00838",
+    "id": "avengers-00841",
     "name": "Avengers Vol. 8 #53",
     "title": "Avengers Vol. 8",
     "issueNumber": 53,
@@ -13408,7 +13456,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00839",
+    "id": "avengers-00842",
     "name": "Avengers Forever Vol. 2 #3",
     "title": "Avengers Forever Vol. 2",
     "issueNumber": 3,
@@ -13424,7 +13472,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00840",
+    "id": "avengers-00843",
     "name": "Avengers Vol. 8 #54",
     "title": "Avengers Vol. 8",
     "issueNumber": 54,
@@ -13440,7 +13488,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00841",
+    "id": "avengers-00844",
     "name": "Avengers Forever Vol. 2 #4",
     "title": "Avengers Forever Vol. 2",
     "issueNumber": 4,
@@ -13456,12 +13504,12 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00842",
-    "name": "Savage Avengers Vol. 2 #1 (2022)",
+    "id": "avengers-00845",
+    "name": "Savage Avengers Vol. 2 #1",
     "title": "Savage Avengers Vol. 2",
     "issueNumber": 1,
-    "year": 2022,
-    "decade": "2020s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -13472,7 +13520,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00843",
+    "id": "avengers-00846",
     "name": "Savage Avengers Vol. 2 #2",
     "title": "Savage Avengers Vol. 2",
     "issueNumber": 2,
@@ -13488,7 +13536,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00844",
+    "id": "avengers-00847",
     "name": "Savage Avengers Vol. 2 #3",
     "title": "Savage Avengers Vol. 2",
     "issueNumber": 3,
@@ -13504,7 +13552,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00845",
+    "id": "avengers-00848",
     "name": "Savage Avengers Vol. 2 #4",
     "title": "Savage Avengers Vol. 2",
     "issueNumber": 4,
@@ -13520,7 +13568,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00846",
+    "id": "avengers-00849",
     "name": "Savage Avengers Vol. 2 #5",
     "title": "Savage Avengers Vol. 2",
     "issueNumber": 5,
@@ -13536,7 +13584,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00847",
+    "id": "avengers-00850",
     "name": "Savage Avengers Vol. 2 #6",
     "title": "Savage Avengers Vol. 2",
     "issueNumber": 6,
@@ -13552,7 +13600,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00848",
+    "id": "avengers-00851",
     "name": "Savage Avengers Vol. 2 #7",
     "title": "Savage Avengers Vol. 2",
     "issueNumber": 7,
@@ -13568,7 +13616,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00849",
+    "id": "avengers-00852",
     "name": "Savage Avengers Vol. 2 #8",
     "title": "Savage Avengers Vol. 2",
     "issueNumber": 8,
@@ -13584,7 +13632,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00850",
+    "id": "avengers-00853",
     "name": "Savage Avengers Vol. 2 #9",
     "title": "Savage Avengers Vol. 2",
     "issueNumber": 9,
@@ -13600,7 +13648,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00851",
+    "id": "avengers-00854",
     "name": "Savage Avengers Vol. 2 #10",
     "title": "Savage Avengers Vol. 2",
     "issueNumber": 10,
@@ -13616,7 +13664,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00852",
+    "id": "avengers-00855",
     "name": "Avengers Vol. 8 #55",
     "title": "Avengers Vol. 8",
     "issueNumber": 55,
@@ -13632,7 +13680,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00853",
+    "id": "avengers-00856",
     "name": "Avengers Forever Vol. 2 #5",
     "title": "Avengers Forever Vol. 2",
     "issueNumber": 5,
@@ -13648,7 +13696,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00854",
+    "id": "avengers-00857",
     "name": "Avengers Vol. 8 #56",
     "title": "Avengers Vol. 8",
     "issueNumber": 56,
@@ -13664,7 +13712,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00855",
+    "id": "avengers-00858",
     "name": "Avengers Forever Vol. 2 #6",
     "title": "Avengers Forever Vol. 2",
     "issueNumber": 6,
@@ -13680,7 +13728,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00856",
+    "id": "avengers-00859",
     "name": "Avengers Vol. 8 #57",
     "title": "Avengers Vol. 8",
     "issueNumber": 57,
@@ -13696,7 +13744,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00857",
+    "id": "avengers-00860",
     "name": "Avengers Forever Vol. 2 #7",
     "title": "Avengers Forever Vol. 2",
     "issueNumber": 7,
@@ -13712,7 +13760,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00858",
+    "id": "avengers-00861",
     "name": "Avengers Vol. 8 #58",
     "title": "Avengers Vol. 8",
     "issueNumber": 58,
@@ -13728,7 +13776,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00859",
+    "id": "avengers-00862",
     "name": "Avengers Forever Vol. 2 #8",
     "title": "Avengers Forever Vol. 2",
     "issueNumber": 8,
@@ -13744,7 +13792,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00860",
+    "id": "avengers-00863",
     "name": "Avengers Vol. 8 #59",
     "title": "Avengers Vol. 8",
     "issueNumber": 59,
@@ -13760,7 +13808,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00861",
+    "id": "avengers-00864",
     "name": "Avengers Forever Vol. 2 #9",
     "title": "Avengers Forever Vol. 2",
     "issueNumber": 9,
@@ -13776,7 +13824,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00862",
+    "id": "avengers-00865",
     "name": "Avengers Vol. 8 #61",
     "title": "Avengers Vol. 8",
     "issueNumber": 61,
@@ -13792,7 +13840,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00863",
+    "id": "avengers-00866",
     "name": "Avengers Forever Vol. 2 #10",
     "title": "Avengers Forever Vol. 2",
     "issueNumber": 10,
@@ -13808,9 +13856,9 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00864",
-    "name": "Avengers: 1,000,000 BC #1",
-    "title": "Avengers: 1,000,000 BC",
+    "id": "avengers-00867",
+    "name": "Avengers: 1,000,000 B.C. #1",
+    "title": "Avengers: 1,000,000 B.C.",
     "issueNumber": 1,
     "year": null,
     "decade": "",
@@ -13824,7 +13872,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00865",
+    "id": "avengers-00868",
     "name": "Avengers Vol. 8 #62",
     "title": "Avengers Vol. 8",
     "issueNumber": 62,
@@ -13840,7 +13888,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00866",
+    "id": "avengers-00869",
     "name": "Avengers Forever Vol. 2 #11",
     "title": "Avengers Forever Vol. 2",
     "issueNumber": 11,
@@ -13856,7 +13904,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00867",
+    "id": "avengers-00870",
     "name": "Avengers: War Across Time #1",
     "title": "Avengers: War Across Time",
     "issueNumber": 1,
@@ -13872,7 +13920,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00868",
+    "id": "avengers-00871",
     "name": "Avengers: War Across Time #2",
     "title": "Avengers: War Across Time",
     "issueNumber": 2,
@@ -13888,7 +13936,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00869",
+    "id": "avengers-00872",
     "name": "Avengers: War Across Time #3",
     "title": "Avengers: War Across Time",
     "issueNumber": 3,
@@ -13904,7 +13952,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00870",
+    "id": "avengers-00873",
     "name": "Avengers: War Across Time #4",
     "title": "Avengers: War Across Time",
     "issueNumber": 4,
@@ -13920,7 +13968,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00871",
+    "id": "avengers-00874",
     "name": "Avengers: War Across Time #5",
     "title": "Avengers: War Across Time",
     "issueNumber": 5,
@@ -13936,12 +13984,12 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00872",
-    "name": "Avengers Vol. 9 #1 (2023)",
+    "id": "avengers-00875",
+    "name": "Avengers Vol. 9 #1",
     "title": "Avengers Vol. 9",
     "issueNumber": 1,
-    "year": 2023,
-    "decade": "2020s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -13952,7 +14000,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00873",
+    "id": "avengers-00876",
     "name": "Avengers Vol. 9 #2",
     "title": "Avengers Vol. 9",
     "issueNumber": 2,
@@ -13968,7 +14016,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00874",
+    "id": "avengers-00877",
     "name": "Avengers Vol. 9 #3",
     "title": "Avengers Vol. 9",
     "issueNumber": 3,
@@ -13984,7 +14032,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00875",
+    "id": "avengers-00878",
     "name": "Avengers Vol. 9 #4",
     "title": "Avengers Vol. 9",
     "issueNumber": 4,
@@ -14000,7 +14048,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00876",
+    "id": "avengers-00879",
     "name": "Avengers Vol. 9 #5",
     "title": "Avengers Vol. 9",
     "issueNumber": 5,
@@ -14016,7 +14064,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00877",
+    "id": "avengers-00880",
     "name": "Avengers Vol. 9 #6",
     "title": "Avengers Vol. 9",
     "issueNumber": 6,
@@ -14032,12 +14080,12 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00878",
-    "name": "Avengers Inc. #1 (2023)",
+    "id": "avengers-00881",
+    "name": "Avengers Inc. #1",
     "title": "Avengers Inc.",
     "issueNumber": 1,
-    "year": 2023,
-    "decade": "2020s",
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -14048,7 +14096,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00879",
+    "id": "avengers-00882",
     "name": "Avengers Inc. #2",
     "title": "Avengers Inc.",
     "issueNumber": 2,
@@ -14064,7 +14112,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00880",
+    "id": "avengers-00883",
     "name": "Avengers Inc. #3",
     "title": "Avengers Inc.",
     "issueNumber": 3,
@@ -14080,7 +14128,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00881",
+    "id": "avengers-00884",
     "name": "Avengers Inc. #4",
     "title": "Avengers Inc.",
     "issueNumber": 4,
@@ -14096,7 +14144,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00882",
+    "id": "avengers-00885",
     "name": "Avengers Inc. #5",
     "title": "Avengers Inc.",
     "issueNumber": 5,
@@ -14112,7 +14160,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00883",
+    "id": "avengers-00886",
     "name": "Avengers Vol. 9 #7",
     "title": "Avengers Vol. 9",
     "issueNumber": 7,
@@ -14128,7 +14176,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00884",
+    "id": "avengers-00887",
     "name": "Avengers Vol. 9 #8",
     "title": "Avengers Vol. 9",
     "issueNumber": 8,
@@ -14144,7 +14192,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00885",
+    "id": "avengers-00888",
     "name": "Avengers Vol. 9 #9",
     "title": "Avengers Vol. 9",
     "issueNumber": 9,
@@ -14160,7 +14208,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00886",
+    "id": "avengers-00889",
     "name": "Avengers Vol. 9 #10",
     "title": "Avengers Vol. 9",
     "issueNumber": 10,
@@ -14176,7 +14224,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00887",
+    "id": "avengers-00890",
     "name": "Avengers Vol. 9 #11",
     "title": "Avengers Vol. 9",
     "issueNumber": 11,
@@ -14192,7 +14240,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00888",
+    "id": "avengers-00891",
     "name": "Avengers: Twilight #1",
     "title": "Avengers: Twilight",
     "issueNumber": 1,
@@ -14208,7 +14256,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00889",
+    "id": "avengers-00892",
     "name": "Avengers: Twilight #2",
     "title": "Avengers: Twilight",
     "issueNumber": 2,
@@ -14224,7 +14272,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00890",
+    "id": "avengers-00893",
     "name": "Avengers: Twilight #3",
     "title": "Avengers: Twilight",
     "issueNumber": 3,
@@ -14240,7 +14288,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00891",
+    "id": "avengers-00894",
     "name": "Avengers: Twilight #4",
     "title": "Avengers: Twilight",
     "issueNumber": 4,
@@ -14256,7 +14304,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00892",
+    "id": "avengers-00895",
     "name": "Avengers: Twilight #5",
     "title": "Avengers: Twilight",
     "issueNumber": 5,
@@ -14272,7 +14320,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00893",
+    "id": "avengers-00896",
     "name": "Uncanny Avengers Vol. 4 #1",
     "title": "Uncanny Avengers Vol. 4",
     "issueNumber": 1,
@@ -14288,7 +14336,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00894",
+    "id": "avengers-00897",
     "name": "Uncanny Avengers Vol. 4 #2",
     "title": "Uncanny Avengers Vol. 4",
     "issueNumber": 2,
@@ -14304,7 +14352,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00895",
+    "id": "avengers-00898",
     "name": "Uncanny Avengers Vol. 4 #3",
     "title": "Uncanny Avengers Vol. 4",
     "issueNumber": 3,
@@ -14320,7 +14368,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00896",
+    "id": "avengers-00899",
     "name": "Uncanny Avengers Vol. 4 #4",
     "title": "Uncanny Avengers Vol. 4",
     "issueNumber": 4,
@@ -14336,7 +14384,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00897",
+    "id": "avengers-00900",
     "name": "Uncanny Avengers Vol. 4 #5",
     "title": "Uncanny Avengers Vol. 4",
     "issueNumber": 5,
@@ -14352,7 +14400,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00898",
+    "id": "avengers-00901",
     "name": "Avengers Vol. 9 #12",
     "title": "Avengers Vol. 9",
     "issueNumber": 12,
@@ -14368,7 +14416,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00899",
+    "id": "avengers-00902",
     "name": "Avengers Vol. 9 #13",
     "title": "Avengers Vol. 9",
     "issueNumber": 13,
@@ -14384,7 +14432,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00900",
+    "id": "avengers-00903",
     "name": "Avengers Vol. 9 #17",
     "title": "Avengers Vol. 9",
     "issueNumber": 17,
@@ -14400,7 +14448,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00901",
+    "id": "avengers-00904",
     "name": "Avengers Vol. 9 #18",
     "title": "Avengers Vol. 9",
     "issueNumber": 18,
@@ -14416,7 +14464,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00902",
+    "id": "avengers-00905",
     "name": "Avengers Vol. 9 #19",
     "title": "Avengers Vol. 9",
     "issueNumber": 19,
@@ -14432,7 +14480,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00903",
+    "id": "avengers-00906",
     "name": "Avengers Vol. 9 #20",
     "title": "Avengers Vol. 9",
     "issueNumber": 20,
@@ -14448,7 +14496,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00904",
+    "id": "avengers-00907",
     "name": "Aliens vs. Avengers #1",
     "title": "Aliens vs. Avengers",
     "issueNumber": 1,
@@ -14464,7 +14512,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00905",
+    "id": "avengers-00908",
     "name": "Aliens vs. Avengers #2",
     "title": "Aliens vs. Avengers",
     "issueNumber": 2,
@@ -14480,7 +14528,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00906",
+    "id": "avengers-00909",
     "name": "Aliens vs. Avengers #3",
     "title": "Aliens vs. Avengers",
     "issueNumber": 3,
@@ -14496,7 +14544,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00907",
+    "id": "avengers-00910",
     "name": "Aliens vs. Avengers #4",
     "title": "Aliens vs. Avengers",
     "issueNumber": 4,
@@ -14512,7 +14560,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00908",
+    "id": "avengers-00911",
     "name": "Avengers Vol. 9 #21",
     "title": "Avengers Vol. 9",
     "issueNumber": 21,
@@ -14528,7 +14576,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00909",
+    "id": "avengers-00912",
     "name": "Avengers Assemble Vol. 3 #1",
     "title": "Avengers Assemble Vol. 3",
     "issueNumber": 1,
@@ -14544,7 +14592,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00910",
+    "id": "avengers-00913",
     "name": "Avengers Assemble Vol. 3 #2",
     "title": "Avengers Assemble Vol. 3",
     "issueNumber": 2,
@@ -14560,7 +14608,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00911",
+    "id": "avengers-00914",
     "name": "Avengers Assemble Vol. 3 #3",
     "title": "Avengers Assemble Vol. 3",
     "issueNumber": 3,
@@ -14576,7 +14624,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00912",
+    "id": "avengers-00915",
     "name": "Avengers Assemble Vol. 3 #4",
     "title": "Avengers Assemble Vol. 3",
     "issueNumber": 4,
@@ -14592,7 +14640,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00913",
+    "id": "avengers-00916",
     "name": "Avengers Assemble Vol. 3 #5",
     "title": "Avengers Assemble Vol. 3",
     "issueNumber": 5,
@@ -14608,7 +14656,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00914",
+    "id": "avengers-00917",
     "name": "Avengers Vol. 9 #22",
     "title": "Avengers Vol. 9",
     "issueNumber": 22,
@@ -14624,7 +14672,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00915",
+    "id": "avengers-00918",
     "name": "Avengers Vol. 9 #23",
     "title": "Avengers Vol. 9",
     "issueNumber": 23,
@@ -14640,7 +14688,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00916",
+    "id": "avengers-00919",
     "name": "Avengers Vol. 9 #24",
     "title": "Avengers Vol. 9",
     "issueNumber": 24,
@@ -14656,58 +14704,10 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00917",
-    "name": "Ultraman x Avengers #1",
-    "title": "Ultraman x Avengers",
-    "issueNumber": 1,
-    "year": null,
-    "decade": "",
-    "writer": "",
-    "artist": "",
-    "storyline": "",
-    "note": "",
-    "statusType": "essential",
-    "universe": "main",
-    "readLinks": [],
-    "wikiUrl": ""
-  },
-  {
-    "id": "avengers-00918",
-    "name": "Ultraman x Avengers #2",
-    "title": "Ultraman x Avengers",
-    "issueNumber": 2,
-    "year": null,
-    "decade": "",
-    "writer": "",
-    "artist": "",
-    "storyline": "",
-    "note": "",
-    "statusType": "essential",
-    "universe": "main",
-    "readLinks": [],
-    "wikiUrl": ""
-  },
-  {
-    "id": "avengers-00919",
-    "name": "Ultraman x Avengers #3",
-    "title": "Ultraman x Avengers",
-    "issueNumber": 3,
-    "year": null,
-    "decade": "",
-    "writer": "",
-    "artist": "",
-    "storyline": "",
-    "note": "",
-    "statusType": "essential",
-    "universe": "main",
-    "readLinks": [],
-    "wikiUrl": ""
-  },
-  {
     "id": "avengers-00920",
-    "name": "Ultraman x Avengers #4",
-    "title": "Ultraman x Avengers",
-    "issueNumber": 4,
+    "name": "Ultraman X Avengers #1",
+    "title": "Ultraman X Avengers",
+    "issueNumber": 1,
     "year": null,
     "decade": "",
     "writer": "",
@@ -14721,11 +14721,11 @@
   },
   {
     "id": "avengers-00921",
-    "name": "West Coast Avengers Vol. 4 #1 (2025)",
-    "title": "West Coast Avengers Vol. 4",
-    "issueNumber": 1,
-    "year": 2025,
-    "decade": "2020s",
+    "name": "Ultraman X Avengers #2",
+    "title": "Ultraman X Avengers",
+    "issueNumber": 2,
+    "year": null,
+    "decade": "",
     "writer": "",
     "artist": "",
     "storyline": "",
@@ -14737,6 +14737,54 @@
   },
   {
     "id": "avengers-00922",
+    "name": "Ultraman X Avengers #3",
+    "title": "Ultraman X Avengers",
+    "issueNumber": 3,
+    "year": null,
+    "decade": "",
+    "writer": "",
+    "artist": "",
+    "storyline": "",
+    "note": "",
+    "statusType": "essential",
+    "universe": "main",
+    "readLinks": [],
+    "wikiUrl": ""
+  },
+  {
+    "id": "avengers-00923",
+    "name": "Ultraman X Avengers #4",
+    "title": "Ultraman X Avengers",
+    "issueNumber": 4,
+    "year": null,
+    "decade": "",
+    "writer": "",
+    "artist": "",
+    "storyline": "",
+    "note": "",
+    "statusType": "essential",
+    "universe": "main",
+    "readLinks": [],
+    "wikiUrl": ""
+  },
+  {
+    "id": "avengers-00924",
+    "name": "West Coast Avengers Vol. 4 #1",
+    "title": "West Coast Avengers Vol. 4",
+    "issueNumber": 1,
+    "year": null,
+    "decade": "",
+    "writer": "",
+    "artist": "",
+    "storyline": "",
+    "note": "",
+    "statusType": "essential",
+    "universe": "main",
+    "readLinks": [],
+    "wikiUrl": ""
+  },
+  {
+    "id": "avengers-00925",
     "name": "West Coast Avengers Vol. 4 #2",
     "title": "West Coast Avengers Vol. 4",
     "issueNumber": 2,
@@ -14752,7 +14800,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00923",
+    "id": "avengers-00926",
     "name": "West Coast Avengers Vol. 4 #3",
     "title": "West Coast Avengers Vol. 4",
     "issueNumber": 3,
@@ -14768,7 +14816,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00924",
+    "id": "avengers-00927",
     "name": "West Coast Avengers Vol. 4 #4",
     "title": "West Coast Avengers Vol. 4",
     "issueNumber": 4,
@@ -14784,7 +14832,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00925",
+    "id": "avengers-00928",
     "name": "West Coast Avengers Vol. 4 #5",
     "title": "West Coast Avengers Vol. 4",
     "issueNumber": 5,
@@ -14800,7 +14848,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00926",
+    "id": "avengers-00929",
     "name": "Avengers Academy: Assemble #1",
     "title": "Avengers Academy: Assemble",
     "issueNumber": 1,
@@ -14816,7 +14864,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00927",
+    "id": "avengers-00930",
     "name": "West Coast Avengers Vol. 4 #6",
     "title": "West Coast Avengers Vol. 4",
     "issueNumber": 6,
@@ -14832,7 +14880,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00928",
+    "id": "avengers-00931",
     "name": "West Coast Avengers Vol. 4 #7",
     "title": "West Coast Avengers Vol. 4",
     "issueNumber": 7,
@@ -14848,7 +14896,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00929",
+    "id": "avengers-00932",
     "name": "West Coast Avengers Vol. 4 #8",
     "title": "West Coast Avengers Vol. 4",
     "issueNumber": 8,
@@ -14864,7 +14912,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00930",
+    "id": "avengers-00933",
     "name": "West Coast Avengers Vol. 4 #9",
     "title": "West Coast Avengers Vol. 4",
     "issueNumber": 9,
@@ -14880,7 +14928,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "avengers-00931",
+    "id": "avengers-00934",
     "name": "West Coast Avengers Vol. 4 #10",
     "title": "West Coast Avengers Vol. 4",
     "issueNumber": 10,
