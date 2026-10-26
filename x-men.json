@@ -33,6 +33,22 @@
   },
   {
     "id": "x-men-00003",
+    "name": "New X-Men #114",
+    "title": "New X-Men",
+    "issueNumber": 114,
+    "year": null,
+    "decade": "",
+    "writer": "",
+    "artist": "",
+    "storyline": "",
+    "note": "",
+    "statusType": "essential",
+    "universe": "main",
+    "readLinks": [],
+    "wikiUrl": ""
+  },
+  {
+    "id": "x-men-00004",
     "name": "X-Men #1",
     "title": "X-Men",
     "issueNumber": 1,
@@ -48,7 +64,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00004",
+    "id": "x-men-00005",
     "name": "Uncanny X-Men #3",
     "title": "Uncanny X-Men",
     "issueNumber": 3,
@@ -64,7 +80,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00005",
+    "id": "x-men-00006",
     "name": "Uncanny X-Men #4",
     "title": "Uncanny X-Men",
     "issueNumber": 4,
@@ -80,7 +96,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00006",
+    "id": "x-men-00007",
     "name": "X-Men: Season One #1",
     "title": "X-Men: Season One",
     "issueNumber": 1,
@@ -96,7 +112,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00007",
+    "id": "x-men-00008",
     "name": "Uncanny X-Men #10",
     "title": "Uncanny X-Men",
     "issueNumber": 10,
@@ -112,7 +128,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00008",
+    "id": "x-men-00009",
     "name": "Uncanny X-Men #12",
     "title": "Uncanny X-Men",
     "issueNumber": 12,
@@ -128,7 +144,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00009",
+    "id": "x-men-00010",
     "name": "Uncanny X-Men #13",
     "title": "Uncanny X-Men",
     "issueNumber": 13,
@@ -144,7 +160,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00010",
+    "id": "x-men-00011",
     "name": "Uncanny X-Men #14",
     "title": "Uncanny X-Men",
     "issueNumber": 14,
@@ -160,7 +176,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00011",
+    "id": "x-men-00012",
     "name": "Uncanny X-Men #15",
     "title": "Uncanny X-Men",
     "issueNumber": 15,
@@ -176,7 +192,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00012",
+    "id": "x-men-00013",
     "name": "Uncanny X-Men #16",
     "title": "Uncanny X-Men",
     "issueNumber": 16,
@@ -192,7 +208,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00013",
+    "id": "x-men-00014",
     "name": "X-Men First Class #1",
     "title": "X-Men First Class",
     "issueNumber": 1,
@@ -208,7 +224,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00014",
+    "id": "x-men-00015",
     "name": "X-Men First Class #2",
     "title": "X-Men First Class",
     "issueNumber": 2,
@@ -224,7 +240,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00015",
+    "id": "x-men-00016",
     "name": "X-Men First Class #3",
     "title": "X-Men First Class",
     "issueNumber": 3,
@@ -240,7 +256,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00016",
+    "id": "x-men-00017",
     "name": "X-Men First Class #4",
     "title": "X-Men First Class",
     "issueNumber": 4,
@@ -256,7 +272,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00017",
+    "id": "x-men-00018",
     "name": "X-Men First Class #5",
     "title": "X-Men First Class",
     "issueNumber": 5,
@@ -272,7 +288,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00018",
+    "id": "x-men-00019",
     "name": "X-Men First Class #6",
     "title": "X-Men First Class",
     "issueNumber": 6,
@@ -288,7 +304,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00019",
+    "id": "x-men-00020",
     "name": "X-Men First Class #7",
     "title": "X-Men First Class",
     "issueNumber": 7,
@@ -304,7 +320,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00020",
+    "id": "x-men-00021",
     "name": "X-Men First Class #8",
     "title": "X-Men First Class",
     "issueNumber": 8,
@@ -320,7 +336,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00021",
+    "id": "x-men-00022",
     "name": "X-Men First Class Special #1",
     "title": "X-Men First Class Special",
     "issueNumber": 1,
@@ -336,7 +352,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00022",
+    "id": "x-men-00023",
     "name": "X-Men First Class Vol. 2 #1",
     "title": "X-Men First Class Vol. 2",
     "issueNumber": 1,
@@ -352,7 +368,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00023",
+    "id": "x-men-00024",
     "name": "X-Men First Class Vol. 2 #2",
     "title": "X-Men First Class Vol. 2",
     "issueNumber": 2,
@@ -368,7 +384,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00024",
+    "id": "x-men-00025",
     "name": "X-Men First Class Vol. 2 #3",
     "title": "X-Men First Class Vol. 2",
     "issueNumber": 3,
@@ -384,7 +400,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00025",
+    "id": "x-men-00026",
     "name": "X-Men First Class Vol. 2 #4",
     "title": "X-Men First Class Vol. 2",
     "issueNumber": 4,
@@ -400,7 +416,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00026",
+    "id": "x-men-00027",
     "name": "X-Men First Class Vol. 2 #5",
     "title": "X-Men First Class Vol. 2",
     "issueNumber": 5,
@@ -416,7 +432,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00027",
+    "id": "x-men-00028",
     "name": "X-Men First Class Vol. 2 #6",
     "title": "X-Men First Class Vol. 2",
     "issueNumber": 6,
@@ -432,7 +448,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00028",
+    "id": "x-men-00029",
     "name": "X-Men First Class Vol. 2 #7",
     "title": "X-Men First Class Vol. 2",
     "issueNumber": 7,
@@ -448,7 +464,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00029",
+    "id": "x-men-00030",
     "name": "X-Men First Class Vol. 2 #8",
     "title": "X-Men First Class Vol. 2",
     "issueNumber": 8,
@@ -464,7 +480,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00030",
+    "id": "x-men-00031",
     "name": "X-Men First Class Vol. 2 #9",
     "title": "X-Men First Class Vol. 2",
     "issueNumber": 9,
@@ -480,7 +496,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00031",
+    "id": "x-men-00032",
     "name": "X-Men First Class Vol. 2 #10",
     "title": "X-Men First Class Vol. 2",
     "issueNumber": 10,
@@ -496,7 +512,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00032",
+    "id": "x-men-00033",
     "name": "X-Men First Class Vol. 2 #11",
     "title": "X-Men First Class Vol. 2",
     "issueNumber": 11,
@@ -512,7 +528,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00033",
+    "id": "x-men-00034",
     "name": "X-Men First Class Vol. 2 #12",
     "title": "X-Men First Class Vol. 2",
     "issueNumber": 12,
@@ -528,7 +544,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00034",
+    "id": "x-men-00035",
     "name": "X-Men First Class Vol. 2 #13",
     "title": "X-Men First Class Vol. 2",
     "issueNumber": 13,
@@ -544,7 +560,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00035",
+    "id": "x-men-00036",
     "name": "X-Men First Class Vol. 2 #14",
     "title": "X-Men First Class Vol. 2",
     "issueNumber": 14,
@@ -560,7 +576,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00036",
+    "id": "x-men-00037",
     "name": "X-Men First Class Vol. 2 #15",
     "title": "X-Men First Class Vol. 2",
     "issueNumber": 15,
@@ -576,7 +592,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00037",
+    "id": "x-men-00038",
     "name": "X-Men First Class Vol. 2 #16",
     "title": "X-Men First Class Vol. 2",
     "issueNumber": 16,
@@ -592,7 +608,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00038",
+    "id": "x-men-00039",
     "name": "Giant-Size X-Men: First Class #1",
     "title": "Giant-Size X-Men: First Class",
     "issueNumber": 1,
@@ -608,7 +624,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00039",
+    "id": "x-men-00040",
     "name": "Uncanny X-Men #28",
     "title": "Uncanny X-Men",
     "issueNumber": 28,
@@ -624,7 +640,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00040",
+    "id": "x-men-00041",
     "name": "Uncanny X-Men #29",
     "title": "Uncanny X-Men",
     "issueNumber": 29,
@@ -640,7 +656,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00041",
+    "id": "x-men-00042",
     "name": "Uncanny X-Men #32",
     "title": "Uncanny X-Men",
     "issueNumber": 32,
@@ -656,7 +672,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00042",
+    "id": "x-men-00043",
     "name": "Uncanny X-Men #33",
     "title": "Uncanny X-Men",
     "issueNumber": 33,
@@ -672,7 +688,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00043",
+    "id": "x-men-00044",
     "name": "X-Men #41",
     "title": "X-Men",
     "issueNumber": 41,
@@ -688,7 +704,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00044",
+    "id": "x-men-00045",
     "name": "X-Men #42",
     "title": "X-Men",
     "issueNumber": 42,
@@ -704,7 +720,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00045",
+    "id": "x-men-00046",
     "name": "Uncanny X-Men #43",
     "title": "Uncanny X-Men",
     "issueNumber": 43,
@@ -720,7 +736,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00046",
+    "id": "x-men-00047",
     "name": "Uncanny X-Men #46",
     "title": "Uncanny X-Men",
     "issueNumber": 46,
@@ -736,7 +752,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00047",
+    "id": "x-men-00048",
     "name": "Uncanny X-Men #49",
     "title": "Uncanny X-Men",
     "issueNumber": 49,
@@ -752,7 +768,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00048",
+    "id": "x-men-00049",
     "name": "Uncanny X-Men #50",
     "title": "Uncanny X-Men",
     "issueNumber": 50,
@@ -768,7 +784,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00049",
+    "id": "x-men-00050",
     "name": "Emma Frost #1",
     "title": "Emma Frost",
     "issueNumber": 1,
@@ -784,7 +800,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00050",
+    "id": "x-men-00051",
     "name": "Emma Frost #2",
     "title": "Emma Frost",
     "issueNumber": 2,
@@ -800,7 +816,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00051",
+    "id": "x-men-00052",
     "name": "Emma Frost #3",
     "title": "Emma Frost",
     "issueNumber": 3,
@@ -816,7 +832,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00052",
+    "id": "x-men-00053",
     "name": "Emma Frost #4",
     "title": "Emma Frost",
     "issueNumber": 4,
@@ -832,7 +848,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00053",
+    "id": "x-men-00054",
     "name": "Emma Frost #5",
     "title": "Emma Frost",
     "issueNumber": 5,
@@ -848,7 +864,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00054",
+    "id": "x-men-00055",
     "name": "Emma Frost #6",
     "title": "Emma Frost",
     "issueNumber": 6,
@@ -864,7 +880,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00055",
+    "id": "x-men-00056",
     "name": "Uncanny X-Men #54",
     "title": "Uncanny X-Men",
     "issueNumber": 54,
@@ -880,7 +896,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00056",
+    "id": "x-men-00057",
     "name": "Uncanny X-Men #55",
     "title": "Uncanny X-Men",
     "issueNumber": 55,
@@ -896,7 +912,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00057",
+    "id": "x-men-00058",
     "name": "Uncanny X-Men #56",
     "title": "Uncanny X-Men",
     "issueNumber": 56,
@@ -912,7 +928,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00058",
+    "id": "x-men-00059",
     "name": "Uncanny X-Men #57",
     "title": "Uncanny X-Men",
     "issueNumber": 57,
@@ -928,7 +944,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00059",
+    "id": "x-men-00060",
     "name": "Uncanny X-Men #58",
     "title": "Uncanny X-Men",
     "issueNumber": 58,
@@ -944,7 +960,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00060",
+    "id": "x-men-00061",
     "name": "Uncanny X-Men #59",
     "title": "Uncanny X-Men",
     "issueNumber": 59,
@@ -960,7 +976,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00061",
+    "id": "x-men-00062",
     "name": "Uncanny X-Men #60",
     "title": "Uncanny X-Men",
     "issueNumber": 60,
@@ -976,7 +992,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00062",
+    "id": "x-men-00063",
     "name": "Uncanny X-Men #61",
     "title": "Uncanny X-Men",
     "issueNumber": 61,
@@ -992,7 +1008,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00063",
+    "id": "x-men-00064",
     "name": "Uncanny X-Men #62",
     "title": "Uncanny X-Men",
     "issueNumber": 62,
@@ -1008,7 +1024,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00064",
+    "id": "x-men-00065",
     "name": "Uncanny X-Men #63",
     "title": "Uncanny X-Men",
     "issueNumber": 63,
@@ -1024,7 +1040,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00065",
+    "id": "x-men-00066",
     "name": "Uncanny X-Men #64",
     "title": "Uncanny X-Men",
     "issueNumber": 64,
@@ -1040,7 +1056,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00066",
+    "id": "x-men-00067",
     "name": "Uncanny X-Men #65",
     "title": "Uncanny X-Men",
     "issueNumber": 65,
@@ -1056,7 +1072,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00067",
+    "id": "x-men-00068",
     "name": "X-Men #66",
     "title": "X-Men",
     "issueNumber": 66,
@@ -1072,7 +1088,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00068",
+    "id": "x-men-00069",
     "name": "X-Men: The Hidden Years #1",
     "title": "X-Men: The Hidden Years",
     "issueNumber": 1,
@@ -1088,7 +1104,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00069",
+    "id": "x-men-00070",
     "name": "X-Men: The Hidden Years #2",
     "title": "X-Men: The Hidden Years",
     "issueNumber": 2,
@@ -1104,7 +1120,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00070",
+    "id": "x-men-00071",
     "name": "X-Men: The Hidden Years #3",
     "title": "X-Men: The Hidden Years",
     "issueNumber": 3,
@@ -1120,7 +1136,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00071",
+    "id": "x-men-00072",
     "name": "X-Men: The Hidden Years #4",
     "title": "X-Men: The Hidden Years",
     "issueNumber": 4,
@@ -1136,7 +1152,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00072",
+    "id": "x-men-00073",
     "name": "X-Men: The Hidden Years #5",
     "title": "X-Men: The Hidden Years",
     "issueNumber": 5,
@@ -1152,7 +1168,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00073",
+    "id": "x-men-00074",
     "name": "X-Men: The Hidden Years #6",
     "title": "X-Men: The Hidden Years",
     "issueNumber": 6,
@@ -1168,7 +1184,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00074",
+    "id": "x-men-00075",
     "name": "X-Men: The Hidden Years #7",
     "title": "X-Men: The Hidden Years",
     "issueNumber": 7,
@@ -1184,7 +1200,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00075",
+    "id": "x-men-00076",
     "name": "X-Men: The Hidden Years #8",
     "title": "X-Men: The Hidden Years",
     "issueNumber": 8,
@@ -1200,7 +1216,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00076",
+    "id": "x-men-00077",
     "name": "X-Men: The Hidden Years #9",
     "title": "X-Men: The Hidden Years",
     "issueNumber": 9,
@@ -1216,7 +1232,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00077",
+    "id": "x-men-00078",
     "name": "X-Men: The Hidden Years #10",
     "title": "X-Men: The Hidden Years",
     "issueNumber": 10,
@@ -1232,7 +1248,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00078",
+    "id": "x-men-00079",
     "name": "X-Men: The Hidden Years #11",
     "title": "X-Men: The Hidden Years",
     "issueNumber": 11,
@@ -1248,7 +1264,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00079",
+    "id": "x-men-00080",
     "name": "X-Men: The Hidden Years #12",
     "title": "X-Men: The Hidden Years",
     "issueNumber": 12,
@@ -1264,7 +1280,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00080",
+    "id": "x-men-00081",
     "name": "X-Men: The Hidden Years #13",
     "title": "X-Men: The Hidden Years",
     "issueNumber": 13,
@@ -1280,7 +1296,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00081",
+    "id": "x-men-00082",
     "name": "X-Men: The Hidden Years #14",
     "title": "X-Men: The Hidden Years",
     "issueNumber": 14,
@@ -1296,7 +1312,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00082",
+    "id": "x-men-00083",
     "name": "X-Men: The Hidden Years #15",
     "title": "X-Men: The Hidden Years",
     "issueNumber": 15,
@@ -1312,7 +1328,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00083",
+    "id": "x-men-00084",
     "name": "X-Men: The Hidden Years #16",
     "title": "X-Men: The Hidden Years",
     "issueNumber": 16,
@@ -1328,7 +1344,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00084",
+    "id": "x-men-00085",
     "name": "X-Men: The Hidden Years #17",
     "title": "X-Men: The Hidden Years",
     "issueNumber": 17,
@@ -1344,7 +1360,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00085",
+    "id": "x-men-00086",
     "name": "X-Men: The Hidden Years #18",
     "title": "X-Men: The Hidden Years",
     "issueNumber": 18,
@@ -1360,7 +1376,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00086",
+    "id": "x-men-00087",
     "name": "X-Men: The Hidden Years #19",
     "title": "X-Men: The Hidden Years",
     "issueNumber": 19,
@@ -1376,7 +1392,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00087",
+    "id": "x-men-00088",
     "name": "X-Men: The Hidden Years #20",
     "title": "X-Men: The Hidden Years",
     "issueNumber": 20,
@@ -1392,7 +1408,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00088",
+    "id": "x-men-00089",
     "name": "X-Men: The Hidden Years #21",
     "title": "X-Men: The Hidden Years",
     "issueNumber": 21,
@@ -1408,7 +1424,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00089",
+    "id": "x-men-00090",
     "name": "X-Men: The Hidden Years #22",
     "title": "X-Men: The Hidden Years",
     "issueNumber": 22,
@@ -1424,7 +1440,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00090",
+    "id": "x-men-00091",
     "name": "Emma Frost #7",
     "title": "Emma Frost",
     "issueNumber": 7,
@@ -1440,7 +1456,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00091",
+    "id": "x-men-00092",
     "name": "Emma Frost #8",
     "title": "Emma Frost",
     "issueNumber": 8,
@@ -1456,7 +1472,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00092",
+    "id": "x-men-00093",
     "name": "Emma Frost #9",
     "title": "Emma Frost",
     "issueNumber": 9,
@@ -1472,7 +1488,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00093",
+    "id": "x-men-00094",
     "name": "Emma Frost #10",
     "title": "Emma Frost",
     "issueNumber": 10,
@@ -1488,7 +1504,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00094",
+    "id": "x-men-00095",
     "name": "Emma Frost #11",
     "title": "Emma Frost",
     "issueNumber": 11,
@@ -1504,7 +1520,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00095",
+    "id": "x-men-00096",
     "name": "Emma Frost #12",
     "title": "Emma Frost",
     "issueNumber": 12,
@@ -1520,7 +1536,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00096",
+    "id": "x-men-00097",
     "name": "Emma Frost #13",
     "title": "Emma Frost",
     "issueNumber": 13,
@@ -1536,7 +1552,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00097",
+    "id": "x-men-00098",
     "name": "Emma Frost #14",
     "title": "Emma Frost",
     "issueNumber": 14,
@@ -1552,7 +1568,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00098",
+    "id": "x-men-00099",
     "name": "Emma Frost #15",
     "title": "Emma Frost",
     "issueNumber": 15,
@@ -1568,7 +1584,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00099",
+    "id": "x-men-00100",
     "name": "Emma Frost #16",
     "title": "Emma Frost",
     "issueNumber": 16,
@@ -1584,7 +1600,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00100",
+    "id": "x-men-00101",
     "name": "Emma Frost #17",
     "title": "Emma Frost",
     "issueNumber": 17,
@@ -1600,7 +1616,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00101",
+    "id": "x-men-00102",
     "name": "Emma Frost #18",
     "title": "Emma Frost",
     "issueNumber": 18,
@@ -1616,7 +1632,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00102",
+    "id": "x-men-00103",
     "name": "X-Men: First Class Finals #1",
     "title": "X-Men: First Class Finals",
     "issueNumber": 1,
@@ -1632,7 +1648,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00103",
+    "id": "x-men-00104",
     "name": "X-Men: First Class Finals #2",
     "title": "X-Men: First Class Finals",
     "issueNumber": 2,
@@ -1648,7 +1664,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00104",
+    "id": "x-men-00105",
     "name": "X-Men: First Class Finals #3",
     "title": "X-Men: First Class Finals",
     "issueNumber": 3,
@@ -1664,7 +1680,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00105",
+    "id": "x-men-00106",
     "name": "X-Men: First Class Finals #4",
     "title": "X-Men: First Class Finals",
     "issueNumber": 4,
@@ -1680,7 +1696,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00106",
+    "id": "x-men-00107",
     "name": "Uncanny X-Men #94",
     "title": "Uncanny X-Men",
     "issueNumber": 94,
@@ -1696,7 +1712,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00107",
+    "id": "x-men-00108",
     "name": "Uncanny X-Men #95",
     "title": "Uncanny X-Men",
     "issueNumber": 95,
@@ -1712,7 +1728,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00108",
+    "id": "x-men-00109",
     "name": "Uncanny X-Men #96",
     "title": "Uncanny X-Men",
     "issueNumber": 96,
@@ -1728,7 +1744,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00109",
+    "id": "x-men-00110",
     "name": "Uncanny X-Men #97",
     "title": "Uncanny X-Men",
     "issueNumber": 97,
@@ -1744,7 +1760,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00110",
+    "id": "x-men-00111",
     "name": "Uncanny X-Men: First Class Giant-Size Special #1",
     "title": "Uncanny X-Men: First Class Giant-Size Special",
     "issueNumber": 1,
@@ -1760,7 +1776,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00111",
+    "id": "x-men-00112",
     "name": "Uncanny X-Men #98",
     "title": "Uncanny X-Men",
     "issueNumber": 98,
@@ -1776,7 +1792,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00112",
+    "id": "x-men-00113",
     "name": "Uncanny X-Men #99",
     "title": "Uncanny X-Men",
     "issueNumber": 99,
@@ -1792,7 +1808,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00113",
+    "id": "x-men-00114",
     "name": "Uncanny X-Men #100",
     "title": "Uncanny X-Men",
     "issueNumber": 100,
@@ -1808,7 +1824,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00114",
+    "id": "x-men-00115",
     "name": "Uncanny X-Men #101",
     "title": "Uncanny X-Men",
     "issueNumber": 101,
@@ -1824,7 +1840,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00115",
+    "id": "x-men-00116",
     "name": "Uncanny X-Men #102",
     "title": "Uncanny X-Men",
     "issueNumber": 102,
@@ -1840,7 +1856,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00116",
+    "id": "x-men-00117",
     "name": "Uncanny X-Men #103",
     "title": "Uncanny X-Men",
     "issueNumber": 103,
@@ -1856,7 +1872,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00117",
+    "id": "x-men-00118",
     "name": "Uncanny X-Men #104",
     "title": "Uncanny X-Men",
     "issueNumber": 104,
@@ -1872,7 +1888,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00118",
+    "id": "x-men-00119",
     "name": "Uncanny X-Men #105",
     "title": "Uncanny X-Men",
     "issueNumber": 105,
@@ -1888,7 +1904,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00119",
+    "id": "x-men-00120",
     "name": "Uncanny X-Men #106",
     "title": "Uncanny X-Men",
     "issueNumber": 106,
@@ -1904,7 +1920,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00120",
+    "id": "x-men-00121",
     "name": "Uncanny X-Men #107",
     "title": "Uncanny X-Men",
     "issueNumber": 107,
@@ -1920,7 +1936,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00121",
+    "id": "x-men-00122",
     "name": "Uncanny X-Men #108",
     "title": "Uncanny X-Men",
     "issueNumber": 108,
@@ -1936,7 +1952,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00122",
+    "id": "x-men-00123",
     "name": "Uncanny X-Men #109",
     "title": "Uncanny X-Men",
     "issueNumber": 109,
@@ -1952,7 +1968,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00123",
+    "id": "x-men-00124",
     "name": "Uncanny X-Men: First Class #1",
     "title": "Uncanny X-Men: First Class",
     "issueNumber": 1,
@@ -1968,7 +1984,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00124",
+    "id": "x-men-00125",
     "name": "Uncanny X-Men: First Class #2",
     "title": "Uncanny X-Men: First Class",
     "issueNumber": 2,
@@ -1984,7 +2000,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00125",
+    "id": "x-men-00126",
     "name": "Uncanny X-Men: First Class #3",
     "title": "Uncanny X-Men: First Class",
     "issueNumber": 3,
@@ -2000,7 +2016,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00126",
+    "id": "x-men-00127",
     "name": "Uncanny X-Men: First Class #4",
     "title": "Uncanny X-Men: First Class",
     "issueNumber": 4,
@@ -2016,7 +2032,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00127",
+    "id": "x-men-00128",
     "name": "Uncanny X-Men: First Class #5",
     "title": "Uncanny X-Men: First Class",
     "issueNumber": 5,
@@ -2032,7 +2048,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00128",
+    "id": "x-men-00129",
     "name": "Uncanny X-Men: First Class #6",
     "title": "Uncanny X-Men: First Class",
     "issueNumber": 6,
@@ -2048,7 +2064,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00129",
+    "id": "x-men-00130",
     "name": "Uncanny X-Men: First Class #7",
     "title": "Uncanny X-Men: First Class",
     "issueNumber": 7,
@@ -2064,7 +2080,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00130",
+    "id": "x-men-00131",
     "name": "Uncanny X-Men: First Class #8",
     "title": "Uncanny X-Men: First Class",
     "issueNumber": 8,
@@ -2080,7 +2096,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00131",
+    "id": "x-men-00132",
     "name": "Uncanny X-Men #110",
     "title": "Uncanny X-Men",
     "issueNumber": 110,
@@ -2096,7 +2112,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00132",
+    "id": "x-men-00133",
     "name": "Uncanny X-Men #111",
     "title": "Uncanny X-Men",
     "issueNumber": 111,
@@ -2112,7 +2128,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00133",
+    "id": "x-men-00134",
     "name": "X-Men #112",
     "title": "X-Men",
     "issueNumber": 112,
@@ -2128,7 +2144,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00134",
+    "id": "x-men-00135",
     "name": "X-Men #113",
     "title": "X-Men",
     "issueNumber": 113,
@@ -2144,7 +2160,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00135",
+    "id": "x-men-00136",
     "name": "Uncanny X-Men #114",
     "title": "Uncanny X-Men",
     "issueNumber": 114,
@@ -2160,7 +2176,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00136",
+    "id": "x-men-00137",
     "name": "Uncanny X-Men #115",
     "title": "Uncanny X-Men",
     "issueNumber": 115,
@@ -2176,7 +2192,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00137",
+    "id": "x-men-00138",
     "name": "Uncanny X-Men #116",
     "title": "Uncanny X-Men",
     "issueNumber": 116,
@@ -2192,7 +2208,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00138",
+    "id": "x-men-00139",
     "name": "Uncanny X-Men #117",
     "title": "Uncanny X-Men",
     "issueNumber": 117,
@@ -2208,7 +2224,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00139",
+    "id": "x-men-00140",
     "name": "Uncanny X-Men #118",
     "title": "Uncanny X-Men",
     "issueNumber": 118,
@@ -2224,7 +2240,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00140",
+    "id": "x-men-00141",
     "name": "Uncanny X-Men #119",
     "title": "Uncanny X-Men",
     "issueNumber": 119,
@@ -2240,7 +2256,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00141",
+    "id": "x-men-00142",
     "name": "Uncanny X-Men #120",
     "title": "Uncanny X-Men",
     "issueNumber": 120,
@@ -2256,7 +2272,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00142",
+    "id": "x-men-00143",
     "name": "Uncanny X-Men #121",
     "title": "Uncanny X-Men",
     "issueNumber": 121,
@@ -2272,7 +2288,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00143",
+    "id": "x-men-00144",
     "name": "Uncanny X-Men #122",
     "title": "Uncanny X-Men",
     "issueNumber": 122,
@@ -2288,7 +2304,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00144",
+    "id": "x-men-00145",
     "name": "Uncanny X-Men #123",
     "title": "Uncanny X-Men",
     "issueNumber": 123,
@@ -2304,7 +2320,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00145",
+    "id": "x-men-00146",
     "name": "Uncanny X-Men #124",
     "title": "Uncanny X-Men",
     "issueNumber": 124,
@@ -2320,7 +2336,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00146",
+    "id": "x-men-00147",
     "name": "Uncanny X-Men #125",
     "title": "Uncanny X-Men",
     "issueNumber": 125,
@@ -2336,7 +2352,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00147",
+    "id": "x-men-00148",
     "name": "Uncanny X-Men #126",
     "title": "Uncanny X-Men",
     "issueNumber": 126,
@@ -2352,7 +2368,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00148",
+    "id": "x-men-00149",
     "name": "Uncanny X-Men #127",
     "title": "Uncanny X-Men",
     "issueNumber": 127,
@@ -2368,7 +2384,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00149",
+    "id": "x-men-00150",
     "name": "Uncanny X-Men #128",
     "title": "Uncanny X-Men",
     "issueNumber": 128,
@@ -2384,7 +2400,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00150",
+    "id": "x-men-00151",
     "name": "Uncanny X-Men #129",
     "title": "Uncanny X-Men",
     "issueNumber": 129,
@@ -2400,7 +2416,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00151",
+    "id": "x-men-00152",
     "name": "Uncanny X-Men #130",
     "title": "Uncanny X-Men",
     "issueNumber": 130,
@@ -2416,7 +2432,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00152",
+    "id": "x-men-00153",
     "name": "Uncanny X-Men #131",
     "title": "Uncanny X-Men",
     "issueNumber": 131,
@@ -2432,7 +2448,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00153",
+    "id": "x-men-00154",
     "name": "X-Men #132",
     "title": "X-Men",
     "issueNumber": 132,
@@ -2448,7 +2464,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00154",
+    "id": "x-men-00155",
     "name": "Uncanny X-Men #133",
     "title": "Uncanny X-Men",
     "issueNumber": 133,
@@ -2464,7 +2480,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00155",
+    "id": "x-men-00156",
     "name": "Uncanny X-Men #134",
     "title": "Uncanny X-Men",
     "issueNumber": 134,
@@ -2480,7 +2496,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00156",
+    "id": "x-men-00157",
     "name": "Uncanny X-Men #135",
     "title": "Uncanny X-Men",
     "issueNumber": 135,
@@ -2496,7 +2512,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00157",
+    "id": "x-men-00158",
     "name": "X-Men #136",
     "title": "X-Men",
     "issueNumber": 136,
@@ -2512,7 +2528,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00158",
+    "id": "x-men-00159",
     "name": "Uncanny X-Men #137",
     "title": "Uncanny X-Men",
     "issueNumber": 137,
@@ -2528,7 +2544,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00159",
+    "id": "x-men-00160",
     "name": "X-Men #138",
     "title": "X-Men",
     "issueNumber": 138,
@@ -2544,7 +2560,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00160",
+    "id": "x-men-00161",
     "name": "Uncanny X-Men #139",
     "title": "Uncanny X-Men",
     "issueNumber": 139,
@@ -2560,7 +2576,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00161",
+    "id": "x-men-00162",
     "name": "Uncanny X-Men #140",
     "title": "Uncanny X-Men",
     "issueNumber": 140,
@@ -2576,7 +2592,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00162",
+    "id": "x-men-00163",
     "name": "X-Men #141",
     "title": "X-Men",
     "issueNumber": 141,
@@ -2592,7 +2608,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00163",
+    "id": "x-men-00164",
     "name": "Uncanny X-Men #142",
     "title": "Uncanny X-Men",
     "issueNumber": 142,
@@ -2608,7 +2624,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00164",
+    "id": "x-men-00165",
     "name": "Uncanny X-Men #143",
     "title": "Uncanny X-Men",
     "issueNumber": 143,
@@ -2624,7 +2640,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00165",
+    "id": "x-men-00166",
     "name": "Uncanny X-Men #144",
     "title": "Uncanny X-Men",
     "issueNumber": 144,
@@ -2640,7 +2656,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00166",
+    "id": "x-men-00167",
     "name": "Uncanny X-Men #145",
     "title": "Uncanny X-Men",
     "issueNumber": 145,
@@ -2656,7 +2672,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00167",
+    "id": "x-men-00168",
     "name": "Uncanny X-Men #146",
     "title": "Uncanny X-Men",
     "issueNumber": 146,
@@ -2672,7 +2688,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00168",
+    "id": "x-men-00169",
     "name": "Uncanny X-Men #147",
     "title": "Uncanny X-Men",
     "issueNumber": 147,
@@ -2688,7 +2704,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00169",
+    "id": "x-men-00170",
     "name": "Uncanny X-Men #148",
     "title": "Uncanny X-Men",
     "issueNumber": 148,
@@ -2704,7 +2720,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00170",
+    "id": "x-men-00171",
     "name": "Uncanny X-Men #149",
     "title": "Uncanny X-Men",
     "issueNumber": 149,
@@ -2720,7 +2736,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00171",
+    "id": "x-men-00172",
     "name": "Uncanny X-Men #150",
     "title": "Uncanny X-Men",
     "issueNumber": 150,
@@ -2736,7 +2752,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00172",
+    "id": "x-men-00173",
     "name": "Uncanny X-Men #151",
     "title": "Uncanny X-Men",
     "issueNumber": 151,
@@ -2752,7 +2768,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00173",
+    "id": "x-men-00174",
     "name": "Uncanny X-Men #152",
     "title": "Uncanny X-Men",
     "issueNumber": 152,
@@ -2768,7 +2784,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00174",
+    "id": "x-men-00175",
     "name": "Uncanny X-Men #153",
     "title": "Uncanny X-Men",
     "issueNumber": 153,
@@ -2784,7 +2800,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00175",
+    "id": "x-men-00176",
     "name": "Weapon X: First Class #1",
     "title": "Weapon X: First Class",
     "issueNumber": 1,
@@ -2800,7 +2816,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00176",
+    "id": "x-men-00177",
     "name": "Weapon X: First Class #2",
     "title": "Weapon X: First Class",
     "issueNumber": 2,
@@ -2816,7 +2832,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00177",
+    "id": "x-men-00178",
     "name": "Weapon X: First Class #3",
     "title": "Weapon X: First Class",
     "issueNumber": 3,
@@ -2832,7 +2848,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00178",
+    "id": "x-men-00179",
     "name": "Uncanny X-Men #154",
     "title": "Uncanny X-Men",
     "issueNumber": 154,
@@ -2848,7 +2864,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00179",
+    "id": "x-men-00180",
     "name": "Uncanny X-Men #155",
     "title": "Uncanny X-Men",
     "issueNumber": 155,
@@ -2864,7 +2880,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00180",
+    "id": "x-men-00181",
     "name": "Uncanny X-Men #156",
     "title": "Uncanny X-Men",
     "issueNumber": 156,
@@ -2880,7 +2896,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00181",
+    "id": "x-men-00182",
     "name": "Uncanny X-Men #157",
     "title": "Uncanny X-Men",
     "issueNumber": 157,
@@ -2896,7 +2912,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00182",
+    "id": "x-men-00183",
     "name": "Uncanny X-Men #158",
     "title": "Uncanny X-Men",
     "issueNumber": 158,
@@ -2912,7 +2928,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00183",
+    "id": "x-men-00184",
     "name": "Uncanny X-Men #159",
     "title": "Uncanny X-Men",
     "issueNumber": 159,
@@ -2928,7 +2944,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00184",
+    "id": "x-men-00185",
     "name": "Uncanny X-Men #160",
     "title": "Uncanny X-Men",
     "issueNumber": 160,
@@ -2944,7 +2960,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00185",
+    "id": "x-men-00186",
     "name": "Uncanny X-Men #161",
     "title": "Uncanny X-Men",
     "issueNumber": 161,
@@ -2960,7 +2976,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00186",
+    "id": "x-men-00187",
     "name": "Uncanny X-Men #162",
     "title": "Uncanny X-Men",
     "issueNumber": 162,
@@ -2976,7 +2992,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00187",
+    "id": "x-men-00188",
     "name": "Uncanny X-Men #163",
     "title": "Uncanny X-Men",
     "issueNumber": 163,
@@ -2992,7 +3008,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00188",
+    "id": "x-men-00189",
     "name": "Uncanny X-Men #164",
     "title": "Uncanny X-Men",
     "issueNumber": 164,
@@ -3008,7 +3024,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00189",
+    "id": "x-men-00190",
     "name": "Uncanny X-Men #165",
     "title": "Uncanny X-Men",
     "issueNumber": 165,
@@ -3024,7 +3040,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00190",
+    "id": "x-men-00191",
     "name": "Uncanny X-Men #166",
     "title": "Uncanny X-Men",
     "issueNumber": 166,
@@ -3040,7 +3056,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00191",
+    "id": "x-men-00192",
     "name": "Uncanny X-Men #167",
     "title": "Uncanny X-Men",
     "issueNumber": 167,
@@ -3056,7 +3072,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00192",
+    "id": "x-men-00193",
     "name": "Uncanny X-Men #168",
     "title": "Uncanny X-Men",
     "issueNumber": 168,
@@ -3072,7 +3088,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00193",
+    "id": "x-men-00194",
     "name": "Marvel Graphic Novel #5",
     "title": "Marvel Graphic Novel",
     "issueNumber": 5,
@@ -3088,7 +3104,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00194",
+    "id": "x-men-00195",
     "name": "Uncanny X-Men #169",
     "title": "Uncanny X-Men",
     "issueNumber": 169,
@@ -3104,7 +3120,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00195",
+    "id": "x-men-00196",
     "name": "Uncanny X-Men #170",
     "title": "Uncanny X-Men",
     "issueNumber": 170,
@@ -3120,7 +3136,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00196",
+    "id": "x-men-00197",
     "name": "Uncanny X-Men #171",
     "title": "Uncanny X-Men",
     "issueNumber": 171,
@@ -3136,7 +3152,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00197",
+    "id": "x-men-00198",
     "name": "Uncanny X-Men #172",
     "title": "Uncanny X-Men",
     "issueNumber": 172,
@@ -3152,7 +3168,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00198",
+    "id": "x-men-00199",
     "name": "Uncanny X-Men #173",
     "title": "Uncanny X-Men",
     "issueNumber": 173,
@@ -3168,7 +3184,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00199",
+    "id": "x-men-00200",
     "name": "Uncanny X-Men #174",
     "title": "Uncanny X-Men",
     "issueNumber": 174,
@@ -3184,7 +3200,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00200",
+    "id": "x-men-00201",
     "name": "Uncanny X-Men #175",
     "title": "Uncanny X-Men",
     "issueNumber": 175,
@@ -3200,7 +3216,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00201",
+    "id": "x-men-00202",
     "name": "Uncanny X-Men #176",
     "title": "Uncanny X-Men",
     "issueNumber": 176,
@@ -3216,7 +3232,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00202",
+    "id": "x-men-00203",
     "name": "Uncanny X-Men #177",
     "title": "Uncanny X-Men",
     "issueNumber": 177,
@@ -3232,7 +3248,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00203",
+    "id": "x-men-00204",
     "name": "Uncanny X-Men #178",
     "title": "Uncanny X-Men",
     "issueNumber": 178,
@@ -3248,7 +3264,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00204",
+    "id": "x-men-00205",
     "name": "Uncanny X-Men #179",
     "title": "Uncanny X-Men",
     "issueNumber": 179,
@@ -3264,7 +3280,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00205",
+    "id": "x-men-00206",
     "name": "Uncanny X-Men #180",
     "title": "Uncanny X-Men",
     "issueNumber": 180,
@@ -3280,7 +3296,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00206",
+    "id": "x-men-00207",
     "name": "Uncanny X-Men #181",
     "title": "Uncanny X-Men",
     "issueNumber": 181,
@@ -3296,7 +3312,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00207",
+    "id": "x-men-00208",
     "name": "Uncanny X-Men #182",
     "title": "Uncanny X-Men",
     "issueNumber": 182,
@@ -3312,7 +3328,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00208",
+    "id": "x-men-00209",
     "name": "Uncanny X-Men #183",
     "title": "Uncanny X-Men",
     "issueNumber": 183,
@@ -3328,7 +3344,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00209",
+    "id": "x-men-00210",
     "name": "Uncanny X-Men #184",
     "title": "Uncanny X-Men",
     "issueNumber": 184,
@@ -3344,7 +3360,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00210",
+    "id": "x-men-00211",
     "name": "Uncanny X-Men #185",
     "title": "Uncanny X-Men",
     "issueNumber": 185,
@@ -3360,7 +3376,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00211",
+    "id": "x-men-00212",
     "name": "Uncanny X-Men #186",
     "title": "Uncanny X-Men",
     "issueNumber": 186,
@@ -3376,7 +3392,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00212",
+    "id": "x-men-00213",
     "name": "Uncanny X-Men #187",
     "title": "Uncanny X-Men",
     "issueNumber": 187,
@@ -3392,7 +3408,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00213",
+    "id": "x-men-00214",
     "name": "Uncanny X-Men #188",
     "title": "Uncanny X-Men",
     "issueNumber": 188,
@@ -3408,7 +3424,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00214",
+    "id": "x-men-00215",
     "name": "Uncanny X-Men #189",
     "title": "Uncanny X-Men",
     "issueNumber": 189,
@@ -3424,7 +3440,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00215",
+    "id": "x-men-00216",
     "name": "Uncanny X-Men #190",
     "title": "Uncanny X-Men",
     "issueNumber": 190,
@@ -3440,7 +3456,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00216",
+    "id": "x-men-00217",
     "name": "Uncanny X-Men #191",
     "title": "Uncanny X-Men",
     "issueNumber": 191,
@@ -3456,7 +3472,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00217",
+    "id": "x-men-00218",
     "name": "Uncanny X-Men #192",
     "title": "Uncanny X-Men",
     "issueNumber": 192,
@@ -3472,7 +3488,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00218",
+    "id": "x-men-00219",
     "name": "Uncanny X-Men #193",
     "title": "Uncanny X-Men",
     "issueNumber": 193,
@@ -3488,7 +3504,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00219",
+    "id": "x-men-00220",
     "name": "Uncanny X-Men #194",
     "title": "Uncanny X-Men",
     "issueNumber": 194,
@@ -3504,7 +3520,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00220",
+    "id": "x-men-00221",
     "name": "Uncanny X-Men #195",
     "title": "Uncanny X-Men",
     "issueNumber": 195,
@@ -3520,7 +3536,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00221",
+    "id": "x-men-00222",
     "name": "Uncanny X-Men #196",
     "title": "Uncanny X-Men",
     "issueNumber": 196,
@@ -3536,7 +3552,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00222",
+    "id": "x-men-00223",
     "name": "Uncanny X-Men #197",
     "title": "Uncanny X-Men",
     "issueNumber": 197,
@@ -3552,7 +3568,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00223",
+    "id": "x-men-00224",
     "name": "Uncanny X-Men #198",
     "title": "Uncanny X-Men",
     "issueNumber": 198,
@@ -3568,7 +3584,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00224",
+    "id": "x-men-00225",
     "name": "Uncanny X-Men #199",
     "title": "Uncanny X-Men",
     "issueNumber": 199,
@@ -3584,7 +3600,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00225",
+    "id": "x-men-00226",
     "name": "Uncanny X-Men #200",
     "title": "Uncanny X-Men",
     "issueNumber": 200,
@@ -3600,7 +3616,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00226",
+    "id": "x-men-00227",
     "name": "Uncanny X-Men #201",
     "title": "Uncanny X-Men",
     "issueNumber": 201,
@@ -3616,7 +3632,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00227",
+    "id": "x-men-00228",
     "name": "Uncanny X-Men #202",
     "title": "Uncanny X-Men",
     "issueNumber": 202,
@@ -3632,7 +3648,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00228",
+    "id": "x-men-00229",
     "name": "Uncanny X-Men #203",
     "title": "Uncanny X-Men",
     "issueNumber": 203,
@@ -3648,7 +3664,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00229",
+    "id": "x-men-00230",
     "name": "Uncanny X-Men #204",
     "title": "Uncanny X-Men",
     "issueNumber": 204,
@@ -3664,7 +3680,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00230",
+    "id": "x-men-00231",
     "name": "Uncanny X-Men #205",
     "title": "Uncanny X-Men",
     "issueNumber": 205,
@@ -3680,7 +3696,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00231",
+    "id": "x-men-00232",
     "name": "Uncanny X-Men #206",
     "title": "Uncanny X-Men",
     "issueNumber": 206,
@@ -3696,7 +3712,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00232",
+    "id": "x-men-00233",
     "name": "Uncanny X-Men #207",
     "title": "Uncanny X-Men",
     "issueNumber": 207,
@@ -3712,7 +3728,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00233",
+    "id": "x-men-00234",
     "name": "Uncanny X-Men #208",
     "title": "Uncanny X-Men",
     "issueNumber": 208,
@@ -3728,7 +3744,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00234",
+    "id": "x-men-00235",
     "name": "Uncanny X-Men #209",
     "title": "Uncanny X-Men",
     "issueNumber": 209,
@@ -3744,7 +3760,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00235",
+    "id": "x-men-00236",
     "name": "Uncanny X-Men #214",
     "title": "Uncanny X-Men",
     "issueNumber": 214,
@@ -3760,7 +3776,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00236",
+    "id": "x-men-00237",
     "name": "Uncanny X-Men #215",
     "title": "Uncanny X-Men",
     "issueNumber": 215,
@@ -3776,7 +3792,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00237",
+    "id": "x-men-00238",
     "name": "Uncanny X-Men #216",
     "title": "Uncanny X-Men",
     "issueNumber": 216,
@@ -3792,7 +3808,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00238",
+    "id": "x-men-00239",
     "name": "Uncanny X-Men #217",
     "title": "Uncanny X-Men",
     "issueNumber": 217,
@@ -3808,7 +3824,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00239",
+    "id": "x-men-00240",
     "name": "Uncanny X-Men #218",
     "title": "Uncanny X-Men",
     "issueNumber": 218,
@@ -3824,7 +3840,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00240",
+    "id": "x-men-00241",
     "name": "Uncanny X-Men #219",
     "title": "Uncanny X-Men",
     "issueNumber": 219,
@@ -3840,7 +3856,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00241",
+    "id": "x-men-00242",
     "name": "X-Men vs Avengers #1",
     "title": "X-Men vs Avengers",
     "issueNumber": 1,
@@ -3856,7 +3872,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00242",
+    "id": "x-men-00243",
     "name": "X-Men vs Avengers #2",
     "title": "X-Men vs Avengers",
     "issueNumber": 2,
@@ -3872,7 +3888,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00243",
+    "id": "x-men-00244",
     "name": "X-Men vs Avengers #3",
     "title": "X-Men vs Avengers",
     "issueNumber": 3,
@@ -3888,7 +3904,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00244",
+    "id": "x-men-00245",
     "name": "X-Men vs Avengers #4",
     "title": "X-Men vs Avengers",
     "issueNumber": 4,
@@ -3904,7 +3920,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00245",
+    "id": "x-men-00246",
     "name": "Uncanny X-Men #228",
     "title": "Uncanny X-Men",
     "issueNumber": 228,
@@ -3920,7 +3936,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00246",
+    "id": "x-men-00247",
     "name": "Uncanny X-Men #229",
     "title": "Uncanny X-Men",
     "issueNumber": 229,
@@ -3936,7 +3952,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00247",
+    "id": "x-men-00248",
     "name": "Uncanny X-Men #230",
     "title": "Uncanny X-Men",
     "issueNumber": 230,
@@ -3952,7 +3968,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00248",
+    "id": "x-men-00249",
     "name": "Uncanny X-Men #231",
     "title": "Uncanny X-Men",
     "issueNumber": 231,
@@ -3968,7 +3984,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00249",
+    "id": "x-men-00250",
     "name": "Uncanny X-Men #232",
     "title": "Uncanny X-Men",
     "issueNumber": 232,
@@ -3984,7 +4000,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00250",
+    "id": "x-men-00251",
     "name": "Uncanny X-Men #233",
     "title": "Uncanny X-Men",
     "issueNumber": 233,
@@ -4000,7 +4016,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00251",
+    "id": "x-men-00252",
     "name": "Uncanny X-Men #234",
     "title": "Uncanny X-Men",
     "issueNumber": 234,
@@ -4016,7 +4032,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00252",
+    "id": "x-men-00253",
     "name": "Uncanny X-Men #235",
     "title": "Uncanny X-Men",
     "issueNumber": 235,
@@ -4032,7 +4048,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00253",
+    "id": "x-men-00254",
     "name": "Uncanny X-Men #236",
     "title": "Uncanny X-Men",
     "issueNumber": 236,
@@ -4048,7 +4064,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00254",
+    "id": "x-men-00255",
     "name": "Uncanny X-Men #237",
     "title": "Uncanny X-Men",
     "issueNumber": 237,
@@ -4064,7 +4080,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00255",
+    "id": "x-men-00256",
     "name": "Uncanny X-Men #238",
     "title": "Uncanny X-Men",
     "issueNumber": 238,
@@ -4080,7 +4096,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00256",
+    "id": "x-men-00257",
     "name": "Excalibur #1",
     "title": "Excalibur",
     "issueNumber": 1,
@@ -4096,7 +4112,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00257",
+    "id": "x-men-00258",
     "name": "Excalibur #2",
     "title": "Excalibur",
     "issueNumber": 2,
@@ -4112,7 +4128,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00258",
+    "id": "x-men-00259",
     "name": "Excalibur #3",
     "title": "Excalibur",
     "issueNumber": 3,
@@ -4128,7 +4144,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00259",
+    "id": "x-men-00260",
     "name": "Excalibur #4",
     "title": "Excalibur",
     "issueNumber": 4,
@@ -4144,7 +4160,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00260",
+    "id": "x-men-00261",
     "name": "Excalibur #5",
     "title": "Excalibur",
     "issueNumber": 5,
@@ -4160,7 +4176,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00261",
+    "id": "x-men-00262",
     "name": "Excalibur #8",
     "title": "Excalibur",
     "issueNumber": 8,
@@ -4176,7 +4192,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00262",
+    "id": "x-men-00263",
     "name": "Excalibur #9",
     "title": "Excalibur",
     "issueNumber": 9,
@@ -4192,7 +4208,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00263",
+    "id": "x-men-00264",
     "name": "Excalibur #10",
     "title": "Excalibur",
     "issueNumber": 10,
@@ -4208,7 +4224,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00264",
+    "id": "x-men-00265",
     "name": "Uncanny X-Men #244",
     "title": "Uncanny X-Men",
     "issueNumber": 244,
@@ -4224,7 +4240,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00265",
+    "id": "x-men-00266",
     "name": "Uncanny X-Men #245",
     "title": "Uncanny X-Men",
     "issueNumber": 245,
@@ -4240,7 +4256,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00266",
+    "id": "x-men-00267",
     "name": "Uncanny X-Men #246",
     "title": "Uncanny X-Men",
     "issueNumber": 246,
@@ -4256,7 +4272,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00267",
+    "id": "x-men-00268",
     "name": "Uncanny X-Men #247",
     "title": "Uncanny X-Men",
     "issueNumber": 247,
@@ -4272,7 +4288,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00268",
+    "id": "x-men-00269",
     "name": "Uncanny X-Men #248",
     "title": "Uncanny X-Men",
     "issueNumber": 248,
@@ -4288,7 +4304,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00269",
+    "id": "x-men-00270",
     "name": "Uncanny X-Men #249",
     "title": "Uncanny X-Men",
     "issueNumber": 249,
@@ -4304,7 +4320,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00270",
+    "id": "x-men-00271",
     "name": "Uncanny X-Men #250",
     "title": "Uncanny X-Men",
     "issueNumber": 250,
@@ -4320,7 +4336,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00271",
+    "id": "x-men-00272",
     "name": "Uncanny X-Men #251",
     "title": "Uncanny X-Men",
     "issueNumber": 251,
@@ -4336,7 +4352,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00272",
+    "id": "x-men-00273",
     "name": "Uncanny X-Men #252",
     "title": "Uncanny X-Men",
     "issueNumber": 252,
@@ -4352,7 +4368,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00273",
+    "id": "x-men-00274",
     "name": "Uncanny X-Men #253",
     "title": "Uncanny X-Men",
     "issueNumber": 253,
@@ -4368,7 +4384,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00274",
+    "id": "x-men-00275",
     "name": "Uncanny X-Men #254",
     "title": "Uncanny X-Men",
     "issueNumber": 254,
@@ -4384,7 +4400,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00275",
+    "id": "x-men-00276",
     "name": "Uncanny X-Men #255",
     "title": "Uncanny X-Men",
     "issueNumber": 255,
@@ -4400,7 +4416,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00276",
+    "id": "x-men-00277",
     "name": "Uncanny X-Men #256",
     "title": "Uncanny X-Men",
     "issueNumber": 256,
@@ -4416,7 +4432,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00277",
+    "id": "x-men-00278",
     "name": "Uncanny X-Men #257",
     "title": "Uncanny X-Men",
     "issueNumber": 257,
@@ -4432,7 +4448,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00278",
+    "id": "x-men-00279",
     "name": "Uncanny X-Men #258",
     "title": "Uncanny X-Men",
     "issueNumber": 258,
@@ -4448,7 +4464,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00279",
+    "id": "x-men-00280",
     "name": "Uncanny X-Men #259",
     "title": "Uncanny X-Men",
     "issueNumber": 259,
@@ -4464,7 +4480,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00280",
+    "id": "x-men-00281",
     "name": "Uncanny X-Men #260",
     "title": "Uncanny X-Men",
     "issueNumber": 260,
@@ -4480,7 +4496,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00281",
+    "id": "x-men-00282",
     "name": "Uncanny X-Men #261",
     "title": "Uncanny X-Men",
     "issueNumber": 261,
@@ -4496,7 +4512,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00282",
+    "id": "x-men-00283",
     "name": "Uncanny X-Men #262",
     "title": "Uncanny X-Men",
     "issueNumber": 262,
@@ -4512,7 +4528,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00283",
+    "id": "x-men-00284",
     "name": "Uncanny X-Men #263",
     "title": "Uncanny X-Men",
     "issueNumber": 263,
@@ -4528,7 +4544,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00284",
+    "id": "x-men-00285",
     "name": "Uncanny X-Men #264",
     "title": "Uncanny X-Men",
     "issueNumber": 264,
@@ -4544,7 +4560,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00285",
+    "id": "x-men-00286",
     "name": "Excalibur #20",
     "title": "Excalibur",
     "issueNumber": 20,
@@ -4560,7 +4576,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00286",
+    "id": "x-men-00287",
     "name": "Uncanny X-Men #265",
     "title": "Uncanny X-Men",
     "issueNumber": 265,
@@ -4576,7 +4592,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00287",
+    "id": "x-men-00288",
     "name": "Uncanny X-Men #266",
     "title": "Uncanny X-Men",
     "issueNumber": 266,
@@ -4592,7 +4608,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00288",
+    "id": "x-men-00289",
     "name": "Uncanny X-Men #267",
     "title": "Uncanny X-Men",
     "issueNumber": 267,
@@ -4608,7 +4624,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00289",
+    "id": "x-men-00290",
     "name": "Uncanny X-Men #268",
     "title": "Uncanny X-Men",
     "issueNumber": 268,
@@ -4624,7 +4640,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00290",
+    "id": "x-men-00291",
     "name": "Uncanny X-Men #269",
     "title": "Uncanny X-Men",
     "issueNumber": 269,
@@ -4640,7 +4656,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00291",
+    "id": "x-men-00292",
     "name": "Uncanny X-Men #273",
     "title": "Uncanny X-Men",
     "issueNumber": 273,
@@ -4656,7 +4672,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00292",
+    "id": "x-men-00293",
     "name": "Uncanny X-Men #274",
     "title": "Uncanny X-Men",
     "issueNumber": 274,
@@ -4672,7 +4688,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00293",
+    "id": "x-men-00294",
     "name": "Uncanny X-Men #275",
     "title": "Uncanny X-Men",
     "issueNumber": 275,
@@ -4688,7 +4704,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00294",
+    "id": "x-men-00295",
     "name": "Uncanny X-Men #276",
     "title": "Uncanny X-Men",
     "issueNumber": 276,
@@ -4704,7 +4720,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00295",
+    "id": "x-men-00296",
     "name": "Uncanny X-Men #277",
     "title": "Uncanny X-Men",
     "issueNumber": 277,
@@ -4720,7 +4736,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00296",
+    "id": "x-men-00297",
     "name": "Uncanny X-Men #278",
     "title": "Uncanny X-Men",
     "issueNumber": 278,
@@ -4736,7 +4752,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00297",
+    "id": "x-men-00298",
     "name": "Uncanny X-Men #279",
     "title": "Uncanny X-Men",
     "issueNumber": 279,
@@ -4752,7 +4768,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00298",
+    "id": "x-men-00299",
     "name": "Excalibur #11",
     "title": "Excalibur",
     "issueNumber": 11,
@@ -4768,7 +4784,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00299",
+    "id": "x-men-00300",
     "name": "Excalibur #12",
     "title": "Excalibur",
     "issueNumber": 12,
@@ -4784,7 +4800,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00300",
+    "id": "x-men-00301",
     "name": "Excalibur #13",
     "title": "Excalibur",
     "issueNumber": 13,
@@ -4800,7 +4816,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00301",
+    "id": "x-men-00302",
     "name": "Excalibur #14",
     "title": "Excalibur",
     "issueNumber": 14,
@@ -4816,7 +4832,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00302",
+    "id": "x-men-00303",
     "name": "Excalibur #15",
     "title": "Excalibur",
     "issueNumber": 15,
@@ -4832,7 +4848,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00303",
+    "id": "x-men-00304",
     "name": "Excalibur #16",
     "title": "Excalibur",
     "issueNumber": 16,
@@ -4848,7 +4864,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00304",
+    "id": "x-men-00305",
     "name": "Excalibur #17",
     "title": "Excalibur",
     "issueNumber": 17,
@@ -4864,7 +4880,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00305",
+    "id": "x-men-00306",
     "name": "Excalibur #18",
     "title": "Excalibur",
     "issueNumber": 18,
@@ -4880,7 +4896,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00306",
+    "id": "x-men-00307",
     "name": "Excalibur #19",
     "title": "Excalibur",
     "issueNumber": 19,
@@ -4896,7 +4912,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00307",
+    "id": "x-men-00308",
     "name": "Excalibur #21",
     "title": "Excalibur",
     "issueNumber": 21,
@@ -4912,7 +4928,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00308",
+    "id": "x-men-00309",
     "name": "Excalibur #22",
     "title": "Excalibur",
     "issueNumber": 22,
@@ -4928,7 +4944,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00309",
+    "id": "x-men-00310",
     "name": "Excalibur #23",
     "title": "Excalibur",
     "issueNumber": 23,
@@ -4944,7 +4960,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00310",
+    "id": "x-men-00311",
     "name": "Excalibur #24",
     "title": "Excalibur",
     "issueNumber": 24,
@@ -4960,7 +4976,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00311",
+    "id": "x-men-00312",
     "name": "Excalibur #25",
     "title": "Excalibur",
     "issueNumber": 25,
@@ -4976,7 +4992,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00312",
+    "id": "x-men-00313",
     "name": "Excalibur #26",
     "title": "Excalibur",
     "issueNumber": 26,
@@ -4992,7 +5008,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00313",
+    "id": "x-men-00314",
     "name": "Excalibur #27",
     "title": "Excalibur",
     "issueNumber": 27,
@@ -5008,7 +5024,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00314",
+    "id": "x-men-00315",
     "name": "Excalibur #28",
     "title": "Excalibur",
     "issueNumber": 28,
@@ -5024,7 +5040,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00315",
+    "id": "x-men-00316",
     "name": "Excalibur #29",
     "title": "Excalibur",
     "issueNumber": 29,
@@ -5040,7 +5056,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00316",
+    "id": "x-men-00317",
     "name": "Excalibur #30",
     "title": "Excalibur",
     "issueNumber": 30,
@@ -5056,7 +5072,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00317",
+    "id": "x-men-00318",
     "name": "Excalibur #31",
     "title": "Excalibur",
     "issueNumber": 31,
@@ -5072,7 +5088,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00318",
+    "id": "x-men-00319",
     "name": "Excalibur #32",
     "title": "Excalibur",
     "issueNumber": 32,
@@ -5088,7 +5104,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00319",
+    "id": "x-men-00320",
     "name": "Excalibur #33",
     "title": "Excalibur",
     "issueNumber": 33,
@@ -5104,7 +5120,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00320",
+    "id": "x-men-00321",
     "name": "Excalibur #34",
     "title": "Excalibur",
     "issueNumber": 34,
@@ -5120,7 +5136,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00321",
+    "id": "x-men-00322",
     "name": "Excalibur #35",
     "title": "Excalibur",
     "issueNumber": 35,
@@ -5136,7 +5152,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00322",
+    "id": "x-men-00323",
     "name": "Excalibur #36",
     "title": "Excalibur",
     "issueNumber": 36,
@@ -5152,7 +5168,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00323",
+    "id": "x-men-00324",
     "name": "Excalibur #37",
     "title": "Excalibur",
     "issueNumber": 37,
@@ -5168,7 +5184,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00324",
+    "id": "x-men-00325",
     "name": "Excalibur #38",
     "title": "Excalibur",
     "issueNumber": 38,
@@ -5184,7 +5200,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00325",
+    "id": "x-men-00326",
     "name": "Excalibur #39",
     "title": "Excalibur",
     "issueNumber": 39,
@@ -5200,7 +5216,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00326",
+    "id": "x-men-00327",
     "name": "Excalibur #40",
     "title": "Excalibur",
     "issueNumber": 40,
@@ -5216,7 +5232,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00327",
+    "id": "x-men-00328",
     "name": "Excalibur #41",
     "title": "Excalibur",
     "issueNumber": 41,
@@ -5232,7 +5248,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00328",
+    "id": "x-men-00329",
     "name": "Excalibur #42",
     "title": "Excalibur",
     "issueNumber": 42,
@@ -5248,7 +5264,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00329",
+    "id": "x-men-00330",
     "name": "X-Men Vol. 2 #1",
     "title": "X-Men Vol. 2",
     "issueNumber": 1,
@@ -5264,7 +5280,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00330",
+    "id": "x-men-00331",
     "name": "X-Men Vol. 2 #2",
     "title": "X-Men Vol. 2",
     "issueNumber": 2,
@@ -5280,7 +5296,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00331",
+    "id": "x-men-00332",
     "name": "X-Men Vol. 2 #3",
     "title": "X-Men Vol. 2",
     "issueNumber": 3,
@@ -5296,7 +5312,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00332",
+    "id": "x-men-00333",
     "name": "Excalibur #43",
     "title": "Excalibur",
     "issueNumber": 43,
@@ -5312,7 +5328,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00333",
+    "id": "x-men-00334",
     "name": "Excalibur #44",
     "title": "Excalibur",
     "issueNumber": 44,
@@ -5328,7 +5344,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00334",
+    "id": "x-men-00335",
     "name": "Excalibur #45",
     "title": "Excalibur",
     "issueNumber": 45,
@@ -5344,7 +5360,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00335",
+    "id": "x-men-00336",
     "name": "Excalibur #46",
     "title": "Excalibur",
     "issueNumber": 46,
@@ -5360,7 +5376,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00336",
+    "id": "x-men-00337",
     "name": "Excalibur #47",
     "title": "Excalibur",
     "issueNumber": 47,
@@ -5376,7 +5392,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00337",
+    "id": "x-men-00338",
     "name": "Excalibur #48",
     "title": "Excalibur",
     "issueNumber": 48,
@@ -5392,7 +5408,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00338",
+    "id": "x-men-00339",
     "name": "Excalibur #49",
     "title": "Excalibur",
     "issueNumber": 49,
@@ -5408,7 +5424,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00339",
+    "id": "x-men-00340",
     "name": "Excalibur #50",
     "title": "Excalibur",
     "issueNumber": 50,
@@ -5424,7 +5440,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00340",
+    "id": "x-men-00341",
     "name": "Excalibur #51",
     "title": "Excalibur",
     "issueNumber": 51,
@@ -5440,7 +5456,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00341",
+    "id": "x-men-00342",
     "name": "Excalibur #52",
     "title": "Excalibur",
     "issueNumber": 52,
@@ -5456,7 +5472,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00342",
+    "id": "x-men-00343",
     "name": "Excalibur #53",
     "title": "Excalibur",
     "issueNumber": 53,
@@ -5472,7 +5488,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00343",
+    "id": "x-men-00344",
     "name": "Excalibur #54",
     "title": "Excalibur",
     "issueNumber": 54,
@@ -5488,7 +5504,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00344",
+    "id": "x-men-00345",
     "name": "Excalibur #55",
     "title": "Excalibur",
     "issueNumber": 55,
@@ -5504,7 +5520,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00345",
+    "id": "x-men-00346",
     "name": "Excalibur #56",
     "title": "Excalibur",
     "issueNumber": 56,
@@ -5520,7 +5536,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00346",
+    "id": "x-men-00347",
     "name": "Excalibur #57",
     "title": "Excalibur",
     "issueNumber": 57,
@@ -5536,7 +5552,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00347",
+    "id": "x-men-00348",
     "name": "Excalibur #58",
     "title": "Excalibur",
     "issueNumber": 58,
@@ -5552,7 +5568,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00348",
+    "id": "x-men-00349",
     "name": "Excalibur #59",
     "title": "Excalibur",
     "issueNumber": 59,
@@ -5568,7 +5584,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00349",
+    "id": "x-men-00350",
     "name": "Excalibur #60",
     "title": "Excalibur",
     "issueNumber": 60,
@@ -5584,7 +5600,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00350",
+    "id": "x-men-00351",
     "name": "Excalibur #61",
     "title": "Excalibur",
     "issueNumber": 61,
@@ -5600,7 +5616,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00351",
+    "id": "x-men-00352",
     "name": "Excalibur #62",
     "title": "Excalibur",
     "issueNumber": 62,
@@ -5616,7 +5632,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00352",
+    "id": "x-men-00353",
     "name": "Excalibur #63",
     "title": "Excalibur",
     "issueNumber": 63,
@@ -5632,7 +5648,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00353",
+    "id": "x-men-00354",
     "name": "Excalibur #64",
     "title": "Excalibur",
     "issueNumber": 64,
@@ -5648,7 +5664,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00354",
+    "id": "x-men-00355",
     "name": "Excalibur #65",
     "title": "Excalibur",
     "issueNumber": 65,
@@ -5664,7 +5680,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00355",
+    "id": "x-men-00356",
     "name": "Excalibur #66",
     "title": "Excalibur",
     "issueNumber": 66,
@@ -5680,7 +5696,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00356",
+    "id": "x-men-00357",
     "name": "Excalibur #67",
     "title": "Excalibur",
     "issueNumber": 67,
@@ -5696,7 +5712,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00357",
+    "id": "x-men-00358",
     "name": "Excalibur #68",
     "title": "Excalibur",
     "issueNumber": 68,
@@ -5712,7 +5728,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00358",
+    "id": "x-men-00359",
     "name": "Excalibur #69",
     "title": "Excalibur",
     "issueNumber": 69,
@@ -5728,7 +5744,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00359",
+    "id": "x-men-00360",
     "name": "Excalibur #70",
     "title": "Excalibur",
     "issueNumber": 70,
@@ -5744,7 +5760,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00360",
+    "id": "x-men-00361",
     "name": "X-Men Vol. 2 #24",
     "title": "X-Men Vol. 2",
     "issueNumber": 24,
@@ -5760,7 +5776,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00361",
+    "id": "x-men-00362",
     "name": "Excalibur #72",
     "title": "Excalibur",
     "issueNumber": 72,
@@ -5776,7 +5792,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00362",
+    "id": "x-men-00363",
     "name": "Excalibur #73",
     "title": "Excalibur",
     "issueNumber": 73,
@@ -5792,7 +5808,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00363",
+    "id": "x-men-00364",
     "name": "Excalibur #74",
     "title": "Excalibur",
     "issueNumber": 74,
@@ -5808,7 +5824,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00364",
+    "id": "x-men-00365",
     "name": "Excalibur #75",
     "title": "Excalibur",
     "issueNumber": 75,
@@ -5824,7 +5840,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00365",
+    "id": "x-men-00366",
     "name": "Excalibur #76",
     "title": "Excalibur",
     "issueNumber": 76,
@@ -5840,7 +5856,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00366",
+    "id": "x-men-00367",
     "name": "Excalibur #77",
     "title": "Excalibur",
     "issueNumber": 77,
@@ -5856,7 +5872,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00367",
+    "id": "x-men-00368",
     "name": "Excalibur #78",
     "title": "Excalibur",
     "issueNumber": 78,
@@ -5872,7 +5888,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00368",
+    "id": "x-men-00369",
     "name": "Excalibur #79",
     "title": "Excalibur",
     "issueNumber": 79,
@@ -5888,7 +5904,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00369",
+    "id": "x-men-00370",
     "name": "Excalibur #80",
     "title": "Excalibur",
     "issueNumber": 80,
@@ -5904,7 +5920,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00370",
+    "id": "x-men-00371",
     "name": "Excalibur #81",
     "title": "Excalibur",
     "issueNumber": 81,
@@ -5920,7 +5936,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00371",
+    "id": "x-men-00372",
     "name": "Adventures of Cyclops and Phoenix #1",
     "title": "Adventures of Cyclops and Phoenix",
     "issueNumber": 1,
@@ -5936,7 +5952,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00372",
+    "id": "x-men-00373",
     "name": "Adventures of Cyclops and Phoenix #2",
     "title": "Adventures of Cyclops and Phoenix",
     "issueNumber": 2,
@@ -5952,7 +5968,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00373",
+    "id": "x-men-00374",
     "name": "Adventures of Cyclops and Phoenix #3",
     "title": "Adventures of Cyclops and Phoenix",
     "issueNumber": 3,
@@ -5968,7 +5984,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00374",
+    "id": "x-men-00375",
     "name": "Adventures of Cyclops and Phoenix #4",
     "title": "Adventures of Cyclops and Phoenix",
     "issueNumber": 4,
@@ -5984,7 +6000,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00375",
+    "id": "x-men-00376",
     "name": "Excalibur #83",
     "title": "Excalibur",
     "issueNumber": 83,
@@ -6000,7 +6016,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00376",
+    "id": "x-men-00377",
     "name": "Excalibur #84",
     "title": "Excalibur",
     "issueNumber": 84,
@@ -6016,7 +6032,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00377",
+    "id": "x-men-00378",
     "name": "Excalibur #85",
     "title": "Excalibur",
     "issueNumber": 85,
@@ -6032,7 +6048,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00378",
+    "id": "x-men-00379",
     "name": "Excalibur #86",
     "title": "Excalibur",
     "issueNumber": 86,
@@ -6048,7 +6064,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00379",
+    "id": "x-men-00380",
     "name": "Excalibur #87",
     "title": "Excalibur",
     "issueNumber": 87,
@@ -6064,7 +6080,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00380",
+    "id": "x-men-00381",
     "name": "Excalibur #88",
     "title": "Excalibur",
     "issueNumber": 88,
@@ -6080,7 +6096,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00381",
+    "id": "x-men-00382",
     "name": "Excalibur #89",
     "title": "Excalibur",
     "issueNumber": 89,
@@ -6096,7 +6112,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00382",
+    "id": "x-men-00383",
     "name": "Excalibur #90",
     "title": "Excalibur",
     "issueNumber": 90,
@@ -6112,7 +6128,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00383",
+    "id": "x-men-00384",
     "name": "Excalibur #91",
     "title": "Excalibur",
     "issueNumber": 91,
@@ -6128,7 +6144,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00384",
+    "id": "x-men-00385",
     "name": "Excalibur #92",
     "title": "Excalibur",
     "issueNumber": 92,
@@ -6144,7 +6160,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00385",
+    "id": "x-men-00386",
     "name": "Excalibur #93",
     "title": "Excalibur",
     "issueNumber": 93,
@@ -6160,7 +6176,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00386",
+    "id": "x-men-00387",
     "name": "Excalibur #94",
     "title": "Excalibur",
     "issueNumber": 94,
@@ -6176,7 +6192,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00387",
+    "id": "x-men-00388",
     "name": "Excalibur #95",
     "title": "Excalibur",
     "issueNumber": 95,
@@ -6192,7 +6208,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00388",
+    "id": "x-men-00389",
     "name": "Excalibur #96",
     "title": "Excalibur",
     "issueNumber": 96,
@@ -6208,7 +6224,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00389",
+    "id": "x-men-00390",
     "name": "Excalibur #97",
     "title": "Excalibur",
     "issueNumber": 97,
@@ -6224,7 +6240,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00390",
+    "id": "x-men-00391",
     "name": "Excalibur #98",
     "title": "Excalibur",
     "issueNumber": 98,
@@ -6240,7 +6256,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00391",
+    "id": "x-men-00392",
     "name": "Excalibur #99",
     "title": "Excalibur",
     "issueNumber": 99,
@@ -6256,7 +6272,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00392",
+    "id": "x-men-00393",
     "name": "Excalibur #100",
     "title": "Excalibur",
     "issueNumber": 100,
@@ -6272,7 +6288,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00393",
+    "id": "x-men-00394",
     "name": "Excalibur #101",
     "title": "Excalibur",
     "issueNumber": 101,
@@ -6288,7 +6304,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00394",
+    "id": "x-men-00395",
     "name": "Excalibur #102",
     "title": "Excalibur",
     "issueNumber": 102,
@@ -6304,7 +6320,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00395",
+    "id": "x-men-00396",
     "name": "Excalibur #103",
     "title": "Excalibur",
     "issueNumber": 103,
@@ -6320,7 +6336,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00396",
+    "id": "x-men-00397",
     "name": "Excalibur #104",
     "title": "Excalibur",
     "issueNumber": 104,
@@ -6336,7 +6352,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00397",
+    "id": "x-men-00398",
     "name": "Excalibur #105",
     "title": "Excalibur",
     "issueNumber": 105,
@@ -6352,7 +6368,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00398",
+    "id": "x-men-00399",
     "name": "Excalibur #106",
     "title": "Excalibur",
     "issueNumber": 106,
@@ -6368,7 +6384,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00399",
+    "id": "x-men-00400",
     "name": "Excalibur #107",
     "title": "Excalibur",
     "issueNumber": 107,
@@ -6384,7 +6400,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00400",
+    "id": "x-men-00401",
     "name": "Excalibur #108",
     "title": "Excalibur",
     "issueNumber": 108,
@@ -6400,7 +6416,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00401",
+    "id": "x-men-00402",
     "name": "Excalibur #109",
     "title": "Excalibur",
     "issueNumber": 109,
@@ -6416,7 +6432,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00402",
+    "id": "x-men-00403",
     "name": "Excalibur #110",
     "title": "Excalibur",
     "issueNumber": 110,
@@ -6432,7 +6448,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00403",
+    "id": "x-men-00404",
     "name": "Excalibur #111",
     "title": "Excalibur",
     "issueNumber": 111,
@@ -6448,7 +6464,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00404",
+    "id": "x-men-00405",
     "name": "Excalibur #112",
     "title": "Excalibur",
     "issueNumber": 112,
@@ -6464,7 +6480,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00405",
+    "id": "x-men-00406",
     "name": "Excalibur #113",
     "title": "Excalibur",
     "issueNumber": 113,
@@ -6480,7 +6496,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00406",
+    "id": "x-men-00407",
     "name": "Excalibur #114",
     "title": "Excalibur",
     "issueNumber": 114,
@@ -6496,7 +6512,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00407",
+    "id": "x-men-00408",
     "name": "Excalibur #115",
     "title": "Excalibur",
     "issueNumber": 115,
@@ -6512,7 +6528,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00408",
+    "id": "x-men-00409",
     "name": "Excalibur #116",
     "title": "Excalibur",
     "issueNumber": 116,
@@ -6528,7 +6544,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00409",
+    "id": "x-men-00410",
     "name": "Excalibur #117",
     "title": "Excalibur",
     "issueNumber": 117,
@@ -6544,7 +6560,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00410",
+    "id": "x-men-00411",
     "name": "Excalibur #118",
     "title": "Excalibur",
     "issueNumber": 118,
@@ -6560,7 +6576,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00411",
+    "id": "x-men-00412",
     "name": "Excalibur #119",
     "title": "Excalibur",
     "issueNumber": 119,
@@ -6576,7 +6592,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00412",
+    "id": "x-men-00413",
     "name": "Excalibur #120",
     "title": "Excalibur",
     "issueNumber": 120,
@@ -6592,7 +6608,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00413",
+    "id": "x-men-00414",
     "name": "Excalibur #121",
     "title": "Excalibur",
     "issueNumber": 121,
@@ -6608,7 +6624,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00414",
+    "id": "x-men-00415",
     "name": "Excalibur #122",
     "title": "Excalibur",
     "issueNumber": 122,
@@ -6624,7 +6640,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00415",
+    "id": "x-men-00416",
     "name": "Excalibur #123",
     "title": "Excalibur",
     "issueNumber": 123,
@@ -6640,7 +6656,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00416",
+    "id": "x-men-00417",
     "name": "Excalibur #124",
     "title": "Excalibur",
     "issueNumber": 124,
@@ -6656,7 +6672,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00417",
+    "id": "x-men-00418",
     "name": "Excalibur #125",
     "title": "Excalibur",
     "issueNumber": 125,
@@ -6672,7 +6688,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00418",
+    "id": "x-men-00419",
     "name": "Uncanny X-Men #365",
     "title": "Uncanny X-Men",
     "issueNumber": 365,
@@ -6688,7 +6704,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00419",
+    "id": "x-men-00420",
     "name": "Uncanny X-Men #366",
     "title": "Uncanny X-Men",
     "issueNumber": 366,
@@ -6704,7 +6720,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00420",
+    "id": "x-men-00421",
     "name": "Uncanny X-Men #367",
     "title": "Uncanny X-Men",
     "issueNumber": 367,
@@ -6720,7 +6736,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00421",
+    "id": "x-men-00422",
     "name": "Uncanny X-Men #368",
     "title": "Uncanny X-Men",
     "issueNumber": 368,
@@ -6736,7 +6752,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00422",
+    "id": "x-men-00423",
     "name": "Uncanny X-Men #369",
     "title": "Uncanny X-Men",
     "issueNumber": 369,
@@ -6752,7 +6768,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00423",
+    "id": "x-men-00424",
     "name": "Uncanny X-Men #370",
     "title": "Uncanny X-Men",
     "issueNumber": 370,
@@ -6768,7 +6784,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00424",
+    "id": "x-men-00425",
     "name": "Uncanny X-Men #371",
     "title": "Uncanny X-Men",
     "issueNumber": 371,
@@ -6784,7 +6800,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00425",
+    "id": "x-men-00426",
     "name": "Uncanny X-Men #372",
     "title": "Uncanny X-Men",
     "issueNumber": 372,
@@ -6800,7 +6816,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00426",
+    "id": "x-men-00427",
     "name": "Uncanny X-Men #373",
     "title": "Uncanny X-Men",
     "issueNumber": 373,
@@ -6816,7 +6832,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00427",
+    "id": "x-men-00428",
     "name": "Uncanny X-Men #374",
     "title": "Uncanny X-Men",
     "issueNumber": 374,
@@ -6832,7 +6848,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00428",
+    "id": "x-men-00429",
     "name": "Uncanny X-Men #375",
     "title": "Uncanny X-Men",
     "issueNumber": 375,
@@ -6848,7 +6864,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00429",
+    "id": "x-men-00430",
     "name": "Mutant X #1",
     "title": "Mutant X",
     "issueNumber": 1,
@@ -6864,7 +6880,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00430",
+    "id": "x-men-00431",
     "name": "Mutant X #2",
     "title": "Mutant X",
     "issueNumber": 2,
@@ -6880,7 +6896,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00431",
+    "id": "x-men-00432",
     "name": "Mutant X #3",
     "title": "Mutant X",
     "issueNumber": 3,
@@ -6896,7 +6912,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00432",
+    "id": "x-men-00433",
     "name": "Mutant X #4",
     "title": "Mutant X",
     "issueNumber": 4,
@@ -6912,7 +6928,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00433",
+    "id": "x-men-00434",
     "name": "Mutant X #5",
     "title": "Mutant X",
     "issueNumber": 5,
@@ -6928,7 +6944,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00434",
+    "id": "x-men-00435",
     "name": "Mutant X #6",
     "title": "Mutant X",
     "issueNumber": 6,
@@ -6944,7 +6960,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00435",
+    "id": "x-men-00436",
     "name": "Mutant X #7",
     "title": "Mutant X",
     "issueNumber": 7,
@@ -6960,7 +6976,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00436",
+    "id": "x-men-00437",
     "name": "Mutant X #8",
     "title": "Mutant X",
     "issueNumber": 8,
@@ -6976,7 +6992,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00437",
+    "id": "x-men-00438",
     "name": "Mutant X #9",
     "title": "Mutant X",
     "issueNumber": 9,
@@ -6992,7 +7008,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00438",
+    "id": "x-men-00439",
     "name": "Mutant X #10",
     "title": "Mutant X",
     "issueNumber": 10,
@@ -7008,7 +7024,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00439",
+    "id": "x-men-00440",
     "name": "Mutant X #11",
     "title": "Mutant X",
     "issueNumber": 11,
@@ -7024,7 +7040,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00440",
+    "id": "x-men-00441",
     "name": "Mutant X #12",
     "title": "Mutant X",
     "issueNumber": 12,
@@ -7040,7 +7056,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00441",
+    "id": "x-men-00442",
     "name": "Mutant X #13",
     "title": "Mutant X",
     "issueNumber": 13,
@@ -7056,7 +7072,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00442",
+    "id": "x-men-00443",
     "name": "Mutant X #14",
     "title": "Mutant X",
     "issueNumber": 14,
@@ -7072,7 +7088,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00443",
+    "id": "x-men-00444",
     "name": "Mutant X #15",
     "title": "Mutant X",
     "issueNumber": 15,
@@ -7088,7 +7104,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00444",
+    "id": "x-men-00445",
     "name": "Mutant X #16",
     "title": "Mutant X",
     "issueNumber": 16,
@@ -7104,7 +7120,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00445",
+    "id": "x-men-00446",
     "name": "Mutant X #17",
     "title": "Mutant X",
     "issueNumber": 17,
@@ -7120,7 +7136,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00446",
+    "id": "x-men-00447",
     "name": "Mutant X #18",
     "title": "Mutant X",
     "issueNumber": 18,
@@ -7136,7 +7152,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00447",
+    "id": "x-men-00448",
     "name": "Mutant X #19",
     "title": "Mutant X",
     "issueNumber": 19,
@@ -7152,7 +7168,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00448",
+    "id": "x-men-00449",
     "name": "Mutant X #20",
     "title": "Mutant X",
     "issueNumber": 20,
@@ -7168,7 +7184,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00449",
+    "id": "x-men-00450",
     "name": "Mutant X #21",
     "title": "Mutant X",
     "issueNumber": 21,
@@ -7184,7 +7200,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00450",
+    "id": "x-men-00451",
     "name": "Mutant X #22",
     "title": "Mutant X",
     "issueNumber": 22,
@@ -7200,7 +7216,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00451",
+    "id": "x-men-00452",
     "name": "Mutant X #23",
     "title": "Mutant X",
     "issueNumber": 23,
@@ -7216,7 +7232,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00452",
+    "id": "x-men-00453",
     "name": "Mutant X #24",
     "title": "Mutant X",
     "issueNumber": 24,
@@ -7232,7 +7248,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00453",
+    "id": "x-men-00454",
     "name": "Mutant X #25",
     "title": "Mutant X",
     "issueNumber": 25,
@@ -7248,7 +7264,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00454",
+    "id": "x-men-00455",
     "name": "Mutant X #26",
     "title": "Mutant X",
     "issueNumber": 26,
@@ -7264,7 +7280,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00455",
+    "id": "x-men-00456",
     "name": "Mutant X #27",
     "title": "Mutant X",
     "issueNumber": 27,
@@ -7280,7 +7296,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00456",
+    "id": "x-men-00457",
     "name": "Mutant X #28",
     "title": "Mutant X",
     "issueNumber": 28,
@@ -7296,7 +7312,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00457",
+    "id": "x-men-00458",
     "name": "Mutant X #29",
     "title": "Mutant X",
     "issueNumber": 29,
@@ -7312,7 +7328,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00458",
+    "id": "x-men-00459",
     "name": "Mutant X #30",
     "title": "Mutant X",
     "issueNumber": 30,
@@ -7328,7 +7344,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00459",
+    "id": "x-men-00460",
     "name": "Mutant X #31",
     "title": "Mutant X",
     "issueNumber": 31,
@@ -7344,7 +7360,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00460",
+    "id": "x-men-00461",
     "name": "Mutant X #32",
     "title": "Mutant X",
     "issueNumber": 32,
@@ -7360,7 +7376,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00461",
+    "id": "x-men-00462",
     "name": "Magik #1",
     "title": "Magik",
     "issueNumber": 1,
@@ -7376,7 +7392,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00462",
+    "id": "x-men-00463",
     "name": "Magik #2",
     "title": "Magik",
     "issueNumber": 2,
@@ -7392,7 +7408,7 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00463",
+    "id": "x-men-00464",
     "name": "Magik #3",
     "title": "Magik",
     "issueNumber": 3,
@@ -7408,26 +7424,10 @@
     "wikiUrl": ""
   },
   {
-    "id": "x-men-00464",
+    "id": "x-men-00465",
     "name": "Magik #4",
     "title": "Magik",
     "issueNumber": 4,
-    "year": null,
-    "decade": "",
-    "writer": "",
-    "artist": "",
-    "storyline": "",
-    "note": "",
-    "statusType": "essential",
-    "universe": "main",
-    "readLinks": [],
-    "wikiUrl": ""
-  },
-  {
-    "id": "x-men-00465",
-    "name": "New X-Men #114",
-    "title": "New X-Men",
-    "issueNumber": 114,
     "year": null,
     "decade": "",
     "writer": "",
